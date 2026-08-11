@@ -1,3 +1,4 @@
+# Manual runs are available from the GitHub Actions workflow page.
 name: Daily Agents Radar
 
 on:
@@ -86,4 +87,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm close-stale
-
