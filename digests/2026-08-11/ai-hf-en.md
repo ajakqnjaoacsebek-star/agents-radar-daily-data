@@ -1,6 +1,6 @@
 # Hugging Face Trending Models Digest 2026-08-11
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-08-11 07:02 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-08-11 10:24 UTC
 
 ---
 
@@ -8,7 +8,7 @@
 
 ## 1. Today's Highlights
 
-This week's Hub is dominated by MiniMax-H3: the open video-generation model has already spawned ComfyUI ports, LoRA adapters, turbo variants, prompt rewriters, a TAE, and even Qwen-VL/H3 hybrid experiments — making it the fastest-growing ecosystem in this digest. Moonshot AI's Kimi-K3 leads new multimodal releases with 10,483 likes and 1.51M downloads, while DeepSeek-V4-Flash-0731 shows strong production traction with 954k downloads plus an immediate GGUF quantization. Meta's Muse-Glimmer-30B and Baidu's Unlimited-OCR also signal major community interest in vision-language and document-AI workloads. Established open models like FLUX.1-dev and whisper-large-v3 remain evergreen, proving that lasting utility beats short-term hype.
+Video generation is the center of gravity: MiniMax-H3 and its ecosystem account for about a third of the trending list, and Comfy-Org's single-file conversion alone has 6,798,796 downloads. Moonshot AI's Kimi-K3 collected 10,493 likes, making it the most-liked new multimodal LLM and a strong signal for compressed-tensor architectures. DeepSeek-V4-Flash-0731 leads practical adoption with 1,048,685 downloads, while unsloth's GGUF conversion adds 207,990. FLUX.1-dev remains the text-to-image anchor with 14,087 likes, and NVIDIA expanded into voice chat and robotics rather than general chat. Overall, open-weight models are quickly surrounded by quantization and ComfyUI-ready derivatives within days of release.
 
 ## 2. Trending Models
 
@@ -16,57 +16,61 @@ This week's Hub is dominated by MiniMax-H3: the open video-generation model has 
 
 | Model | Author | Likes | Downloads | Summary |
 | :--- | :--- | ---: | ---: | :--- |
-| [DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | deepseek-ai | 3,087 | 954,441 | DeepSeek's fast open-weight chat model for text generation and conversational use. Its near-million downloads show strong real-world adoption, and a popular GGUF quantized version is already available. |
-| [LFM2.5-2.6B](https://huggingface.co/LiquidAI/LFM2.5-2.6B) | LiquidAI | 499 | 89,680 | A compact 2.6B language model from LiquidAI designed for efficient deployment. It is trending as a small, capable LLM with official GGUF weights for local inference. |
-| [maple-preview](https://huggingface.co/deepgrove/maple-preview) | deepgrove | 320 | 1,344 | A preview text-generation model built on a Mixture-of-Experts causal architecture. It is drawing attention for exploring sparse, high-capacity LLM designs. |
-| [Ling-3.0-flash](https://huggingface.co/inclusionAI/Ling-3.0-flash) | inclusionAI | 293 | 5,261 | A flash-tuned conversational model using the Bailing hybrid architecture. Its custom_code and safetensors tags make it a notable experimental entry in efficient LLMs. |
-| [Mach-1-Additive-35B](https://huggingface.co/SyzygyResearch/Mach-1-Additive-35B) | SyzygyResearch | 116 | 2,129 | A 35B Qwen3.5-MoE-inspired model using ternary and additive weight schemes. It stands out for pushing parameter-efficiency research in open-weight LLMs. |
+| [`deepseek-ai/DeepSeek-V4-Flash-0731`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | deepseek-ai | 3,105 | 1,048,685 | Fast text-generation flagship from DeepSeek, designed for conversational use. It leads the week's non-image models with 1,048,685 downloads, confirming strong demand in serving and GGUF workflows. |
+| [`LiquidAI/LFM2.5-2.6B`](https://huggingface.co/LiquidAI/LFM2.5-2.6B) | LiquidAI | 511 | 93,668 | Small 2.6B text-generation model with conversational tuning. It is trending for delivering capable language performance in a compact size, with a matching GGUF release from the same team. |
+| [`deepgrove/maple-preview`](https://huggingface.co/deepgrove/maple-preview) | deepgrove | 322 | 2,049 | Preview mixture-of-experts causal language model from deepgrove. It stands out as an early-access MoE design, drawing attention from researchers tracking new efficient architectures. |
+| [`inclusionAI/Ling-3.0-flash`](https://huggingface.co/inclusionAI/Ling-3.0-flash) | inclusionAI | 296 | 6,148 | Flash text-generation model using the bailing_hybrid architecture and custom code. Its lightweight conversational focus is attracting early adopters looking for fast hybrid inference. |
+| [`SyzygyResearch/Mach-1-Additive-35B`](https://huggingface.co/SyzygyResearch/Mach-1-Additive-35B) | SyzygyResearch | 120 | 2,511 | Research-oriented 35B model built on a Qwen3.5 MoE base with ternary and additive weight exploration. It is worth watching for its unusual architecture experiments rather than as a turnkey chat model. |
 
 ### 🎨 Multimodal & Generation
 
 | Model | Author | Likes | Downloads | Summary |
-| :--- | :--- | ---: | ---: | ---: |
-| [MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMaxAI | 3,466 | 47,468 | Flagship image-text-to-video model and the center of this week's ecosystem wave. Its base weights are powering ComfyUI ports, LoRAs, turbo variants, and prompt-rewriting add-ons. |
-| [MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | 1,163 | 6,009,639 | ComfyUI single-file distribution of MiniMax-H3. It is the most-downloaded model in this digest and the default way many users run H3 locally. |
-| [Muse-Glimmer-30B](https://huggingface.co/meta-models/Muse-Glimmer-30B) | meta-models | 850 | 0 | Meta's open image-text-to-text model for vision-language conversations. Despite zero tracked downloads, its high likes and immediate GGUF follow-up reveal strong community anticipation. |
-| [Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | moonshotai | 10,483 | 1,510,032 | Moonshot AI's compressed multimodal model with feature-extraction and compressed-tensors support. It is one of the most-liked new releases this week and has already surpassed 1.5M downloads. |
-| [Minimax-h3-Turbo](https://huggingface.co/lightx2v/Minimax-h3-Turbo) | lightx2v | 262 | 15,087 | A turbo image-to-video variant of MiniMax-H3 built with Diffusers. Its real download momentum shows immediate appetite for faster video generation. |
-| [NVIDIA-NemotronLabs-VoiceChat-11B](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) | nvidia | 305 | 597 | NVIDIA's 11B voice-chat model for spoken dialogue. It is trending as an audio-centric multimodal model, backed by a chain of safety and RLHF research references. |
-| [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) | black-forest-labs | 14,082 | 480,762 | Black Forest Labs' open text-to-image generation model. It remains a top benchmark and default choice for high-quality open image generation. |
-| [MiniMax-H3-TAE](https://huggingface.co/Kijai/MiniMax-H3-TAE) | Kijai | 103 | 0 | Temporal autoencoder component for MiniMax-H3 video encoding and decoding. It is an important building block in the H3 ComfyUI pipeline. |
-| [MiniMax-H3_comfy](https://huggingface.co/Kijai/MiniMax-H3_comfy) | Kijai | 263 | 0 | Kijai's ComfyUI-oriented packaging of MiniMax-H3. It signals strong demand for plug-and-play H3 video workflows. |
-| [MiniMax-H3-experimental](https://huggingface.co/Kijai/MiniMax-H3-experimental) | Kijai | 185 | 0 | Experimental MiniMax-H3 build from Kijai for early adopters. It reflects how rapidly the community is iterating on H3 tooling and inference paths. |
+| :--- | :--- | ---: | ---: | :--- |
+| [`black-forest-labs/FLUX.1-dev`](https://huggingface.co/black-forest-labs/FLUX.1-dev) | black-forest-labs | 14,087 | 475,396 | State-of-the-art open text-to-image diffusion model from Black Forest Labs. It remains the category anchor with 14,087 likes and is widely used as a dev checkpoint for image generation. |
+| [`moonshotai/Kimi-K3`](https://huggingface.co/moonshotai/Kimi-K3) | moonshotai | 10,493 | 1,565,484 | Compressed image-text-to-text model from Moonshot AI based on the kimi_k3 architecture. It is the week's most-liked new multimodal LLM, boosted by compressed-tensor efficiency and 1,565,484 downloads. |
+| [`MiniMaxAI/MiniMax-H3`](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMaxAI | 3,494 | 59,368 | Image-text-to-video foundation model that anchors the MiniMax-H3 video ecosystem. Its 3,494 likes and multiple downstream packages make it the week's defining generative video release. |
+| [`Comfy-Org/MiniMax-H3`](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | 1,179 | 6,798,796 | ComfyUI single-file distribution of MiniMax-H3 from Comfy-Org. It trended because it packages the video model for easy use in ComfyUI, accumulating 6,798,796 downloads. |
+| [`meta-models/Muse-Glimmer-30B`](https://huggingface.co/meta-models/Muse-Glimmer-30B) | meta-models | 916 | 0 | Image-text-to-text conversational model from meta-models using the muse_glimmer architecture. It is trending as a new multimodal LLM with immediate GGUF support from unsloth and the authors. |
+| [`nvidia/NVIDIA-NemotronLabs-VoiceChat-11B`](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) | nvidia | 309 | 653 | Voice-chat model from NVIDIA Nemotron Labs, spanning audio and text interaction. It is notable for bringing NVIDIA's spoken-dialogue research into a compact 11B package. |
+| [`lightx2v/Minimax-h3-Turbo`](https://huggingface.co/lightx2v/Minimax-h3-Turbo) | lightx2v | 264 | 20,376 | Turbo variant of MiniMax-H3 for image-to-video with diffusers t2v/i2v/r2v support. It is trending as a faster community alternative for video generation. |
+| [`Kijai/MiniMax-H3_comfy`](https://huggingface.co/Kijai/MiniMax-H3_comfy) | Kijai | 263 | 0 | ComfyUI custom-node implementation for MiniMax-H3 by Kijai. It appears alongside the base model because ComfyUI users need a native integration package. |
+| [`Kijai/MiniMax-H3-experimental`](https://huggingface.co/Kijai/MiniMax-H3-experimental) | Kijai | 188 | 0 | Experimental ComfyUI package for MiniMax-H3. It is drawing attention for early access to newer or unstable video-generation features. |
+| [`endless-frontier/BigBang-v1`](https://huggingface.co/endless-frontier/BigBang-v1) | endless-frontier | 159 | 708 | Image-text-to-text conversational model based on a Qwen3.5 MoE architecture. It is trending as a community MoE multimodal model with a large-scale "big bang" design. |
+| [`Kijai/MiniMax-H3-TAE`](https://huggingface.co/Kijai/MiniMax-H3-TAE) | Kijai | 104 | 0 | Temporal AutoEncoder (TAE) component for MiniMax-H3, Apache-2.0 licensed. It is important for users working on latent-space video decoding and ComfyUI pipelines. |
 
 ### 🔧 Specialized Models
 
 | Model | Author | Likes | Downloads | Summary |
-| :--- | :--- | ---: | ---: | ---: |
-| [Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) | baidu | 4,006 | 2,921,751 | Baidu's high-performance OCR model for image-text-to-text and feature extraction. With over 2.9M downloads, it is the standout specialized model of the week. |
-| [whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | openai | 6,132 | 4,901,834 | OpenAI's mature automatic-speech-recognition model. It remains one of the most-downloaded models on the Hub and a default open speech-to-text baseline. |
-| [Shieldstral-1.0-3B](https://huggingface.co/mistralai/Shieldstral-1.0-3B) | mistralai | 224 | 6,343 | A compact 3B safety and guardrail classifier from Mistral. It is trending as a lightweight moderation model for vLLM deployments and LLM safety stacks. |
+| :--- | :--- | ---: | ---: | :--- |
+| [`baidu/Unlimited-OCR`](https://huggingface.co/baidu/Unlimited-OCR) | baidu | 4,010 | 2,892,191 | Large OCR model from Baidu with unlimited-ocr and feature-extraction tags. It is one of the week's strongest specialized entries, with 4,010 likes and 2,892,191 downloads. |
+| [`mistralai/Shieldstral-1.0-3B`](https://huggingface.co/mistralai/Shieldstral-1.0-3B) | mistralai | 225 | 6,769 | 3B guardrail/safety model from Mistral AI, built on mistral3 and optimized for vLLM. It is trending as a lightweight responsible-AI layer for production deployments. |
+| [`nvidia/Alpamayo2-Super`](https://huggingface.co/nvidia/Alpamayo2-Super) | nvidia | 102 | 6,257 | Robotics model from NVIDIA built around alpamayo2_super. It shows growing interest in embodied AI and is notable as an enterprise-grade specialized release. |
 
 ### 📦 Fine-tunes & Quantizations
 
 | Model | Author | Likes | Downloads | Summary |
-| :--- | :--- | ---: | ---: | ---: |
-| [DeepSeek-V4-Flash-0731-GGUF](https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF) | unsloth | 640 | 199,167 | Unsloth's GGUF quantization of DeepSeek-V4-Flash. It makes the popular 954k-download model easy to run locally in llama.cpp and similar runtimes. |
-| [Muse-Glimmer-30B-GGUF](https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF) | unsloth | 235 | 0 | Unsloth's GGUF conversion of Meta's Muse-Glimmer-30B for local vision-language inference. Its early appearance underscores demand for immediately runnable multimodal weights. |
-| [Muse-Glimmer-30B-GGUF](https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF) | meta-models | 167 | 0 | Author-side GGUF variant of Muse-Glimmer-30B. It shows that an official model now ships with quantization from day one. |
-| [LFM2.5-2.6B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF) | LiquidAI | 186 | 89,611 | Official GGUF packaging of LiquidAI's 2.6B model. Its near-90k downloads highlight strong demand for small, quantized local LLMs. |
-| [Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF](https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF) | DavidAU | 1,871 | 2,439,083 | A community Qwen3.6 27B fine-tune and merge with GGUF packaging and multi-token prediction. Its 2.4M downloads make it the most-downloaded community fine-tune in this digest. |
-| [MiniMax-H3-Turbo-Lora](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora) | larryvrh | 608 | 0 | LoRA adapter for MiniMax-H3-Turbo text-to-video generation. It represents the fast-growing ecosystem of lightweight H3 style and behavior mods. |
-| [MiniMax-H3-Turbo-Lora-ComfyUI](https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI) | drbaph | 255 | 0 | ComfyUI-ready LoRA for MiniMax-H3-Turbo. It makes H3 Turbo customization more accessible to node-based video artists. |
-| [MiniMax-H3-Prompt-Rewriter-LoRA](https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA) | lightx2v | 119 | 268 | Prompt-rewriting LoRA designed to improve MiniMax-H3 outputs. It highlights the community's push toward more controllable video generation. |
-| [PinkCherry_MiniMax-H3](https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3) | SexGod1979 | 257 | 0 | Community text-to-video fine-tune of MiniMax-H3 with Apache-2.0 and endpoints_compatible tags. It shows rapid third-party styling on the H3 base. |
-| [Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot](https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot) | ethanfel | 445 | 0 | A ComfyUI-oriented INT8 Qwen3-VL-32B variant fused with H3. It exemplifies the extreme community merges pushing toward multimodal video workflows. |
-| [Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4](https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4) | sakamakismile | 156 | 0 | NVFP4-quantized Qwen3-VL-32B text-encoder for MiniMax-H3 in ComfyUI. It targets reduced memory usage in H3-based pipelines. |
+| :--- | :--- | ---: | ---: | :--- |
+| [`DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF`](https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF) | DavidAU | 1,877 | 2,521,093 | Community GGUF fine-tune based on Qwen3.6-27B with "uncensored/heretic" stylization. It has 2,521,093 downloads, making it one of the most adopted custom GGUF packs this week. |
+| [`unsloth/DeepSeek-V4-Flash-0731-GGUF`](https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF) | unsloth | 644 | 207,990 | Unsloth's GGUF conversion of DeepSeek-V4-Flash-0731. It adds 207,990 downloads within the same trend window, making local deployment of DeepSeek V4 practical. |
+| [`larryvrh/MiniMax-H3-Turbo-Lora`](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora) | larryvrh | 615 | 0 | LoRA adapter targeting MiniMax-H3 for turbo text-to-video and audio-video generation. It is trending as a lightweight way to speed up or modify H3 outputs. |
+| [`ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot`](https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot) | ethanfel | 449 | 0 | INT8 ComfyUI-packaged fine-tune of Qwen3-VL-32B with a "Heretic-H3" twist. It is notable for combining vision-language capability with ComfyUI-ready quantization. |
+| [`SexGod1979/PinkCherry_MiniMax-H3`](https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3) | SexGod1979 | 260 | 0 | Community text-to-video fine-tune of MiniMax-H3. It is gaining likes for applying a distinct "PinkCherry" style to H3 video generation while keeping an Apache-2.0 license. |
+| [`drbaph/MiniMax-H3-Turbo-Lora-ComfyUI`](https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI) | drbaph | 257 | 0 | Pruned LoRA adapter for MiniMax-H3-Turbo packaged for ComfyUI. It targets users who want turbo video generation without manual adapter setup. |
+| [`unsloth/Muse-Glimmer-30B-GGUF`](https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF) | unsloth | 247 | 0 | Unsloth GGUF conversion of Muse-Glimmer-30B. It gives immediate llama.cpp compatibility for the multimodal model, though downloads are still early. |
+| [`LiquidAI/LFM2.5-2.6B-GGUF`](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF) | LiquidAI | 189 | 111,942 | Official GGUF release of LiquidAI's 2.6B LFM2.5 language model. It is optimized for llama.cpp and has already accumulated 111,942 downloads. |
+| [`meta-models/Muse-Glimmer-30B-GGUF`](https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF) | meta-models | 173 | 0 | Author-provided GGUF of Muse-Glimmer-30B. It is useful for comparing author vs unsloth quantization and for running the multimodal model in llama.cpp. |
+| [`sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4`](https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4) | sakamakismile | 158 | 0 | NVFP4-quantized Qwen3-VL-32B text encoder intended for MiniMax-H3 ComfyUI workflows. It is an example of GPU-efficient quantization for hybrid video/vision pipelines. |
+| [`lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA`](https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA) | lightx2v | 121 | 353 | LoRA adapter from lightx2v for rewriting prompts in MiniMax-H3 workflows. It is trending as a small PEFT component that improves prompt quality for video generation. |
 
 ## 3. Ecosystem Signal
 
-MiniMax-H3 is clearly the center of gravity this week: a single open video model has spawned ComfyUI ports, LoRA variants, prompt rewriters, TAE components, and even Qwen-VL/H3 hybrids. This signals that open video generation is shifting from standalone checkpoints to composable, ComfyUI-driven workflows. In LLMs, DeepSeek-V4-Flash and LiquidAI LFM2.5 demonstrate a common pattern: strong full-precision releases are immediately followed by GGUF quantizations from Unsloth and the original authors. Open-weight models are dominating the leaderboard — even NVIDIA, Meta, and OpenAI entries are openly available. Fine-tuning activity is intense but low-barrier; many high-like H3 adapters and “Heretic” Qwen merges have zero tracked downloads, suggesting they are shared as community artifacts rather than production packages. Overall, the ecosystem is prioritizing ease of deployment, local quantization, and rapid iteration on visually creative tasks.
+The trending list shows three clear signals. First, video generation is consolidating around MiniMax-H3: base weights, ComfyUI single-file releases, Turbo LoRAs, a temporal autoencoder, and prompt-rewriting adapters all appeared in the same weekly window. Second, open-weight models dominate, but the action is shifting to derivatives—GGUF conversions from unsloth and LiquidAI, INT8 and NVFP4 packs for Qwen-VL/H3 text encoders, and community "uncensored/heretic" fine-tunes. These formats lower the barrier to local deployment and have become a fast path to traction. Third, DeepSeek, Qwen/Muse, and LiquidAI families are gaining momentum; DeepSeek-V4-Flash-0731's 1M+ downloads and its unsloth GGUF show that efficient inference is as valuable as raw capability. Proprietary API models are absent from the top of this list; the ecosystem is shipping open weights, permissive fine-tunes, and quantized runtimes.
 
 ## 4. Worth Exploring
 
-- **[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3)** — The strongest new multimodal release by likes, with compressed-tensors and feature-extraction support. It is worth studying for efficient vision-language inference at scale.
-- **[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR)** — With 2.9M downloads and 4k likes, it is the clearest signal that OCR and document intelligence remain high-value open-model use cases.
-- **[Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3)** — The single most-downloaded model in this digest. It is the easiest on-ramp for understanding both ComfyUI video workflows and how single-file diffusion models are distributed.
+- [`moonshotai/Kimi-K3`](https://huggingface.co/moonshotai/Kimi-K3) — A compressed image-text-to-text LLM with 10,493 likes and 1,565,484 downloads. It is the best single model to study for high-efficiency multimodal serving and compressed-tensor architectures.
+- [`MiniMaxAI/MiniMax-H3`](https://huggingface.co/MiniMaxAI/MiniMax-H3) — The base model behind the week's largest video-generation ecosystem. Try it with Comfy-Org's single-file release and Kijai's TAE/LoRA components to understand production ComfyUI video workflows.
+- [`deepseek-ai/DeepSeek-V4-Flash-0731`](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) — The most-adopted new text-generation model, with 1,048,685 downloads. Its unsloth GGUF makes it an ideal reference for open-weight deployment and quantization.
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/ajakqnjaoacsebek-star/agents-radar-daily-data).*

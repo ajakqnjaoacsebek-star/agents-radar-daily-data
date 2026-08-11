@@ -1,6 +1,6 @@
 # Hugging Face 热门模型日报 2026-08-11
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-08-11 07:02 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-08-11 10:24 UTC
 
 ---
 
@@ -8,7 +8,7 @@
 
 ## 今日速览
 
-视频与多模态模型成为本周绝对主角：FLUX.1-dev 以 14,082 点赞居首，Kimi-K3 以 10,483 点赞紧随其后。MiniMax-H3 已形成完整生态，官方权重、ComfyUI 单文件、Turbo、LoRA、TAE 等十余个相关模型同时上榜。语言模型方面，DeepSeek-V4-Flash-0731 以 954,441 下载领跑，unsloth 也迅速推出 GGUF 量化版。百度 Unlimited-OCR 和 OpenAI Whisper 作为专用模型分别获得 292 万与 490 万下载，说明实用型模型仍具极强需求。meta-models 的 Muse-Glimmer-30B 首次上榜获得 850 点赞但下载仍为 0，仍处于发布早期。
+本周 HF 榜单热闹非凡：**FLUX.1-dev** 以 1.4 万点赞领跑全站，月之暗面的 **Kimi-K3** 紧随其后斩获 1 万+ 点赞，两者成为绝对焦点。**MiniMax-H3** 视频生成模型及其衍生社区生态（ComfyUI 适配、LoRA、TAE 等）大规模刷屏，单条衍生模型下载量最高达 679 万。**DeepSeek-V4-Flash-0731** 下载量突破 100 万，说明高效开源 LLM 依旧是开发者的刚需。同时，多模态（视频生成、视觉理解、语音聊天）与量化（GGUF、NVFP4）成为两大活跃方向，社区微调内容明显增多。
 
 ## 热门模型
 
@@ -16,58 +16,64 @@
 
 | 模型 | 作者 | 点赞 | 下载 | 简要说明 |
 | :--- | :--- | ---: | ---: | :--- |
-| [deepseek-ai/DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | deepseek-ai | 3,087 | 954,441 | DeepSeek 最新的 V4 Flash 文本生成模型，支持对话场景，定位快速响应。954,441 下载量是本周 LLM 中最突出，且已有 GGUF 量化版推进本地部署。 |
-| [LiquidAI/LFM2.5-2.6B](https://huggingface.co/LiquidAI/LFM2.5-2.6B) | LiquidAI | 499 | 89,680 | LiquidAI 的 2.6B 轻量文本生成模型，适合低资源部署。89,680 下载表明它在小型 LLM 中获得社区认可。 |
-| [deepgrove/maple-preview](https://huggingface.co/deepgrove/maple-preview) | deepgrove | 320 | 1,344 | deepgrove 的预览版文本生成模型，采用 mixture-of-experts 架构。320 点赞相对低调，但新架构方向值得关注。 |
-| [inclusionAI/Ling-3.0-flash](https://huggingface.co/inclusionAI/Ling-3.0-flash) | inclusionAI | 293 | 5,261 | inclusionAI 的轻量对话模型，强调 conversational flash 体验。293 点赞说明国产新模型正在快速进入社区视野。 |
-| [SyzygyResearch/Mach-1-Additive-35B](https://huggingface.co/SyzygyResearch/Mach-1-Additive-35B) | SyzygyResearch | 116 | 2,129 | 基于 Qwen3.5 MoE 的 35B 实验模型，探索 ternary/additive 权重。它更偏向研究型部署，是观察下一代压缩方案的好样本。 |
+| [deepseek-ai/DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) | deepseek-ai | 3,105 | 1,048,685 | DeepSeek 最新 Flash 版对话模型，主打高效推理与可扩展性。上线后下载量很快破百万，是本周最火热开源 LLM 之一。 |
+| [LiquidAI/LFM2.5-2.6B](https://huggingface.co/LiquidAI/LFM2.5-2.6B) | LiquidAI | 511 | 93,668 | Liquid AI 推出的 2.6B 小参数语言模型，面向低资源高效部署。9 万+ 下载表明小模型在社区中同样有很强需求。 |
+| [deepgrove/maple-preview](https://huggingface.co/deepgrove/maple-preview) | deepgrove | 322 | 2,049 | DeepGrove 的混合专家（MoE）文本生成模型预览版。点赞与下载量不算高，但为 MoE 架构探索提供了新选项。 |
+| [inclusionAI/Ling-3.0-flash](https://huggingface.co/inclusionAI/Ling-3.0-flash) | inclusionAI | 296 | 6,148 | 基于 Bailing 混合架构的轻量级对话模型，强调高效文本生成。虽然热度中等，但定制化技术栈值得留意。 |
+| [SyzygyResearch/Mach-1-Additive-35B](https://huggingface.co/SyzygyResearch/Mach-1-Additive-35B) | SyzygyResearch | 120 | 2,511 | 基 于 Qwen3.5 MoE 的实验性模型，采用三值/加法权重探索极端量化。代表社区对下一代模型压缩方法的研究方向。 |
 
 ### 🎨 多模态与生成（图像、视频、音频、文本到X）
 
 | 模型 | 作者 | 点赞 | 下载 | 简要说明 |
 | :--- | :--- | ---: | ---: | :--- |
-| [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) | black-forest-labs | 14,082 | 480,762 | Black Forest Labs 的文本到图像扩散模型，社区衍生插件极多。14,082 点赞为本周最高，继续担当开源图像生成基座。 |
-| [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | moonshotai | 10,483 | 1,510,032 | Moonshot AI 的多模态图文理解/生成模型，采用 compressed-tensors 并支持 feature extraction。10,483 点赞和 151 万下载说明它是本周最受关注的多模态新模型之一。 |
-| [MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMaxAI | 3,466 | 47,468 | MiniMax 官方图像/文本到视频生成模型，支持 text-to-video、image-to-video。47,468 下载外加大量二创组件，是本周视频生成生态核心。 |
-| [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | 1,163 | 6,009,639 | MiniMax-H3 的 ComfyUI 单文件分发版，可无缝接入 ComfyUI 生态。6,009,639 下载为全榜最高，凸显 ComfyUI 用户的巨大需求。 |
-| [meta-models/Muse-Glimmer-30B](https://huggingface.co/meta-models/Muse-Glimmer-30B) | meta-models | 850 | 0 | meta-models 发布的多模态图文对话模型，支持图像文本到文本。850 点赞但下载为 0，说明刚刚上线，权重尚未被大规模拉取。 |
-| [nvidia/NVIDIA-NemotronLabs-VoiceChat-11B](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) | nvidia | 305 | 597 | NVIDIA 的语音聊天模型（VoiceChat-11B），面向语音交互场景。305 点赞说明音频对话在专业厂商中仍是重要方向。 |
-| [Kijai/MiniMax-H3_comfy](https://huggingface.co/Kijai/MiniMax-H3_comfy) | Kijai | 263 | 0 | Kijai 的 MiniMax-H3 ComfyUI 适配仓库，帮助用户在工作流中集成视频生成。263 点赞虽不高，却是 MiniMax-H3 生态链的一环。 |
-| [lightx2v/Minimax-h3-Turbo](https://huggingface.co/lightx2v/Minimax-h3-Turbo) | lightx2v | 262 | 15,087 | MiniMax-H3 的 Turbo 图像到视频模型，支持 diffusers 工作流。15,087 下载说明用户喜欢更快、更省算力的视频生成版本。 |
-| [Kijai/MiniMax-H3-experimental](https://huggingface.co/Kijai/MiniMax-H3-experimental) | Kijai | 185 | 0 | Kijai 的 MiniMax-H3 实验性分支/组件，探索视频生成最新特性。185 点赞显示出社区对实验版本的高关注。 |
-| [endless-frontier/BigBang-v1](https://huggingface.co/endless-frontier/BigBang-v1) | endless-frontier | 155 | 617 | endless-frontier 推出的基于 Qwen3.5 MoE 的多模态图文对话模型。155 点赞说明它正作为新的图文对话模型进入测试视野。 |
-| [Kijai/MiniMax-H3-TAE](https://huggingface.co/Kijai/MiniMax-H3-TAE) | Kijai | 103 | 0 | MiniMax-H3 的时序自编码器（TAE），用于视频潜在表示编解码。Apache-2.0 许可，是视频生成流程中的基础组件。 |
+| [MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) | MiniMaxAI | 3,494 | 59,368 | MiniMax 的旗舰图像/文本到视频生成模型，支持多模态输入。以近 3,500 点赞成为视频生成领域最热新作，带动周边工具链快速跟进。 |
+| [meta-models/Muse-Glimmer-30B](https://huggingface.co/meta-models/Muse-Glimmer-30B) | meta-models | 916 | 0 | Meta 发布的多模态对话模型（image-text-to-text），具备视觉理解与对话能力。虽然下载量为 0，但官方及第三方 GGUF 版本同时上榜，话题性很强。 |
+| [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) | moonshotai | 10,493 | 1,565,484 | 月之暗面新一代多模态模型，支持图文混合输入并可做特征提取。周点赞破万且下载超 156 万，是本周社区关注度最高的新模型。 |
+| [lightx2v/Minimax-h3-Turbo](https://huggingface.co/lightx2v/Minimax-h3-Turbo) | lightx2v | 264 | 20,376 | 面向图像生成视频的 Turbo 版模型，优化了推理速度。与 ComfyUI 生态结合紧密，是 MiniMax-H3 衍生生态的重要一环。 |
+| [SexGod1979/PinkCherry_MiniMax-H3](https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3) | SexGod1979 | 260 | 0 | MiniMax-H3 的社区微调变体，专注于特定风格 text-to-video 生成。虽然下载为零，但点赞数反映出垂直风格社区的活跃需求。 |
+| [nvidia/NVIDIA-NemotronLabs-VoiceChat-11B](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) | nvidia | 309 | 653 | NVIDIA 推出的语音聊天模型，融合多篇语音技术论文成果。任务标注为 N/A，但代表了语音智能体方向的重要开源尝试。 |
+| [endless-frontier/BigBang-v1](https://huggingface.co/endless-frontier/BigBang-v1) | endless-frontier | 159 | 708 | 基于 Qwen3.5 MoE 的多模态对话模型，面向通用图文交互。社区开始基于 Qwen3.5 做多样化微调，值得跟踪观察。 |
+| [black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) | black-forest-labs | 14,087 | 475,396 | 黑森林实验室的旗舰文本生成图像模型，是开源图像生成的标杆。以 1.4 万点赞位列全榜第一，持续领跑文生图赛道。 |
+| [Kijai/MiniMax-H3-TAE](https://huggingface.co/Kijai/MiniMax-H3-TAE) | Kijai | 104 | 0 | 与 MiniMax-H3 配套的时序自编码器，用于视频生成的特征压缩/重建。由知名 ComfyUI 开发者提供，是视频模型链路的基础模块。 |
 
 ### 🔧 专用模型（代码、数学、医疗、嵌入）
 
 | 模型 | 作者 | 点赞 | 下载 | 简要说明 |
 | :--- | :--- | ---: | ---: | :--- |
-| [openai/whisper-large-v3](https://huggingface.co/openai/whisper-large-v3) | openai | 6,132 | 4,901,834 | OpenAI 的自动语音识别大模型，支持多语言语音转写。4,901,834 下载是本周下载量最大的模型之一，说明 ASR 部署需求极为稳定。 |
-| [baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) | baidu | 4,006 | 2,921,751 | 百度推出的 OCR 模型，支持图像文字识别与特征提取。2,921,751 下载体现中文场景和通用 OCR 的巨大落地需求。 |
-| [mistralai/Shieldstral-1.0-3B](https://huggingface.co/mistralai/Shieldstral-1.0-3B) | mistralai | 224 | 6,343 | Mistral 的 3B 安全护栏模型，面向 vLLM 等内容安全场景。224 点赞说明安全/审核模型正成为模型生态的刚需配件。 |
+| [mistralai/Shieldstral-1.0-3B](https://huggingface.co/mistralai/Shieldstral-1.0-3B) | mistralai | 225 | 6,769 | Mistral 推出的 3B 安全分类器，用于内容审核与安全防护。轻量专用模型瞄准安全对齐需求，体现 LLM 应用层配套工具的趋势。 |
+| [baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) | baidu | 4,010 | 2,892,191 | 百度的通用 OCR 模型，支持多种图像到文本的识别场景。下载量接近 290 万，是文档理解与办公自动化领域的主力开源选择。 |
+| [nvidia/Alpamayo2-Super](https://huggingface.co/nvidia/Alpamayo2-Super) | nvidia | 102 | 6,257 | NVIDIA 发布的机器人领域专用模型，针对实体交互控制设计。作为榜单中少见的 robotics 任务模型，反映 AI 向物理世界延伸的趋势。 |
 
 ### 📦 微调与量化（社区微调、GGUF、AWQ）
 
 | 模型 | 作者 | 点赞 | 下载 | 简要说明 |
 | :--- | :--- | ---: | ---: | :--- |
-| [DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF](https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF) | DavidAU | 1,871 | 2,439,083 | 社区融合微调并 GGUF 量化的 Qwen3.6 27B 图文对话模型，名字中带有 uncensored/heretic 等社区风格标签。2,439,083 下载说明这一类“高自由度”微调模型有很强受众。 |
-| [unsloth/DeepSeek-V4-Flash-0731-GGUF](https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF) | unsloth | 640 | 199,167 | unsloth 制作的 DeepSeek V4 Flash GGUF 量化包，适配本地推理。199,167 下载与主模型的下载热度直接联动。 |
-| [larryvrh/MiniMax-H3-Turbo-Lora](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora) | larryvrh | 608 | 0 | 针对 MiniMax-H3-Turbo 的 LoRA 插件，标签指向 text-to-video 和 audio-video。608 点赞说明社区正快速为 Turbo 视频模型补充微调能力。 |
-| [ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot](https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot) | ethanfel | 445 | 0 | Qwen3-VL-32B 的 INT8 量化变体，专为 ComfyUI/H3 流程优化。445 点赞说明大型 VL 模型在 ComfyUI 中的本地化部署需求增长。 |
-| [SexGod1979/PinkCherry_MiniMax-H3](https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3) | SexGod1979 | 257 | 0 | 社区非官方微调的 MiniMax-H3 文本生视频模型，主打特定风格。257 点赞反映基础视频模型之上的个性化二次创作需求。 |
-| [drbaph/MiniMax-H3-Turbo-Lora-ComfyUI](https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI) | drbaph | 255 | 0 | MiniMax-H3-Turbo LoRA 的 ComfyUI 适配版本，主打即插即用。255 点赞说明 ComfyUI 用户非常看重低门槛视频模型微调。 |
-| [unsloth/Muse-Glimmer-30B-GGUF](https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF) | unsloth | 235 | 0 | unsloth 为 Muse-Glimmer-30B 生成的 GGUF 量化版本。235 点赞说明新多模态模型发布后，社区很希望立刻能在本地跑起来。 |
-| [LiquidAI/LFM2.5-2.6B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF) | LiquidAI | 186 | 89,611 | LiquidAI 自己发布 LFM2.5-2.6B 的 GGUF 格式，兼容 llama.cpp。89,611 下载与原版几乎相当，显示轻量模型用户偏好 GGUF。 |
-| [meta-models/Muse-Glimmer-30B-GGUF](https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF) | meta-models | 167 | 0 | meta-models 官方发布的 Muse-Glimmer-30B GGUF 权重。167 点赞且 0 下载，可能刚上传，是未来本地部署的官方入口。 |
-| [sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4](https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4) | sakamakismile | 156 | 0 | 面向 ComfyUI 的 Qwen3-VL 32B 文本编码器 NVFP4 量化版本，并与 MiniMax-H3 流程集成。156 点赞显示量化已进入视频/多模态工作流的组件级。 |
-| [lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA](https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA) | lightx2v | 119 | 268 | 用于 MiniMax-H3 提示词重写的 LoRA，目标是提升视频生成提示质量。119 点赞体现提示词工程与轻量微调的结合趋势。 |
+| [Comfy-Org/MiniMax-H3](https://huggingface.co/Comfy-Org/MiniMax-H3) | Comfy-Org | 1,179 | 6,798,796 | ComfyUI 官方适配的 MiniMax-H3 单文件格式，方便节点工作流直接调用。679 万下载量使其成为视频生成用户接入 MiniMax-H3 的主要入口。 |
+| [larryvrh/MiniMax-H3-Turbo-Lora](https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora) | larryvrh | 615 | 0 | 针对 MiniMax-H3 Turbo 的 LoRA 微调插件，可低成本定制视频风格或行为。虽暂无下载，但获得 615 点赞说明社区对扩展能力期待很高。 |
+| [DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF](https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF) | DavidAU | 1,877 | 2,521,093 | 社区深度微调版 Qwen3.6 27B 的 GGUF 量化，主打“uncensored”风格。下载量超 252 万，反映开源社区对个性化 LLM 的旺盛需求。 |
+| [ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot](https://huggingface.co/ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot) | ethanfel | 449 | 0 | 将 Qwen3-VL-32B 与 MiniMax-H3 结合的 ComfyUI 量化版本，支持 INT8 视觉编码。属于跨界融合型微调，适合在 ComfyUI 中做多模态实验。 |
+| [Kijai/MiniMax-H3_comfy](https://huggingface.co/Kijai/MiniMax-H3_comfy) | Kijai | 263 | 0 | 知名开发者 Kijai 制作的 MiniMax-H3 ComfyUI 实现，提供自定义节点。为 ComfyUI 用户提供稳定的视频生成集成方案。 |
+| [drbaph/MiniMax-H3-Turbo-Lora-ComfyUI](https://huggingface.co/drbaph/MiniMax-H3-Turbo-Lora-ComfyUI) | drbaph | 257 | 0 | MiniMax-H3 Turbo LoRA 的 ComfyUI 适配版，简化部署流程。与同类工具互补，进一步丰富视频生成生态。 |
+| [unsloth/Muse-Glimmer-30B-GGUF](https://huggingface.co/unsloth/Muse-Glimmer-30B-GGUF) | unsloth | 247 | 0 | unsloth 提供的 Muse-Glimmer-30B 量化版，通过 GGUF 降低部署门槛。虽暂无下载，但官方量化质量是社区关注点。 |
+| [unsloth/DeepSeek-V4-Flash-0731-GGUF](https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF) | unsloth | 644 | 207,990 | DeepSeek V4 Flash 的 GGUF 量化版本，兼容 llama.cpp 等本地推理工具。下载超 20 万，是本地部署热门 LLM 的首选量化格式。 |
+| [LiquidAI/LFM2.5-2.6B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF) | LiquidAI | 189 | 111,942 | LFM2.5 2.6B 的 GGUF 版，适合 CPU/边缘设备高效推理。下载量 11 万，说明小模型量化同样有广阔应用场景。 |
+| [meta-models/Muse-Glimmer-30B-GGUF](https://huggingface.co/meta-models/Muse-Glimmer-30B-GGUF) | meta-models | 173 | 0 | Meta 官方发布的 Muse-Glimmer-30B GGUF 量化版，便于本地运行。与原始版同时上榜，显示官方对量化生态的支持。 |
+| [sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4](https://huggingface.co/sakamakismile/Qwen3-VL-32B-Heretic-MiniMax-H3-NVFP4) | sakamakismile | 158 | 0 | 使用 NVFP4 精度量化的 Qwen3-VL-32B 与 MiniMax-H3 混合方案，面向 ComfyUI。代表社区对高性能多模态量化的探索。 |
+| [lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA](https://huggingface.co/lightx2v/MiniMax-H3-Prompt-Rewriter-LoRA) | lightx2v | 121 | 353 | 针对 MiniMax-H3 的提示词重写 LoRA，优化视频生成文本输入质量。有助于提升提示词工程效率，是工作流中的实用组件。 |
+| [Kijai/MiniMax-H3-experimental](https://huggingface.co/Kijai/MiniMax-H3-experimental) | Kijai | 188 | 0 | Kijai 发布的 MiniMax-H3 实验性版本，包含尚未正式整合的新特性。体现社区开发者在模型质量上的持续迭代。 |
 
 ## 生态信号
 
-从榜单看，MiniMax-H3 是当前生态势能最强的视频模型家族：官方权重、ComfyUI 单文件、Turbo、LoRA、TAE 几乎同时上榜，说明一个模型只要开源，社区就会迅速补齐部署与微调链路。DeepSeek-V4-Flash 与 Whisper、OCR 等基座则凭借稳健下载量证明实用型模型同样重要。开源权重仍占绝对主流，闭源 API 模型未进入榜单；GGUF、INT8、NVFP4、LoRA 等量化/微调活动高频出现，正在把大模型推向本地化和垂直化。
+- **MiniMax-H3 形成完整生态**：从官方基础模型到 ComfyUI 适配、Turbo、LoRA、TAE、提示词重写等十余个衍生条目同时上榜，类似此前 FLUX 的爆发，显示出“一个强模型带动整条工具链”的典型模式。
+- **开源权重仍是主流，量化快速跟进**：DeepSeek、Meta、NVIDIA、Mistral 等均在榜单发布完整可商用权重；unsloth 等团队迅速提供 GGUF 版本，本地部署和边缘推理需求强劲。
+- **社区微调高度活跃**：风格化“uncensored”“Heretic”等微调模型层出不穷，但质量参差；同时安全专用模型（Shieldstral）开始获得关注，说明开源生态正从“可用”走向“可控”。
+- **多模态竞争转向视频与统一视觉语言模型**：Kimi-K3、Muse-Glimmer、MiniMax-H3 和大量 Qwen3-VL 变体验证了这一趋势，图像生成则由 FLUX.1-dev 持续领跑。
 
 ## 值得探索
 
-- **MiniMax-H3 / Comfy-Org 版**：如要体验视频生成，优先考虑 MiniMax-H3 与其 ComfyUI 单文件生态；TAE 和 LoRA 组件也值得一并研究。
-- **DeepSeek-V4-Flash-0731**：本周 LLM 下载最猛的新模型，适合测试推理速度，unsloth GGUF 版本可低门槛本地运行。
-- **Kimi-K3**：压缩张量 + 多模态的组合让它兼具研究价值和实用性，适合观察 Moonshot 的开源路线。
+- **moonshotai/Kimi-K3**：本周点赞破万的超级新星，支持图文理解与特征提取，下载量达 156 万。可作为通用多模态基础模型评估其综合能力。
+- **MiniMaxAI/MiniMax-H3**：视频生成领域生态核心，仅衍生工具就覆盖量化、LoRA、ComfyUI 多个层面。从 ComfyUI 版本入手可快速搭建完整视频生成工作流。
+- **SyzygyResearch/Mach-1-Additive-35B**：采用三值/加法权重的实验性模型，代表极具潜力的模型压缩研究方向，值得关注其与标准 MoE 在效果和效率上的差异。
+
+---
+*本日报由 [agents-radar](https://github.com/ajakqnjaoacsebek-star/agents-radar-daily-data) 自动生成。*
