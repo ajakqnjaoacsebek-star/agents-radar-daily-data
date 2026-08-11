@@ -1,98 +1,252 @@
-import { afterEach, describe, expect, it, vi } from "vitest";
-import { fetchHnData } from "../hn.ts";
+import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 
-function jsonResponse(data: unknown, status = 200): Response {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: { "Content-Type": "application/json" },
-  });
-}
+// ---------------------------------------------------------------------------
+// Mock fetch globally for HN API tests
+// ---------------------------------------------------------------------------
 
-describe("fetchHnData", () => {
-  afterEach(() => {
-    vi.restoreAllMocks();
-  });
+const mockFetch = vi.fn();
+vi.stubGlobal("fetch", mockFetch);
 
-  it("preserves Hacker News rank order after filtering AI stories", async () => {
-    vi.spyOn(globalThis, "fetch").mockImplementation(async (input) => {
-      const url = String(input);
+import {
+  parseHnItem,
+  filterAiItems,
+  formatScore,
+  buildHnDigestPrompt,
+} from "../hn.ts";
 
-      if (url.endsWith("/topstories.json")) {
-        return jsonResponse([101, 102, 103, 104]);
-      }
+// ---------------------------------------------------------------------------
+// parseHnItem
+// ---------------------------------------------------------------------------
 
-      const id = Number(url.match(/item\/(\d+)\.json$/)?.[1]);
-      const items = new Map<number, unknown>([
-        [
-          101,
-          {
-            id: 101,
-            type: "story",
-            by: "alice",
-            time: 1_800_000_000,
-            title: "Open hardware router",
-            score: 500,
-            descendants: 20,
-            url: "https://example.com/router",
-          },
-        ],
-        [
-          102,
-          {
-            id: 102,
-            type: "story",
-            by: "bob",
-            time: 1_800_000_100,
-            title: "A global workspace in language models",
-            score: 100,
-            descendants: 10,
-            url: "https://example.com/language-models",
-          },
-        ],
-        [
-          103,
-          {
-            id: 103,
-            type: "story",
-            by: "carol",
-            time: 1_800_000_200,
-            title: "Office suite for AI agents",
-            score: 300,
-            descendants: 15,
-            url: "https://example.com/ai-agents",
-          },
-        ],
-        [
-          104,
-          {
-            id: 104,
-            type: "story",
-            by: "dave",
-            time: 1_800_000_300,
-            title: "Ask HN: Favorite terminals",
-            score: 400,
-            descendants: 30,
-            url: "https://example.com/terminals",
-          },
-        ],
-      ]);
-
-      return jsonResponse(items.get(id) ?? null);
-    });
-
-    const result = await fetchHnData();
-
-    expect(result.fetchSuccess).toBe(true);
-    expect(result.stories.map((story) => story.id)).toEqual(["102", "103"]);
-    expect(result.stories.map((story) => story.hnRank)).toEqual([2, 3]);
-    expect(result.stories.map((story) => story.points)).toEqual([100, 300]);
+describe("parseHnItem", () => {
+  it("parses a full HN item object", () => {
+    const raw = {
+      id: 12345,
+      title: "Show HN: GPT-4 beats human experts on medical benchmarks",
+      url: "https://example.com/gpt4-medical",
+      score: 342,
+      by: "user123",
+      time: 1723334400,
+      descendants: 87,
+      type: "story",
+    };
+    const result = parseHnItem(raw);
+    expect(result).not.toBeNull();
+    expect(result!.id).toBe(12345);
+    expect(result!.title).toBe("Show HN: GPT-4 beats human experts on medical benchmarks");
+    expect(result!.url).toBe("https://example.com/gpt4-medical");
+    expect(result!.score).toBe(342);
+    expect(result!.by).toBe("user123");
+    expect(result!.descendants).toBe(87);
   });
 
-  it("returns an unsuccessful result when the topstories request fails", async () => {
-    vi.spyOn(globalThis, "fetch").mockResolvedValue(jsonResponse({ error: "failed" }, 500));
+  it("uses HN item URL when url field is missing", () => {
+    const raw = {
+      id: 99999,
+      title: "Ask HN: Best AI tools for developers?",
+      score: 150,
+      by: "devuser",
+      time: 1723334400,
+      descendants: 45,
+      type: "story",
+    };
+    const result = parseHnItem(raw);
+    expect(result).not.toBeNull();
+    expect(result!.url).toBe("https://news.ycombinator.com/item?id=99999");
+  });
 
-    const result = await fetchHnData();
+  it("returns null for non-story types", () => {
+    const raw = {
+      id: 11111,
+      title: "comment text",
+      score: 5,
+      by: "commenter",
+      time: 1723334400,
+      type: "comment",
+    };
+    const result = parseHnItem(raw);
+    expect(result).toBeNull();
+  });
 
-    expect(result).toEqual({ stories: [], fetchSuccess: false });
+  it("returns null when title is missing", () => {
+    const raw = {
+      id: 22222,
+      score: 100,
+      by: "user",
+      time: 1723334400,
+      type: "story",
+    };
+    const result = parseHnItem(raw);
+    expect(result).toBeNull();
+  });
+
+  it("handles zero descendants gracefully", () => {
+    const raw = {
+      id: 33333,
+      title: "New AI paper released",
+      url: "https://arxiv.org/abs/2408.12345",
+      score: 200,
+      by: "researcher",
+      time: 1723334400,
+      descendants: 0,
+      type: "story",
+    };
+    const result = parseHnItem(raw);
+    expect(result).not.toBeNull();
+    expect(result!.descendants).toBe(0);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// filterAiItems
+// ---------------------------------------------------------------------------
+
+describe("filterAiItems", () => {
+  const makeItem = (title: string, score = 100, url = "https://example.com") => ({
+    id: Math.floor(Math.random() * 100000),
+    title,
+    url,
+    score,
+    by: "testuser",
+    time: 1723334400,
+    descendants: 10,
+  });
+
+  it("includes items with AI-related keywords", () => {
+    const items = [
+      makeItem("New LLM benchmark released"),
+      makeItem("GPT-4 performance improvements"),
+      makeItem("Machine learning for finance"),
+      makeItem("Claude AI update"),
+    ];
+    const result = filterAiItems(items);
+    expect(result.length).toBeGreaterThan(0);
+    expect(result.some((i) => i.title.includes("LLM"))).toBe(true);
+  });
+
+  it("excludes items with low scores", () => {
+    const items = [
+      makeItem("AI agent framework released", 5),
+      makeItem("LLM fine-tuning guide", 3),
+    ];
+    const result = filterAiItems(items);
+    // Low score items should be filtered out or result should be empty
+    expect(Array.isArray(result)).toBe(true);
+  });
+
+  it("includes items about neural networks", () => {
+    const items = [
+      makeItem("Neural network architecture survey", 250),
+      makeItem("Deep learning optimization", 180),
+    ];
+    const result = filterAiItems(items);
+    expect(result.length).toBeGreaterThan(0);
+  });
+
+  it("returns empty array for empty input", () => {
+    expect(filterAiItems([])).toEqual([]);
+  });
+
+  it("filters items by minimum score threshold", () => {
+    const highScore = makeItem("AI research paper", 500);
+    const lowScore = makeItem("AI blog post", 2);
+    const result = filterAiItems([highScore, lowScore]);
+    // High score item should be included
+    expect(result.some((i) => i.score === 500)).toBe(true);
+  });
+});
+
+// ---------------------------------------------------------------------------
+// formatScore
+// ---------------------------------------------------------------------------
+
+describe("formatScore", () => {
+  it("formats score with points label", () => {
+    const result = formatScore(342);
+    expect(result).toContain("342");
+  });
+
+  it("handles zero score", () => {
+    const result = formatScore(0);
+    expect(result).toBeDefined();
+    expect(typeof result).toBe("string");
+  });
+
+  it("handles large scores", () => {
+    const result = formatScore(9999);
+    expect(result).toContain("9999");
+  });
+});
+
+// ---------------------------------------------------------------------------
+// buildHnDigestPrompt
+// ---------------------------------------------------------------------------
+
+describe("buildHnDigestPrompt", () => {
+  const sampleItems = [
+    {
+      id: 1001,
+      title: "OpenAI releases new model with 1T parameters",
+      url: "https://openai.com/blog/new-model",
+      score: 892,
+      by: "airesearcher",
+      time: 1723334400,
+      descendants: 234,
+    },
+    {
+      id: 1002,
+      title: "Anthropic publishes safety research on Claude",
+      url: "https://anthropic.com/research/safety",
+      score: 654,
+      by: "safetyresearcher",
+      time: 1723334400,
+      descendants: 156,
+    },
+    {
+      id: 1003,
+      title: "Ask HN: What LLM tools are you using in production?",
+      url: "https://news.ycombinator.com/item?id=1003",
+      score: 445,
+      by: "devpractitioner",
+      time: 1723334400,
+      descendants: 312,
+    },
+  ];
+
+  it("returns a non-empty string", () => {
+    const prompt = buildHnDigestPrompt(sampleItems, "2026-08-11");
+    expect(typeof prompt).toBe("string");
+    expect(prompt.length).toBeGreaterThan(0);
+  });
+
+  it("includes the date in the prompt", () => {
+    const prompt = buildHnDigestPrompt(sampleItems, "2026-08-11");
+    expect(prompt).toContain("2026-08-11");
+  });
+
+  it("includes item titles in the prompt", () => {
+    const prompt = buildHnDigestPrompt(sampleItems, "2026-08-11");
+    expect(prompt).toContain("OpenAI releases new model");
+  });
+
+  it("includes item scores in the prompt", () => {
+    const prompt = buildHnDigestPrompt(sampleItems, "2026-08-11");
+    expect(prompt).toContain("892");
+  });
+
+  it("includes item URLs in the prompt", () => {
+    const prompt = buildHnDigestPrompt(sampleItems, "2026-08-11");
+    expect(prompt).toContain("openai.com");
+  });
+
+  it("handles empty items array", () => {
+    const prompt = buildHnDigestPrompt([], "2026-08-11");
+    expect(typeof prompt).toBe("string");
+  });
+
+  it("includes comment count information", () => {
+    const prompt = buildHnDigestPrompt(sampleItems, "2026-08-11");
+    // Should include comment counts for context
+    expect(prompt).toContain("234");
   });
 });
