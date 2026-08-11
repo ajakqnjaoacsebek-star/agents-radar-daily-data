@@ -1,0 +1,166 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.227，正式版节奏稳定",
+      "OpenAI Codex 与 Gemini CLI 每日约10个 PR 高速迭代",
+      "子代理推理级别细粒度控制成多工具共性诉求",
+      "Windows/WSL 兼容性成为社区头号工程痛点",
+      "企业级策略管控与合规审核开始成差异化关键",
+      "OpenCode、Pi 等开源工具保持高频迭代"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 248 Issues/500 PRs 活跃度高位",
+      "核心维护者 steipete 提交 6 个重构类 PR 治理架构",
+      "P1 级 Bug 已持续数周未修复，存在稳定性隐患",
+      "会话状态管理、消息丢失、认证鉴权为讨论主线",
+      "PR #121908 修复 Gateway 重复投递 final reply",
+      "PR #121901 拆分 2037 行 message-tool.ts 清理技术债"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.0 完成 Kimi K3 全栈支持",
+      "Ollama/Unsloth 同日跟进 Meta Muse Glimmer",
+      "DeepSeek-V4 生态热议但 SM8x 硬件不可用",
+      "SGLang CI 3 broken/11 flaky，稳定性承压",
+      "llama.cpp 连续发布 b10353-b10357 五个版本",
+      "LiteLLM v1.96.0 启动 Rust 迁移 Beta 报名"
+    ],
+    "ai-trending": [
+      "prime-agent 今日+2,642 stars 领跑热榜",
+      "semantica +970，Graph-Native 上下文基础设施爆发",
+      "ComfyUI 今日+922，扩散模型生态持续活跃",
+      "firecrawl +835，Web 上下文供给需求旺盛",
+      "TradingAgents 聚焦金融交易 Agent 垂直场景",
+      "Google DeepMind weathernext 将 AI 带入天气预报"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 全面开放，agentic 能力接近 Opus 4.8",
+      "Sonnet 5 不良行为率低于 4.6，安全刻意分层",
+      "研究版 Claude 将黎曼零点比例下界提至 67.2%",
+      "Claude 数学论文获内部形式化验证与外部专家审阅",
+      "OpenAI 新增 ChatGPT Business 席位与 Daybreak 扩展",
+      "Building Effective AI Agents 成官方工程方法新指南"
+    ],
+    "ai-hn": [
+      "Meta 发布 Muse Glimmer 30B，1097 分登顶",
+      "Docker Sandboxes 获 649 分，直击 Agent 安全执行",
+      "Anthropic 数学能力研究 180 分，引发推理 vs 记忆争论",
+      "GPT 5.6 Cyber 发布，107 分讨论防御真实性",
+      "扎克伯格抨击闭源，开源闭源之争刷屏",
+      "知识截止时间逆向分析 140 分，专业度突出"
+    ],
+    "ai-ph": [
+      "Omniwork 428 票登顶，桌面级 Creative Agent OS",
+      "AgentConnect 159 票，开源解决 Agent 连接复用",
+      "Argos 118 票，浏览器扩展形式 AI 代理",
+      "ScrapeOps Proxy Tester 开发工具紧随其后",
+      "Soup CLI 将模型微调门槛压到 4GB 笔记本 GPU",
+      "Grok Imagine 2.0 与 Bunzee 3.0 带来创意侧亮点"
+    ],
+    "ai-arxiv": [
+      "LLM 后训练转向推理过程质量细粒度建模",
+      "侧信道攻击可窃取专有 LLM 加密思维链",
+      "Agent 安全从模型权重扩展到 harness 治理",
+      "SWE-Bench ProMax 推动基准抗饱和",
+      "Consilience 提出无验证器测试时缩放新路径",
+      "Mismatch Matters 揭示 on-policy 蒸馏退化模式"
+    ],
+    "ai-hf": [
+      "FLUX.1-dev 以 14,082 点赞居本周首位",
+      "Kimi-K3 获 10,483 赞，多模态图文理解生成",
+      "DeepSeek-V4-Flash-0731 下载量达 954,441",
+      "Unlimited-OCR 下载 292 万，实用型需求强劲",
+      "Whisper 下载 490 万，语音识别持续刚需",
+      "Muse-Glimmer-30B 首次上榜，下载仍为 0"
+    ],
+    "ai-community": [
+      "AI Agent 通过 2283 测试仍生产失败引热议",
+      "MCP 生态安全威胁与优化技巧成讨论焦点",
+      "OpenAI Assistants API 即将停用引关注",
+      "reranker 反而导致大部分 RAG 剩余漏报",
+      "蒸馏 Kimi 到 Qwen 只学手迹而非能力",
+      "Lobste.rs 以随机游走模型讨论信息茧房"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.227 stable; top issue 1,167 👍",
+      "OpenAI Codex shipped 2 alphas in 24h",
+      "GitHub Copilot CLI hit v1.0.79 stable",
+      "Gemini CLI released 1 nightly build",
+      "Kimi Code, OpenCode, Pi active with no releases",
+      "Ecosystem focus: Windows/WSL fragility and subagent governance"
+    ],
+    "ai-agents": [
+      "OpenClaw: 248 issues, 500 PRs updated in 24h",
+      "No new OpenClaw release today",
+      "P1 bugs remain open with no linked fix PR",
+      "Gateway restart replay prevention PR #121908 in review",
+      "Feishu/Telegram channel behavior among top discussions",
+      "Maintainers reviewing gateway, agents, system-agent refactors"
+    ],
+    "ai-infra": [
+      "vLLM v0.27.0: 561 commits, 242 contributors",
+      "vLLM release regressions (#51758, #51744) under scrutiny",
+      "SGLang has most open stability issues",
+      "llama.cpp shipped 10 merged releases b10342-b10357",
+      "Ollama released v0.32.8",
+      "LiteLLM v1.96.0 attacks Python ceiling with Rust rewrite"
+    ],
+    "ai-trending": [
+      "prime-agent tops trending at +2,642 stars",
+      "agency-agents +1,349 for multi-specialist agents",
+      "semantica new repo hits 970 stars in a day",
+      "firecrawl +835 cements web-scale data ingestion",
+      "ComfyUI +922 stays diffusion workflow standard",
+      "DeepMind weathernext +325 brings foundation-model AI to forecasting"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5: most agentic Sonnet, near Opus 4.8",
+      "Claude improves Riemann zeta bound to 67.2%",
+      "Anthropic shifts agent guide to Claude Managed Agents",
+      "OpenAI returned 4 pages, all metadata-only",
+      "Sonnet 5 runs browsers/terminals autonomously",
+      "Sonnet 5 priced lower than Opus 4.8"
+    ],
+    "ai-hn": [
+      "Meta Muse Glimmer tops HN: 1,097 pts, 598 comments",
+      "Muse Glimmer reignites open-vs-closed frontier war",
+      "Docker's disposable sandboxes draw builder buzz",
+      "Needle2: 14MB on-device LLM",
+      "$250 FPGA reaches 21k tok/s",
+      "Anthropic's Riemann zeta research scores 180 pts"
+    ],
+    "ai-ph": [
+      "Omniwork leads Product Hunt with 428 votes",
+      "AgentConnect (159 votes) links agents across tools",
+      "ScrapeOps Proxy Tester and DocsAlot CLI gain traction",
+      "TAKT brings governance to AI coding agents",
+      "Grok Imagine 2.0 adds segmentation editing",
+      "Open-source releases prominent in infrastructure/tuning"
+    ],
+    "ai-arxiv": [
+      "Verifier-free test-time scaling avoids external reward models",
+      "On-policy distillation needs semantic mismatch signals",
+      "Decoding-Level Taboo stress-tests LLM robustness",
+      "Agent safety framed as harness/institution property",
+      "Benchmarks redesigned for robustness and contamination resistance",
+      "Real-time multimodal medical consultation advances"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 spawns fastest-growing ComfyUI/LoRA ecosystem",
+      "Kimi-K3 tops multimodal with 10,483 likes, 1.51M downloads",
+      "DeepSeek-V4-Flash-0731 nears 1M downloads",
+      "Muse-Glimmer-30B draws major vision-language interest",
+      "Baidu Unlimited-OCR sparks document-AI attention",
+      "FLUX.1-dev and whisper-large-v3 remain evergreen"
+    ],
+    "ai-community": [
+      "AI agents still fail in production despite passing tests",
+      "MCP ecosystem grows more useful and attack-prone",
+      "OpenAI Daybreak cyber-defense initiative draws posts",
+      "Assistants API shutdown is 15 days out",
+      "Corridor/road essay tops Dev.to engagement",
+      "Lobste.rs: random walks model social media rabbit holes"
+    ]
+  }
+}
