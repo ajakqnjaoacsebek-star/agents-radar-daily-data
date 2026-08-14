@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 跨会话消息通道现系统性回归",
+      "OpenAI Codex 发 4 个 alpha，迭代最激进",
+      "Gemini CLI 子代理假成功成 P1 焦点",
+      "Copilot CLI 修复远程 MCP OAuth 故障",
+      "Qwen Code 发布 v0.21.11 正式版",
+      "DeepSeek TUI 重塑品牌，发布 v0.9.7"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 500 Issue、500 PR",
+      "消息投递丢失、会话状态成社区最热焦点",
+      "合并 PR 修复 Gateway 排空误报，解除授权阻断",
+      "升级后官方插件丢失问题已修复，插件一致性完善",
+      "接入 Anthropic 服务端压缩，改善长会话缓存",
+      "安全修复：防共享技能根目录在评审中被篡改"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4、Kimi-K3 当天即入优化管线",
+      "vLLM 合入 IndexCache 等多项性能优化",
+      "llama.cpp 连发 10 版本，推进至 b10423",
+      "Ollama 发 v0.32.11，聚焦 launch 集成",
+      "Unsloth 桌面版首日反馈爆发",
+      "Qwen 系列覆盖最广，SGLang 已支持 Qwen3.5"
+    ],
+    "ai-trending": [
+      "Agent Skills 多项目集中上榜，生态爆发",
+      "Anthropic 官方 skills 等多项目登热榜",
+      "diagram-design 单日涨 4475 星登热榜",
+      "NVIDIA Switchyard 开源 LLM 路由网关",
+      "RAGFlow 总星 88,050，单日增 465 星",
+      "垂直 Agent 走红，macro 单日 +1239 星"
+    ],
+    "ai-web": [
+      "Claude 将黎曼零点下界提至 67.2%",
+      "Claude 产出论文与形式化可验证证明，专家已背书",
+      "Brian Conrey 等数论专家参与评审",
+      "AI 科研助手进入可验证产出阶段，闭环首现",
+      "OpenAI Ultrafast 新页仅元数据，疑似预告",
+      "OpenAI 新页指向首席营收官，商业化叙事凸显"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 1017 分登 HN 榜首",
+      "Grok 4.6 引 604 条评论，成今日争议之王",
+      "Gemini 3.7 Flash 发布，登模型热度榜首",
+      "Cerebras 加速 GPT-5.6 Sol 引热议",
+      "AI 文本水印可破解，信任机制再受质疑",
+      "冒充 ClaudeBot 的漏洞扫描引发安全担忧"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 生态爆发，ComfyUI 版下载破千万",
+      "Kimi-K3 周点赞 10623，登顶最热视觉语言模型",
+      "Qwen3.8 旗舰 MoE 发布，获 789 赞",
+      "DeepSeek-V4-Flash 下载 143 万",
+      "Nemotron 推 NVFP4 低精度部署版",
+      "视频生成赛道升温，LTX-2.5 等新作上榜"
+    ],
+    "ai-community": [
+      "Agent 工具门禁 agent-tooltrust 发布",
+      "警示：测试全绿的 AI 代码反而最危险",
+      "AI 记忆系统评测成焦点，向量数据库被指不够",
+      "Gemma 4 在 ARM+GPU 部署 vLLM 实战",
+      "MCP 协议版本固定成工程落地新关注点",
+      "Lobste.rs 热议 AI 公司销毁实体书"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.232 adds subagent forking and @-mentions",
+      "Qwen Code lands /coordinate and Agent Plugins v1",
+      "OpenAI Codex advances experimental thread queue APIs",
+      "Multi-agent orchestration dominates CLI tool roadmap",
+      "Token/session bloat reported across 4 major toolchains",
+      "Gemini CLI and Qwen Code ship security hardening fixes"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs, 114 merged in 24h",
+      "No new release; long-running reliability bugs dominate",
+      "Silent reply failures and subagent completion loss reported",
+      "UI fix keeps composer pickers near viewport edges",
+      "Plugin upgrades now install externalized configured plugins",
+      "P1 'diamond lobster' issues stuck in review for weeks"
+    ],
+    "ai-infra": [
+      "llama.cpp ships 13 releases (b10411-b10423) in one day",
+      "vLLM v0.27.0 upgrade path flagged risky with 3 failures",
+      "SGLang has 3 broken and 11 flaky CI jobs",
+      "Speculative decoding is most active, least stable optimization",
+      "AMD ROCm enablement advances but ships with regressions",
+      "Agentic workloads drive KV-cache and tool-calling changes"
+    ],
+    "ai-trending": [
+      "Agent Skills breakout: diagram-design +4,475 stars today",
+      "anthropics/skills powers reusable agent capability ecosystem",
+      "Memory infra surges: macro +1,239, semantica +713 stars",
+      "Edge AI: cactus-compute/needle 14MB model gains +769",
+      "NVIDIA-NeMo/Switchyard +408 for LLM routing/benchmarking",
+      "ollama/ollama at 178,487 stars stays default local runtime"
+    ],
+    "ai-web": [
+      "Anthropic: Claude improves Riemann zeta bound to 67.2%",
+      "Claude produced formally verifiable proof for math result",
+      "Result reviewed by mathematicians Conrey and Goldston",
+      "OpenAI posts two metadata-only pages, no article text",
+      "OpenAI slug suggests 'Ultrafast' product preview",
+      "OpenAI page appears to announce Dali Rajic as CRO"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro tops HN with 1,017 points",
+      "Grok 4.6 draws 604 comments amid evaluation doubts",
+      "Gemini 3.7 Flash positioned as fast, efficient model",
+      "Codex reaches Linux preview; coding agents dominate",
+      "AI text watermarking dismissed as trivially removable",
+      "Attackers spoof ClaudeBot for mass vulnerability scans"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 cluster leads; Comfy-UI version hits 10.36M downloads",
+      "Qwen3.8-2.4T-A95B is a 2.4T-param sparse MoE flagship",
+      "DeepSeek-V4 Flash reaches 1.43M downloads",
+      "Kimi-K3 is most-liked HF model at 10,623 likes",
+      "NVIDIA Nemotron Lightning signals shift to massive sparse models",
+      "GGUF, NVFP4, FP8 quantizations span major HF releases"
+    ],
+    "ai-community": [
+      "Dev.to: gatekeeper pip package controls AI agent tools",
+      "'Most dangerous AI code passes all tests' warns post",
+      "Community pushes durable memory benchmarks beyond vector DBs",
+      "Lobste.rs: AI data collection destroying physical books",
+      "OpenAI–Hugging Face incident draws security commentary",
+      "Agent trackers debated as self-reports vs ground truth"
+    ]
+  }
+}
