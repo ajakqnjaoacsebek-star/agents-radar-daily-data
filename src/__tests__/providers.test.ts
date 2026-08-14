@@ -168,6 +168,22 @@ describe("AnthropicProvider", () => {
     });
   });
 
+  it("passes an abort signal to the Anthropic SDK", async () => {
+    const mockCreate = await getAnthropicMockCreate();
+    mockCreate.mockResolvedValueOnce({
+      content: [{ type: "text", text: "ok" }],
+    });
+    const controller = new AbortController();
+
+    const p = new AnthropicProvider("test-model");
+    await p.call("prompt", 100, { signal: controller.signal });
+
+    expect(mockCreate).toHaveBeenCalledWith(
+      expect.any(Object),
+      expect.objectContaining({ signal: controller.signal }),
+    );
+  });
+
   it("throws on non-text response", async () => {
     const mockCreate = await getAnthropicMockCreate();
     mockCreate.mockResolvedValueOnce({
@@ -216,6 +232,22 @@ describe("OpenAIProvider", () => {
       max_completion_tokens: 2048,
       messages: [{ role: "user", content: "test prompt" }],
     });
+  });
+
+  it("passes an abort signal to the OpenAI SDK", async () => {
+    const mockCreate = await getOpenAIMockCreate();
+    mockCreate.mockResolvedValueOnce({
+      choices: [{ message: { content: "ok" } }],
+    });
+    const controller = new AbortController();
+
+    const p = new OpenAIProvider({ apiKey: "k", model: "gpt-test" });
+    await p.call("prompt", 100, { signal: controller.signal });
+
+    expect(mockCreate).toHaveBeenCalledWith(
+      expect.any(Object),
+      expect.objectContaining({ signal: controller.signal }),
+    );
   });
 
   it("throws on empty response", async () => {

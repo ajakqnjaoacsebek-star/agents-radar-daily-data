@@ -1,5 +1,31 @@
 import { describe, it, expect } from "vitest";
-import { toRfc822, escapeXml } from "../generate-manifest.ts";
+import { buildDateEntry, shouldIncludeDateEntry, toRfc822, escapeXml } from "../generate-manifest.ts";
+
+describe("buildDateEntry", () => {
+  it("exposes inspiration availability separately from report IDs", () => {
+    expect(buildDateEntry("2026-08-14", ["ai-hn.md", "ai-hn-en.md", "daily-inspiration.json"])).toEqual({
+      date: "2026-08-14",
+      reports: ["ai-hn", "ai-hn-en"],
+      hasInspiration: true,
+    });
+  });
+
+  it("keeps older report dates visible without pretending they have an inspiration card", () => {
+    expect(buildDateEntry("2026-08-13", ["ai-cli.md"])).toEqual({
+      date: "2026-08-13",
+      reports: ["ai-cli"],
+      hasInspiration: false,
+    });
+  });
+
+  it("keeps an inspiration-only date in the manifest", () => {
+    const entry = buildDateEntry("2026-08-14", ["daily-inspiration.json"]);
+
+    expect(entry.reports).toEqual([]);
+    expect(entry.hasInspiration).toBe(true);
+    expect(shouldIncludeDateEntry(entry)).toBe(true);
+  });
+});
 
 // ---------------------------------------------------------------------------
 // toRfc822

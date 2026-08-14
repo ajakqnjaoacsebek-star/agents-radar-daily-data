@@ -53,6 +53,7 @@ import { fetchArxivData, type ArxivData } from "./arxiv.ts";
 import { fetchHfData, type HfData } from "./hf.ts";
 import { fetchDevtoData, type DevtoData } from "./devto.ts";
 import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
+import { saveDailyInspirationSafely } from "./inspiration-generator.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr } from "./date.ts";
 import {
@@ -493,6 +494,15 @@ async function main(): Promise<void> {
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
   ]);
+
+  // Daily inspiration is a separate Chinese-only card. It reuses verified
+  // live signals from this run and falls back to the evergreen catalog when
+  // the model or all dynamic sources are unavailable.
+  await saveDailyInspirationSafely(
+    { trendingData, hnData, phData, hfData, webResults },
+    dateStr,
+    now.toISOString(),
+  );
 
   // 5. Generate highlights for Telegram notification
   const readReport = (name: string): string | undefined => {

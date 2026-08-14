@@ -59,13 +59,33 @@ export function is429(err: unknown): boolean {
   return (err as { status?: number })?.status === 429 || String(err).includes("429");
 }
 
-export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): Promise<string> {
+export interface CallLlmOptions {
+  /** Maximum time for each provider attempt. Omit to keep the existing behavior. */
+  timeoutMs?: number;
+}
+
+export async function callLlm(
+  prompt: string,
+  maxTokens = LLM_TOKENS_DEFAULT,
+  options: CallLlmOptions = {},
+): Promise<string> {
   for (let attempt = 0; ; attempt++) {
     await acquireSlot();
     let released = false;
+    const controller = options.timeoutMs ? new AbortController() : undefined;
+    const timeout = controller
+      ? setTimeout(() => {
+          controller.abort(new Error(`LLM request timed out after ${options.timeoutMs}ms`));
+        }, options.timeoutMs)
+      : undefined;
     try {
-      return await provider.call(prompt, maxTokens);
+      return controller
+        ? await provider.call(prompt, maxTokens, { signal: controller.signal })
+        : await provider.call(prompt, maxTokens);
     } catch (err) {
+      if (controller?.signal.aborted) {
+        throw controller.signal.reason;
+      }
       if (attempt < MAX_RETRIES && is429(err)) {
         releaseSlot();
         released = true;
@@ -76,6 +96,7 @@ export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): P
       }
       throw err;
     } finally {
+      if (timeout) clearTimeout(timeout);
       if (!released) releaseSlot();
     }
   }

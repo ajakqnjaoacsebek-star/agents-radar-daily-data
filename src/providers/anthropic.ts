@@ -8,7 +8,7 @@
  */
 
 import Anthropic from "@anthropic-ai/sdk";
-import type { LlmProvider } from "./types.ts";
+import type { LlmCallOptions, LlmProvider } from "./types.ts";
 
 export class AnthropicProvider implements LlmProvider {
   readonly name = "anthropic";
@@ -20,12 +20,21 @@ export class AnthropicProvider implements LlmProvider {
     this.client = new Anthropic();
   }
 
-  async call(prompt: string, maxTokens: number): Promise<string> {
-    const message = await this.client.messages.create({
-      model: this.model,
-      max_tokens: maxTokens,
-      messages: [{ role: "user", content: prompt }],
-    });
+  async call(prompt: string, maxTokens: number, options?: LlmCallOptions): Promise<string> {
+    const message = options?.signal
+      ? await this.client.messages.create(
+          {
+            model: this.model,
+            max_tokens: maxTokens,
+            messages: [{ role: "user", content: prompt }],
+          },
+          { signal: options.signal },
+        )
+      : await this.client.messages.create({
+          model: this.model,
+          max_tokens: maxTokens,
+          messages: [{ role: "user", content: prompt }],
+        });
     const block = message.content.find((b) => b.type === "text");
     if (!block) throw new Error("Unexpected response type from Anthropic");
     return block.text;

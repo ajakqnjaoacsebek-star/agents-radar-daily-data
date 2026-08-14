@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
 import fs from "node:fs";
+import path from "node:path";
 
 // ---------------------------------------------------------------------------
 // Mock provider — intercepts createProvider() so the module-level `provider`
@@ -81,17 +82,21 @@ describe("saveFile", () => {
 
   it("returns the expected file path", () => {
     const result = saveFile("content", "2026-03-09", "ai-cli.md");
-    expect(result).toBe("digests/2026-03-09/ai-cli.md");
+    expect(result).toBe(path.join("digests", "2026-03-09", "ai-cli.md"));
   });
 
   it("creates parent directories recursively", () => {
     saveFile("content", "2026-03-09", "ai-cli.md");
-    expect(fs.mkdirSync).toHaveBeenCalledWith("digests/2026-03-09", { recursive: true });
+    expect(fs.mkdirSync).toHaveBeenCalledWith(path.join("digests", "2026-03-09"), { recursive: true });
   });
 
   it("writes content as utf-8", () => {
     saveFile("hello world", "2026-03-09", "test.md");
-    expect(fs.writeFileSync).toHaveBeenCalledWith("digests/2026-03-09/test.md", "hello world", "utf-8");
+    expect(fs.writeFileSync).toHaveBeenCalledWith(
+      path.join("digests", "2026-03-09", "test.md"),
+      "hello world",
+      "utf-8",
+    );
   });
 });
 
@@ -260,6 +265,28 @@ describe("callLlm", () => {
 
     await expect(callLlm("prompt")).rejects.toThrow("server error");
     expect(mockCall).toHaveBeenCalledOnce();
+  });
+
+  it("aborts a provider call when its timeout expires", async () => {
+    mockCall.mockImplementationOnce(
+      (_prompt: string, _maxTokens: number, options?: { signal?: AbortSignal }) =>
+        new Promise((_resolve, reject) => {
+          options?.signal?.addEventListener("abort", () => reject(options.signal?.reason), {
+            once: true,
+          });
+        }),
+    );
+
+    const promise = callLlm("slow prompt", 1024, { timeoutMs: 1_000 });
+    promise.catch(() => {});
+    await vi.advanceTimersByTimeAsync(1_000);
+
+    await expect(promise).rejects.toThrow("LLM request timed out after 1000ms");
+    expect(mockCall).toHaveBeenCalledWith(
+      "slow prompt",
+      1024,
+      expect.objectContaining({ signal: expect.any(AbortSignal) }),
+    );
   });
 
   it("does not leak concurrency slots on 429 retries", async () => {

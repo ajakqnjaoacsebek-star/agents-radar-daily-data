@@ -51,43 +51,46 @@ The pipeline runs in four sequential phases, each implemented as a named async f
 
 ## Source files
 
-| File | Responsibility |
-|------|---------------|
-| `src/index.ts` | Orchestration: repo config, phase functions, `main()` |
-| `src/i18n.ts` | Centralized bilingual strings: `Lang` type, report titles, issue labels, footer text, `REPORT_LABELS`, `NOTIFY_LABELS` |
-| `src/github.ts` | GitHub API helpers: `fetchRecentItems`, `fetchRecentReleases`, `fetchSkillsData`, `createGitHubIssue`; shared `RepoFetch` type |
-| `src/config.ts` | Loads `config.yml` into `RadarConfig` (`cliRepos`, `skillsRepo`, `openclaw`, `openclawPeers`, `infraRepos`); built-in defaults when a section is missing |
-| `src/prompts.ts` | LLM prompt builders for repo reports: `buildCliPrompt`, `buildPeerPrompt`, `buildInfraPrompt`, `buildComparisonPrompt`, `buildInfraComparisonPrompt`, `buildPeersComparisonPrompt`, `buildSkillsPrompt` |
-| `src/prompts-data.ts` | LLM prompt builders for data-source reports: `buildTrendingPrompt`, `buildWebReportPrompt`, `buildHnPrompt` |
-| `src/report.ts` | `callLlm` (with concurrency limiter), `saveFile`, `autoGenFooter` (uses i18n), LLM token budget constants |
-| `src/report-builders.ts` | `buildCliReportContent`, `buildOpenclawReportContent`, `buildInfraReportContent` — assemble final Markdown strings for CLI, OpenClaw and infra reports |
-| `src/report-savers.ts` | `saveWebReport`, `saveTrendingReport`, `saveHnReport` — LLM call + file save + optional GitHub issue |
-| `src/date.ts` | Date and timing utilities: `toCstDateStr`, `toUtcStr`, `sleep` |
-| `src/providers/types.ts` | `LlmProvider` interface, `ProviderName` type, `VALID_PROVIDER_NAMES` |
-| `src/providers/openai-compatible.ts` | `OpenAICompatibleProvider` — shared base class for OpenAI-compatible providers |
-| `src/providers/anthropic.ts` | `AnthropicProvider` — Anthropic SDK wrapper |
-| `src/providers/openai.ts` | `OpenAIProvider` — extends `OpenAICompatibleProvider` |
-| `src/providers/github-copilot.ts` | `GitHubCopilotProvider` — extends `OpenAICompatibleProvider` |
-| `src/providers/openrouter.ts` | `OpenRouterProvider` — extends `OpenAICompatibleProvider` |
-| `src/providers/deepseek.ts` | `DeepSeekProvider` — extends `OpenAICompatibleProvider` |
-| `src/providers/index.ts` | `createProvider` factory + barrel re-exports |
-| `src/web.ts` | Sitemap-based web content fetching; state persisted to `digests/web-state.json` |
-| `src/trending.ts` | GitHub Trending HTML scraper + Search API topic queries |
-| `src/hn.ts` | Hacker News top AI stories via Algolia HN Search API |
-| `src/generate-manifest.ts` | Generates `manifest.json` (sidebar data for Web UI) and `feed.xml` (RSS 2.0 feed) |
+| File                                 | Responsibility                                                                                                                                                                                          |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/index.ts`                       | Orchestration: repo config, phase functions, `main()`                                                                                                                                                   |
+| `src/i18n.ts`                        | Centralized bilingual strings: `Lang` type, report titles, issue labels, footer text, `REPORT_LABELS`, `NOTIFY_LABELS`                                                                                  |
+| `src/github.ts`                      | GitHub API helpers: `fetchRecentItems`, `fetchRecentReleases`, `fetchSkillsData`, `createGitHubIssue`; shared `RepoFetch` type                                                                          |
+| `src/config.ts`                      | Loads `config.yml` into `RadarConfig` (`cliRepos`, `skillsRepo`, `openclaw`, `openclawPeers`, `infraRepos`); built-in defaults when a section is missing                                                |
+| `src/prompts.ts`                     | LLM prompt builders for repo reports: `buildCliPrompt`, `buildPeerPrompt`, `buildInfraPrompt`, `buildComparisonPrompt`, `buildInfraComparisonPrompt`, `buildPeersComparisonPrompt`, `buildSkillsPrompt` |
+| `src/prompts-data.ts`                | LLM prompt builders for data-source reports: `buildTrendingPrompt`, `buildWebReportPrompt`, `buildHnPrompt`                                                                                             |
+| `src/report.ts`                      | `callLlm` (with concurrency limiter), `saveFile`, `autoGenFooter` (uses i18n), LLM token budget constants                                                                                               |
+| `src/report-builders.ts`             | `buildCliReportContent`, `buildOpenclawReportContent`, `buildInfraReportContent` — assemble final Markdown strings for CLI, OpenClaw and infra reports                                                  |
+| `src/report-savers.ts`               | `saveWebReport`, `saveTrendingReport`, `saveHnReport` — LLM call + file save + optional GitHub issue                                                                                                    |
+| `src/date.ts`                        | Date and timing utilities: `toCstDateStr`, `toUtcStr`, `sleep`                                                                                                                                          |
+| `src/providers/types.ts`             | `LlmProvider` interface, `ProviderName` type, `VALID_PROVIDER_NAMES`                                                                                                                                    |
+| `src/providers/openai-compatible.ts` | `OpenAICompatibleProvider` — shared base class for OpenAI-compatible providers                                                                                                                          |
+| `src/providers/anthropic.ts`         | `AnthropicProvider` — Anthropic SDK wrapper                                                                                                                                                             |
+| `src/providers/openai.ts`            | `OpenAIProvider` — extends `OpenAICompatibleProvider`                                                                                                                                                   |
+| `src/providers/github-copilot.ts`    | `GitHubCopilotProvider` — extends `OpenAICompatibleProvider`                                                                                                                                            |
+| `src/providers/openrouter.ts`        | `OpenRouterProvider` — extends `OpenAICompatibleProvider`                                                                                                                                               |
+| `src/providers/deepseek.ts`          | `DeepSeekProvider` — extends `OpenAICompatibleProvider`                                                                                                                                                 |
+| `src/providers/index.ts`             | `createProvider` factory + barrel re-exports                                                                                                                                                            |
+| `src/web.ts`                         | Sitemap-based web content fetching; state persisted to `digests/web-state.json`                                                                                                                         |
+| `src/trending.ts`                    | GitHub Trending HTML scraper + Search API topic queries                                                                                                                                                 |
+| `src/hn.ts`                          | Hacker News top AI stories via Algolia HN Search API                                                                                                                                                    |
+| `src/generate-manifest.ts`           | Generates `manifest.json` (sidebar data for Web UI) and `feed.xml` (RSS 2.0 feed)                                                                                                                       |
 
 ## Report outputs
 
 Files written to `digests/YYYY-MM-DD/`:
 
-| File | Label | Notes |
-|------|-------|-------|
-| `ai-cli.md` | `digest` | Always generated |
-| `ai-agents.md` | `openclaw` | Always generated |
-| `ai-infra.md` | `infra` | Always generated |
-| `ai-web.md` | `web` | Skipped if no new sitemap content |
-| `ai-trending.md` | `trending` | Skipped if both data sources fail |
-| `ai-hn.md` | `hn` | Skipped if Algolia fetch fails |
+| File                     | Label      | Notes                                                                               |
+| ------------------------ | ---------- | ----------------------------------------------------------------------------------- |
+| `ai-cli.md`              | `digest`   | Always generated                                                                    |
+| `ai-agents.md`           | `openclaw` | Always generated                                                                    |
+| `ai-infra.md`            | `infra`    | Always generated                                                                    |
+| `ai-web.md`              | `web`      | Skipped if no new sitemap content                                                   |
+| `ai-trending.md`         | `trending` | Skipped if both data sources fail                                                   |
+| `ai-hn.md`               | `hn`       | Skipped if Algolia fetch fails                                                      |
+| `daily-inspiration.json` | —          | Chinese-only independent inspiration card; always generated with evergreen fallback |
+
+`config/inspiration-catalog.json` is the verified evergreen inspiration pool. `digests/inspiration-state.json` stores recent candidate IDs for 30-day deduplication and is committed by the daily workflow.
 
 ## Tracked sources
 

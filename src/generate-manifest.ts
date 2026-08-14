@@ -38,9 +38,10 @@ const REPORT_FILES = [
 ] as const;
 const MAX_FEED_ITEMS = 30;
 
-interface DateEntry {
+export interface DateEntry {
   date: string;
   reports: string[];
+  hasInspiration: boolean;
 }
 
 interface Manifest {
@@ -66,6 +67,19 @@ export function toRfc822(date: Date): string {
 
 export function escapeXml(s: string): string {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+export function buildDateEntry(date: string, fileNames: string[]): DateEntry {
+  const files = new Set(fileNames);
+  return {
+    date,
+    reports: REPORT_FILES.filter((report) => files.has(`${report}.md`)),
+    hasInspiration: files.has("daily-inspiration.json"),
+  };
+}
+
+export function shouldIncludeDateEntry(entry: DateEntry): boolean {
+  return entry.reports.length > 0 || entry.hasInspiration;
 }
 
 async function getReportContent(date: string, report: string): Promise<ReportContent> {
@@ -106,11 +120,8 @@ async function main(): Promise<void> {
     .filter((name) => DATE_RE.test(name) && fs.statSync(path.join(DIGESTS_DIR, name)).isDirectory())
     .sort()
     .reverse()
-    .map((date) => {
-      const reports = REPORT_FILES.filter((r) => fs.existsSync(path.join(DIGESTS_DIR, date, `${r}.md`)));
-      return { date, reports };
-    })
-    .filter((e) => e.reports.length > 0);
+    .map((date) => buildDateEntry(date, fs.readdirSync(path.join(DIGESTS_DIR, date))))
+    .filter(shouldIncludeDateEntry);
 
   const manifest: Manifest = {
     generated: new Date().toISOString(),
