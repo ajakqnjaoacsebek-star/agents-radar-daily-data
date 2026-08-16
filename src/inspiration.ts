@@ -49,8 +49,14 @@ export interface InspirationHistoryEntry {
   date: string;
 }
 
+export interface WeeklyDynamicState {
+  week: string;
+  count: number;
+}
+
 export interface InspirationState {
   recent: InspirationHistoryEntry[];
+  weeklyDynamic?: WeeklyDynamicState;
 }
 
 export interface InspirationInputs {
@@ -212,6 +218,17 @@ export function filterRecentlyUsed(
     state.recent.filter((entry) => Date.parse(`${entry.date}T00:00:00Z`) >= cutoff).map((entry) => entry.id),
   );
   return candidates.filter((candidate) => !blocked.has(candidate.id));
+}
+
+export function weekKey(dateStr: string): string {
+  const date = new Date(`${dateStr}T00:00:00Z`);
+  const day = date.getUTCDay() || 7;
+  date.setUTCDate(date.getUTCDate() - day + 1);
+  return date.toISOString().slice(0, 10);
+}
+
+export function weeklyDynamicCount(state: InspirationState, dateStr: string): number {
+  return state.weeklyDynamic?.week === weekKey(dateStr) ? state.weeklyDynamic.count : 0;
 }
 
 function requiredText(value: unknown, field: string): string {

@@ -11,8 +11,11 @@ import {
   type InspirationCard,
   type InspirationInputs,
   type InspirationState,
+  weeklyDynamicCount,
+  weekKey,
 } from "./inspiration.ts";
 import { callLlm, saveFile } from "./report.ts";
+import { loadInspirationSignals } from "./inspiration-refresh.ts";
 
 const CATALOG_PATH = path.join("config", "inspiration-catalog.json");
 const STATE_PATH = path.join("digests", "inspiration-state.json");
@@ -37,6 +40,7 @@ interface GenerateInspirationCardParams {
 
 export interface SaveDailyInspirationOptions {
   allowLlm?: boolean;
+  signalCandidates?: InspirationCandidate[];
 }
 
 const defaultDeps: InspirationGenerationDeps = {
@@ -63,10 +67,9 @@ export async function generateInspirationCard({
   deps = defaultDeps,
 }: GenerateInspirationCardParams): Promise<InspirationCard> {
   const eligible = filterRecentlyUsed(candidates, state, date, RECENT_DAYS);
-  const modelPool = shuffled(eligible.length ? eligible : candidates, deps.random).slice(
-    0,
-    MODEL_CANDIDATE_LIMIT,
-  );
+  const dynamicAllowed = weeklyDynamicCount(state, date) < 3;
+  const selectable = eligible.filter((candidate) => dynamicAllowed || candidate.origin !== "dynamic");
+  const modelPool = shuffled(selectable, deps.random).slice(0, MODEL_CANDIDATE_LIMIT);
 
   if (allowLlm && modelPool.length) {
     try {
@@ -77,8 +80,13 @@ export async function generateInspirationCard({
     }
   }
 
+  const eligibleDynamic = dynamicAllowed ? eligible.filter((candidate) => candidate.origin === "dynamic") : [];
   const eligibleEvergreen = filterRecentlyUsed(evergreenCandidates, state, date, RECENT_DAYS);
-  const fallbackPool = eligibleEvergreen.length ? eligibleEvergreen : evergreenCandidates;
+  const fallbackPool = eligibleDynamic.length
+    ? eligibleDynamic
+    : eligibleEvergreen.length
+      ? eligibleEvergreen
+      : evergreenCandidates;
   return createFallbackCard(fallbackPool, date, generatedAt, deps.random);
 }
 
@@ -86,6 +94,7 @@ export function updateInspirationState(
   state: InspirationState,
   selectedId: string,
   date: string,
+  origin?: InspirationCandidate["origin"],
 ): InspirationState {
   const current = Date.parse(`${date}T00:00:00Z`);
   const cutoff = current - HISTORY_DAYS * 24 * 60 * 60 * 1000;
@@ -93,7 +102,16 @@ export function updateInspirationState(
     (entry) => entry.date !== date && Date.parse(`${entry.date}T00:00:00Z`) >= cutoff,
   );
   recent.push({ id: selectedId, date });
-  return { recent };
+  const next: InspirationState = { recent };
+  if (origin === "dynamic") {
+    next.weeklyDynamic = {
+      week: weekKey(date),
+      count: weeklyDynamicCount(state, date) + 1,
+    };
+  } else if (state.weeklyDynamic && state.weeklyDynamic.week === weekKey(date)) {
+    next.weeklyDynamic = state.weeklyDynamic;
+  }
+  return next;
 }
 
 export function loadInspirationCatalog(filePath = CATALOG_PATH): InspirationCandidate[] {
@@ -110,6 +128,12 @@ export function loadInspirationState(filePath = STATE_PATH): InspirationState {
         (entry): entry is { id: string; date: string } =>
           typeof entry?.id === "string" && /^\d{4}-\d{2}-\d{2}$/.test(entry.date ?? ""),
       ),
+      ...(parsed.weeklyDynamic &&
+      typeof parsed.weeklyDynamic.week === "string" &&
+      Number.isInteger(parsed.weeklyDynamic.count) &&
+      parsed.weeklyDynamic.count >= 0
+        ? { weeklyDynamic: parsed.weeklyDynamic }
+        : {}),
     };
   } catch {
     return { recent: [] };
@@ -123,7 +147,10 @@ export async function saveDailyInspiration(
   options: SaveDailyInspirationOptions = {},
 ): Promise<InspirationCard> {
   const evergreenCandidates = loadInspirationCatalog();
-  const dynamicCandidates = buildDynamicCandidates(inputs);
+  const dynamicCandidates = [
+    ...buildDynamicCandidates(inputs),
+    ...(options.signalCandidates ?? loadInspirationSignals()),
+  ];
   const candidates = validateCatalog([...evergreenCandidates, ...dynamicCandidates]);
   const state = loadInspirationState();
   const card = await generateInspirationCard({
@@ -139,7 +166,7 @@ export async function saveDailyInspiration(
   fs.mkdirSync(path.dirname(STATE_PATH), { recursive: true });
   fs.writeFileSync(
     STATE_PATH,
-    JSON.stringify(updateInspirationState(state, card.candidateId, date), null, 2) + "\n",
+    JSON.stringify(updateInspirationState(state, card.candidateId, date, card.origin), null, 2) + "\n",
     "utf-8",
   );
   console.log(`  [inspiration] Saved ${outputPath}`);

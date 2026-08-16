@@ -6,6 +6,8 @@ A GitHub Actions workflow for aggregating AI ecosystem signals from 10 data sour
 
 > 技术日报当前已暂停自动定时运行，以避免在模型额度不足时产生 API 费用；每日灵感由独立工作流继续运行，并直接从核验候选库生成，不调用模型。历史日报和手动运行入口仍保留。恢复技术日报时，将 `.github/workflows/daily-digest.yml` 中的 `schedule` 配置重新启用即可。
 
+每周日还会从 GitHub、Hacker News 和 Hugging Face 的公开信号中更新动态候选池。动态候选会直接进入推荐池，但每周最多有 3 条动态候选真正出现在每日卡片中，其余时间由长期候选和历史信号补足；动态信号保留 90 天并按来源去重。
+
 ### Data Sources
 
 | Source                                                            | Type                                            | Data                                                  |

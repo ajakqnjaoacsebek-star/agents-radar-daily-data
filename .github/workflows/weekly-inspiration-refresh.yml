@@ -1,0 +1,51 @@
+name: Weekly Inspiration Signals
+
+on:
+  schedule:
+    # 每周日 00:00 UTC = 08:00 CST，先于每日灵感 08:15 运行。
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-inspiration-refresh-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Refresh public inspiration signals
+        run: pnpm inspiration:refresh
+
+      - name: Commit signal pool
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add config/inspiration-signals.json
+          if git diff --cached --quiet; then
+            echo "No signal changes"
+          else
+            git commit -m "chore: refresh inspiration signals"
+            git pull --rebase
+            git push
+          fi

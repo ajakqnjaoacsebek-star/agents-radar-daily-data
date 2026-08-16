@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Generate verified evergreen inspiration
+      - name: Generate verified inspiration from signals and evergreen catalog
         run: pnpm inspiration:only
 
       - name: Commit inspiration card

@@ -1,5 +1,6 @@
 import { toCstDateStr } from "./date.ts";
 import { saveDailyInspiration } from "./inspiration-generator.ts";
+import { loadInspirationSignals } from "./inspiration-refresh.ts";
 import type { InspirationInputs } from "./inspiration.ts";
 
 // This path intentionally uses only the verified evergreen catalog. It keeps
@@ -13,4 +14,7 @@ const emptyInputs = {
 } as unknown as InspirationInputs;
 
 const now = new Date();
-await saveDailyInspiration(emptyInputs, toCstDateStr(now), now.toISOString(), { allowLlm: false });
+await saveDailyInspiration(emptyInputs, toCstDateStr(now), now.toISOString(), {
+  allowLlm: false,
+  signalCandidates: loadInspirationSignals(undefined, toCstDateStr(now)),
+});

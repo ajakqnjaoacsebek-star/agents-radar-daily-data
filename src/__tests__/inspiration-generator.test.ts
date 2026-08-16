@@ -50,6 +50,42 @@ describe("generateInspirationCard", () => {
     expect(card.candidateId).toBe(evergreen.id);
   });
 
+  it("uses a dynamic candidate while the weekly quota remains", async () => {
+    const state = { recent: [], weeklyDynamic: { week: "2026-08-10", count: 2 } };
+    const card = await generateInspirationCard({
+      candidates: [dynamic, evergreen],
+      evergreenCandidates: [evergreen],
+      state,
+      date: "2026-08-14",
+      generatedAt: "2026-08-14T00:00:00Z",
+      allowLlm: false,
+      deps: { generate: async () => "{}", random: () => 0 },
+    });
+
+    expect(card.origin).toBe("dynamic");
+    expect(updateInspirationState(state, card.candidateId, card.date, card.origin)).toEqual({
+      recent: [{ id: card.candidateId, date: card.date }],
+      weeklyDynamic: { week: "2026-08-10", count: 3 },
+    });
+  });
+
+  it("falls back to evergreen after three dynamic recommendations in a week", async () => {
+    const card = await generateInspirationCard({
+      candidates: [dynamic, evergreen],
+      evergreenCandidates: [evergreen],
+      state: {
+        recent: [],
+        weeklyDynamic: { week: "2026-08-10", count: 3 },
+      },
+      date: "2026-08-14",
+      generatedAt: "2026-08-14T00:00:00Z",
+      allowLlm: false,
+      deps: { generate: async () => "{}", random: () => 0 },
+    });
+
+    expect(card.origin).toBe("evergreen");
+  });
+
   it("selects from eligible candidates and preserves the verified source", async () => {
     const deps: InspirationGenerationDeps = {
       generate: async () =>
@@ -77,7 +113,7 @@ describe("generateInspirationCard", () => {
     expect(card.generatedBy).toBe("llm");
   });
 
-  it("falls back to verified evergreen copy when generation fails", async () => {
+  it("falls back to a source-bound dynamic copy when generation fails", async () => {
     const deps: InspirationGenerationDeps = {
       generate: async () => {
         throw new Error("provider unavailable");
@@ -94,7 +130,8 @@ describe("generateInspirationCard", () => {
       deps,
     });
 
-    expect(card.candidateId).toBe(evergreen.id);
+    expect(card.candidateId).toBe(dynamic.id);
+    expect(card.origin).toBe("dynamic");
     expect(card.generatedBy).toBe("fallback");
   });
 
