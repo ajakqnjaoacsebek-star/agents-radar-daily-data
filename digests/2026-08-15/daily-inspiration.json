@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-16T13:04:39.169Z",
+  "candidateId": "evergreen:baserow",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Baserow：开源的在线数据库表格",
+  "summary": "Baserow 提供类似电子表格的数据库界面、表单和自动化能力。",
+  "whyInteresting": "表格可以逐渐长成一个带权限和接口的小型业务系统。",
+  "remixIdea": "用它收集项目想法，并自动生成按难度、价值和来源分类的视图。",
+  "source": {
+    "label": "Baserow",
+    "url": "https://baserow.io/"
+  },
+  "generatedBy": "fallback"
+}

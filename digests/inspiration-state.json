@@ -3,6 +3,14 @@
     {
       "id": "evergreen:have-i-been-pwned",
       "date": "2026-08-14"
+    },
+    {
+      "id": "evergreen:baserow",
+      "date": "2026-08-15"
+    },
+    {
+      "id": "evergreen:alternativeto",
+      "date": "2026-08-16"
     }
   ]
 }
