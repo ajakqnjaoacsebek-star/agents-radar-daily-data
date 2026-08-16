@@ -2,7 +2,9 @@
 
 English | [中文](./README.zh.md)
 
-A GitHub Actions workflow that runs every morning at 08:00 CST. It aggregates AI ecosystem signals from 10 data sources, then publishes bilingual (Chinese + English) daily digests as GitHub Issues and committed Markdown files.
+A GitHub Actions workflow for aggregating AI ecosystem signals from 10 data sources and publishing bilingual (Chinese + English) daily digests as GitHub Issues and committed Markdown files.
+
+> 技术日报当前已暂停自动定时运行，以避免在模型额度不足时产生 API 费用；每日灵感由独立工作流继续运行，并直接从核验候选库生成，不调用模型。历史日报和手动运行入口仍保留。恢复技术日报时，将 `.github/workflows/daily-digest.yml` 中的 `schedule` 配置重新启用即可。
 
 ### Data Sources
 

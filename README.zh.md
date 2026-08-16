@@ -2,7 +2,9 @@
 
 [English](./README.md) | 中文
 
-每天早上 08:00 CST 自动运行的 GitHub Actions 工作流。聚合 10 个 AI 生态数据源，以中英双语每日简报的形式发布为 GitHub Issues 并提交为 Markdown 文件。每周和每月自动生成汇总报告。
+用于聚合 10 个 AI 生态数据源的 GitHub Actions 工作流，以中英双语每日简报的形式发布为 GitHub Issues 并提交为 Markdown 文件。每周和每月自动生成汇总报告。
+
+> 技术日报当前已暂停自动定时运行，以避免在模型额度不足时产生 API 费用；每日灵感由独立工作流继续运行，并直接从核验候选库生成，不调用模型。历史日报和手动运行入口仍保留。恢复技术日报时，将 `.github/workflows/daily-digest.yml` 中的 `schedule` 配置重新启用即可。
 
 ### 数据源
 

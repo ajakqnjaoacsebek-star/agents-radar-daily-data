@@ -2,9 +2,8 @@
 name: Daily Agents Radar
 
 on:
-  schedule:
-    # 每天 00:00 UTC = 08:00 CST (UTC+8)
-    - cron: "0 0 * * *"
+  # 暂停自动定时，避免在 DeepSeek 余额不足时继续产生 API 请求。
+  # 需要恢复每日运行时，将下面的 schedule 块恢复即可。
   workflow_dispatch:
 
 permissions:

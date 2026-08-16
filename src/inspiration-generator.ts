@@ -31,7 +31,12 @@ interface GenerateInspirationCardParams {
   state: InspirationState;
   date: string;
   generatedAt: string;
+  allowLlm?: boolean;
   deps?: InspirationGenerationDeps;
+}
+
+export interface SaveDailyInspirationOptions {
+  allowLlm?: boolean;
 }
 
 const defaultDeps: InspirationGenerationDeps = {
@@ -54,6 +59,7 @@ export async function generateInspirationCard({
   state,
   date,
   generatedAt,
+  allowLlm = true,
   deps = defaultDeps,
 }: GenerateInspirationCardParams): Promise<InspirationCard> {
   const eligible = filterRecentlyUsed(candidates, state, date, RECENT_DAYS);
@@ -62,7 +68,7 @@ export async function generateInspirationCard({
     MODEL_CANDIDATE_LIMIT,
   );
 
-  if (modelPool.length) {
+  if (allowLlm && modelPool.length) {
     try {
       const raw = await deps.generate(buildInspirationPrompt(modelPool, date));
       return parseInspirationSelection(raw, modelPool, date, generatedAt);
@@ -114,6 +120,7 @@ export async function saveDailyInspiration(
   inputs: InspirationInputs,
   date: string,
   generatedAt: string,
+  options: SaveDailyInspirationOptions = {},
 ): Promise<InspirationCard> {
   const evergreenCandidates = loadInspirationCatalog();
   const dynamicCandidates = buildDynamicCandidates(inputs);
@@ -125,6 +132,7 @@ export async function saveDailyInspiration(
     state,
     date,
     generatedAt,
+    allowLlm: options.allowLlm,
   });
 
   const outputPath = saveFile(JSON.stringify(card, null, 2) + "\n", date, "daily-inspiration.json");

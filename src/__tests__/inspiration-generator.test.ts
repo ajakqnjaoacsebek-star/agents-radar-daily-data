@@ -27,6 +27,29 @@ const dynamic: InspirationCandidate = {
 };
 
 describe("generateInspirationCard", () => {
+  it("can generate a verified fallback without calling an LLM", async () => {
+    let calls = 0;
+    const card = await generateInspirationCard({
+      candidates: [evergreen],
+      evergreenCandidates: [evergreen],
+      state: { recent: [] },
+      date: "2026-08-14",
+      generatedAt: "2026-08-14T00:00:00Z",
+      allowLlm: false,
+      deps: {
+        generate: async () => {
+          calls += 1;
+          return "{}";
+        },
+        random: () => 0,
+      },
+    });
+
+    expect(calls).toBe(0);
+    expect(card.generatedBy).toBe("fallback");
+    expect(card.candidateId).toBe(evergreen.id);
+  });
+
   it("selects from eligible candidates and preserves the verified source", async () => {
     const deps: InspirationGenerationDeps = {
       generate: async () =>
