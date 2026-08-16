@@ -1,0 +1,422 @@
+[
+  {
+    "id": "signal:hn:49319889",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "What 50 open source projects taught us about security in the AI era",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319824",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "The Seven Weaknesses of AI Today",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://medium.com/tech-ai-chat/the-seven-weaknesses-of-ai-today-eee66aaa9c10"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319814",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: A public AI whose memory is shared across all users",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://wildstatic.com/"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319677",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "A.I. Agents Are Taking Online Courses for Cheating Students",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.nytimes.com/2026/08/10/us/ai-cheating-online-degrees.html"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319610",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Testing Moonshot AI's Kimi K3 Inside Claude Code",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://philippdubach.com/posts/kimi-k3-inside-claude-code/"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319603",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: A pre-execution guard that stops AI agents running destructive commands",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/vandith1/agent-guard"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319583",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Rustwright: Automate browsers with 70% less memory",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/Skyvern-AI/rustwright"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319444",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI-Prepped Paper Passed Peer Review. Now What?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://cacm.acm.org/news/ai-prepped-paper-passed-peer-review-now-what/"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319420",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "X1 First Flight – Largest Electric Aircraft [video]",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=fEudbAjschs"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:hn:49319348",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Measuring Autonomous AI Research",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.primeintellect.ai/blog/measuring-autonomous-research"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:deepseek-ai/DeepSeek-R1",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Meta-Llama-3-8B",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Llama-3.1-8B-Instruct",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "deepseek-ai/DeepSeek-V4-Pro",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:openai/gpt-oss-120b",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "openai/gpt-oss-120b",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · openai/gpt-oss-120b",
+      "url": "https://huggingface.co/openai/gpt-oss-120b"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:bigscience/bloom",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "bigscience/bloom",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:zai-org/GLM-5.2",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "zai-org/GLM-5.2",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · zai-org/GLM-5.2",
+      "url": "https://huggingface.co/zai-org/GLM-5.2"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:openai/gpt-oss-20b",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "openai/gpt-oss-20b",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · openai/gpt-oss-20b",
+      "url": "https://huggingface.co/openai/gpt-oss-20b"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Llama-2-7b-chat-hf",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
+    },
+    "signalDate": "2026-08-16"
+  },
+  {
+    "id": "signal:github:vuphongle/oss-pr-reviewer",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "vuphongle/oss-pr-reviewer",
+    "summary": "AI-powered CLI for reviewing GitHub pull requests, detecting potential bugs, security risks, regressions, and missing tests, with structured Markdown reports for open-source maintainers.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · vuphongle/oss-pr-reviewer",
+      "url": "https://github.com/vuphongle/oss-pr-reviewer"
+    },
+    "signalDate": "2026-08-13"
+  },
+  {
+    "id": "signal:github:idavidov13/agentic-playwright",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "idavidov13/agentic-playwright",
+    "summary": "Production-grade Playwright + TypeScript Scaffold for Agentic Testing. Harness for all major AI coding agents baked in.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · idavidov13/agentic-playwright",
+      "url": "https://github.com/idavidov13/agentic-playwright"
+    },
+    "signalDate": "2026-08-13"
+  },
+  {
+    "id": "signal:github:vercel-labs/eve-software-factory-template",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "vercel-labs/eve-software-factory-template",
+    "summary": "Meet Foreman, an eve Software Factory.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · vercel-labs/eve-software-factory-template",
+      "url": "https://github.com/vercel-labs/eve-software-factory-template"
+    },
+    "signalDate": "2026-08-12"
+  },
+  {
+    "id": "signal:github:DrHazemAli/enterprise-system-design",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "DrHazemAli/enterprise-system-design",
+    "summary": "A source-grounded course & reference for engineers designing systems that must survive real traffic, partial failure, security review, and changing requirements, spanning enterprise system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical infrastructure.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · DrHazemAli/enterprise-system-design",
+      "url": "https://github.com/DrHazemAli/enterprise-system-design"
+    },
+    "signalDate": "2026-08-12"
+  },
+  {
+    "id": "signal:github:wzchav/tokentab",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "wzchav/tokentab",
+    "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · wzchav/tokentab",
+      "url": "https://github.com/wzchav/tokentab"
+    },
+    "signalDate": "2026-08-12"
+  },
+  {
+    "id": "signal:github:guillaumemeyer/watermarks-remover",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "guillaumemeyer/watermarks-remover",
+    "summary": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · guillaumemeyer/watermarks-remover",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover"
+    },
+    "signalDate": "2026-08-11"
+  },
+  {
+    "id": "signal:github:0xsline/awesome-deepseek-harness",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "0xsline/awesome-deepseek-harness",
+    "summary": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · 0xsline/awesome-deepseek-harness",
+      "url": "https://github.com/0xsline/awesome-deepseek-harness"
+    },
+    "signalDate": "2026-08-11"
+  },
+  {
+    "id": "signal:github:dengzi008/DramaLens",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "dengzi008/DramaLens",
+    "summary": "Local-first Chrome extension for timestamped transcription and human-reviewed short-form drama analysis.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · dengzi008/DramaLens",
+      "url": "https://github.com/dengzi008/DramaLens"
+    },
+    "signalDate": "2026-08-11"
+  },
+  {
+    "id": "signal:github:evan-steinhilb/md2hd",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "evan-steinhilb/md2hd",
+    "summary": "Markdown, mapped - the MD2HD CLI. Pull the repo, tell your agent to create an MD2HD map, visually comprehend complex topics and relationships.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · evan-steinhilb/md2hd",
+      "url": "https://github.com/evan-steinhilb/md2hd"
+    },
+    "signalDate": "2026-08-11"
+  },
+  {
+    "id": "signal:github:wild-canyonhoxo3344/AI-Trading-Bot-Codepen",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "wild-canyonhoxo3344/AI-Trading-Bot-Codepen",
+    "summary": "I’ve just created my own bot and I’m excited to share my work with you!",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · wild-canyonhoxo3344/AI-Trading-Bot-Codepen",
+      "url": "https://github.com/wild-canyonhoxo3344/AI-Trading-Bot-Codepen"
+    },
+    "signalDate": "2026-08-10"
+  }
+]
