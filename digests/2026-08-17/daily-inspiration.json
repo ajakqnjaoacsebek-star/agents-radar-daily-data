@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T00:15:00.000Z",
+  "candidateId": "signal:github:evan-steinhilb/md2hd",
+  "origin": "dynamic",
+  "category": "开源项目",
+  "title": "evan-steinhilb/md2hd",
+  "summary": "Markdown, mapped - the MD2HD CLI. Pull the repo, tell your agent to create an MD2HD map, visually comprehend complex topics and relationships.",
+  "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+  "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+  "source": {
+    "label": "GitHub · evan-steinhilb/md2hd",
+    "url": "https://github.com/evan-steinhilb/md2hd"
+  },
+  "generatedBy": "fallback"
+}

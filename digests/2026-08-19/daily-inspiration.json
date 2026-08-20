@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T00:15:00.000Z",
+  "candidateId": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
+  "origin": "dynamic",
+  "category": "AI 小发现",
+  "title": "meta-llama/Llama-3.1-8B-Instruct",
+  "summary": "这是一个用于 text-generation 的公开模型页面。",
+  "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+  "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+  "source": {
+    "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
+    "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+  },
+  "generatedBy": "fallback"
+}

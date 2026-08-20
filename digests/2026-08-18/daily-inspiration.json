@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T00:15:00.000Z",
+  "candidateId": "signal:github:vercel-labs/eve-software-factory-template",
+  "origin": "dynamic",
+  "category": "开源项目",
+  "title": "vercel-labs/eve-software-factory-template",
+  "summary": "Meet Foreman, an eve Software Factory.",
+  "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+  "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+  "source": {
+    "label": "GitHub · vercel-labs/eve-software-factory-template",
+    "url": "https://github.com/vercel-labs/eve-software-factory-template"
+  },
+  "generatedBy": "fallback"
+}

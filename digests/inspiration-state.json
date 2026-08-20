@@ -11,6 +11,26 @@
     {
       "id": "evergreen:alternativeto",
       "date": "2026-08-16"
+    },
+    {
+      "id": "signal:github:evan-steinhilb/md2hd",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "signal:github:vercel-labs/eve-software-factory-template",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "evergreen:jan-ai",
+      "date": "2026-08-20"
     }
-  ]
+  ],
+  "weeklyDynamic": {
+    "week": "2026-08-17",
+    "count": 3
+  }
 }
