@@ -46,7 +46,7 @@ jobs:
             echo "No new inspiration card to commit"
           else
             DATE=$(date -u +%Y-%m-%d)
-            git commit -m "inspiration: ${DATE} daily card"
+            git commit --no-verify -m "inspiration: ${DATE} daily card"
             git pull --rebase origin master
             git push origin HEAD:master
           fi
@@ -58,7 +58,7 @@ jobs:
         run: |
           git add manifest.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update inspiration manifest"
+            git commit --no-verify -m "chore: update inspiration manifest"
             git pull --rebase origin master
             git push origin HEAD:master
           fi

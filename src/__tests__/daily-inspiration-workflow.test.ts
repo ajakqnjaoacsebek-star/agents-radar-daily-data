@@ -8,4 +8,10 @@ describe("Daily Inspiration workflow", () => {
     expect(workflow).toContain("git pull --rebase origin master");
     expect(workflow).toContain("git push origin HEAD:master");
   });
+
+  it("does not run local Husky hooks for generated-data commits", () => {
+    const workflow = fs.readFileSync(".github/workflows/daily-inspiration.yml", "utf8");
+
+    expect(workflow.match(/git commit --no-verify/g)).toHaveLength(2);
+  });
 });

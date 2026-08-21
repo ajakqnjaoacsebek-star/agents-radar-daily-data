@@ -27,6 +27,10 @@
     {
       "id": "evergreen:jan-ai",
       "date": "2026-08-20"
+    },
+    {
+      "id": "evergreen:litellm",
+      "date": "2026-08-21"
     }
   ],
   "weeklyDynamic": {
