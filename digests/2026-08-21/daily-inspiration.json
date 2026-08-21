@@ -1,18 +1,18 @@
 {
   "version": 1,
   "date": "2026-08-21",
-  "generatedAt": "2026-08-21T06:36:34.619Z",
-  "candidateId": "evergreen:radiooooo",
+  "generatedAt": "2026-08-21T06:45:45.287Z",
+  "candidateId": "evergreen:browser-use",
   "origin": "evergreen",
-  "category": "数字发现",
-  "title": "Radiooooo：选择国家和年代来听音乐",
-  "summary": "Radiooooo 用地图和年代选择播放世界各地不同时期的音乐。",
-  "whyInteresting": "同一个国家在 1960 年和 2000 年听起来可能完全不同。",
-  "remixIdea": "随机选一个国家和年代，把听到的第一首喜欢的歌记进自己的探索清单。",
+  "category": "AI 项目",
+  "title": "Browser Use：让 AI 按步骤使用网页",
+  "summary": "Browser Use 是开源浏览器自动化项目，帮助 AI Agent 读取页面并执行网页操作。",
+  "whyInteresting": "很多重复网页工作可以被描述成目标，而不只是固定坐标脚本。",
+  "remixIdea": "可以做一个只访问公开页面的价格记录或资料收集实验。",
   "source": {
-    "label": "Radiooooo",
-    "url": "https://radiooooo.com/"
+    "label": "Browser Use",
+    "url": "https://github.com/browser-use/browser-use"
   },
-  "caution": "部分功能可能需要账号或付费方案。",
+  "caution": "不要让自动化处理支付、验证码或未经授权的账号操作。",
   "generatedBy": "fallback"
 }
