@@ -14,4 +14,10 @@ describe("Daily Inspiration workflow", () => {
 
     expect(workflow.match(/git commit --no-verify/g)).toHaveLength(2);
   });
+
+  it("commits every file produced by manifest generation", () => {
+    const workflow = fs.readFileSync(".github/workflows/daily-inspiration.yml", "utf8");
+
+    expect(workflow).toContain("git add manifest.json feed.xml");
+  });
 });

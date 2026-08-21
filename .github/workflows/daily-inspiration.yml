@@ -56,7 +56,7 @@ jobs:
 
       - name: Commit manifest
         run: |
-          git add manifest.json
+          git add manifest.json feed.xml
           if ! git diff --cached --quiet; then
             git commit --no-verify -m "chore: update inspiration manifest"
             git pull --rebase origin master
