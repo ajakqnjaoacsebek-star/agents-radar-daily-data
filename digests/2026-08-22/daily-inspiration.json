@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T01:52:37.019Z",
+  "candidateId": "evergreen:comfyui",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "ComfyUI：把图片生成过程变成可见节点",
+  "summary": "ComfyUI 是基于节点的生成式图像工作流界面，可组合模型与图像处理步骤。",
+  "whyInteresting": "生成图片不再只是输入一句话，而是可以看见每一步怎样连接。",
+  "remixIdea": "把固定尺寸、风格和后处理保存为模板，批量生成统一视觉素材。",
+  "source": {
+    "label": "ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI"
+  },
+  "caution": "下载模型前应检查许可、来源和磁盘占用。",
+  "generatedBy": "fallback"
+}
