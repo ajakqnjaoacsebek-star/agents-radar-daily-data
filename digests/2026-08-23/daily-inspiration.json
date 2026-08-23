@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T02:01:38.755Z",
+  "candidateId": "evergreen:libreoffice",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "LibreOffice：可以离线使用的开源办公套件",
+  "summary": "LibreOffice 提供文档、表格、演示和绘图等桌面办公工具。",
+  "whyInteresting": "常见办公文件不一定只能依赖订阅制软件打开。",
+  "remixIdea": "给不常联网的旧电脑安装一套完整离线办公环境。",
+  "source": {
+    "label": "LibreOffice",
+    "url": "https://www.libreoffice.org/"
+  },
+  "generatedBy": "fallback"
+}
