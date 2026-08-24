@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   mergeAiProjectSignals,
+  organizeAiProjectEvidence,
   parsePublicFeed,
   parseOrganizedAiProjectSignals,
   type AiProjectSignalEvidence,
@@ -94,5 +95,15 @@ describe("weekly AI project refresh", () => {
     );
 
     expect(mergeAiProjectSignals(existing, [], "2026-08-24")).toEqual(existing);
+  });
+
+  it("keeps source-bound candidates when DeepSeek returns truncated JSON", async () => {
+    const candidates = await organizeAiProjectEvidence([evidence], "test-key", async () =>
+      Response.json({ choices: [{ message: { content: '{"candidates":[' } }] }),
+    );
+
+    expect(candidates).toHaveLength(1);
+    expect(candidates[0]?.candidateId).toBe("signal:github:browser-use/browser-use");
+    expect(candidates[0]?.source?.url).toBe(evidence.source.url);
   });
 });

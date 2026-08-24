@@ -273,22 +273,27 @@ export async function organizeAiProjectEvidence(
 ): Promise<AiProjectCandidate[]> {
   if (!evidence.length) return [];
   if (!apiKey) return validateAiProjectCatalog(evidence.map(sourceBoundFallback));
-  const response = await fetchImpl("https://api.deepseek.com/chat/completions", {
-    method: "POST",
-    headers: { "content-type": "application/json", authorization: `Bearer ${apiKey}` },
-    body: JSON.stringify({
-      model: "deepseek-chat",
-      temperature: 0.2,
-      max_tokens: 8000,
-      messages: [{ role: "user", content: buildAiProjectOrganizerPrompt(evidence) }],
-    }),
-    signal: AbortSignal.timeout(60_000),
-  });
-  if (!response.ok) throw new Error(`DeepSeek returned HTTP ${response.status}`);
-  const payload = (await response.json()) as { choices?: Array<{ message?: { content?: string } }> };
-  const content = payload.choices?.[0]?.message?.content;
-  if (!content) throw new Error("DeepSeek returned no AI project candidates");
-  return parseOrganizedAiProjectSignals(content, evidence);
+  try {
+    const response = await fetchImpl("https://api.deepseek.com/chat/completions", {
+      method: "POST",
+      headers: { "content-type": "application/json", authorization: `Bearer ${apiKey}` },
+      body: JSON.stringify({
+        model: "deepseek-chat",
+        temperature: 0.2,
+        max_tokens: 8000,
+        messages: [{ role: "user", content: buildAiProjectOrganizerPrompt(evidence) }],
+      }),
+      signal: AbortSignal.timeout(60_000),
+    });
+    if (!response.ok) throw new Error(`DeepSeek returned HTTP ${response.status}`);
+    const payload = (await response.json()) as { choices?: Array<{ message?: { content?: string } }> };
+    const content = payload.choices?.[0]?.message?.content;
+    if (!content) throw new Error("DeepSeek returned no AI project candidates");
+    return parseOrganizedAiProjectSignals(content, evidence);
+  } catch (error) {
+    console.error(`  [ai-project] DeepSeek organizer failed; using source-bound evidence: ${error}`);
+    return validateAiProjectCatalog(evidence.map(sourceBoundFallback));
+  }
 }
 
 export async function refreshAiProjectSignals(
