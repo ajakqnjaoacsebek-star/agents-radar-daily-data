@@ -98,9 +98,10 @@ function hnCandidates(payload: { hits?: Array<Record<string, unknown>> }, date: 
     const id = typeof item.objectID === "string" ? item.objectID : "";
     const title = cleanText(item.title, "Hacker News 上的一条新讨论", 180);
     if (!id) return [];
-    const url = typeof item.url === "string" && /^https:\/\//.test(item.url)
-      ? item.url
-      : `https://news.ycombinator.com/item?id=${id}`;
+    const url =
+      typeof item.url === "string" && /^https:\/\//.test(item.url)
+        ? item.url
+        : `https://news.ycombinator.com/item?id=${id}`;
     return [
       {
         id: `signal:hn:${id}`,

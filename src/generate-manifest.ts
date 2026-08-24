@@ -42,6 +42,7 @@ export interface DateEntry {
   date: string;
   reports: string[];
   hasInspiration: boolean;
+  hasAiProject: boolean;
 }
 
 interface Manifest {
@@ -75,11 +76,12 @@ export function buildDateEntry(date: string, fileNames: string[]): DateEntry {
     date,
     reports: REPORT_FILES.filter((report) => files.has(`${report}.md`)),
     hasInspiration: files.has("daily-inspiration.json"),
+    hasAiProject: files.has("daily-ai-project.json"),
   };
 }
 
 export function shouldIncludeDateEntry(entry: DateEntry): boolean {
-  return entry.reports.length > 0 || entry.hasInspiration;
+  return entry.reports.length > 0 || entry.hasInspiration || entry.hasAiProject;
 }
 
 async function getReportContent(date: string, report: string): Promise<ReportContent> {

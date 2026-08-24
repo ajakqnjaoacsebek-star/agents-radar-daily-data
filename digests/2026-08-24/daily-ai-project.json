@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "date": "2026-08-24",
+  "candidateId": "daily-decision-log",
+  "origin": "original-concept",
+  "title": "轻量决策日志",
+  "oneLine": "每天只记录一个选择、理由和之后的结果。",
+  "summary": "每天只记录一个选择、理由和之后的结果。能训练把直觉转成可复盘的假设。",
+  "outcome": "一个能回看判断偏差的极简决策档案。",
+  "whyWorthwhile": "能训练把直觉转成可复盘的假设。",
+  "skills": [
+    "结构化记录",
+    "复盘"
+  ],
+  "realWorldPotential": "适合项目取舍、购买和学习安排。",
+  "feasibilityProbe": "连续记录七个小决定并在一周后补结果。",
+  "costAndRisks": [
+    "不应用分数替代价值判断或制造记录负担。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 25,
+    "currentStars": 1,
+    "explanation": "不应用分数替代价值判断或制造记录负担。"
+  },
+  "generatedBy": "curated-fallback"
+}

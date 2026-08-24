@@ -8,6 +8,16 @@ A GitHub Actions workflow for aggregating AI ecosystem signals from 10 data sour
 
 每周日还会从 GitHub、Hacker News 和 Hugging Face 的公开信号中更新动态候选池。动态候选会直接进入推荐池，但每周最多有 3 条动态候选真正出现在每日卡片中，其余时间由长期候选和历史信号补足；动态信号保留 90 天并按来源去重。
 
+### 每日 AI 项目（独立模块）
+
+- `.github/workflows/daily-ai-project.yml` 每天北京时间 08:30 从 120 条人工整理的长期库与近期信号池中确定性选择一个项目，不调用模型；输出 `digests/YYYY-MM-DD/daily-ai-project.json`。
+- `.github/workflows/weekly-ai-project-refresh.yml` 每周日北京时间 07:30 从 GitHub、Hacker News、Product Hunt、Hugging Face 和官方 Feed 更新近期池。配置 `DEEPSEEK_API_KEY` 时最多整理一次；无余额或来源失败时保留旧池，日更仍由长期库继续。
+- 真实项目必须保留核验来源，原创构想必须明确标记。模型生成的标题、摘要和链接不会覆盖抓取证据。
+- `manifest.json` 用独立 `hasAiProject` 字段标记日期；AI 项目状态和两个工作流都不读取或修改每日灵感文件。
+- 私人偏好只通过 `AI_PROJECT_VAULT_READ_TOKEN` 从独立私有仓库读取，日志和公共 JSON 不包含收藏、反馈或 token。仓库变量为 `AI_PROJECT_VAULT_OWNER`、`AI_PROJECT_VAULT_REPO`、`AI_PROJECT_VAULT_BRANCH`、`AI_PROJECT_VAULT_PATH`。
+
+本地验证：`pnpm ai-project:catalog` 重建长期库，`pnpm ai-project:refresh` 刷新近期池，`pnpm ai-project:only` 生成当天项目，`pnpm manifest` 更新站点索引。
+
 ### Data Sources
 
 | Source                                                            | Type                                            | Data                                                  |

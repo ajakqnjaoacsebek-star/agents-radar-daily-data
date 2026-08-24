@@ -80,7 +80,9 @@ export async function generateInspirationCard({
     }
   }
 
-  const eligibleDynamic = dynamicAllowed ? eligible.filter((candidate) => candidate.origin === "dynamic") : [];
+  const eligibleDynamic = dynamicAllowed
+    ? eligible.filter((candidate) => candidate.origin === "dynamic")
+    : [];
   const eligibleEvergreen = filterRecentlyUsed(evergreenCandidates, state, date, RECENT_DAYS);
   const fallbackPool = eligibleDynamic.length
     ? eligibleDynamic

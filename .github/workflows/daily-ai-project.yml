@@ -1,0 +1,63 @@
+name: Daily AI Project
+
+on:
+  schedule:
+    # Every day at 08:30 CST (UTC+8), independent from Daily Inspiration.
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-ai-project-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ai-project:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      AI_PROJECT_VAULT_OWNER: ${{ vars.AI_PROJECT_VAULT_OWNER }}
+      AI_PROJECT_VAULT_REPO: ${{ vars.AI_PROJECT_VAULT_REPO }}
+      AI_PROJECT_VAULT_BRANCH: ${{ vars.AI_PROJECT_VAULT_BRANCH }}
+      AI_PROJECT_VAULT_PATH: ${{ vars.AI_PROJECT_VAULT_PATH }}
+      AI_PROJECT_VAULT_READ_TOKEN: ${{ secrets.AI_PROJECT_VAULT_READ_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Select one source-bound AI project without a model call
+        run: pnpm ai-project:only
+      - name: Commit AI project card and state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add digests/*/daily-ai-project.json digests/ai-project-state.json
+          if git diff --cached --quiet; then
+            echo "No new AI project card to commit"
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            git commit --no-verify -m "ai-project: ${DATE} daily card"
+            git pull --rebase origin master
+            git push origin HEAD:master
+          fi
+      - name: Update web manifest
+        run: pnpm manifest
+      - name: Commit manifest
+        run: |
+          git add manifest.json feed.xml
+          if ! git diff --cached --quiet; then
+            git commit --no-verify -m "chore: update AI project manifest"
+            git pull --rebase origin master
+            git push origin HEAD:master
+          fi

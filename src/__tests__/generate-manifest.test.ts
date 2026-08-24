@@ -7,6 +7,7 @@ describe("buildDateEntry", () => {
       date: "2026-08-14",
       reports: ["ai-hn", "ai-hn-en"],
       hasInspiration: true,
+      hasAiProject: false,
     });
   });
 
@@ -15,7 +16,20 @@ describe("buildDateEntry", () => {
       date: "2026-08-13",
       reports: ["ai-cli"],
       hasInspiration: false,
+      hasAiProject: false,
     });
+  });
+
+  it("exposes AI project availability independently", () => {
+    const entry = buildDateEntry("2026-08-24", ["daily-ai-project.json"]);
+
+    expect(entry).toEqual({
+      date: "2026-08-24",
+      reports: [],
+      hasInspiration: false,
+      hasAiProject: true,
+    });
+    expect(shouldIncludeDateEntry(entry)).toBe(true);
   });
 
   it("keeps an inspiration-only date in the manifest", () => {
