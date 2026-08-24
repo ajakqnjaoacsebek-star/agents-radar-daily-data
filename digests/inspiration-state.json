@@ -39,10 +39,14 @@
     {
       "id": "evergreen:libreoffice",
       "date": "2026-08-23"
+    },
+    {
+      "id": "signal:hn:49319889",
+      "date": "2026-08-24"
     }
   ],
   "weeklyDynamic": {
-    "week": "2026-08-17",
-    "count": 3
+    "week": "2026-08-24",
+    "count": 1
   }
 }

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T01:59:45.570Z",
+  "candidateId": "signal:hn:49319889",
+  "origin": "dynamic",
+  "category": "社区发现",
+  "title": "What 50 open source projects taught us about security in the AI era",
+  "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+  "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+  "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+  "source": {
+    "label": "Hacker News",
+    "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/"
+  },
+  "generatedBy": "fallback"
+}
