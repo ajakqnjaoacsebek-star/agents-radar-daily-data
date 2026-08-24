@@ -93,6 +93,31 @@ describe("private preference loading", () => {
     expect(preferences.completed).toHaveLength(1);
     expect(preferences).not.toHaveProperty("favorites");
   });
+
+  it("respects a manual ability offset instead of auto-calibrating it", async () => {
+    const completed = ["codex", "codex", "self"].map((verification, index) => ({
+      projectId: `done-${index}`,
+      completedAt: "2026-08-20",
+      rating: { starsAtCompletion: 3 },
+      verification,
+    }));
+    const content = Buffer.from(
+      JSON.stringify({
+        version: 1,
+        revision: 4,
+        feedback: [],
+        completed,
+        ability: { offset: 0, mode: "manual" },
+      }),
+    ).toString("base64");
+    const preferences = await loadPrivateProjectPreferences(
+      { owner: "owner", repo: "vault", path: "data/state.json", token: "token" },
+      async () => Response.json({ content, encoding: "base64", sha: "abc" }),
+    );
+
+    expect(preferences.abilityOffset).toBe(0);
+    expect(preferences.abilityMode).toBe("manual");
+  });
 });
 
 describe("daily AI project storage", () => {

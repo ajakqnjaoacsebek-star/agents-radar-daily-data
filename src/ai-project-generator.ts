@@ -35,7 +35,7 @@ export interface SaveDailyAiProjectOptions {
 }
 
 export function defaultPrivateProjectPreferences(): PrivateProjectPreferences {
-  return { abilityOffset: 0, feedback: [], completed: [] };
+  return { abilityOffset: 0, abilityMode: "auto", feedback: [], completed: [] };
 }
 
 function validDate(value: unknown): value is string {
@@ -88,6 +88,7 @@ function sanitizePreferences(value: unknown): PrivateProjectPreferences {
     : [];
   const preferences: PrivateProjectPreferences = {
     abilityOffset: typeof ability.offset === "number" ? Math.max(0, Math.floor(ability.offset)) : 0,
+    abilityMode: ability.mode === "manual" ? "manual" : "auto",
     feedback,
     completed,
   };

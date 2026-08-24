@@ -84,6 +84,7 @@ export interface CompletedCalibrationEntry {
 
 export interface PrivateProjectPreferences {
   abilityOffset: number;
+  abilityMode?: "auto" | "manual";
   difficultyThresholds?: [number, number, number, number];
   feedback: Array<{ candidateId: string; reasons: string[]; note?: string }>;
   completed: CompletedCalibrationEntry[];
@@ -183,6 +184,7 @@ export function mapDifficultyStars(
 }
 
 export function calibrateAbilityOffset(preferences: PrivateProjectPreferences): number {
+  if (preferences.abilityMode === "manual") return preferences.abilityOffset;
   const qualifying = preferences.completed.filter((entry) => entry.starsAtCompletion >= 3);
   const verified = qualifying.filter((entry) => entry.verification === "codex");
   const earnedLevels = Math.min(Math.floor(qualifying.length / 3), Math.floor(verified.length / 2));
