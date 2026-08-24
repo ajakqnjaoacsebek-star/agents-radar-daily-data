@@ -1,1 +1,1922 @@
-[]
+[
+  {
+    "candidateId": "signal:github:sam70361/emotion-ball",
+    "origin": "verified-existing",
+    "title": "sam70361/emotion-ball：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Emotion Ball 是一套面向 AI 助手的表情引擎:32 种状态表情全部由纯 SVG 与原生 JavaScript 实时驱动,零框架、零图片资源。AI 侧只需输出一个 emotionId,小球即可切换到对应表情,可直接用作聊天机器人、桌面宠物、悬浮助手的情绪表达层。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · sam70361/emotion-ball",
+      "url": "https://github.com/sam70361/emotion-ball",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:tabtin-ai/TabTin",
+    "origin": "verified-existing",
+    "title": "tabtin-ai/TabTin：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "A workspace where people and multiple AI agents work together.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · tabtin-ai/TabTin",
+      "url": "https://github.com/tabtin-ai/TabTin",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:ihsan-ramadhan/bansos-router",
+    "origin": "verified-existing",
+    "title": "ihsan-ramadhan/bansos-router：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Free, keyless coding models routed to every coding harness through one local endpoint. No accounts, no keys, no cost.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · ihsan-ramadhan/bansos-router",
+      "url": "https://github.com/ihsan-ramadhan/bansos-router",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:SeanEllyJames/deep-research-skill",
+    "origin": "verified-existing",
+    "title": "SeanEllyJames/deep-research-skill：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "让AI Agent 做真正会思考，有判断的深度调研，而不是会摆信息的汇总报告。一个即插即用的 skill 文件。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · SeanEllyJames/deep-research-skill",
+      "url": "https://github.com/SeanEllyJames/deep-research-skill",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:Akimiya-z/codex-guard",
+    "origin": "verified-existing",
+    "title": "Akimiya-z/codex-guard：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Quality gate for AI/Codex-generated pull requests: blocks TODO leftovers, leaked secrets, sloppy commits and red CI before they reach main.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · Akimiya-z/codex-guard",
+      "url": "https://github.com/Akimiya-z/codex-guard",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:stems-arraign-48/neurocursor-ai",
+    "origin": "verified-existing",
+    "title": "stems-arraign-48/neurocursor-ai：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "AI-powered, camera-based mouse cursor control written in C++. Turn your webcam into a hands-free pointing device — built for gaming, perfect for everyday use and accessibility.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · stems-arraign-48/neurocursor-ai",
+      "url": "https://github.com/stems-arraign-48/neurocursor-ai",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:yanght27/GPU-Perf-Playground",
+    "origin": "verified-existing",
+    "title": "yanght27/GPU-Perf-Playground：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "GPU 性能与 AI Infra 学习项目：CUDA/Triton 算子、NCU/NSYS、vLLM/SGLang/TRT-LLM/ms-swift、PyTorch/DeepSpeed/ms-swift 训练、并行架构",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · yanght27/GPU-Perf-Playground",
+      "url": "https://github.com/yanght27/GPU-Perf-Playground",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:dshplugin/dsh-plugin-hub",
+    "origin": "verified-existing",
+    "title": "dshplugin/dsh-plugin-hub：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "DeepSeek Harness 社区内置插件市场（dsh-plugin）— 搜索插件、下载并安装 4000+ 人工精选社区插件，每日更新、完全免费。内置在 Harness「设置 → 插件中心」，无需离开应用即可浏览、搜索、安装各类 AI 插件。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · dshplugin/dsh-plugin-hub",
+      "url": "https://github.com/dshplugin/dsh-plugin-hub",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:yellow13441/nodeseek-ai-profile",
+    "origin": "verified-existing",
+    "title": "yellow13441/nodeseek-ai-profile：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "NodeSeek 用户 AI 画像 Userscript：快速画像、深度交易分析、多用户并发、管理记录、多 AI Provider、Token 展示与图片分享。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · yellow13441/nodeseek-ai-profile",
+      "url": "https://github.com/yellow13441/nodeseek-ai-profile",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:patcireamo/ChungusHub",
+    "origin": "verified-existing",
+    "title": "patcireamo/ChungusHub：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "ChungusHub is a local-first, privacy-focused LLM frontend for roleplay.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · patcireamo/ChungusHub",
+      "url": "https://github.com/patcireamo/ChungusHub",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:ARFCON/dsh-hotplug-hub",
+    "origin": "verified-existing",
+    "title": "ARFCON/dsh-hotplug-hub：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "DSH - Dseam",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · ARFCON/dsh-hotplug-hub",
+      "url": "https://github.com/ARFCON/dsh-hotplug-hub",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:github:alexcloudstar/mybutler",
+    "origin": "verified-existing",
+    "title": "alexcloudstar/mybutler：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Local-first personal assistant: ask anything privately, with a self-weighting local memory.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "GitHub · alexcloudstar/mybutler",
+      "url": "https://github.com/alexcloudstar/mybutler",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409392",
+    "origin": "original-concept",
+    "title": "把“Flock camera backlash adds fuel to midterm anti-”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.axios.com/2026/08/23/flock-cameras-data-centers-ai-midterms-2026-tech",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409332",
+    "origin": "original-concept",
+    "title": "把“Oneiric, AI-generated, open source [video]”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=aAg9iDh9_BQ",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409320",
+    "origin": "original-concept",
+    "title": "把“Woe Is Em: The Sad Lifecycle of an AI Tell”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://stevekrause.org/blog/2026/08/woe-is-em-the-sad-lifecycle-of-an-ai-tell/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409152",
+    "origin": "original-concept",
+    "title": "把“Show HN: Writing-eval, local deterministic style”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/majesticlabs-dev/writing-eval",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409135",
+    "origin": "original-concept",
+    "title": "把“Aim-424 Lraam – Malice”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.navy.mil/Resources/Fact-Files/Display-FactFiles/Article/4580867/aim-424-lraam-malice/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409089",
+    "origin": "original-concept",
+    "title": "把“IETF Publication- Closing Apple-Siri EU Deadlock”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://datatracker.ietf.org/doc/html/draft-das-execution-finality-ai-interoperability-00",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409073",
+    "origin": "original-concept",
+    "title": "把“I spent $266 and four AI models to own my tablet”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://ericpardee.github.io/fire-hd-ownership/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49409030",
+    "origin": "original-concept",
+    "title": "把“OpenAI leader warns of threat of 'persistent' AI”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/aug/23/openai-cyber-attacks-threat-chris-lehane",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49408732",
+    "origin": "original-concept",
+    "title": "把“Airbus bows to remote working demands after seri”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.theguardian.com/business/2026/aug/21/airbus-bows-remote-working-strikes",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:hn:49408724",
+    "origin": "original-concept",
+    "title": "把“Show HN: Froging AI – image and video models in ”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "近期 Hacker News 上的 AI 相关讨论。",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.froging.ai",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:Qwen/Qwen3.8-27B",
+    "origin": "verified-existing",
+    "title": "Qwen/Qwen3.8-27B：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：image-text-to-text",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:unsloth/Qwen3.8-27B-GGUF",
+    "origin": "verified-existing",
+    "title": "unsloth/Qwen3.8-27B-GGUF：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：未标注",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · unsloth/Qwen3.8-27B-GGUF",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:orcarouter/Qwen3.8-27B-Uncensored-MLX",
+    "origin": "verified-existing",
+    "title": "orcarouter/Qwen3.8-27B-Uncensored-MLX：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：image-text-to-text",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-MLX",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+    "origin": "verified-existing",
+    "title": "OBLITERATUS/Qwen3.8-27B-OBLITERATED：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：text-generation",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "url": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:orcarouter/Qwen3.8-27B-Uncensored-FP8",
+    "origin": "verified-existing",
+    "title": "orcarouter/Qwen3.8-27B-Uncensored-FP8：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：image-text-to-text",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "url": "https://huggingface.co/orcarouter/Qwen3.8-27B-Uncensored-FP8",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+    "origin": "verified-existing",
+    "title": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：image-text-to-text",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:Lightricks/LTX-2.5",
+    "origin": "verified-existing",
+    "title": "Lightricks/LTX-2.5：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：image-to-video",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · Lightricks/LTX-2.5",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:ornith-ai/Ornith-1.5-35B-A3B",
+    "origin": "verified-existing",
+    "title": "ornith-ai/Ornith-1.5-35B-A3B：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：text-generation",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · ornith-ai/Ornith-1.5-35B-A3B",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+    "origin": "verified-existing",
+    "title": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：text-generation",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "url": "https://huggingface.co/JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:huggingface:MiniMaxAI/MiniMax-Music3",
+    "origin": "verified-existing",
+    "title": "MiniMaxAI/MiniMax-Music3：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Hugging Face 上的近期模型，任务：text-to-audio",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Hugging Face · MiniMaxAI/MiniMax-Music3",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:0:https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
+    "origin": "verified-existing",
+    "title": "IFAH：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> Instruments for composing and experiencing sound as a space </p> <p> <a href=\"https://www.producthunt.com/products/ifah-a-new-experience-of-sound?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/123",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · IFAH",
+      "url": "https://www.producthunt.com/products/ifah-a-new-experience-of-sound",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:1:https://www.producthunt.com/products/contrive",
+    "origin": "verified-existing",
+    "title": "Contrive：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> Search and act across all your work apps </p> <p> <a href=\"https://www.producthunt.com/products/contrive?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1229798?app_id=339\">Link</a> </p>",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · Contrive",
+      "url": "https://www.producthunt.com/products/contrive",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:2:https://www.producthunt.com/products/navigara",
+    "origin": "verified-existing",
+    "title": "Navigara：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> Connect Your AI Spend Directly to Your Roadmap </p> <p> <a href=\"https://www.producthunt.com/products/navigara?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1222466?app_id=339\">Link</a> </p>",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · Navigara",
+      "url": "https://www.producthunt.com/products/navigara",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:3:https://www.producthunt.com/products/destiny-rings",
+    "origin": "verified-existing",
+    "title": "Destiny Rings：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> Proximity-powered dating, social & networking </p> <p> <a href=\"https://www.producthunt.com/products/destiny-rings?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1227233?app_id=339\">Link</a> </p>",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · Destiny Rings",
+      "url": "https://www.producthunt.com/products/destiny-rings",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:4:https://www.producthunt.com/products/paymentkit",
+    "origin": "verified-existing",
+    "title": "PaymentKit：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> Billing that survives a processor shutdown </p> <p> <a href=\"https://www.producthunt.com/products/paymentkit?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1227796?app_id=339\">Link</a> </p>",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · PaymentKit",
+      "url": "https://www.producthunt.com/products/paymentkit",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:5:https://www.producthunt.com/products/wavepocket-free-ios-app",
+    "origin": "verified-existing",
+    "title": "Wavepocket ▶︎•၊||၊||။၊|။：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> Synth, drum kit, a 4-track tape loop, and FX app </p> <p> <a href=\"https://www.producthunt.com/products/wavepocket-free-ios-app?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1230321?app_id=339\">L",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · Wavepocket ▶︎•၊||၊||။၊|။",
+      "url": "https://www.producthunt.com/products/wavepocket-free-ios-app",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:6:https://www.producthunt.com/products/google-antigravity",
+    "origin": "verified-existing",
+    "title": "Antigravity Remote Control：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> Drive Antigravity agents from any browser </p> <p> <a href=\"https://www.producthunt.com/products/google-antigravity?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1230451?app_id=339\">Link</a> </p>",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · Antigravity Remote Control",
+      "url": "https://www.producthunt.com/products/google-antigravity",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:producthunt:7:https://www.producthunt.com/products/cortex-by-skynetlab",
+    "origin": "verified-existing",
+    "title": "Cortex by SKYNETLAB：复刻一个核心玩法",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "<p> The memory layer that decides what's worth remembering </p> <p> <a href=\"https://www.producthunt.com/products/cortex-by-skynetlab?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss-feed&amp;utm_source=producthunt-atom-posts-feed\">Discussion</a> | <a href=\"https://www.producthunt.com/r/p/1229883?app_id=339\"",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Product Hunt · Cortex by SKYNETLAB",
+      "url": "https://www.producthunt.com/products/cortex-by-skynetlab",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:0:https://blog.cloudflare.com/bot-preference-sync/",
+    "origin": "original-concept",
+    "title": "把“Say it once: introducing Bot Preference Sync”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · Say it once: introducing Bot Preference Sync",
+      "url": "https://blog.cloudflare.com/bot-preference-sync/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:1:https://blog.cloudflare.com/task-based-oauth-consent/",
+    "origin": "original-concept",
+    "title": "把“From all-or-nothing to task-based OAuth consent”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · From all-or-nothing to task-based OAuth consent",
+      "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:2:https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+    "origin": "original-concept",
+    "title": "把“A revisit of remote Spectre attacks on Cloudflar”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · A revisit of remote Spectre attacks on Cloudflare Workers",
+      "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:3:https://blog.cloudflare.com/rfc9234-bgp-role-model/",
+    "origin": "original-concept",
+    "title": "把“BGP Role model: tracking the adoption of RFC 923”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · BGP Role model: tracking the adoption of RFC 9234",
+      "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:4:https://blog.cloudflare.com/mcp-security-updates/",
+    "origin": "original-concept",
+    "title": "把“How Cloudflare detects MCP traffic and helps sec”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · How Cloudflare detects MCP traffic and helps secure it",
+      "url": "https://blog.cloudflare.com/mcp-security-updates/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:5:https://blog.cloudflare.com/workers-protected-by-access/",
+    "origin": "original-concept",
+    "title": "把“Secure all your internal vibe-coded applications”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · Secure all your internal vibe-coded applications — in one click",
+      "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:6:https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+    "origin": "original-concept",
+    "title": "把“Total eclipse of the Internet: traffic impacts i”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+      "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  },
+  {
+    "candidateId": "signal:official:cloudflare:7:https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+    "origin": "original-concept",
+    "title": "把“Certificate Transparency Monitoring is now gener”做成小实验",
+    "oneLine": "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
+    "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
+    "outcome": "一个只覆盖核心能力、可以亲自试用和判断的原型。",
+    "whyWorthwhile": "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
+    "skills": [
+      "需求拆解",
+      "AI 能力接入",
+      "可行性验证"
+    ],
+    "realWorldPotential": "验证成功后可嵌入个人工作流，或继续改成垂直工具。",
+    "feasibilityProbe": "先用一到三小时复现最关键的一次输入、处理和输出，不做完整产品。",
+    "costAndRisks": [
+      "先确认来源项目的许可、账号、地区和 API 费用",
+      "不要在首次验证中处理敏感数据"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "crossDomain": false,
+    "largeCommercial": false,
+    "difficulty": {
+      "technical": 40,
+      "dependencies": 40,
+      "time": 40,
+      "costRisk": 20,
+      "uncertainty": 40,
+      "explanation": "路线来自真实项目，但仍需确认本机依赖和公开接口。"
+    },
+    "source": {
+      "label": "Cloudflare Blog · Certificate Transparency Monitoring is now generally available",
+      "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+      "verifiedAt": "2026-08-24"
+    },
+    "signalDate": "2026-08-24"
+  }
+]
