@@ -1,27 +1,27 @@
 {
   "version": 1,
   "date": "2026-08-24",
-  "candidateId": "daily-decision-log",
+  "candidateId": "llm-cost-simulator",
   "origin": "original-concept",
-  "title": "轻量决策日志",
-  "oneLine": "每天只记录一个选择、理由和之后的结果。",
-  "summary": "每天只记录一个选择、理由和之后的结果。能训练把直觉转成可复盘的假设。",
-  "outcome": "一个能回看判断偏差的极简决策档案。",
-  "whyWorthwhile": "能训练把直觉转成可复盘的假设。",
+  "title": "模型成本模拟器",
+  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
+  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
+  "outcome": "一个按任务量展示月度区间的预算表。",
+  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
   "skills": [
-    "结构化记录",
-    "复盘"
+    "Token 估算",
+    "成本建模"
   ],
-  "realWorldPotential": "适合项目取舍、购买和学习安排。",
-  "feasibilityProbe": "连续记录七个小决定并在一周后补结果。",
+  "realWorldPotential": "可避免自动化上线后账单失控。",
+  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
   "costAndRisks": [
-    "不应用分数替代价值判断或制造记录负担。"
+    "价格会变化，必须显示数据日期和误差区间。"
   ],
   "difficulty": {
     "scale": 5,
     "rawScore": 25,
     "currentStars": 1,
-    "explanation": "不应用分数替代价值判断或制造记录负担。"
+    "explanation": "价格会变化，必须显示数据日期和误差区间。"
   },
   "generatedBy": "curated-fallback"
 }

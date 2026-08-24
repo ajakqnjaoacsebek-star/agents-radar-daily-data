@@ -1,11 +1,11 @@
 {
   "recent": [
     {
-      "candidateId": "daily-decision-log",
+      "candidateId": "llm-cost-simulator",
       "date": "2026-08-24",
       "tags": [
-        "practical",
-        "learning"
+        "learning",
+        "practical"
       ],
       "crossDomain": false,
       "largeCommercial": false,
