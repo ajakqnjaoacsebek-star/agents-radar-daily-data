@@ -6,9 +6,9 @@
   "origin": "evergreen",
   "category": "AI 工具",
   "title": "Jan：桌面上的开源本地 AI 助手",
-  "summary": "Jan 是跨平台桌面应用，可运行本地模型并连接兼容的云模型接口。",
-  "whyInteresting": "它把本地模型体验做成普通桌面应用，而不是只留在命令行。",
-  "remixIdea": "可以建立一个离线可用的临时助手，专门处理不方便上传的草稿。",
+  "summary": "你可以像安装普通软件一样体验本地 AI，不必先学一堆命令行操作。",
+  "whyInteresting": "它把下载模型、聊天和连接云端接口放进同一个桌面界面，适合你比较本地与在线模型。",
+  "remixIdea": "先建一个离线助手，只用来整理一段不方便上传的草稿。",
   "source": {
     "label": "Jan",
     "url": "https://jan.ai/"

@@ -6,9 +6,9 @@
   "origin": "evergreen",
   "category": "实用工具",
   "title": "LibreOffice：可以离线使用的开源办公套件",
-  "summary": "LibreOffice 提供文档、表格、演示和绘图等桌面办公工具。",
-  "whyInteresting": "常见办公文件不一定只能依赖订阅制软件打开。",
-  "remixIdea": "给不常联网的旧电脑安装一套完整离线办公环境。",
+  "summary": "你可以免费、离线地打开和编辑常见文档、表格与演示文件，不必一直依赖订阅软件。",
+  "whyInteresting": "它适合旧电脑、临时设备或网络不稳定的场景，也能给你的自动化脚本提供可处理的办公文件。",
+  "remixIdea": "拿一份不敏感的 Word 或 Excel 文件试着打开、修改并重新导出，检查格式是否满足你。",
   "source": {
     "label": "LibreOffice",
     "url": "https://www.libreoffice.org/"

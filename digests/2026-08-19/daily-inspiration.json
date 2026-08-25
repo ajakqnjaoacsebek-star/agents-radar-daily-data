@@ -5,13 +5,15 @@
   "candidateId": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
   "origin": "dynamic",
   "category": "AI 小发现",
-  "title": "meta-llama/Llama-3.1-8B-Instruct",
-  "summary": "这是一个用于 text-generation 的公开模型页面。",
-  "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-  "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+  "title": "在自己的电脑上运行一个可对话的 AI 模型",
+  "originalTitle": "Llama 3.1 8B Instruct",
+  "summary": "你可以用这个开放权重模型理解“本地 AI”是怎么工作的，并尝试让资料不离开自己的电脑。",
+  "whyInteresting": "它让你看见 AI 的能力不一定只能从聊天网站租用，模型也可以被下载、运行和接进自己的工具。",
+  "remixIdea": "先用支持本地模型的桌面工具加载它，问同一个问题，再和你常用的云端 AI 比较速度和回答。",
   "source": {
     "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
     "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
   },
+  "caution": "8B 模型仍需要足够内存或显存；下载前先查看模型许可和电脑配置。",
   "generatedBy": "fallback"
 }

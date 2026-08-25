@@ -5,13 +5,15 @@
   "candidateId": "signal:hn:49319889",
   "origin": "dynamic",
   "category": "社区发现",
-  "title": "What 50 open source projects taught us about security in the AI era",
-  "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
-  "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
-  "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+  "title": "给自己的 AI 项目做一次安全体检",
+  "originalTitle": "What 50 open source projects taught us about security in the AI era",
+  "summary": "你可以从 50 个开源项目的真实经验里，挑出密钥泄露、依赖漏洞、代码扫描和应急处理这些检查项，用在自己的项目上。",
+  "whyInteresting": "它提醒你 AI 能加快排查，但最后仍需要人判断；这正适合你以后把 Codex 项目真正发布出去之前参考。",
+  "remixIdea": "先检查你最近一个项目：仓库里有没有密钥、依赖是否有警告、主分支是否需要保护。",
   "source": {
     "label": "Hacker News",
     "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/"
   },
+  "caution": "这是一篇经验文章，不是自动扫描工具；检查结果仍要结合项目实际情况判断。",
   "generatedBy": "fallback"
 }

@@ -6,9 +6,9 @@
   "origin": "evergreen",
   "category": "AI 项目",
   "title": "Browser Use：让 AI 按步骤使用网页",
-  "summary": "Browser Use 是开源浏览器自动化项目，帮助 AI Agent 读取页面并执行网页操作。",
-  "whyInteresting": "很多重复网页工作可以被描述成目标，而不只是固定坐标脚本。",
-  "remixIdea": "可以做一个只访问公开页面的价格记录或资料收集实验。",
+  "summary": "你可以用它让 AI 帮你打开网页、读取内容和按步骤点击，少做重复的查找与复制。",
+  "whyInteresting": "你只要描述目标，AI 就能根据页面变化继续操作，比只会点固定坐标的脚本更灵活。",
+  "remixIdea": "先让它访问一个公开网页，摘出三条信息并保存成一份简短记录。",
   "source": {
     "label": "Browser Use",
     "url": "https://github.com/browser-use/browser-use"

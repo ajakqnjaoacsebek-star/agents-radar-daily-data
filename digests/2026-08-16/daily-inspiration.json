@@ -6,9 +6,9 @@
   "origin": "evergreen",
   "category": "实用工具",
   "title": "AlternativeTo：从用途出发寻找软件替代品",
-  "summary": "AlternativeTo 按平台、许可和用户评价整理软件替代方案。",
-  "whyInteresting": "某个软件太贵或停止服务时，不必从零搜索同类产品。",
-  "remixIdea": "搜索一个正在付费的软件，看看是否存在开源或一次性付费替代。",
+  "summary": "当一个软件太贵、不好用或停服时，你可以用它快速找到同类替代品。",
+  "whyInteresting": "它按用途、平台和许可整理结果，能帮你少看一堆不相关的搜索页面。",
+  "remixIdea": "搜一个你正在付费的软件，看看有没有开源或一次性付费的替代。",
   "source": {
     "label": "AlternativeTo",
     "url": "https://alternativeto.net/"

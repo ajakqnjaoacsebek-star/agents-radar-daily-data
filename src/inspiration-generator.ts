@@ -5,6 +5,7 @@ import {
   buildInspirationPrompt,
   createFallbackCard,
   filterRecentlyUsed,
+  isReaderReadyInspirationCandidate,
   parseInspirationSelection,
   validateCatalog,
   type InspirationCandidate,
@@ -66,7 +67,9 @@ export async function generateInspirationCard({
   allowLlm = true,
   deps = defaultDeps,
 }: GenerateInspirationCardParams): Promise<InspirationCard> {
-  const eligible = filterRecentlyUsed(candidates, state, date, RECENT_DAYS);
+  const eligible = filterRecentlyUsed(candidates, state, date, RECENT_DAYS).filter(
+    isReaderReadyInspirationCandidate,
+  );
   const dynamicAllowed = weeklyDynamicCount(state, date) < 3;
   const selectable = eligible.filter((candidate) => dynamicAllowed || candidate.origin !== "dynamic");
   const modelPool = shuffled(selectable, deps.random).slice(0, MODEL_CANDIDATE_LIMIT);

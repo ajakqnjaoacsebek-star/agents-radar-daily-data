@@ -5,10 +5,11 @@
   "candidateId": "signal:github:vercel-labs/eve-software-factory-template",
   "origin": "dynamic",
   "category": "开源项目",
-  "title": "vercel-labs/eve-software-factory-template",
-  "summary": "Meet Foreman, an eve Software Factory.",
-  "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
-  "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+  "title": "让一组 AI 代理接力完成代码任务",
+  "originalTitle": "Foreman · eve Software Factory",
+  "summary": "你可以把 GitHub 任务交给四个 AI 角色，分别分类、规划、实现和审查，最后得到一份等你确认的代码草案。",
+  "whyInteresting": "它能让你看到复杂 AI 项目不一定靠一个助手硬做，而可以像小团队一样分工并互相检查。",
+  "remixIdea": "先别部署整套系统，只照着它的四角色结构，让 Codex 对一个小改动做一次分工演练。",
   "source": {
     "label": "GitHub · vercel-labs/eve-software-factory-template",
     "url": "https://github.com/vercel-labs/eve-software-factory-template"

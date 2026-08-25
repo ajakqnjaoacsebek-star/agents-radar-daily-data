@@ -4,6 +4,7 @@ import {
   buildInspirationPrompt,
   createFallbackCard,
   filterRecentlyUsed,
+  isReaderReadyInspirationCandidate,
   parseInspirationSelection,
   validateCatalog,
   type InspirationCandidate,
@@ -88,6 +89,31 @@ describe("filterRecentlyUsed", () => {
     );
 
     expect(eligible.map((candidate) => candidate.id)).toEqual(["evergreen:other"]);
+  });
+});
+
+describe("isReaderReadyInspirationCandidate", () => {
+  it("accepts evergreen copy but requires dynamic discoveries to be explicitly reader-ready", () => {
+    const rawSignal: InspirationCandidate = {
+      ...evergreen,
+      id: "signal:hn:1",
+      origin: "dynamic",
+      title: "What open source projects taught us about AI",
+      summary: "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    };
+
+    expect(isReaderReadyInspirationCandidate(evergreen)).toBe(true);
+    expect(isReaderReadyInspirationCandidate(rawSignal)).toBe(false);
+    expect(
+      isReaderReadyInspirationCandidate({
+        ...rawSignal,
+        title: "开源项目的 AI 安全体检",
+        summary: "你可以用它检查自己的 AI 项目会不会把密钥或私人数据暴露出去。",
+        whyInteresting: "它把抽象的安全问题变成了你能在项目上线前逐项检查的清单。",
+        remixIdea: "拿你最近做的一个 Codex 项目，对照检查一次密钥、日志和公开链接。",
+        readerReady: true,
+      }),
+    ).toBe(true);
   });
 });
 

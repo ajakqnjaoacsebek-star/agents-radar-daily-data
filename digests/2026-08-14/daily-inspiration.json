@@ -6,9 +6,9 @@
   "origin": "evergreen",
   "category": "数字生活",
   "title": "Have I Been Pwned：检查邮箱是否出现在已知泄露中",
-  "summary": "Have I Been Pwned 汇总公开披露的数据泄露，可查询邮箱是否受影响。",
-  "whyInteresting": "账号安全问题有时不是猜测，而是可以先查到公开证据。",
-  "remixIdea": "如果命中泄露，优先更换重复使用的密码并开启双重验证。",
+  "summary": "你可以先查自己的邮箱是否出现在已知数据泄露里，判断哪些账号需要马上换密码。",
+  "whyInteresting": "当你担心账号不安全时，它能先给你公开证据，不用只靠猜。",
+  "remixIdea": "先查一个常用邮箱；如果命中，就更换重复使用的密码并开启双重验证。",
   "source": {
     "label": "Have I Been Pwned",
     "url": "https://haveibeenpwned.com/"

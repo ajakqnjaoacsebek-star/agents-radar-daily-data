@@ -20,12 +20,14 @@ export interface InspirationCandidate {
   origin: InspirationOrigin;
   category: string;
   title: string;
+  originalTitle?: string;
   summary: string;
   whyInteresting: string;
   remixIdea: string;
   source: InspirationSource;
   caution?: string;
   signalDate?: string;
+  readerReady?: boolean;
 }
 
 export interface InspirationCard {
@@ -36,12 +38,17 @@ export interface InspirationCard {
   origin: InspirationOrigin;
   category: string;
   title: string;
+  originalTitle?: string;
   summary: string;
   whyInteresting: string;
   remixIdea: string;
   source: InspirationSource;
   caution?: string;
   generatedBy: "llm" | "fallback";
+}
+
+export function isReaderReadyInspirationCandidate(candidate: InspirationCandidate): boolean {
+  return candidate.origin === "evergreen" || candidate.readerReady === true;
 }
 
 export interface InspirationHistoryEntry {
@@ -255,6 +262,7 @@ export function parseInspirationSelection(
     origin: candidate.origin,
     category: candidate.category,
     title: candidate.title,
+    ...(candidate.originalTitle ? { originalTitle: candidate.originalTitle } : {}),
     summary: candidate.summary,
     whyInteresting: candidate.whyInteresting,
     remixIdea: candidate.remixIdea,
@@ -281,6 +289,7 @@ export function createFallbackCard(
     origin: candidate.origin,
     category: candidate.category,
     title: candidate.title,
+    ...(candidate.originalTitle ? { originalTitle: candidate.originalTitle } : {}),
     summary: candidate.summary,
     whyInteresting: candidate.whyInteresting,
     remixIdea: candidate.remixIdea,

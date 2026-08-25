@@ -23,6 +23,7 @@ const dynamic: InspirationCandidate = {
   id: "github:owner/project",
   origin: "dynamic",
   category: "开源项目",
+  readerReady: true,
   source: { label: "GitHub", url: "https://github.com/owner/project" },
 };
 
@@ -113,7 +114,7 @@ describe("generateInspirationCard", () => {
     expect(card.generatedBy).toBe("llm");
   });
 
-  it("falls back to a source-bound dynamic copy when generation fails", async () => {
+  it("falls back to evergreen when a raw dynamic signal has not explained its value to the reader", async () => {
     const deps: InspirationGenerationDeps = {
       generate: async () => {
         throw new Error("provider unavailable");
@@ -122,7 +123,15 @@ describe("generateInspirationCard", () => {
     };
 
     const card = await generateInspirationCard({
-      candidates: [dynamic, evergreen],
+      candidates: [
+        {
+          ...dynamic,
+          readerReady: undefined,
+          title: "What open source projects taught us about AI",
+          summary: "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+        },
+        evergreen,
+      ],
       evergreenCandidates: [evergreen],
       state: { recent: [] },
       date: "2026-08-14",
@@ -130,8 +139,8 @@ describe("generateInspirationCard", () => {
       deps,
     });
 
-    expect(card.candidateId).toBe(dynamic.id);
-    expect(card.origin).toBe("dynamic");
+    expect(card.candidateId).toBe(evergreen.id);
+    expect(card.origin).toBe("evergreen");
     expect(card.generatedBy).toBe("fallback");
   });
 

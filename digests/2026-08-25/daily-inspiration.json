@@ -5,13 +5,15 @@
   "candidateId": "signal:huggingface:openai/gpt-oss-120b",
   "origin": "dynamic",
   "category": "AI 小发现",
-  "title": "openai/gpt-oss-120b",
-  "summary": "这是一个用于 text-generation 的公开模型页面。",
-  "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-  "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+  "title": "看看大型 AI 模型怎样被下载到自己的设备上运行",
+  "originalTitle": "OpenAI gpt-oss-120b",
+  "summary": "你现在不一定能在普通电脑上运行它，但可以借它看懂：一个大型开放权重模型怎样被下载、测试并部署在自己的服务器上。",
+  "whyInteresting": "它能帮你建立一个新概念——AI 不一定只能在聊天网站里使用，有条件的人也可以把模型接进自己的工具和私有数据流程。",
+  "remixIdea": "先只看模型页面里的使用示例和硬件要求，再对比同系列较小的 20B 版本，不用急着下载。",
   "source": {
     "label": "Hugging Face · openai/gpt-oss-120b",
     "url": "https://huggingface.co/openai/gpt-oss-120b"
   },
+  "caution": "120B 版本对内存和显卡要求很高，不适合作为普通电脑的首次本地模型实验。",
   "generatedBy": "fallback"
 }
