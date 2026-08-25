@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T01:54:35.005Z",
+  "candidateId": "signal:huggingface:openai/gpt-oss-120b",
+  "origin": "dynamic",
+  "category": "AI 小发现",
+  "title": "openai/gpt-oss-120b",
+  "summary": "这是一个用于 text-generation 的公开模型页面。",
+  "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+  "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+  "source": {
+    "label": "Hugging Face · openai/gpt-oss-120b",
+    "url": "https://huggingface.co/openai/gpt-oss-120b"
+  },
+  "generatedBy": "fallback"
+}

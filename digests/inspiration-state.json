@@ -43,10 +43,14 @@
     {
       "id": "signal:hn:49319889",
       "date": "2026-08-24"
+    },
+    {
+      "id": "signal:huggingface:openai/gpt-oss-120b",
+      "date": "2026-08-25"
     }
   ],
   "weeklyDynamic": {
     "week": "2026-08-24",
-    "count": 1
+    "count": 2
   }
 }
