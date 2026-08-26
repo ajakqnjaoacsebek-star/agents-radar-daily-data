@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T02:00:44.650Z",
+  "candidateId": "evergreen:appsmith",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Appsmith：快速做一个内部工具界面",
+  "summary": "Appsmith 是开源低代码平台，可连接数据库和 API 构建管理页面。",
+  "whyInteresting": "很多只给自己或小团队使用的后台，不必从空白网页开始。",
+  "remixIdea": "给每日雷达做一个来源健康检查台，直接查看抓取失败和最新数据。",
+  "source": {
+    "label": "Appsmith",
+    "url": "https://www.appsmith.com/"
+  },
+  "generatedBy": "fallback"
+}
