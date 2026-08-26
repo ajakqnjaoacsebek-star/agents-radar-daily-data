@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "date": "2026-08-26",
+  "candidateId": "personal-search-query",
+  "origin": "original-concept",
+  "title": "私人搜索提问器",
+  "oneLine": "把模糊问题改写成几条可核验的搜索查询。",
+  "summary": "把模糊问题改写成几条可核验的搜索查询。能练习问题拆解和来源交叉验证。",
+  "outcome": "一个保留原问题、查询和证据的搜索草稿页。",
+  "whyWorthwhile": "能练习问题拆解和来源交叉验证。",
+  "skills": [
+    "问题拆解",
+    "检索"
+  ],
+  "realWorldPotential": "可用于购买、学习和项目预研。",
+  "feasibilityProbe": "拿三个模糊问题比较改写前后的有效来源数。",
+  "costAndRisks": [
+    "搜索排序带偏差，不能只取第一条结论。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 25,
+    "currentStars": 1,
+    "explanation": "搜索排序带偏差，不能只取第一条结论。"
+  },
+  "generatedBy": "curated-fallback"
+}
