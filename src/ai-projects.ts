@@ -24,6 +24,9 @@ export interface AiProjectCandidate {
   title: string;
   oneLine: string;
   summary: string;
+  problemSolved: string;
+  howItHelps: string;
+  readerReady: boolean;
   outcome: string;
   whyWorthwhile: string;
   skills: string[];
@@ -46,6 +49,8 @@ export interface AiProjectCard {
   title: string;
   oneLine: string;
   summary: string;
+  problemSolved: string;
+  howItHelps: string;
   outcome: string;
   whyWorthwhile: string;
   skills: string[];
@@ -131,6 +136,13 @@ export function validateAiProjectCatalog(candidates: AiProjectCandidate[]): AiPr
     ];
     if (textFields.some((value) => !nonEmpty(value)) || !item.skills?.length || !item.costAndRisks?.length) {
       throw new Error(`Incomplete AI project candidate: ${item.candidateId}`);
+    }
+    if (
+      !nonEmpty(item.problemSolved) ||
+      !nonEmpty(item.howItHelps) ||
+      typeof item.readerReady !== "boolean"
+    ) {
+      throw new Error(`Incomplete AI project reader explanation: ${item.candidateId}`);
     }
     if (
       !item.tags?.length ||
@@ -222,7 +234,7 @@ export function selectDailyAiProject(
   const lastSeven = recent90.filter((entry) => ageInDays(entry.date, date) < 7);
   const needsCrossDomain = lastSeven.length >= 6 && !lastSeven.some((entry) => entry.crossDomain);
 
-  let eligible = valid.filter((candidate) => !blocked.has(candidate.candidateId));
+  let eligible = valid.filter((candidate) => candidate.readerReady && !blocked.has(candidate.candidateId));
   if (hasRecentLarge) eligible = eligible.filter((candidate) => !candidate.largeCommercial);
   if (!eligible.length) throw new Error("No AI project candidate is eligible after 90-day deduplication");
 
@@ -271,6 +283,8 @@ export function createAiProjectCard(
     title: candidate.title,
     oneLine: candidate.oneLine,
     summary: candidate.summary,
+    problemSolved: candidate.problemSolved,
+    howItHelps: candidate.howItHelps,
     outcome: candidate.outcome,
     whyWorthwhile: candidate.whyWorthwhile,
     skills: [...candidate.skills],

@@ -18,6 +18,16 @@ describe("initial AI project catalog", () => {
     expect(new Set(catalog.map((item) => item.feasibilityProbe)).size).toBe(catalog.length);
   });
 
+  it("explains every project from the reader's point of view", () => {
+    expect(catalog.every((item) => item.readerReady)).toBe(true);
+    expect(new Set(catalog.map((item) => item.problemSolved)).size).toBe(catalog.length);
+    expect(new Set(catalog.map((item) => item.howItHelps)).size).toBe(catalog.length);
+    for (const item of catalog) {
+      expect(item.problemSolved).not.toBe(item.oneLine);
+      expect(item.howItHelps).not.toBe(item.whyWorthwhile);
+    }
+  });
+
   it("covers verified work, original concepts, all content goals and cross-domain practice", () => {
     expect(catalog.some((item) => item.origin === "verified-existing")).toBe(true);
     expect(catalog.some((item) => item.origin === "original-concept")).toBe(true);
