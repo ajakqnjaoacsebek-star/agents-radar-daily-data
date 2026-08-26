@@ -17,6 +17,9 @@ function candidate(candidateId: string, overrides: Partial<AiProjectCandidate> =
     title: `项目 ${candidateId}`,
     oneLine: "把一个真实问题做成可验证的 AI 项目。",
     summary: "先做关键验证，再决定是否继续投入。",
+    problemSolved: "你有一个想法，但不知道它是不是真能解决自己的问题。",
+    howItHelps: "它会把想法拆成一次小测试，让你先看到真实结果再决定要不要继续。",
+    readerReady: true,
     outcome: "一个可以亲自试用的成果。",
     whyWorthwhile: "能学习可迁移的 AI 技巧。",
     skills: ["结构化输出", "自动化"],
@@ -59,6 +62,15 @@ describe("AI project catalog", () => {
 
   it("rejects duplicate stable IDs", () => {
     expect(() => validateAiProjectCatalog([candidate("same"), candidate("same")])).toThrow(/duplicate/i);
+  });
+
+  it("rejects candidates that do not explain the user's problem and concrete help", () => {
+    expect(() => validateAiProjectCatalog([candidate("missing-problem", { problemSolved: "" })])).toThrow(
+      /reader explanation/i,
+    );
+    expect(() => validateAiProjectCatalog([candidate("missing-help", { howItHelps: "" })])).toThrow(
+      /reader explanation/i,
+    );
   });
 });
 
@@ -133,6 +145,16 @@ describe("daily selection", () => {
     expect(selected.candidateId).toBe("fresh");
   });
 
+  it("never publishes a source signal before its reader explanation is ready", () => {
+    const selected = selectDailyAiProject(
+      [candidate("raw-signal", { readerReady: false }), candidate("reader-ready")],
+      { recent: [] },
+      emptyPreferences,
+      "2026-08-24",
+    );
+    expect(selected.candidateId).toBe("reader-ready");
+  });
+
   it("fills a missing cross-domain slot around every seventh recommendation", () => {
     const history = Array.from({ length: 6 }, (_, index) => ({
       candidateId: `old-${index}`,
@@ -196,5 +218,7 @@ describe("daily selection", () => {
     const card = createAiProjectCard(project, "2026-08-24", emptyPreferences, "curated-fallback");
     expect(card.source?.url).toBe("https://github.com/browser-use/browser-use");
     expect(card.title).toBe("Browser Use");
+    expect(card.problemSolved).toBe(project.problemSolved);
+    expect(card.howItHelps).toBe(project.howItHelps);
   });
 });

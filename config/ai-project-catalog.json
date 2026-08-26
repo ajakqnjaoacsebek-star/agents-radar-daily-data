@@ -1,6 +1,9 @@
 [
   {
     "candidateId": "browser-use-public-task",
+    "problemSolved": "你想让 AI 代替自己操作网页，却不知道它究竟能看见什么、会不会乱点。",
+    "howItHelps": "它会在公开网页上按你的指令观察页面、找到按钮并完成一次操作，同时把每一步保留下来让你检查。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Browser Use 公开网页代理",
     "oneLine": "让 AI 在无登录网页上观察、点击并完成一个小任务。",
@@ -30,6 +33,9 @@
   },
   {
     "candidateId": "n8n-ai-workflow",
+    "problemSolved": "你每天都在不同网站或表格之间复制信息，动作不难，却一直重复占时间。",
+    "howItHelps": "它会把“读取信息—交给 AI 整理—发送通知”连成一条看得见的流程，以后由流程自动跑。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "n8n AI 工作流",
     "oneLine": "把一个重复的信息搬运流程接成可视化自动化。",
@@ -59,6 +65,9 @@
   },
   {
     "candidateId": "dify-app-builder",
+    "problemSolved": "你有一个适合 AI 处理的小需求，但不清楚怎样把模型、资料和按钮组合成能用的工具。",
+    "howItHelps": "它让你用拖拽和配置接入资料库与 AI，不必先写完整程序，就能做出一个解决单一问题的小应用。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Dify 小应用工坊",
     "oneLine": "用可视化编排做一个有知识库和工具调用的小应用。",
@@ -88,6 +97,9 @@
   },
   {
     "candidateId": "flowise-rag-canvas",
+    "problemSolved": "你把资料交给 AI 后，担心它凭空回答，却又看不懂检索问答是怎么工作的。",
+    "howItHelps": "它把“切资料、找相关段落、生成回答、显示引用”画成节点，你能逐步看到答案从哪里来。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Flowise RAG 画布",
     "oneLine": "拖拽搭出一个能引用资料来源的问答流程。",
@@ -117,6 +129,9 @@
   },
   {
     "candidateId": "ollama-local-chat",
+    "problemSolved": "你想聊敏感资料或节省云端费用，但不希望每次问题都发送到外部服务器。",
+    "howItHelps": "它会把一个可下载的模型直接运行在你的电脑上，再提供简单聊天入口；断网时也能做基础问答。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Ollama 本地模型台",
     "oneLine": "在电脑上运行一个本地模型并接入简单聊天页。",
@@ -146,6 +161,9 @@
   },
   {
     "candidateId": "llama-cpp-local-server",
+    "problemSolved": "你已经能在本地运行模型，却不知道怎样让自己的其他程序也能调用它。",
+    "howItHelps": "它把本地模型包装成一个标准接口，让网页、脚本或笔记工具像调用云端 API 一样调用电脑里的模型。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "llama.cpp 轻量推理服务",
     "oneLine": "把量化模型跑成一个兼容常见接口的本地服务。",
@@ -175,6 +193,9 @@
   },
   {
     "candidateId": "open-webui-personal-portal",
+    "problemSolved": "你同时使用本地模型和云端模型，聊天记录与入口分散，切换起来很麻烦。",
+    "howItHelps": "它把不同模型放进同一个私人网页，统一保存会话、切换模型，并能挂载自己的资料。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Open WebUI 私人 AI 门户",
     "oneLine": "把本地与云端模型放进一个统一的私人聊天入口。",
@@ -204,6 +225,9 @@
   },
   {
     "candidateId": "langfuse-prompt-observer",
+    "problemSolved": "你的 AI 功能偶尔变慢、变贵或答坏了，但事后不知道是哪次调用出了问题。",
+    "howItHelps": "它记录每次请求的提示词、耗时、费用与结果，让你能找出失败原因并比较改动前后。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Langfuse 提示词观察站",
     "oneLine": "给自己的 AI 调用加上耗时、成本和输出追踪。",
@@ -233,6 +257,9 @@
   },
   {
     "candidateId": "litellm-model-router",
+    "problemSolved": "你接了多个 AI 模型后，每个接口写法不同，一个模型出错时整个功能也会停。",
+    "howItHelps": "它在中间提供统一入口，并按任务或故障把请求转给合适模型，让切换和备用方案更简单。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "LiteLLM 模型路由器",
     "oneLine": "用一个统一接口调用不同模型并做简单降级。",
@@ -262,6 +289,9 @@
   },
   {
     "candidateId": "mem0-preference-memory",
+    "problemSolved": "你希望助手记住习惯，但又不想把全部聊天永久保存，也担心它记错。",
+    "howItHelps": "它只提取经过你确认的偏好，并提供查看、修改和删除页面，让记忆既有用又可控制。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Mem0 偏好记忆实验",
     "oneLine": "让助手记住经过确认的偏好，而不是保存整段聊天。",
@@ -291,6 +321,9 @@
   },
   {
     "candidateId": "graphiti-timeline-memory",
+    "problemSolved": "项目、人物和计划会不断变化，普通笔记容易把旧信息和新信息混在一起。",
+    "howItHelps": "它把关系和发生时间一起保存，所以能回答某条信息什么时候改变、当前版本是什么。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Graphiti 时间线记忆",
     "oneLine": "把会变化的人物、项目和事件关系存成时间图谱。",
@@ -320,6 +353,9 @@
   },
   {
     "candidateId": "llamaindex-study-search",
+    "problemSolved": "你的教材和笔记很多，临时想找一个知识点时翻文件很慢，又不想让 AI 脱离资料乱讲。",
+    "howItHelps": "它只在你指定的学习资料里搜索，回答时附上原文出处，方便你立即回到对应页面核对。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "LlamaIndex 学习资料检索",
     "oneLine": "把一组学习资料做成带引用的私人搜索。",
@@ -349,6 +385,9 @@
   },
   {
     "candidateId": "langchain-tool-agent",
+    "problemSolved": "你想让 AI 帮忙查数据或计算，但担心它什么时候调用工具、会不会越权。",
+    "howItHelps": "它给 AI 两个权限明确的工具，并规定只有需要时才能调用；每次参数和结果都能看到。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "LangChain 工具调用练习",
     "oneLine": "让模型只在需要时调用两个受限工具。",
@@ -378,6 +417,9 @@
   },
   {
     "candidateId": "crewai-research-team",
+    "problemSolved": "你查一个主题时容易漏掉核验步骤，也很难判断多角色 Agent 到底有没有比单个 AI 更好。",
+    "howItHelps": "它让检索、核验和总结三个角色依次处理同一问题，并把来源与交接过程完整展示。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "CrewAI 小型研究队",
     "oneLine": "让检索、核验和总结三个角色完成一次公开资料研究。",
@@ -407,6 +449,9 @@
   },
   {
     "candidateId": "autogen-model-debate",
+    "problemSolved": "同一个问题不同 AI 给出相反答案时，你不知道该信谁，也看不到各自的弱点。",
+    "howItHelps": "它先让两个模型独立回答和互相反驳，再由第三个模型对照证据裁决分歧。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "AutoGen 模型辩论场",
     "oneLine": "让两个模型先独立回答，再由第三个模型核对分歧。",
@@ -436,6 +481,9 @@
   },
   {
     "candidateId": "comfyui-image-workflow",
+    "problemSolved": "你偶尔生成出满意图片，却记不住当时用了哪些参数，下一次很难复现。",
+    "howItHelps": "它把模型、参考图、种子和后处理拆成可保存的节点流程，之后可以重跑或只替换其中一步。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "ComfyUI 图像工作流",
     "oneLine": "把一次可重复的图像生成过程拆成节点图。",
@@ -465,6 +513,9 @@
   },
   {
     "candidateId": "sd-webui-style-lab",
+    "problemSolved": "你不断试提示词和参数，却只留下零散图片，不知道哪种设置真正影响了风格。",
+    "howItHelps": "它把每张样图与提示词、种子和参数绑定，做成可搜索的对照实验册。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Stable Diffusion 风格实验室",
     "oneLine": "建立一组可复现的提示、参数和样图对照。",
@@ -494,6 +545,9 @@
   },
   {
     "candidateId": "docling-document-extractor",
+    "problemSolved": "PDF 里有表格、双栏或复杂版面时，直接复制给 AI 经常顺序错乱、内容丢失。",
+    "howItHelps": "它先把页面拆成标题、段落和表格，再把原页与解析结果并排显示，方便你发现错位。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Docling 文档拆解器",
     "oneLine": "把 PDF、表格和版面转成可检查的结构化内容。",
@@ -523,6 +577,9 @@
   },
   {
     "candidateId": "markitdown-study-importer",
+    "problemSolved": "你的学习资料有 Word、PDF、表格等多种格式，每种都要单独处理才能交给 AI。",
+    "howItHelps": "它把常见文件批量转换成统一的 Markdown，并在导入前让你预览内容是否完整。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "MarkItDown 学习资料入口",
     "oneLine": "把常见文件统一转成适合 AI 阅读的 Markdown。",
@@ -552,6 +609,9 @@
   },
   {
     "candidateId": "crawl4ai-website-to-notes",
+    "problemSolved": "你收藏了很多网页，但广告、菜单和页面改版让内容难以整理，也可能以后找不到原文。",
+    "howItHelps": "它提取公开网页的正文、标题和来源链接，保存成干净且可追溯的笔记。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Crawl4AI 网页转笔记",
     "oneLine": "把公开网页正文、标题和链接整理成可追溯笔记。",
@@ -581,6 +641,9 @@
   },
   {
     "candidateId": "stagehand-browser-task",
+    "problemSolved": "纯自然语言网页代理有时会乱走，纯代码脚本又很容易因页面小改动而失效。",
+    "howItHelps": "它把固定步骤写成代码，把难定位的页面部分交给 AI，并在失败时指出停在哪一步。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "Stagehand 网页操作脚本",
     "oneLine": "把自然语言步骤和确定性代码组合成网页任务。",
@@ -610,6 +673,9 @@
   },
   {
     "candidateId": "pydantic-ai-structured-agent",
+    "problemSolved": "你让 AI 生成项目卡或表格时，经常遇到缺字段、格式乱，后续程序直接报错。",
+    "howItHelps": "它先规定输出结构，再自动检查每个字段；不合格就纠正或明确失败，不让脏数据悄悄进入系统。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "PydanticAI 结构化 Agent",
     "oneLine": "让模型输出经过类型校验的项目卡，而不是随意文本。",
@@ -639,6 +705,9 @@
   },
   {
     "candidateId": "mcp-servers-toolbox",
+    "problemSolved": "你听说可以给 Codex 接工具，却不清楚工具怎样被发现、何时调用以及权限边界在哪。",
+    "howItHelps": "它会做一个只有读取权限的小工具，并展示 Codex 每次调用的原因、参数和返回结果。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "MCP 工具箱实验",
     "oneLine": "给 Codex 接一个只读工具并观察它何时调用。",
@@ -668,6 +737,9 @@
   },
   {
     "candidateId": "mindsdb-data-question",
+    "problemSolved": "你有一张数据表，却不会写查询语句，也担心 AI 给出的数字无法核对。",
+    "howItHelps": "它把你的自然语言问题转成实际查询，同时把查询语句和原始结果一起显示。",
+    "readerReady": true,
     "origin": "verified-existing",
     "title": "MindsDB 数据问答试验",
     "oneLine": "让自然语言问题转成对一份小数据表的可核对查询。",
@@ -697,6 +769,9 @@
   },
   {
     "candidateId": "idea-evidence-vault",
+    "problemSolved": "你经常冒出项目点子，但一兴奋就直接开工，后来才发现需求不真实或已有更好方案。",
+    "howItHelps": "它会保存点子，替你收集类似产品、真实讨论和反面证据，再给出“继续、调整或暂缓”的判断材料。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "模糊点子验证器",
     "oneLine": "把一句脑海灵感变成证据卡，而不是立刻开工。",
@@ -721,6 +796,9 @@
   },
   {
     "candidateId": "download-folder-organizer",
+    "problemSolved": "下载文件夹越来越乱，你又不敢让自动工具直接移动文件，怕放错或误删。",
+    "howItHelps": "它先读取文件名和内容，解释每个文件可能是什么并提出归档位置，只有你确认后才移动。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "下载文件夹侦探",
     "oneLine": "让 AI 先解释文件用途，再建议归档位置。",
@@ -745,6 +823,9 @@
   },
   {
     "candidateId": "receipt-warranty-keeper",
+    "problemSolved": "需要退换或报修时，你常常想不起发票放哪、保修什么时候到期。",
+    "howItHelps": "它从票据照片中提取商品、金额和截止日期，集中保存，并在快到期时提醒你。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "发票与保修期管家",
     "oneLine": "从票据照片提取商品、金额和保修截止日。",
@@ -769,6 +850,9 @@
   },
   {
     "candidateId": "screenshot-action-extractor",
+    "problemSolved": "聊天和网页截图里藏着地址、时间或待办，存进相册后很容易忘记处理。",
+    "howItHelps": "它从截图中找出可能的行动项，并让你逐条确认，确认后才加入待办清单。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "截图待办提取箱",
     "oneLine": "从聊天或网页截图里提取可能的行动项。",
@@ -793,6 +877,9 @@
   },
   {
     "candidateId": "personal-form-filler",
+    "problemSolved": "你反复填写姓名、地址和经历，既费时间，又担心自动填表把资料填错或直接提交。",
+    "howItHelps": "它根据你自己维护的资料生成逐字段草稿，让你检查每一项，绝不会自动提交。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "个人表单草稿器",
     "oneLine": "根据自己维护的资料生成表单填写草稿。",
@@ -817,6 +904,9 @@
   },
   {
     "candidateId": "meeting-to-task-board",
+    "problemSolved": "开完会大家似乎达成了共识，但过几天没人记得谁要做什么、什么时候完成。",
+    "howItHelps": "它把会议记录拆成决定、负责人和截止日，再让参会者确认后形成任务板。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "会议结论落地板",
     "oneLine": "把一段会议记录拆成决定、负责人和截止日。",
@@ -841,6 +931,9 @@
   },
   {
     "candidateId": "job-description-decoder",
+    "problemSolved": "职位描述里混着硬性条件、宣传话术和模糊要求，你很难快速判断是否适合申请。",
+    "howItHelps": "它把招聘信息拆成必须项、加分项、你的证据和待询问问题，帮你看清差距再决定。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "职位描述拆解镜",
     "oneLine": "把招聘描述拆成硬要求、软要求和待确认信息。",
@@ -865,6 +958,9 @@
   },
   {
     "candidateId": "used-goods-checklist",
+    "problemSolved": "你偶尔买二手商品时，不知道该问什么、现场检查哪里，也缺少议价依据。",
+    "howItHelps": "它按商品类型生成验机步骤、风险问题和价格依据，现场可以照着逐项勾选。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "二手商品参谋",
     "oneLine": "根据商品类别生成验机问题、风险点和议价依据。",
@@ -889,6 +985,9 @@
   },
   {
     "candidateId": "home-inventory-search",
+    "problemSolved": "不常用物品收起来后，你过几个月只记得“家里有”，却完全想不起放在哪。",
+    "howItHelps": "它用照片、名称和位置建立家庭清单，以后搜索物品就能看到具体收纳位置。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭物品搜索地图",
     "oneLine": "拍照登记不常用物品并记录放置位置。",
@@ -913,6 +1012,9 @@
   },
   {
     "candidateId": "subscription-cost-audit",
+    "problemSolved": "会员和软件订阅分散在不同账单里，重复扣费或悄悄涨价很难及时发现。",
+    "howItHelps": "它只读整理账单中的订阅名称、周期和金额，标出重复项与价格变化供你确认。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "订阅费用体检",
     "oneLine": "把账单里的重复订阅和涨价线索整理出来。",
@@ -937,6 +1039,9 @@
   },
   {
     "candidateId": "browser-tab-recovery",
+    "problemSolved": "浏览器开了几十个标签页，关掉怕丢资料，不关又找不到重点、拖慢电脑。",
+    "howItHelps": "它把标签按主题分组并保存恢复入口，让你可以放心分批关闭，需要时再还原。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "浏览器标签页复盘器",
     "oneLine": "把大量未关标签聚成主题并保留恢复入口。",
@@ -961,6 +1066,9 @@
   },
   {
     "candidateId": "local-file-renamer",
+    "problemSolved": "扫描件和下载文件名混乱，靠手工逐个查看和改名很费时间，也容易命名不一致。",
+    "howItHelps": "它读取内容和日期后提出统一文件名，逐个让你确认，并保留改名前后的记录。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "文件命名提案器",
     "oneLine": "根据内容与日期给扫描件提出一致的文件名。",
@@ -985,6 +1093,9 @@
   },
   {
     "candidateId": "photo-duplicate-story",
+    "problemSolved": "相册里同一场景有很多连拍，既占空间又难挑出真正值得留的照片。",
+    "howItHelps": "它找出相似照片并按事件分组，请你选择代表照片；只做整理草稿，不会自动删除。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "照片重复与故事整理",
     "oneLine": "找出近似照片并让你选择最有代表性的一张。",
@@ -1009,6 +1120,9 @@
   },
   {
     "candidateId": "contract-clause-highlighter",
+    "problemSolved": "合同很长，你容易漏看自动续费、违约责任或付款条件，又不希望 AI 代替法律判断。",
+    "howItHelps": "它把关键条款高亮并链接回原文位置，让你先快速找到风险，再自行或请专业人士确认。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "合同条款高亮器",
     "oneLine": "把付款、自动续费和违约条款标出来供人工阅读。",
@@ -1033,6 +1147,9 @@
   },
   {
     "candidateId": "travel-plan-conflict-check",
+    "problemSolved": "行程看起来排满了，却可能忽略转场时间、休馆日或两个预订互相冲突。",
+    "howItHelps": "它逐项核对地点、营业时间和交通间隔，把冲突证据与仍需确认的地方列出来。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "旅行计划冲突检查",
     "oneLine": "检查行程中的转场时间、营业日和预订冲突。",
@@ -1057,6 +1174,9 @@
   },
   {
     "candidateId": "meal-leftover-planner",
+    "problemSolved": "冰箱里已有食材快过期，你却常常先买新的，最后不知道该优先吃什么。",
+    "howItHelps": "它根据你确认的库存和保质期安排三日菜单，并给出缺少食材时的替代方案。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "剩菜优先菜单",
     "oneLine": "根据已有食材和保质期先安排该吃什么。",
@@ -1081,6 +1201,9 @@
   },
   {
     "candidateId": "voice-note-inbox",
+    "problemSolved": "你随手录下很多语音想法，之后很少重听，也分不清哪些要行动、哪些只是随想。",
+    "howItHelps": "它先转写语音，再分成想法、待办和待思考问题；原音频一直保留，你确认后才归档。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "语音灵感收件箱",
     "oneLine": "把零散语音分成想法、待办和需要再想的问题。",
@@ -1105,6 +1228,9 @@
   },
   {
     "candidateId": "price-change-watcher",
+    "problemSolved": "你想等商品降价，却只能反复打开页面检查，也不知道所谓促销是不是真便宜。",
+    "howItHelps": "它定期记录公开商品页的价格、时间和链接，画出变化曲线，让你看到真实历史再决定。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "价格变化证据板",
     "oneLine": "定期记录公开商品页价格并展示历史变化。",
@@ -1129,6 +1255,9 @@
   },
   {
     "candidateId": "family-tech-support",
+    "problemSolved": "家人只会说“电脑坏了”，你远程听不清现象，又担心让他们乱点造成更大问题。",
+    "howItHelps": "它把描述转成一步一步的安全检查卡，标明截图位置和停止条件，便于你远程指导。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭远程排障卡",
     "oneLine": "把家人描述的电脑问题转换成安全的检查步骤。",
@@ -1153,6 +1282,9 @@
   },
   {
     "candidateId": "software-settings-guide",
+    "problemSolved": "某个软件设置藏得很深，你每次换电脑或版本后都要重新搜索一遍。",
+    "howItHelps": "它保存准确菜单路径、软件版本和截图，以后按软件名就能直接找到自己的操作小抄。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "软件设置路径记忆",
     "oneLine": "记录某个难找设置的准确路径和版本截图。",
@@ -1177,6 +1309,9 @@
   },
   {
     "candidateId": "file-version-diff",
+    "problemSolved": "别人发来新版文档时，你看到很多文字变化，却不知道哪些会真正影响工作。",
+    "howItHelps": "它把新旧文档按条款或段落对齐，用通俗语言解释变化影响，并链接回原文。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "文档版本差异翻译器",
     "oneLine": "把两个文档的变化按影响而不是按字符解释。",
@@ -1201,6 +1336,9 @@
   },
   {
     "candidateId": "personal-search-query",
+    "problemSolved": "你脑中只有一个模糊问题，直接搜索得到一堆不相关结果，也不知道该换哪些关键词。",
+    "howItHelps": "它先追问目标，再把问题改写成几条可核验的搜索句，并把每条证据与原问题放在一起。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "私人搜索提问器",
     "oneLine": "把模糊问题改写成几条可核验的搜索查询。",
@@ -1225,6 +1363,9 @@
   },
   {
     "candidateId": "daily-decision-log",
+    "problemSolved": "你做过许多选择，却很少回头验证当时的判断，容易重复同一种错误。",
+    "howItHelps": "它每天只让你记一个选择、理由和预期，之后补上结果，慢慢看出自己的判断偏差。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "轻量决策日志",
     "oneLine": "每天只记录一个选择、理由和之后的结果。",
@@ -1249,6 +1390,9 @@
   },
   {
     "candidateId": "email-attachment-ledger",
+    "problemSolved": "重要附件散落在旧邮件和本地文件夹里，需要时记得收到过，却找不到保存在哪里。",
+    "howItHelps": "它读取你导出的邮件清单，建立邮件、附件与本地存放位置的索引，不直接访问邮箱。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "邮件附件去向清单",
     "oneLine": "只读扫描导出的邮件清单，标记重要附件存放位置。",
@@ -1273,6 +1417,9 @@
   },
   {
     "candidateId": "json-repair-lab",
+    "problemSolved": "AI 输出 JSON 时偶尔漏字段或多写解释，程序报错后你只会重新问一次，搞不清根因。",
+    "howItHelps": "它把原输出、结构校验错误和修复结果并排展示，让你看懂怎样用规则挡住坏数据。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "JSON 修复实验室",
     "oneLine": "观察模型为什么会漏字段，并用 schema 把错误挡住。",
@@ -1297,6 +1444,9 @@
   },
   {
     "candidateId": "prompt-regression",
+    "problemSolved": "你改了一句提示词，眼前案例变好了，却可能让其他任务悄悄退步。",
+    "howItHelps": "它每次用同一批真实样例测试新旧提示词，显示通过率和具体变差的案例。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "提示词回归测试台",
     "oneLine": "每次改提示词都跑同一批样例看有没有退步。",
@@ -1321,6 +1471,9 @@
   },
   {
     "candidateId": "model-arena",
+    "problemSolved": "不同 AI 都说自己更聪明，你又常凭印象选择，不知道哪个更适合自己的任务。",
+    "howItHelps": "它隐藏模型名字，用同一道真实任务盲测多个模型；你先选答案，再揭晓质量、速度和费用。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "个人 AI 模型擂台",
     "oneLine": "用同一任务盲测多个模型，最后再揭晓名字。",
@@ -1345,6 +1498,9 @@
   },
   {
     "candidateId": "rag-chunk-playground",
+    "problemSolved": "同一份资料做检索时，有时找不到关键内容，你却不知道切块大小为什么会影响答案。",
+    "howItHelps": "它让你拖动切块参数，立刻比较不同设置找到的原文和最终回答。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "RAG 切块游乐场",
     "oneLine": "拖动切块大小，直接看检索结果怎么变化。",
@@ -1369,6 +1525,9 @@
   },
   {
     "candidateId": "embedding-map",
+    "problemSolved": "你的短笔记越积越多，文件夹分类固定，难以发现跨主题之间意外的联系。",
+    "howItHelps": "它按内容相似度把笔记放到二维地图上，你可以点开相邻笔记，发现新的组合线索。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "文本向量地图",
     "oneLine": "把自己的短笔记投影成可点开的主题地图。",
@@ -1393,6 +1552,9 @@
   },
   {
     "candidateId": "agent-tool-permission",
+    "problemSolved": "你想给 AI 更多工具提高能力，又担心它读到不该读的数据或执行危险操作。",
+    "howItHelps": "它提供不同权限开关并记录每次允许、拒绝和等待确认的调用，让你亲自观察边界。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "Agent 权限沙盒",
     "oneLine": "给 Agent 不同工具权限，观察它会不会越界。",
@@ -1417,6 +1579,9 @@
   },
   {
     "candidateId": "llm-cost-simulator",
+    "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
+    "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "模型成本模拟器",
     "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
@@ -1441,6 +1606,9 @@
   },
   {
     "candidateId": "structured-output-challenge",
+    "problemSolved": "你知道 AI 可以输出表格或 JSON，但遇到复杂字段就容易失败，也不知道该怎样循序练习。",
+    "howItHelps": "它从简单列表到嵌套结构设置一组关卡，自动告诉你哪里不合格以及怎样修正。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "结构化输出闯关",
     "oneLine": "从简单列表逐步挑战嵌套、联合类型和约束。",
@@ -1465,6 +1633,9 @@
   },
   {
     "candidateId": "small-finetune-feasibility",
+    "problemSolved": "你听说微调能让模型更懂业务，却不确定自己的问题是否值得花钱训练。",
+    "howItHelps": "它先用提示词和资料检索建立基线，再用少量样本试验，对比后告诉你微调有没有实际增益。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "小型微调可行性试验",
     "oneLine": "先判断提示词和检索解决不了的问题是否值得微调。",
@@ -1489,6 +1660,9 @@
   },
   {
     "candidateId": "ocr-quality-bench",
+    "problemSolved": "你要识别中文票据、表格或手写内容，却不知道本地和云端 OCR 哪个更准、更划算。",
+    "howItHelps": "它让多个 OCR 读取同一批样本，按字段统计准确率、速度和费用，并保留错误位置。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "OCR 质量擂台",
     "oneLine": "比较本地与云端 OCR 对中文、表格和手写的表现。",
@@ -1513,6 +1687,9 @@
   },
   {
     "candidateId": "speech-transcription-bench",
+    "problemSolved": "你想把录音自动转成文字，但自己的口音、环境噪声可能让宣传准确率失去参考。",
+    "howItHelps": "它用你的真实短录音测试不同转写方案，标出错字、耗时和费用。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "语音转写实测台",
     "oneLine": "比较不同口音、噪声和说话速度下的转写结果。",
@@ -1537,6 +1714,9 @@
   },
   {
     "candidateId": "vision-ui-grounding",
+    "problemSolved": "你想让 AI 看着截图操作软件，却不确定它能否准确找到你说的按钮。",
+    "howItHelps": "它让模型在截图上标出目标坐标，再与真实位置比较误差，直接判断能不能用于自动点击。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "视觉界面定位实验",
     "oneLine": "测试模型能否把“点设置按钮”定位到准确区域。",
@@ -1561,6 +1741,9 @@
   },
   {
     "candidateId": "local-vs-cloud",
+    "problemSolved": "你在本地模型和云端模型之间犹豫，只看网上评测无法判断自己的电脑和任务适合哪个。",
+    "howItHelps": "它用同一批私人任务实测两边的质量、速度、隐私和费用，生成只针对你的选择报告。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "本地模型与云模型对照",
     "oneLine": "在隐私、速度、费用和质量四项上比较同一任务。",
@@ -1585,6 +1768,9 @@
   },
   {
     "candidateId": "citation-checker",
+    "problemSolved": "AI 回答带了很多链接，看起来可靠，但链接内容可能根本没有支持它的结论。",
+    "howItHelps": "它拆出每条主张，打开对应来源并并排显示证据句，标注支持、部分支持或不支持。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "引用真实性检查器",
     "oneLine": "逐条检查 AI 回答里的引用是否真的支持结论。",
@@ -1609,6 +1795,9 @@
   },
   {
     "candidateId": "memory-decay-experiment",
+    "problemSolved": "助手长期记忆越存越多，旧偏好可能已经过期，错误记忆还会反复影响回答。",
+    "howItHelps": "它模拟记忆的写入、更新、遗忘和再次确认，让你看到每条记忆为何被使用。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 记忆衰减实验",
     "oneLine": "观察长期记忆何时应该遗忘、更新或要求确认。",
@@ -1633,6 +1822,9 @@
   },
   {
     "candidateId": "multi-agent-handoff",
+    "problemSolved": "多个 Agent 接力时经常重复调查或漏掉关键上下文，你看不出交接包是否真的够用。",
+    "howItHelps": "它故意让第一个 Agent 中途停止，再让第二个只凭交接包继续，并统计遗漏与重复工作。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "多 Agent 交接实验",
     "oneLine": "让一个 Agent 停在中途，另一个只看交接包继续。",
@@ -1657,6 +1849,9 @@
   },
   {
     "candidateId": "eval-dataset-maker",
+    "problemSolved": "AI 曾经答错的问题散落在聊天里，修好一次后，下次改动又可能复发。",
+    "howItHelps": "它把真实失败输入、期望结果和失败原因收成小题库，之后每次改模型或提示词都能重测。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "个人评测集制作器",
     "oneLine": "把遇到过的失败输入保存成可重复测试的题库。",
@@ -1681,6 +1876,9 @@
   },
   {
     "candidateId": "context-compression",
+    "problemSolved": "长对话很费 token，但直接摘要又可能丢掉后续任务需要的细节。",
+    "howItHelps": "它用原文、普通摘要和结构化记忆分别完成同一任务，对比费用节省与正确率。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "上下文压缩比赛",
     "oneLine": "比较原文、摘要和结构化记忆对后续任务的影响。",
@@ -1705,6 +1903,9 @@
   },
   {
     "candidateId": "synthetic-data-audit",
+    "problemSolved": "你想用 AI 生成训练或测试数据，却担心样本重复、比例失衡，甚至出现不现实内容。",
+    "howItHelps": "它检查重复度、类别分布和异常样本，并抽出一批让你人工核对。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "合成数据偏差检查",
     "oneLine": "生成小数据集后检查重复、失衡和不现实样本。",
@@ -1729,6 +1930,9 @@
   },
   {
     "candidateId": "tool-call-replay",
+    "problemSolved": "Agent 调用工具失败后，你只看到最终报错，不知道是哪一步参数错了，也难以安全复现。",
+    "howItHelps": "它记录每一步工具参数和返回值，在隔离环境中重放失败路径，形成可检查的时间线。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "工具调用回放器",
     "oneLine": "记录 Agent 的工具参数并在安全环境里重放失败。",
@@ -1753,6 +1957,9 @@
   },
   {
     "candidateId": "friend-desktop-pet",
+    "problemSolved": "你想做一个有朋友特色的桌宠，但普通角色模板没有熟悉感，也怕未经同意使用形象。",
+    "howItHelps": "在朋友同意后，它把获准使用的表情和口头禅做成本地互动角色，并允许随时替换或删除素材。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "朋友形象桌宠",
     "oneLine": "在获得同意后，把朋友的表情和口头禅做成桌面互动角色。",
@@ -1777,6 +1984,9 @@
   },
   {
     "candidateId": "dream-to-comic",
+    "problemSolved": "醒来时记得一个有趣的梦，过一会就模糊了，单纯记文字又不够有画面。",
+    "howItHelps": "它把你的梦话整理成四个可编辑分镜，先保留原文，再生成构图与对白草稿。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "梦境四格生成器",
     "oneLine": "把醒来后的一段梦话变成有分镜的四格漫画。",
@@ -1801,6 +2011,9 @@
   },
   {
     "candidateId": "room-soundscape",
+    "problemSolved": "学习或工作时你想要合适的环境声，却很难找到和当下房间氛围一致的组合。",
+    "howItHelps": "它从房间照片提取明暗和场景线索，生成可手动调节的雨声、城市声或机械声组合。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "房间声音风景",
     "oneLine": "根据房间照片生成一段可调节的环境音组合。",
@@ -1825,6 +2038,9 @@
   },
   {
     "candidateId": "alternate-ending-radio",
+    "problemSolved": "一个故事结束后你常会想“如果当时换个选择会怎样”，但自己懒得写完整续篇。",
+    "howItHelps": "它让不同模型各写一个平行结局，再转成可切换风格的短音频供你比较。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "故事平行结局电台",
     "oneLine": "输入一段旧故事，让不同模型各写一个可收听的结局。",
@@ -1849,6 +2065,9 @@
   },
   {
     "candidateId": "family-memory-map",
+    "problemSolved": "老照片和长辈故事分散在手机里，时间久了很难知道照片在哪里拍、人物是谁。",
+    "howItHelps": "在家人同意后，它把照片、地点、年份和口述故事连到私人地图上，点击地点就能回看。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭记忆地图",
     "oneLine": "把获得同意的老照片和地点连成可浏览的家庭地图。",
@@ -1873,6 +2092,9 @@
   },
   {
     "candidateId": "ai-time-capsule",
+    "problemSolved": "你对未来有很多判断，事后却只记得猜对的部分，很难诚实检验自己的预测。",
+    "howItHelps": "它封存带日期的预测，到期后自动寻找现实证据，并把原话与实际结果并排展示。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 时间胶囊",
     "oneLine": "记录今天的预测，未来打开时由 AI 对照实际发生了什么。",
@@ -1897,6 +2119,9 @@
   },
   {
     "candidateId": "weather-mood-light",
+    "problemSolved": "桌面灯只能固定开关，你想让环境更有氛围，又不想被自动规则完全控制。",
+    "howItHelps": "它把公开天气和你手动选择的状态映射成灯光场景，并随时允许你覆盖规则。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "天气心情灯",
     "oneLine": "把公开天气和自己的状态映射成桌面灯光场景。",
@@ -1921,6 +2146,9 @@
   },
   {
     "candidateId": "voice-character-game",
+    "problemSolved": "你想直观感受不同 AI 声音的表现力，但普通试听很快就无聊。",
+    "howItHelps": "它让多个声音用同一句话扮演不同角色，做成能猜设定、计分的浏览器小游戏。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "声音角色猜猜看",
     "oneLine": "让不同语音角色用同一句话表演，玩家猜设定。",
@@ -1945,6 +2173,9 @@
   },
   {
     "candidateId": "museum-object-chat",
+    "problemSolved": "博物馆说明牌常常专业又简短，你看完仍不懂一件物品当年到底怎么用。",
+    "howItHelps": "它只依据公开馆藏资料，让物件用第一人称讲时代和用途；每句话都能展开原始来源。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "博物馆物件自述",
     "oneLine": "让公开馆藏资料里的物件用第一人称讲清时代与用途。",
@@ -1969,6 +2200,9 @@
   },
   {
     "candidateId": "photo-era-remixer",
+    "problemSolved": "你想理解不同年代的设计风格，但只看概念介绍很难形成直观感觉。",
+    "howItHelps": "它用你自己的照片分别排成不同年代的海报，同时说明字体、颜色和版式为什么这样选。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "照片年代视觉混搭",
     "oneLine": "把自己的照片按不同年代的设计语言重新排版。",
@@ -1993,6 +2227,9 @@
   },
   {
     "candidateId": "daily-life-rpg",
+    "problemSolved": "普通待办列表让你觉得压力大，坚持几天就放弃，但游戏化工具又常常惩罚没完成。",
+    "howItHelps": "它把一周任务变成可调难度的地图和奖励，由你决定节奏，未完成不会扣分。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "现实生活 RPG",
     "oneLine": "把一周真实任务变成不惩罚人的轻量任务地图。",
@@ -2017,6 +2254,9 @@
   },
   {
     "candidateId": "pet-caption-diary",
+    "problemSolved": "宠物短视频很多，但久了只剩相似片段，你想留下更有趣的日常记忆。",
+    "howItHelps": "它为片段生成明确标注为玩笑的拟人字幕，按日期整理成可回看的小日记。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "宠物动作字幕日记",
     "oneLine": "给宠物短视频生成明显标注为玩笑的拟人字幕。",
@@ -2041,6 +2281,9 @@
   },
   {
     "candidateId": "city-walk-narrator",
+    "problemSolved": "你路过熟悉街区时只看到建筑表面，不知道附近曾发生过什么，普通导览又太长。",
+    "howItHelps": "它根据公开地点资料为路线写短旁白，到达对应位置才播放，并保留原始来源供你深挖。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "城市散步旁白",
     "oneLine": "根据公开地点资料为一条步行路线生成可核验旁白。",
@@ -2065,6 +2308,9 @@
   },
   {
     "candidateId": "keyboard-music",
+    "problemSolved": "你想做一个不用乐器也能玩的互动作品，又不希望程序记录自己实际输入的文字。",
+    "howItHelps": "它只读取击键节奏和按键类型，把速度与停顿实时变成音乐，不保存输入内容。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "键盘节奏乐器",
     "oneLine": "把打字速度和常用按键映射成实时音乐。",
@@ -2089,6 +2335,9 @@
   },
   {
     "candidateId": "shadow-puppet-vision",
+    "problemSolved": "你想体验摄像头和 AI 视觉能做什么，但不想一开始就做复杂识别系统。",
+    "howItHelps": "它只在本地识别手势轮廓，把你的动作映射成屏幕里的幻想生物，马上能看到互动结果。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "摄像头影子木偶",
     "oneLine": "把手势轮廓变成屏幕里的幻想生物。",
@@ -2113,6 +2362,9 @@
   },
   {
     "candidateId": "future-self-mail",
+    "problemSolved": "面对长期选择时，你容易被当下情绪困住，也很难把过去的经验调出来一起思考。",
+    "howItHelps": "它先保存你的问题，再依据你授权的旧记录写一封“未来回信”，并明确区分真实依据与想象。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "未来自己回信器",
     "oneLine": "先写下问题，再让系统基于你过去的记录模拟未来回信。",
@@ -2137,6 +2389,9 @@
   },
   {
     "candidateId": "local-shop-faq",
+    "problemSolved": "小店反复回答营业时间、预约和菜单问题，顾客等回复，店主也被琐事打断。",
+    "howItHelps": "它只依据店主确认的资料回答常见问题，遇到资料没有的情况就明确转人工。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "小店常见问题助手",
     "oneLine": "把营业时间、菜单和预约规则做成带来源的回答页。",
@@ -2161,6 +2416,9 @@
   },
   {
     "candidateId": "niche-lead-radar",
+    "problemSolved": "你想做有真实需求的产品，却总从自己的想象出发，不知道人们正在反复抱怨什么。",
+    "howItHelps": "它扫描公开论坛，聚合同类问题并保留原帖，再生成可用于访谈核实的问题清单。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "小众需求线索雷达",
     "oneLine": "从公开论坛讨论里找反复出现、尚未解决的问题。",
@@ -2185,6 +2443,9 @@
   },
   {
     "candidateId": "quote-generator",
+    "problemSolved": "接小单时你不知道怎样拆工时、列范围和报价，容易低估成本或与客户理解不一致。",
+    "howItHelps": "它根据服务范围生成可解释的报价草稿，清楚列出假设、成本、不包含项和可选项。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "服务报价草稿器",
     "oneLine": "根据明确服务范围生成可解释的报价项目清单。",
@@ -2209,6 +2470,9 @@
   },
   {
     "candidateId": "menu-profit-explainer",
+    "problemSolved": "小店有销售和成本数据，却很难看出哪些菜真正赚钱、哪些只是卖得多。",
+    "howItHelps": "它把成本、售价和销量放在一起，用店主能理解的方式解释原因，只给建议不自动改价。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "菜单利润解释器",
     "oneLine": "把菜品成本、售价和销量做成店主看得懂的建议。",
@@ -2233,6 +2497,9 @@
   },
   {
     "candidateId": "appointment-no-show",
+    "problemSolved": "预约总有人爽约，你想适当提醒，却不希望粗暴地给顾客贴上“高风险”标签。",
+    "howItHelps": "它只分析不同提醒时间与到店情况的关系，提出提醒策略，不对个人做惩罚性判断。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "预约爽约提醒实验",
     "oneLine": "根据历史记录找出适合发送提醒的时间，而非给人打标签。",
@@ -2257,6 +2524,9 @@
   },
   {
     "candidateId": "review-theme-radar",
+    "problemSolved": "客户评价越来越多，你只能看到零散好评差评，很难知道哪些问题反复出现。",
+    "howItHelps": "它把公开评价聚成表扬、抱怨和待核实主题，每个结论都能点回原评价。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "客户评价主题雷达",
     "oneLine": "把公开评价聚成表扬、抱怨和待核实主题。",
@@ -2281,6 +2551,9 @@
   },
   {
     "candidateId": "micro-course-product",
+    "problemSolved": "你有一项具体经验想分享或尝试售卖，却不知道怎样缩成别人半小时能真正学会的内容。",
+    "howItHelps": "它帮你挑一个可演示的小技能，整理成讲解、练习和反馈三部分，先做出可试学原型。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "经验微课产品化",
     "oneLine": "把一项自己会的具体技能做成三十分钟可完成的小课。",
@@ -2305,6 +2578,9 @@
   },
   {
     "candidateId": "industry-digest-service",
+    "problemSolved": "某个小行业的信息散落在网站、公告和论坛里，目标用户没有时间每天筛选。",
+    "howItHelps": "它定期收集公开信号、保留来源并生成经人工核验的短报，让你验证是否有人愿意订阅。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "垂直行业情报订阅",
     "oneLine": "为一个很窄的行业收集公开信号并给出人工核验摘要。",
@@ -2329,6 +2605,9 @@
   },
   {
     "candidateId": "product-listing-quality",
+    "problemSolved": "商品页写了很多宣传词，却可能漏掉尺寸、使用条件和购买前真正影响决定的信息。",
+    "howItHelps": "它按品类检查规格与证据缺口，输出待补清单，由你确认后再修改页面。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "商品页质量检查器",
     "oneLine": "检查商品页是否缺少规格、证据和购买前关键信息。",
@@ -2353,6 +2632,9 @@
   },
   {
     "candidateId": "customer-return-reason",
+    "problemSolved": "退货备注内容杂乱，只看退货率无法知道问题来自商品、描述还是物流。",
+    "howItHelps": "它把备注关联到商品和可核对主题，同时保留原始记录，帮助你找到优先改进点。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "退货原因归因板",
     "oneLine": "把退货备注与商品问题关联到可核对主题。",
@@ -2377,6 +2659,9 @@
   },
   {
     "candidateId": "supplier-document-check",
+    "problemSolved": "供应商发来的报价、资质和交付文件格式各异，关键字段缺失时很容易被忽略。",
+    "howItHelps": "它逐份检查价格、有效期、资质和交付条件，把缺口链接到原文位置供你追问。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "供应商资料完整性检查",
     "oneLine": "检查报价单、资质和交付条件是否缺关键字段。",
@@ -2401,6 +2686,9 @@
   },
   {
     "candidateId": "simple-crm-followup",
+    "problemSolved": "你靠记忆跟进少量客户，经常忘记上次谈到哪里，商业软件又显得过重。",
+    "howItHelps": "它根据你手动记录的阶段和历史生成下一次联系草稿，到时间提醒但绝不自动发送。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "轻量客户跟进提醒",
     "oneLine": "根据人工记录的阶段生成下一次联系草稿。",
@@ -2425,6 +2713,9 @@
   },
   {
     "candidateId": "local-event-content",
+    "problemSolved": "活动信息确认后，还要分别写海报、日程和问答，多处改动容易出现时间地点不一致。",
+    "howItHelps": "它从同一份已确认信息生成多渠道内容草稿，并用事实核对表提示不同版本的冲突。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "本地活动内容包",
     "oneLine": "从主办方确认的信息生成海报文案、日程和问答草稿。",
@@ -2449,6 +2740,9 @@
   },
   {
     "candidateId": "creator-sponsor-match",
+    "problemSolved": "你想找商业合作，却不知道自己的内容适合哪些品牌，也不想购买或抓取私人联系方式。",
+    "howItHelps": "它分析公开内容主题，提出可能契合的品牌类型和合作理由，形成待人工验证的假设清单。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "创作者合作匹配草稿",
     "oneLine": "根据公开内容主题寻找可能契合的品牌类型。",
@@ -2473,6 +2767,9 @@
   },
   {
     "candidateId": "business-process-audit",
+    "problemSolved": "你知道小企业有流程可以自动化，却容易一上来就做大系统，最后发现入口数据拿不到。",
+    "howItHelps": "它先访谈并画出一个重复流程，找出最耗时、最安全且最适合先验证的单一步骤。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "小企业流程体检",
     "oneLine": "访谈一个重复流程，找出最适合自动化的单一步骤。",
@@ -2497,6 +2794,9 @@
   },
   {
     "candidateId": "vertical-chatbot-demo",
+    "problemSolved": "你想为某个行业做问答机器人，但普通演示什么都回答，无法证明它可靠或能交付。",
+    "howItHelps": "它只使用小领域资料，回答带引用、不会就拒答，并用二十个真实问题验收。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "垂直知识问答样板",
     "oneLine": "为一个小领域做带引用、会拒答的演示机器人。",
@@ -2521,6 +2821,9 @@
   },
   {
     "candidateId": "ai-blender-room",
+    "problemSolved": "你对三维建模感兴趣，却不知道 AI 能在哪些步骤帮忙，也担心完整场景太难。",
+    "howItHelps": "它用文字和参考图辅助拆解建模步骤，从一个简单低模房间开始，并保留每次修改过程。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "AI + Blender 房间建模",
     "oneLine": "用文字和参考图辅助生成一个简单房间的建模步骤。",
@@ -2545,6 +2848,9 @@
   },
   {
     "candidateId": "music-stem-practice",
+    "problemSolved": "练歌或乐器时你想单独听鼓、贝斯或人声，但手里的完整歌曲无法方便分轨练习。",
+    "howItHelps": "对你有权使用的音乐，它会分离练习轨，并提供调速、循环和音量控制。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 分轨练习助手",
     "oneLine": "把自己有权使用的音乐分离成鼓、贝斯和人声练习轨。",
@@ -2569,6 +2875,9 @@
   },
   {
     "candidateId": "video-shot-planner",
+    "problemSolved": "拍短视频时你常到了现场才发现镜头接不上、对白太长或条件不允许重拍。",
+    "howItHelps": "它先把想法变成带镜头、对白、时长和拍摄条件的分镜草稿，让你拍摄前低成本排练。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 视频分镜排练",
     "oneLine": "先用文字和草图验证短视频镜头，再拿起相机。",
@@ -2593,6 +2902,9 @@
   },
   {
     "candidateId": "garden-health-log",
+    "problemSolved": "植物状态变化很慢，你凭印象判断浇水或光照，常常看不出问题从什么时候开始。",
+    "howItHelps": "它要求定期拍同一角度并记录环境，把叶色和生长变化放到时间线上供你对照。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "植物生长观察簿",
     "oneLine": "定期拍同一株植物，记录叶色、浇水和环境变化。",
@@ -2617,6 +2929,9 @@
   },
   {
     "candidateId": "arduino-voice-control",
+    "problemSolved": "你想把 AI 与硬件结合，却担心语音识别错误会触发不安全动作。",
+    "howItHelps": "它只接受少量白名单命令，把语音映射到灯光或舵机，并为无法确认的命令拒绝执行。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "语音控制 Arduino 小装置",
     "oneLine": "把有限语音命令映射到安全的灯光或舵机动作。",
@@ -2641,6 +2956,9 @@
   },
   {
     "candidateId": "3d-print-repair-part",
+    "problemSolved": "家里一个小塑料零件坏了，买不到替换件，但你又没有从照片直接建模的经验。",
+    "howItHelps": "它根据照片和你测量的尺寸辅助画出非承重替换件，打印后还能根据误差继续调整。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 辅助维修零件建模",
     "oneLine": "根据尺寸和照片设计一个简单非承重替换件。",
@@ -2665,6 +2983,9 @@
   },
   {
     "candidateId": "sports-form-review",
+    "problemSolved": "你看教学视频觉得动作会了，实际练习时却看不到自己关节角度与示范差在哪里。",
+    "howItHelps": "它在你的练习视频上标出关键姿态，与公开教学要点并排比较，同时说明识别不确定处。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "运动动作对比练习",
     "oneLine": "把自己的动作与公开教学关键点做可视化对照。",
@@ -2689,6 +3010,9 @@
   },
   {
     "candidateId": "language-pronunciation",
+    "problemSolved": "你听得出自己发音不对，却不知道问题在音素、节奏还是重音，反复跟读进步很慢。",
+    "howItHelps": "它把录音与目标音节在时间线上对齐，标出具体差异，并允许立刻重录比较。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "发音对照工作台",
     "oneLine": "把自己的录音与目标音节在节奏和音素上对照。",
@@ -2713,6 +3037,9 @@
   },
   {
     "candidateId": "recipe-vision",
+    "problemSolved": "打开冰箱时你看见很多食材，却想不出能做什么；让 AI 直接看图又可能认错。",
+    "howItHelps": "它先从照片列出可能的食材，请你确认库存后才生成简单食谱和替代方案。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "冰箱视觉食谱草稿",
     "oneLine": "从食材照片列出可能已有的东西，再由你确认。",
@@ -2737,6 +3064,9 @@
   },
   {
     "candidateId": "home-energy-anomaly",
+    "problemSolved": "智能插座记录了大量曲线，但你只看到数字，不知道哪个时段异常、可能是什么设备造成。",
+    "howItHelps": "它标出与平常不同的用电时段，保留原始曲线并给出可核实的可能原因。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭用电异常解释",
     "oneLine": "把智能插座数据变成可理解的异常时间段。",
@@ -2761,6 +3091,9 @@
   },
   {
     "candidateId": "museum-study-guide",
+    "problemSolved": "去博物馆时你漫无目的地看完就忘，官方资料又太多，不知道怎样围绕一个主题参观。",
+    "howItHelps": "它从公开馆藏中选出一条主题路线，为每件展品准备观察问题并链接原始资料。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "馆藏主题学习路线",
     "oneLine": "从公开馆藏资料生成一条带来源的主题参观路线。",
@@ -2785,6 +3118,9 @@
   },
   {
     "candidateId": "personal-finance-scenario",
+    "problemSolved": "你在比较预算方案时容易只看一个最终数字，忽略假设变化和现金流压力。",
+    "howItHelps": "它让你自己填写收入、支出和时间假设，比较多个区间结果，不预测收益也不替你做决定。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "个人财务情景沙盘",
     "oneLine": "用自己输入的假设比较不同预算方案，而非预测收益。",
@@ -2809,6 +3145,9 @@
   },
   {
     "candidateId": "accessibility-caption",
+    "problemSolved": "你的网站有很多图片，但不知道怎样写替代文本，自动生成又可能脱离页面语境。",
+    "howItHelps": "它同时读取图片和所在页面内容，生成可编辑草稿，并让你逐张审阅后再使用。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "无障碍图像说明助手",
     "oneLine": "为自己的网站图片生成可编辑的替代文本草稿。",
@@ -2833,6 +3172,9 @@
   },
   {
     "candidateId": "map-storytelling",
+    "problemSolved": "公开数据表里有很多行数字，普通人很难看出地点之间的差异和背后的故事。",
+    "howItHelps": "它把数据放到可点击地图上，用短叙事解释变化，每个结论都能回到原始数据行。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "公开数据地图故事",
     "oneLine": "把一份城市公开数据做成能点开的地图叙事。",
@@ -2857,6 +3199,9 @@
   },
   {
     "candidateId": "book-private-search",
+    "problemSolved": "教材、讲义和笔记散在多个文件里，复习时记得见过某个概念，却找不到在哪一页。",
+    "howItHelps": "它建立只属于你资料的搜索库，回答时显示页码引用，还能按课程切换范围。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "学习资料私人搜索",
     "oneLine": "把自己的教材、讲义和笔记做成只依据资料回答的搜索。",
@@ -2881,6 +3226,9 @@
   },
   {
     "candidateId": "exam-study-simulator",
+    "problemSolved": "你刷题后只知道对错，不清楚薄弱点来自哪个章节，也容易让 AI 出超出资料范围的题。",
+    "howItHelps": "它只依据你的教材生成题目，记录错因与出处，再给出下一轮复习重点。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "考试情境练习器",
     "oneLine": "根据自己的资料生成练习题并追踪薄弱点。",
@@ -2905,6 +3253,9 @@
   },
   {
     "candidateId": "job-application-assistant",
+    "problemSolved": "找工作时职位要求、简历证据和投递版本散乱，重复填写又容易误投或触发平台风险。",
+    "howItHelps": "它整理职位与个人证据，生成每次申请草稿；任何最终提交都必须由你亲自确认。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "求职申请人工确认助手",
     "oneLine": "整理职位要求、简历证据和每次投递草稿。",
@@ -2929,6 +3280,9 @@
   },
   {
     "candidateId": "college-choice-explorer",
+    "problemSolved": "志愿选择信息来源多、年份不同，学校名次容易掩盖专业偏好和个人限制。",
+    "howItHelps": "它把学校、专业、你的偏好和数据年份放进同一比较视图，并列出需要向老师核实的问题。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "志愿选择信息探索器",
     "oneLine": "把学校、专业和个人偏好做成可追溯的比较视图。",
@@ -2953,6 +3307,9 @@
   },
   {
     "candidateId": "news-claim-map",
+    "problemSolved": "同一新闻在不同媒体里说法不同，你容易把评论当事实，也很难追到最初来源。",
+    "howItHelps": "它拆出各篇报道的主张、引用与分歧，画成关系图，点击节点就能回到原文。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "新闻主张证据图",
     "oneLine": "把多篇报道里的主张、来源和分歧画成关系图。",
@@ -2977,6 +3334,9 @@
   },
   {
     "candidateId": "public-data-neighborhood",
+    "problemSolved": "你想了解附近天气、交通或设施变化，却没有精力阅读各个公开数据网站。",
+    "howItHelps": "它只用聚合公开数据生成社区小报，展示变化趋势，不追踪个人或精确家庭位置。",
+    "readerReady": true,
     "origin": "original-concept",
     "title": "社区公开数据观察站",
     "oneLine": "把天气、交通或公共设施数据做成附近变化小报。",

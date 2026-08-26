@@ -96,6 +96,9 @@ function sourceBoundFallback(signal: AiProjectSignalEvidence): AiProjectCandidat
     title: actualTool ? `${signal.title}：复刻一个核心玩法` : `把“${signal.title.slice(0, 48)}”做成小实验`,
     oneLine: "从一条真实近期信号里，挑一个最值得亲手验证的 AI 能力。",
     summary: clean(signal.summary, "这是一条近期出现的 AI 项目或产品信号。"),
+    problemSolved: "你看到了一个近期 AI 项目，但还不清楚它能替自己解决什么具体问题。",
+    howItHelps: "这条信号只保留真实来源，等编辑补齐面向你的用途解释后才会进入每日推荐。",
+    readerReady: false,
     outcome: "一个只覆盖核心能力、可以亲自试用和判断的原型。",
     whyWorthwhile: "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
     skills: ["需求拆解", "AI 能力接入", "可行性验证"],
@@ -263,7 +266,7 @@ export async function fetchAiProjectEvidence(
 }
 
 export function buildAiProjectOrganizerPrompt(evidence: AiProjectSignalEvidence[]): string {
-  return `你是 AI 项目编辑。只能根据证据数组草拟完整中文候选，不得创造或修改来源事实。每个候选必须原样返回 signalId，并提供 title、oneLine、summary、outcome、whyWorthwhile、skills、realWorldPotential、feasibilityProbe、costAndRisks、tags、crossDomain、largeCommercial、difficulty 五维(20-100)和 explanation。只输出 {"candidates":[]} JSON。证据：\n${JSON.stringify(evidence, null, 2)}`;
+  return `你是面向 AI 新手的项目编辑。只能根据证据数组草拟完整中文候选，不得创造或修改来源事实。不要从产品或技术的角度介绍，要先从读者角度讲清楚：他可能遇到什么具体问题（problemSolved），这个项目会经过哪些动作帮助他（howItHelps），以及做完能拿到什么可见成果（outcome）。避免专业英文堆叠和“提升效率、赋能工作流”这类空话。每个候选必须原样返回 signalId，并提供 title、oneLine、summary、problemSolved、howItHelps、readerReady:true、outcome、whyWorthwhile、skills、realWorldPotential、feasibilityProbe、costAndRisks、tags、crossDomain、largeCommercial、difficulty 五维(20-100)和 explanation。只输出 {"candidates":[]} JSON。证据：\n${JSON.stringify(evidence, null, 2)}`;
 }
 
 export async function organizeAiProjectEvidence(
