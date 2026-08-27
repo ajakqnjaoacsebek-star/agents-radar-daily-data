@@ -2,6 +2,16 @@ import fs from "node:fs";
 import { describe, expect, it } from "vitest";
 
 describe("Daily Inspiration workflow", () => {
+  it("keeps the morning run and adds an idempotent 11:30 CST catch-up", () => {
+    const workflow = fs.readFileSync(".github/workflows/daily-inspiration.yml", "utf8");
+
+    expect(workflow).toContain('cron: "15 0 * * *"');
+    expect(workflow).toContain('cron: "30 3 * * *"');
+    expect(workflow).toContain("digests/${DATE}/daily-inspiration.json");
+    expect(workflow).toContain("if: steps.daily-gate.outputs.should_run == 'true'");
+    expect(workflow).toContain('if [ "$GITHUB_EVENT_NAME" = "schedule" ]');
+  });
+
   it("syncs and pushes master explicitly after committing a card", () => {
     const workflow = fs.readFileSync(".github/workflows/daily-inspiration.yml", "utf8");
 

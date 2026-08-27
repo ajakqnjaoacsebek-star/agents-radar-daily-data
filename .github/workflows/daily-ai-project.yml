@@ -4,6 +4,8 @@ on:
   schedule:
     # Every day at 08:30 CST (UTC+8), independent from Daily Inspiration.
     - cron: "30 0 * * *"
+    # Daily catch-up at 11:45 CST; skip when today's card already exists.
+    - cron: "45 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,18 +29,36 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Check whether today's scheduled card already exists
+        id: daily-gate
+        shell: bash
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          TARGET="digests/${DATE}/daily-ai-project.json"
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ -f "$TARGET" ]; then
+            echo "Today's AI project already exists; skipping scheduled run."
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "AI project generation is required."
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Setup pnpm
+        if: steps.daily-gate.outputs.should_run == 'true'
         uses: pnpm/action-setup@v4
       - name: Setup Node.js
+        if: steps.daily-gate.outputs.should_run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
       - name: Install dependencies
+        if: steps.daily-gate.outputs.should_run == 'true'
         run: pnpm install --frozen-lockfile
       - name: Select one source-bound AI project without a model call
+        if: steps.daily-gate.outputs.should_run == 'true'
         run: pnpm ai-project:only
       - name: Commit AI project card and state
+        if: steps.daily-gate.outputs.should_run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -52,8 +72,10 @@ jobs:
             git push origin HEAD:master
           fi
       - name: Update web manifest
+        if: steps.daily-gate.outputs.should_run == 'true'
         run: pnpm manifest
       - name: Commit manifest
+        if: steps.daily-gate.outputs.should_run == 'true'
         run: |
           git add manifest.json feed.xml
           if ! git diff --cached --quiet; then
