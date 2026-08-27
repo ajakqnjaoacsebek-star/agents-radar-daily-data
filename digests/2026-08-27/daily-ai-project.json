@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-08-27",
+  "candidateId": "accessibility-caption",
+  "origin": "original-concept",
+  "title": "无障碍图像说明助手",
+  "oneLine": "为自己的网站图片生成可编辑的替代文本草稿。",
+  "summary": "为自己的网站图片生成可编辑的替代文本草稿。能把视觉模型与真实无障碍需求结合。",
+  "problemSolved": "你的网站有很多图片，但不知道怎样写替代文本，自动生成又可能脱离页面语境。",
+  "howItHelps": "它同时读取图片和所在页面内容，生成可编辑草稿，并让你逐张审阅后再使用。",
+  "outcome": "一个同时展示图片、上下文和说明的审阅页。",
+  "whyWorthwhile": "能把视觉模型与真实无障碍需求结合。",
+  "skills": [
+    "视觉理解",
+    "无障碍设计"
+  ],
+  "realWorldPotential": "可改善内容网站和产品页面体验。",
+  "feasibilityProbe": "请两位使用者审阅十张图片的说明是否有用。",
+  "costAndRisks": [
+    "自动说明可能遗漏上下文，不能未经审核直接发布。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "自动说明可能遗漏上下文，不能未经审核直接发布。"
+  },
+  "generatedBy": "curated-fallback"
+}

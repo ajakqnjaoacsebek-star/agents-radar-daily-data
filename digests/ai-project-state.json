@@ -32,6 +32,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 1
+    },
+    {
+      "candidateId": "accessibility-caption",
+      "date": "2026-08-27",
+      "tags": [
+        "practical",
+        "learning"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
