@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-27",
+  "generatedAt": "2026-08-27T03:43:00.121Z",
+  "candidateId": "evergreen:wallabag",
+  "origin": "evergreen",
+  "category": "知识整理",
+  "title": "Wallabag：把长文章留到真正有空时看",
+  "summary": "Wallabag 是开源稍后阅读工具，可保存文章正文并同步阅读进度。",
+  "whyInteresting": "看到好文章时，不必在忙碌和彻底错过之间二选一。",
+  "remixIdea": "让 AI 每周只从未读文章中挑三篇，并解释为什么值得看。",
+  "source": {
+    "label": "Wallabag",
+    "url": "https://wallabag.org/"
+  },
+  "generatedBy": "fallback"
+}
