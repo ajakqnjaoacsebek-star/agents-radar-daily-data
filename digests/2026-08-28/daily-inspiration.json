@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T02:20:58.152Z",
+  "candidateId": "evergreen:open-notebook",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "Open Notebook：可自托管的资料研究助手",
+  "summary": "Open Notebook 是开源研究与笔记工具，可围绕来源生成摘要、对话和音频内容。",
+  "whyInteresting": "重点不只是问 AI，而是保留回答来自哪些资料。",
+  "remixIdea": "给一个想做的项目收集十条来源，做成能追溯证据的项目研究本。",
+  "source": {
+    "label": "Open Notebook",
+    "url": "https://github.com/lfnovo/open-notebook"
+  },
+  "generatedBy": "fallback"
+}

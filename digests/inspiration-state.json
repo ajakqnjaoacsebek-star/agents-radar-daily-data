@@ -55,6 +55,10 @@
     {
       "id": "evergreen:wallabag",
       "date": "2026-08-27"
+    },
+    {
+      "id": "evergreen:open-notebook",
+      "date": "2026-08-28"
     }
   ],
   "weeklyDynamic": {
