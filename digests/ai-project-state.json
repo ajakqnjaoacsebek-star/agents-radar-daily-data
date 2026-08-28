@@ -43,6 +43,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "browser-tab-recovery",
+      "date": "2026-08-28",
+      "tags": [
+        "practical",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

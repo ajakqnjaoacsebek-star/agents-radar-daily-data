@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-08-28",
+  "candidateId": "browser-tab-recovery",
+  "origin": "original-concept",
+  "title": "浏览器标签页复盘器",
+  "oneLine": "把大量未关标签聚成主题并保留恢复入口。",
+  "summary": "把大量未关标签聚成主题并保留恢复入口。能学习 URL 聚类和可逆的浏览器整理。",
+  "problemSolved": "浏览器开了几十个标签页，关掉怕丢资料，不关又找不到重点、拖慢电脑。",
+  "howItHelps": "它把标签按主题分组并保存恢复入口，让你可以放心分批关闭，需要时再还原。",
+  "outcome": "一份可按主题保存和逐批关闭的标签快照。",
+  "whyWorthwhile": "能学习 URL 聚类和可逆的浏览器整理。",
+  "skills": [
+    "文本聚类",
+    "浏览器扩展"
+  ],
+  "realWorldPotential": "适合研究后清理窗口又不丢上下文。",
+  "feasibilityProbe": "导出三十个公开标签，只生成分组不关闭页面。",
+  "costAndRisks": [
+    "浏览记录可能暴露隐私，默认仅本机处理。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "浏览记录可能暴露隐私，默认仅本机处理。"
+  },
+  "generatedBy": "curated-fallback"
+}
