@@ -59,6 +59,10 @@
     {
       "id": "evergreen:open-notebook",
       "date": "2026-08-28"
+    },
+    {
+      "id": "evergreen:bitwarden",
+      "date": "2026-08-29"
     }
   ],
   "weeklyDynamic": {

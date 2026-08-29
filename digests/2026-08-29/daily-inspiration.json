@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T07:07:49.781Z",
+  "candidateId": "evergreen:bitwarden",
+  "origin": "evergreen",
+  "category": "数字生活",
+  "title": "Bitwarden：把不同网站的密码真正分开",
+  "summary": "Bitwarden 是跨平台密码管理器，提供开源客户端和个人免费方案。",
+  "whyInteresting": "记住一个主密码，就能避免多个网站重复使用同一密码。",
+  "remixIdea": "先只迁移三个最重要账号，逐步建立自己的账号安全清单。",
+  "source": {
+    "label": "Bitwarden",
+    "url": "https://bitwarden.com/"
+  },
+  "caution": "主密码必须独一无二，并应保存可靠的恢复方式。",
+  "generatedBy": "fallback"
+}
