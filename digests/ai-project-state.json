@@ -54,6 +54,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "crawl4ai-website-to-notes",
+      "date": "2026-08-29",
+      "tags": [
+        "practical",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

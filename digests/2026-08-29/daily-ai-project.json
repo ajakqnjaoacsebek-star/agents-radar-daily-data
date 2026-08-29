@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "date": "2026-08-29",
+  "candidateId": "crawl4ai-website-to-notes",
+  "origin": "verified-existing",
+  "title": "Crawl4AI 网页转笔记",
+  "oneLine": "把公开网页正文、标题和链接整理成可追溯笔记。",
+  "summary": "把公开网页正文、标题和链接整理成可追溯笔记。能练习抓取、正文提取和来源保真。",
+  "problemSolved": "你收藏了很多网页，但广告、菜单和页面改版让内容难以整理，也可能以后找不到原文。",
+  "howItHelps": "它提取公开网页的正文、标题和来源链接，保存成干净且可追溯的笔记。",
+  "outcome": "一个输入网址即可保存干净内容和来源的工具。",
+  "whyWorthwhile": "能练习抓取、正文提取和来源保真。",
+  "skills": [
+    "网页抓取",
+    "内容清洗"
+  ],
+  "realWorldPotential": "可用于专题研究和资料归档。",
+  "feasibilityProbe": "对三个结构不同的公开页面比较提取完整度。",
+  "costAndRisks": [
+    "遵守 robots、版权和访问频率，不抓登录内容。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "遵守 robots、版权和访问频率，不抓登录内容。"
+  },
+  "source": {
+    "label": "GitHub · unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "verifiedAt": "2026-08-24"
+  },
+  "generatedBy": "curated-fallback"
+}
