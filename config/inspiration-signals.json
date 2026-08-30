@@ -1,5 +1,425 @@
 [
   {
+    "id": "signal:huggingface:deepseek-ai/DeepSeek-R1",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "deepseek-ai/DeepSeek-R1",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Meta-Llama-3-8B",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Llama-3.1-8B-Instruct",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "deepseek-ai/DeepSeek-V4-Pro",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:openai/gpt-oss-120b",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "openai/gpt-oss-120b",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · openai/gpt-oss-120b",
+      "url": "https://huggingface.co/openai/gpt-oss-120b"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:bigscience/bloom",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "bigscience/bloom",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · bigscience/bloom",
+      "url": "https://huggingface.co/bigscience/bloom"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:zai-org/GLM-5.2",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "zai-org/GLM-5.2",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · zai-org/GLM-5.2",
+      "url": "https://huggingface.co/zai-org/GLM-5.2"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:openai/gpt-oss-20b",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "openai/gpt-oss-20b",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · openai/gpt-oss-20b",
+      "url": "https://huggingface.co/openai/gpt-oss-20b"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "meta-llama/Llama-2-7b-chat-hf",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49495398",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "I ran out of AI tokens in one app while holding unused tokens in another",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49495398"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49495324",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Ask HN: Hard Mode for LLMs",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49495324"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49495307",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "China's AI Revolution and the Ideology of Xi Jinping",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://kevinrudd.com/media/anu-centre-for-china-in-the-world-annual-lecture-2026"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49495208",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Best AI Quiz Generator?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://quizroom.ai"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49495130",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Popular code generator for TanStack Query hit by supply chain worm",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.aikido.dev/blog/popular-code-generator-for-tanstack-query-hit-by-supply-chain-worm"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49495009",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Meta Project OT plan to replace employees with AI agents",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.thestreet.com/technology/mark-zuckerberg-shocking-message-meta-employee-layoffs-artificial-intelligence"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49494889",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Hy4 Preview",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://hy.tencent.ai/research/hy4-preview"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49494853",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "China is fueling America's data center rage",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.axios.com/2026/08/28/china-ai-data-center-backlash-bots"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49494801",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "I feel like AI start being a reflect of the CEO behind it (his political)",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://baseline-rouge-mu.vercel.app/"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:hn:49494740",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:github:meharabPigeon/remove-windows-ai",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "meharabPigeon/remove-windows-ai",
+    "summary": "'remove windows ai script' — A GUI front-end concept for the viral remove-windows-ai approach: strip Copilot, Recall and AI bloat from Windows 11 with toggles and a revert net. Free, open community project for Windows.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · meharabPigeon/remove-windows-ai",
+      "url": "https://github.com/meharabPigeon/remove-windows-ai"
+    },
+    "signalDate": "2026-08-28"
+  },
+  {
+    "id": "signal:github:wimar393/windows-ai-privacy-toolkit",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "wimar393/windows-ai-privacy-toolkit",
+    "summary": "'disable windows ai features' — A privacy-first companion that inventories AI features on your PC and turns off the ones you name. Free, open community project for Windows.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · wimar393/windows-ai-privacy-toolkit",
+      "url": "https://github.com/wimar393/windows-ai-privacy-toolkit"
+    },
+    "signalDate": "2026-08-28"
+  },
+  {
+    "id": "signal:github:hkqr/my-free-code",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "hkqr/my-free-code",
+    "summary": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · hkqr/my-free-code",
+      "url": "https://github.com/hkqr/my-free-code"
+    },
+    "signalDate": "2026-08-27"
+  },
+  {
+    "id": "signal:github:damejan80/tokentab",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "damejan80/tokentab",
+    "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · damejan80/tokentab",
+      "url": "https://github.com/damejan80/tokentab"
+    },
+    "signalDate": "2026-08-27"
+  },
+  {
+    "id": "signal:github:Vincent-Xi08/IntentRoute-AI",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Vincent-Xi08/IntentRoute-AI",
+    "summary": "Open-source AI-assisted per-application routing for Windows with OpenAI/Ollama drafts and a sing-box TUN data plane.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Vincent-Xi08/IntentRoute-AI",
+      "url": "https://github.com/Vincent-Xi08/IntentRoute-AI"
+    },
+    "signalDate": "2026-08-26"
+  },
+  {
+    "id": "signal:github:Merit-Systems/OpenInstinct",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Merit-Systems/OpenInstinct",
+    "summary": "iMessage personal assistant + password vault",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Merit-Systems/OpenInstinct",
+      "url": "https://github.com/Merit-Systems/OpenInstinct"
+    },
+    "signalDate": "2026-08-25"
+  },
+  {
+    "id": "signal:github:princechhimpachhimpasaab-lang/omega-epsilon-problem-forge",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "princechhimpachhimpasaab-lang/omega-epsilon-problem-forge",
+    "summary": "Olympiad Problem Generator 2026: Create Infinite Spanish Math Olympiad-Style Challenges",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · princechhimpachhimpasaab-lang/omega-epsilon-problem-forge",
+      "url": "https://github.com/princechhimpachhimpasaab-lang/omega-epsilon-problem-forge"
+    },
+    "signalDate": "2026-08-25"
+  },
+  {
+    "id": "signal:github:rq0066622-lang/Neuro-Sprint",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "rq0066622-lang/Neuro-Sprint",
+    "summary": "2026 Mind Flex Pro: Brain Training & Cognitive Enhancement Suite",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · rq0066622-lang/Neuro-Sprint",
+      "url": "https://github.com/rq0066622-lang/Neuro-Sprint"
+    },
+    "signalDate": "2026-08-25"
+  },
+  {
+    "id": "signal:github:mustafaeeeuu-cell/NutriVerse-Coach",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "mustafaeeeuu-cell/NutriVerse-Coach",
+    "summary": "NourishAI 2026 Fitness Coach: Healthy Meal Planner, Tasty Recipes & Community Hub",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · mustafaeeeuu-cell/NutriVerse-Coach",
+      "url": "https://github.com/mustafaeeeuu-cell/NutriVerse-Coach"
+    },
+    "signalDate": "2026-08-25"
+  },
+  {
+    "id": "signal:github:genoskietv/AdalFlow-Optimizer",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "genoskietv/AdalFlow-Optimizer",
+    "summary": "Build & Auto-Optimize LLM Apps in 2026: The Ultimate AdalFlow Guide",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · genoskietv/AdalFlow-Optimizer",
+      "url": "https://github.com/genoskietv/AdalFlow-Optimizer"
+    },
+    "signalDate": "2026-08-25"
+  },
+  {
     "id": "signal:hn:49319889",
     "origin": "dynamic",
     "category": "社区发现",
@@ -136,146 +556,6 @@
     "source": {
       "label": "Hacker News",
       "url": "https://www.primeintellect.ai/blog/measuring-autonomous-research"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:deepseek-ai/DeepSeek-R1",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "deepseek-ai/DeepSeek-R1",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "meta-llama/Meta-Llama-3-8B",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "meta-llama/Llama-3.1-8B-Instruct",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "deepseek-ai/DeepSeek-V4-Pro",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:openai/gpt-oss-120b",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "openai/gpt-oss-120b",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · openai/gpt-oss-120b",
-      "url": "https://huggingface.co/openai/gpt-oss-120b"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:bigscience/bloom",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "bigscience/bloom",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · bigscience/bloom",
-      "url": "https://huggingface.co/bigscience/bloom"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:zai-org/GLM-5.2",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "zai-org/GLM-5.2",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · zai-org/GLM-5.2",
-      "url": "https://huggingface.co/zai-org/GLM-5.2"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:openai/gpt-oss-20b",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "openai/gpt-oss-20b",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · openai/gpt-oss-20b",
-      "url": "https://huggingface.co/openai/gpt-oss-20b"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "meta-llama/Meta-Llama-3-8B-Instruct",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
-    },
-    "signalDate": "2026-08-16"
-  },
-  {
-    "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
-    "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "meta-llama/Llama-2-7b-chat-hf",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
-    "source": {
-      "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
-      "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
     "signalDate": "2026-08-16"
   },
