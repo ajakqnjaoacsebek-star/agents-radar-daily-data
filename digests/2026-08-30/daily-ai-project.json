@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-08-30",
+  "candidateId": "eval-dataset-maker",
+  "origin": "original-concept",
+  "title": "个人评测集制作器",
+  "oneLine": "把遇到过的失败输入保存成可重复测试的题库。",
+  "summary": "把遇到过的失败输入保存成可重复测试的题库。能让项目质量跟着真实错误积累而提高。",
+  "problemSolved": "AI 曾经答错的问题散落在聊天里，修好一次后，下次改动又可能复发。",
+  "howItHelps": "它把真实失败输入、期望结果和失败原因收成小题库，之后每次改模型或提示词都能重测。",
+  "outcome": "一个包含输入、期望、来源和失败类型的小数据集。",
+  "whyWorthwhile": "能让项目质量跟着真实错误积累而提高。",
+  "skills": [
+    "评测数据",
+    "失败分类"
+  ],
+  "realWorldPotential": "适合任何长期使用的 AI 功能。",
+  "feasibilityProbe": "从一个旧项目收集二十个真实失败案例。",
+  "costAndRisks": [
+    "评测集不能包含未经脱敏的私人数据。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "评测集不能包含未经脱敏的私人数据。"
+  },
+  "generatedBy": "curated-fallback"
+}
