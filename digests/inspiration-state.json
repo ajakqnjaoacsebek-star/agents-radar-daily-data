@@ -63,6 +63,10 @@
     {
       "id": "evergreen:bitwarden",
       "date": "2026-08-29"
+    },
+    {
+      "id": "evergreen:immich",
+      "date": "2026-08-30"
     }
   ],
   "weeklyDynamic": {

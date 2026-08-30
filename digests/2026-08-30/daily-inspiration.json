@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T05:28:46.011Z",
+  "candidateId": "evergreen:immich",
+  "origin": "evergreen",
+  "category": "个人数据",
+  "title": "Immich：把家庭照片库放在自己的服务器",
+  "summary": "Immich 是自托管照片与视频备份平台，提供时间线、搜索和移动端备份体验。",
+  "whyInteresting": "它展示了个人云相册也能由自己掌控。",
+  "remixIdea": "可以配合一块独立备份盘，建立家庭照片的多副本保存流程。",
+  "source": {
+    "label": "Immich",
+    "url": "https://immich.app/"
+  },
+  "caution": "项目更新较快，不能把单一 Immich 实例当作唯一备份。",
+  "generatedBy": "fallback"
+}
