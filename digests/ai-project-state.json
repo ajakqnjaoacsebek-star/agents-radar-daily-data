@@ -76,6 +76,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "daily-life-rpg",
+      "date": "2026-08-31",
+      "tags": [
+        "imagination",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

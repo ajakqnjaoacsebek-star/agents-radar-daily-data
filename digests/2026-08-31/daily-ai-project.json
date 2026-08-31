@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-08-31",
+  "candidateId": "daily-life-rpg",
+  "origin": "original-concept",
+  "title": "现实生活 RPG",
+  "oneLine": "把一周真实任务变成不惩罚人的轻量任务地图。",
+  "summary": "把一周真实任务变成不惩罚人的轻量任务地图。能学习状态机、推荐和行为设计边界。",
+  "problemSolved": "普通待办列表让你觉得压力大，坚持几天就放弃，但游戏化工具又常常惩罚没完成。",
+  "howItHelps": "它把一周任务变成可调难度的地图和奖励，由你决定节奏，未完成不会扣分。",
+  "outcome": "一个能手动调节难度和奖励的生活游戏板。",
+  "whyWorthwhile": "能学习状态机、推荐和行为设计边界。",
+  "skills": [
+    "游戏化",
+    "状态管理"
+  ],
+  "realWorldPotential": "可增加重复小事的趣味性。",
+  "feasibilityProbe": "只设置三个可完成任务，观察是否真的更愿意行动。",
+  "costAndRisks": [
+    "避免用连续签到制造压力或替用户安排重要决定。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "避免用连续签到制造压力或替用户安排重要决定。"
+  },
+  "generatedBy": "curated-fallback"
+}
