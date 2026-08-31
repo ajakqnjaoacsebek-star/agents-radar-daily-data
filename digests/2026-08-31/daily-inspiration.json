@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T05:41:30.420Z",
+  "candidateId": "evergreen:grist",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Grist：电子表格和关系数据库之间的中间地带",
+  "summary": "Grist 是开源数据表格工具，支持关系、公式、视图和权限。",
+  "whyInteresting": "它保留表格的直观，同时减少多个表互相复制带来的混乱。",
+  "remixIdea": "把项目、资料和行动分别做成关联表，自动看到每个项目还缺什么。",
+  "source": {
+    "label": "Grist",
+    "url": "https://www.getgrist.com/"
+  },
+  "generatedBy": "fallback"
+}
