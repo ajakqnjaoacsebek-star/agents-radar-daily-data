@@ -71,6 +71,10 @@
     {
       "id": "evergreen:grist",
       "date": "2026-08-31"
+    },
+    {
+      "id": "evergreen:n8n",
+      "date": "2026-09-01"
     }
   ]
 }

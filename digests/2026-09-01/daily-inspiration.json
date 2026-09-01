@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T05:15:06.494Z",
+  "candidateId": "evergreen:n8n",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "n8n：把多个网站和服务串成自动流程",
+  "summary": "n8n 是可视化工作流自动化工具，能连接 API、表格、消息和 AI 服务。",
+  "whyInteresting": "很多“每天重复点几次”的工作，都可以被拆成一串自动节点。",
+  "remixIdea": "把每日灵感、邮件或收藏链接自动送进同一个私人资料库。",
+  "source": {
+    "label": "n8n",
+    "url": "https://n8n.io/"
+  },
+  "caution": "自托管和云服务的功能、许可与费用不同，部署前应核对。",
+  "generatedBy": "fallback"
+}
