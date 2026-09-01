@@ -87,6 +87,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "meal-leftover-planner",
+      "date": "2026-09-01",
+      "tags": [
+        "practical"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 1
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-01",
+  "candidateId": "meal-leftover-planner",
+  "origin": "original-concept",
+  "title": "剩菜优先菜单",
+  "oneLine": "根据已有食材和保质期先安排该吃什么。",
+  "summary": "根据已有食材和保质期先安排该吃什么。能练习约束条件与不完整库存输入。",
+  "problemSolved": "冰箱里已有食材快过期，你却常常先买新的，最后不知道该优先吃什么。",
+  "howItHelps": "它根据你确认的库存和保质期安排三日菜单，并给出缺少食材时的替代方案。",
+  "outcome": "一个展示使用顺序与替代方案的三日菜单。",
+  "whyWorthwhile": "能练习约束条件与不完整库存输入。",
+  "skills": [
+    "约束规划",
+    "推荐系统"
+  ],
+  "realWorldPotential": "可减少浪费并简化晚餐决策。",
+  "feasibilityProbe": "只录入十样食材，检查是否优先使用快过期物品。",
+  "costAndRisks": [
+    "过敏和食品安全信息必须由用户确认。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 25,
+    "currentStars": 1,
+    "explanation": "过敏和食品安全信息必须由用户确认。"
+  },
+  "generatedBy": "curated-fallback"
+}
