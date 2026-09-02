@@ -97,6 +97,16 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 1
+    },
+    {
+      "candidateId": "software-settings-guide",
+      "date": "2026-09-02",
+      "tags": [
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 1
     }
   ]
 }

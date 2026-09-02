@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-02",
+  "candidateId": "software-settings-guide",
+  "origin": "original-concept",
+  "title": "软件设置路径记忆",
+  "oneLine": "记录某个难找设置的准确路径和版本截图。",
+  "summary": "记录某个难找设置的准确路径和版本截图。能练习版本化文档和截图标注。",
+  "problemSolved": "某个软件设置藏得很深，你每次换电脑或版本后都要重新搜索一遍。",
+  "howItHelps": "它保存准确菜单路径、软件版本和截图，以后按软件名就能直接找到自己的操作小抄。",
+  "outcome": "一个按软件版本搜索的私人设置小抄。",
+  "whyWorthwhile": "能练习版本化文档和截图标注。",
+  "skills": [
+    "文档化",
+    "版本管理"
+  ],
+  "realWorldPotential": "适合保存偶尔才会用到的配置经验。",
+  "feasibilityProbe": "记录一个浏览器权限设置并在重启后复现。",
+  "costAndRisks": [
+    "软件升级会让路径失效，需要保留适用版本。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 25,
+    "currentStars": 1,
+    "explanation": "软件升级会让路径失效，需要保留适用版本。"
+  },
+  "generatedBy": "curated-fallback"
+}
