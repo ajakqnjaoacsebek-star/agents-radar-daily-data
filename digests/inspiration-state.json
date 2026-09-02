@@ -75,6 +75,10 @@
     {
       "id": "evergreen:n8n",
       "date": "2026-09-01"
+    },
+    {
+      "id": "evergreen:openverse",
+      "date": "2026-09-02"
     }
   ]
 }

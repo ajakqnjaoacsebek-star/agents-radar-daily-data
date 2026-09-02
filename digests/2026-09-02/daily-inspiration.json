@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T04:40:29.110Z",
+  "candidateId": "evergreen:openverse",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "Openverse：搜索可再利用的图片和音频",
+  "summary": "Openverse 聚合开放许可和公共领域媒体，并显示各项许可信息。",
+  "whyInteresting": "做封面或演示时，可以先从允许再利用的素材开始找。",
+  "remixIdea": "给自己的项目建立一个素材来源记录模板，保存作者、链接和许可。",
+  "source": {
+    "label": "Openverse",
+    "url": "https://openverse.org/"
+  },
+  "caution": "使用前仍需打开原页面核对具体许可和署名要求。",
+  "generatedBy": "fallback"
+}
