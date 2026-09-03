@@ -79,6 +79,10 @@
     {
       "id": "evergreen:openverse",
       "date": "2026-09-02"
+    },
+    {
+      "id": "evergreen:searxng",
+      "date": "2026-09-03"
     }
   ]
 }

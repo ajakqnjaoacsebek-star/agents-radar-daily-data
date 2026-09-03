@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T04:37:21.961Z",
+  "candidateId": "evergreen:searxng",
+  "origin": "evergreen",
+  "category": "开源项目",
+  "title": "SearXNG：可以自托管的聚合搜索引擎",
+  "summary": "SearXNG 从多个搜索服务聚合结果，并提供可配置的开源界面。",
+  "whyInteresting": "搜索入口本身也可以由使用者控制和调整。",
+  "remixIdea": "为研究项目建立专用实例，只启用适合的搜索来源和语言。",
+  "source": {
+    "label": "SearXNG",
+    "url": "https://docs.searxng.org/"
+  },
+  "caution": "公开实例的隐私和稳定性各不相同，自托管也需要维护。",
+  "generatedBy": "fallback"
+}
