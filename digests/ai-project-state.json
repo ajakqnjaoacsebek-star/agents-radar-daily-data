@@ -107,6 +107,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 1
+    },
+    {
+      "candidateId": "used-goods-checklist",
+      "date": "2026-09-03",
+      "tags": [
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 1
     }
   ]
 }

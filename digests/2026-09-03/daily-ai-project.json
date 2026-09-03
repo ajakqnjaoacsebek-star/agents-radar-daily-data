@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-03",
+  "candidateId": "used-goods-checklist",
+  "origin": "original-concept",
+  "title": "二手商品参谋",
+  "oneLine": "根据商品类别生成验机问题、风险点和议价依据。",
+  "summary": "根据商品类别生成验机问题、风险点和议价依据。能练习把零散经验变成条件化规则。",
+  "problemSolved": "你偶尔买二手商品时，不知道该问什么、现场检查哪里，也缺少议价依据。",
+  "howItHelps": "它按商品类型生成验机步骤、风险问题和价格依据，现场可以照着逐项勾选。",
+  "outcome": "一张购买前可勾选的核验清单。",
+  "whyWorthwhile": "能练习把零散经验变成条件化规则。",
+  "skills": [
+    "知识整理",
+    "规则生成"
+  ],
+  "realWorldPotential": "低频使用也能在高价二手交易前降低遗漏。",
+  "feasibilityProbe": "针对一款旧手机核对十条清单是否可实际检查。",
+  "costAndRisks": [
+    "不能替代现场验机，价格信息需要核对日期。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 25,
+    "currentStars": 1,
+    "explanation": "不能替代现场验机，价格信息需要核对日期。"
+  },
+  "generatedBy": "curated-fallback"
+}
