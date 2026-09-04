@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-04",
+  "candidateId": "download-folder-organizer",
+  "origin": "original-concept",
+  "title": "下载文件夹侦探",
+  "oneLine": "让 AI 先解释文件用途，再建议归档位置。",
+  "summary": "让 AI 先解释文件用途，再建议归档位置。能练习文件分类、可逆操作和人工确认。",
+  "problemSolved": "下载文件夹越来越乱，你又不敢让自动工具直接移动文件，怕放错或误删。",
+  "howItHelps": "它先读取文件名和内容，解释每个文件可能是什么并提出归档位置，只有你确认后才移动。",
+  "outcome": "一个只给建议、确认后才移动文件的整理器。",
+  "whyWorthwhile": "能练习文件分类、可逆操作和人工确认。",
+  "skills": [
+    "文件自动化",
+    "安全操作"
+  ],
+  "realWorldPotential": "可减少长期堆积而不冒误删风险。",
+  "feasibilityProbe": "扫描二十个副本文件，只生成移动计划不执行。",
+  "costAndRisks": [
+    "文件名可能含私人信息，删除必须始终人工确认。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "文件名可能含私人信息，删除必须始终人工确认。"
+  },
+  "generatedBy": "curated-fallback"
+}

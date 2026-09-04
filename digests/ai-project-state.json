@@ -117,6 +117,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 1
+    },
+    {
+      "candidateId": "download-folder-organizer",
+      "date": "2026-09-04",
+      "tags": [
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
