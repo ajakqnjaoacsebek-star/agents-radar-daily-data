@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T04:39:43.024Z",
+  "candidateId": "evergreen:home-assistant",
+  "origin": "evergreen",
+  "category": "开源项目",
+  "title": "Home Assistant：自己掌控的智能家居中枢",
+  "summary": "Home Assistant 是开源家庭自动化平台，可连接大量品牌和本地设备。",
+  "whyInteresting": "智能设备不一定只能各自困在厂商应用里。",
+  "remixIdea": "从一个实际提醒开始，例如离家后仍亮灯时给手机发消息。",
+  "source": {
+    "label": "Home Assistant",
+    "url": "https://www.home-assistant.io/"
+  },
+  "caution": "涉及门锁、摄像头和用电设备时应优先保证本地安全与手动控制。",
+  "generatedBy": "fallback"
+}

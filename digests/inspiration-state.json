@@ -83,6 +83,10 @@
     {
       "id": "evergreen:searxng",
       "date": "2026-09-03"
+    },
+    {
+      "id": "evergreen:home-assistant",
+      "date": "2026-09-04"
     }
   ]
 }
