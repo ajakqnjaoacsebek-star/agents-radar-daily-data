@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T04:34:41.334Z",
+  "candidateId": "evergreen:syncthing",
+  "origin": "evergreen",
+  "category": "个人数据",
+  "title": "Syncthing：让文件夹在设备间自己同步",
+  "summary": "Syncthing 是点对点文件同步工具，数据可直接在自己的设备之间传输。",
+  "whyInteresting": "它提供了一种不把所有文件交给中心网盘的同步思路。",
+  "remixIdea": "可以同步笔记附件、扫描件或项目素材，同时保留本地文件夹的使用习惯。",
+  "source": {
+    "label": "Syncthing",
+    "url": "https://syncthing.net/"
+  },
+  "caution": "同步不是备份，误删的文件也可能同步删除。",
+  "generatedBy": "fallback"
+}
