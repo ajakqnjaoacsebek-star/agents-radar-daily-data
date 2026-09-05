@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-05",
+  "candidateId": "email-attachment-ledger",
+  "origin": "original-concept",
+  "title": "邮件附件去向清单",
+  "oneLine": "只读扫描导出的邮件清单，标记重要附件存放位置。",
+  "summary": "只读扫描导出的邮件清单，标记重要附件存放位置。能练习实体匹配和不读取正文的隐私最小化。",
+  "problemSolved": "重要附件散落在旧邮件和本地文件夹里，需要时记得收到过，却找不到保存在哪里。",
+  "howItHelps": "它读取你导出的邮件清单，建立邮件、附件与本地存放位置的索引，不直接访问邮箱。",
+  "outcome": "一个邮件、附件与本地文件之间的索引。",
+  "whyWorthwhile": "能练习实体匹配和不读取正文的隐私最小化。",
+  "skills": [
+    "实体匹配",
+    "数据最小化"
+  ],
+  "realWorldPotential": "适合找回合同、票据和项目资料。",
+  "feasibilityProbe": "对二十封脱敏邮件匹配附件文件名和日期。",
+  "costAndRisks": [
+    "不要连接主邮箱自动下载，先用导出样本验证。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不要连接主邮箱自动下载，先用导出样本验证。"
+  },
+  "generatedBy": "curated-fallback"
+}
