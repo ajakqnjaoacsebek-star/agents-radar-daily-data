@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,259 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-08-30"
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:hn:49582772",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "EvoMind: A local-first cognitive AI architecture with runtime safety gates",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://zenodo.org/records/20580153"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:hn:49582656",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI, Tools and Transformation",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:hn:49582605",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Vistep – 62 animated science explanations",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://vistep.ai/"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:hn:49582466",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "One new Swiss company in thirty-six now claims AI",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://prospex.ch/blog/ai-companies-in-switzerland-what-the-commercial-register-shows/"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:hn:49582352",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "I hate Wispr Flow so much",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.nytimes.com/2026/08/19/magazine/ai-dictation-app-wispr.html"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:hn:49581986",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "DHH: Programming, AI, Vibe Coding and Linux (Lex Fridman Podcast)",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://lexfridman.com/dhh-2-transcript/"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:github:pierrenade/short-video-generator-AI",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "pierrenade/short-video-generator-AI",
+    "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · pierrenade/short-video-generator-AI",
+      "url": "https://github.com/pierrenade/short-video-generator-AI"
+    },
+    "signalDate": "2026-09-05"
+  },
+  {
+    "id": "signal:hn:49581947",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: Midjourney API with webhooks, polling",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.midjourney-api.com"
+    },
+    "signalDate": "2026-09-05"
+  },
+  {
+    "id": "signal:hn:49581826",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Extropic Z1T",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://extropic.ai/writing/z1t/"
+    },
+    "signalDate": "2026-09-05"
+  },
+  {
+    "id": "signal:hn:49581720",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Truckers – AI data centers as business booms",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html"
+    },
+    "signalDate": "2026-09-05"
+  },
+  {
+    "id": "signal:hn:49581695",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Computer Science Achievement and Writing Skills Predict Vibe Coding Proficiency",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://arxiv.org/abs/2603.14133"
+    },
+    "signalDate": "2026-09-05"
+  },
+  {
+    "id": "signal:github:michailfragkiskos/EdgeMosaic",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "michailfragkiskos/EdgeMosaic",
+    "summary": "Rapid on-device AI evaluation lab: manifest validation, benchmark plans, latency/memory/thermal aggregation, JSON+Markdown reports.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · michailfragkiskos/EdgeMosaic",
+      "url": "https://github.com/michailfragkiskos/EdgeMosaic"
+    },
+    "signalDate": "2026-09-04"
+  },
+  {
+    "id": "signal:github:truespar/paddock",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "truespar/paddock",
+    "summary": "Native Rust inference server for open models on NVIDIA GPUs. OpenAI- and Anthropic-compatible APIs, GGUF + safetensors, FP8/NVFP4/MXFP4/Q8/Q4, built-in Studio",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · truespar/paddock",
+      "url": "https://github.com/truespar/paddock"
+    },
+    "signalDate": "2026-09-03"
+  },
+  {
+    "id": "signal:github:icodesign/remote-installer",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "icodesign/remote-installer",
+    "summary": "Quickly install signed iOS and Android builds on real devices over the internet without waiting for Testlight or Play Beta.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · icodesign/remote-installer",
+      "url": "https://github.com/icodesign/remote-installer"
+    },
+    "signalDate": "2026-09-02"
+  },
+  {
+    "id": "signal:github:gesta-run/subpool",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "gesta-run/subpool",
+    "summary": "A lightweight, self-hosted AI subscription pool for teams.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · gesta-run/subpool",
+      "url": "https://github.com/gesta-run/subpool"
+    },
+    "signalDate": "2026-09-02"
+  },
+  {
+    "id": "signal:github:iyashjayesh/tokenchit",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "iyashjayesh/tokenchit",
+    "summary": "Read your local AI coding agent logs and render a stat card into your repo.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · iyashjayesh/tokenchit",
+      "url": "https://github.com/iyashjayesh/tokenchit"
+    },
+    "signalDate": "2026-09-02"
+  },
+  {
+    "id": "signal:github:2akouwu/reverify",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "2akouwu/reverify",
+    "summary": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · 2akouwu/reverify",
+      "url": "https://github.com/2akouwu/reverify"
+    },
+    "signalDate": "2026-08-31"
+  },
+  {
+    "id": "signal:github:ara-mkr/Wonder-Pill",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "ara-mkr/Wonder-Pill",
+    "summary": "A Claude skill that turns brainstorming into an interactive mind map of inverted assumptions — no answers, no ranking, just provocations.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · ara-mkr/Wonder-Pill",
+      "url": "https://github.com/ara-mkr/Wonder-Pill"
+    },
+    "signalDate": "2026-08-31"
   },
   {
     "id": "signal:hn:49495398",
@@ -276,6 +528,34 @@
     "source": {
       "label": "Hacker News",
       "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:github:AbuZar-Ansarii/Needle",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "AbuZar-Ansarii/Needle",
+    "summary": "This 14 MB Agentic LLM(Cactus Needle 2) can control your phone completely.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · AbuZar-Ansarii/Needle",
+      "url": "https://github.com/AbuZar-Ansarii/Needle"
+    },
+    "signalDate": "2026-08-30"
+  },
+  {
+    "id": "signal:github:justadityaraj/shim-mcp",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "justadityaraj/shim-mcp",
+    "summary": "WordPress MCP server plugin, live on WordPress.org. Connect Claude Code, Cursor, or any MCP client to WordPress over stdio (WP-CLI) or HTTP. 56 abilities, self-contained, no cloud.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · justadityaraj/shim-mcp",
+      "url": "https://github.com/justadityaraj/shim-mcp"
     },
     "signalDate": "2026-08-30"
   },
