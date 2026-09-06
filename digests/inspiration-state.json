@@ -91,6 +91,10 @@
     {
       "id": "evergreen:syncthing",
       "date": "2026-09-05"
+    },
+    {
+      "id": "evergreen:cyberchef",
+      "date": "2026-09-06"
     }
   ]
 }

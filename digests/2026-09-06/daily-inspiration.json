@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T04:44:27.889Z",
+  "candidateId": "evergreen:cyberchef",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "CyberChef：浏览器里的数据瑞士军刀",
+  "summary": "它把编码转换、文本处理、哈希和格式整理做成可拖拽的操作步骤。",
+  "whyInteresting": "遇到一串看不懂的数据时，不必先安装脚本环境就能试着拆解。",
+  "remixIdea": "可以把一组常用操作保存成自己的“数据清洗配方”。",
+  "source": {
+    "label": "CyberChef",
+    "url": "https://gchq.github.io/CyberChef/"
+  },
+  "caution": "不要把密码、密钥或私人原文粘贴进不受信任的共享配方。",
+  "generatedBy": "fallback"
+}
