@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-06",
+  "candidateId": "family-tech-support",
+  "origin": "original-concept",
+  "title": "家庭远程排障卡",
+  "oneLine": "把家人描述的电脑问题转换成安全的检查步骤。",
+  "summary": "把家人描述的电脑问题转换成安全的检查步骤。能练习面向非技术用户写清楚可逆步骤。",
+  "problemSolved": "家人只会说“电脑坏了”，你远程听不清现象，又担心让他们乱点造成更大问题。",
+  "howItHelps": "它把描述转成一步一步的安全检查卡，标明截图位置和停止条件，便于你远程指导。",
+  "outcome": "一张带截图位置和停止条件的排障卡。",
+  "whyWorthwhile": "能练习面向非技术用户写清楚可逆步骤。",
+  "skills": [
+    "故障诊断",
+    "交互文案"
+  ],
+  "realWorldPotential": "可减少远程电话里反复确认的时间。",
+  "feasibilityProbe": "拿一个常见网络问题让非技术用户按卡片操作。",
+  "costAndRisks": [
+    "不得要求关闭安全软件或执行高风险命令。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不得要求关闭安全软件或执行高风险命令。"
+  },
+  "generatedBy": "curated-fallback"
+}

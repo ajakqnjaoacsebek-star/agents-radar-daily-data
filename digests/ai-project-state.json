@@ -137,6 +137,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "family-tech-support",
+      "date": "2026-09-06",
+      "tags": [
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
