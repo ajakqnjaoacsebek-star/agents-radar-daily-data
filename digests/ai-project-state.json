@@ -147,6 +147,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "ai-time-capsule",
+      "date": "2026-09-07",
+      "tags": [
+        "imagination",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

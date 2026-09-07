@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-07",
+  "candidateId": "ai-time-capsule",
+  "origin": "original-concept",
+  "title": "AI 时间胶囊",
+  "oneLine": "记录今天的预测，未来打开时由 AI 对照实际发生了什么。",
+  "summary": "记录今天的预测，未来打开时由 AI 对照实际发生了什么。能练习时间任务、证据对照和不确定性表达。",
+  "problemSolved": "你对未来有很多判断，事后却只记得猜对的部分，很难诚实检验自己的预测。",
+  "howItHelps": "它封存带日期的预测，到期后自动寻找现实证据，并把原话与实际结果并排展示。",
+  "outcome": "一个按解锁日期展示原预测与现实证据的胶囊库。",
+  "whyWorthwhile": "能练习时间任务、证据对照和不确定性表达。",
+  "skills": [
+    "定时任务",
+    "事实核验"
+  ],
+  "realWorldPotential": "可用于个人目标、技术趋势或生活记录。",
+  "feasibilityProbe": "创建一个七天胶囊并验证到期提醒与链接保存。",
+  "costAndRisks": [
+    "预测只是记录，不应伪装成可靠预言。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "预测只是记录，不应伪装成可靠预言。"
+  },
+  "generatedBy": "curated-fallback"
+}
