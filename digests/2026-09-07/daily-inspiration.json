@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T04:47:54.036Z",
+  "candidateId": "evergreen:diagrams-net",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "diagrams.net：免费的流程图画布",
+  "summary": "它能在浏览器里画流程图、系统结构图和思维关系图，并可把文件保存在本地。",
+  "whyInteresting": "很多说不清的想法，画出方框和箭头后会突然变简单。",
+  "remixIdea": "把自己的日报生成过程画成一张图，以后增加自动化时会更容易找到改动位置。",
+  "source": {
+    "label": "diagrams.net",
+    "url": "https://www.diagrams.net/"
+  },
+  "generatedBy": "fallback"
+}
