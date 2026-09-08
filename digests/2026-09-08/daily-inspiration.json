@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T04:43:03.867Z",
+  "candidateId": "evergreen:pairdrop",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "PairDrop：打开网页就能跨设备传文件",
+  "summary": "PairDrop 是基于浏览器的点对点文件传输工具，适合临时在设备间发送内容。",
+  "whyInteresting": "在不方便安装应用的设备上，也可以尝试用网页完成传输。",
+  "remixIdea": "可以自托管一个家庭专用入口，成为所有设备都认识的传送门。",
+  "source": {
+    "label": "PairDrop",
+    "url": "https://pairdrop.net/"
+  },
+  "caution": "发送前应核对接收设备名称，不传输来源不明的文件。",
+  "generatedBy": "fallback"
+}
