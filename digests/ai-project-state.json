@@ -158,6 +158,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "home-inventory-search",
+      "date": "2026-09-08",
+      "tags": [
+        "practical"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

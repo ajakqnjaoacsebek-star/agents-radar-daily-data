@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-08",
+  "candidateId": "home-inventory-search",
+  "origin": "original-concept",
+  "title": "家庭物品搜索地图",
+  "oneLine": "拍照登记不常用物品并记录放置位置。",
+  "summary": "拍照登记不常用物品并记录放置位置。能练习图像标签、搜索和数据纠错。",
+  "problemSolved": "不常用物品收起来后，你过几个月只记得“家里有”，却完全想不起放在哪。",
+  "howItHelps": "它用照片、名称和位置建立家庭清单，以后搜索物品就能看到具体收纳位置。",
+  "outcome": "一个能回答“东西放哪了”的家庭清单。",
+  "whyWorthwhile": "能练习图像标签、搜索和数据纠错。",
+  "skills": [
+    "图像分类",
+    "搜索"
+  ],
+  "realWorldPotential": "适合工具、线材、药品和收纳箱管理。",
+  "feasibilityProbe": "先登记一个抽屉的二十件物品并测试模糊搜索。",
+  "costAndRisks": [
+    "家庭照片应本地保存，药品信息不能替代说明书。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "家庭照片应本地保存，药品信息不能替代说明书。"
+  },
+  "generatedBy": "curated-fallback"
+}
