@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T04:47:48.508Z",
+  "candidateId": "evergreen:restic",
+  "origin": "evergreen",
+  "category": "个人数据",
+  "title": "Restic：加密、去重的自动备份工具",
+  "summary": "Restic 是开源备份程序，支持加密快照和多种本地或云端存储。",
+  "whyInteresting": "备份可以自动、可验证，而且不必每次复制完整文件夹。",
+  "remixIdea": "给项目数据设置每日快照，再定期做一次真实恢复演练。",
+  "source": {
+    "label": "Restic",
+    "url": "https://restic.net/"
+  },
+  "caution": "遗失仓库密码可能无法恢复数据，备份配置本身也要妥善保存。",
+  "generatedBy": "fallback"
+}

@@ -103,6 +103,10 @@
     {
       "id": "evergreen:pairdrop",
       "date": "2026-09-08"
+    },
+    {
+      "id": "evergreen:restic",
+      "date": "2026-09-09"
     }
   ]
 }
