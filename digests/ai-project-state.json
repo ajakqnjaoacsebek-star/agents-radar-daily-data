@@ -168,6 +168,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "local-event-content",
+      "date": "2026-09-09",
+      "tags": [
+        "commercial",
+        "practical"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-09",
+  "candidateId": "local-event-content",
+  "origin": "original-concept",
+  "title": "本地活动内容包",
+  "oneLine": "从主办方确认的信息生成海报文案、日程和问答草稿。",
+  "summary": "从主办方确认的信息生成海报文案、日程和问答草稿。能练习一次事实、多种格式的内容生产。",
+  "problemSolved": "活动信息确认后，还要分别写海报、日程和问答，多处改动容易出现时间地点不一致。",
+  "howItHelps": "它从同一份已确认信息生成多渠道内容草稿，并用事实核对表提示不同版本的冲突。",
+  "outcome": "一个多渠道内容包和事实核对表。",
+  "whyWorthwhile": "能练习一次事实、多种格式的内容生产。",
+  "skills": [
+    "内容生成",
+    "事实一致性"
+  ],
+  "realWorldPotential": "可作为给小型活动的交付型服务。",
+  "feasibilityProbe": "用一场虚构活动检查各渠道时间地点是否一致。",
+  "costAndRisks": [
+    "发布前必须由主办方确认，不得编造嘉宾或权益。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "发布前必须由主办方确认，不得编造嘉宾或权益。"
+  },
+  "generatedBy": "curated-fallback"
+}
