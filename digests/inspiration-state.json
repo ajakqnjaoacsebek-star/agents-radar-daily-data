@@ -107,6 +107,10 @@
     {
       "id": "evergreen:restic",
       "date": "2026-09-09"
+    },
+    {
+      "id": "evergreen:paperless-ngx",
+      "date": "2026-09-10"
     }
   ]
 }

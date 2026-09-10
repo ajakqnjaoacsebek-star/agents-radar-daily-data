@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T04:48:43.045Z",
+  "candidateId": "evergreen:paperless-ngx",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Paperless-ngx：给纸质文件建可搜索档案库",
+  "summary": "Paperless-ngx 能导入扫描件，通过 OCR、标签和对应人整理文档。",
+  "whyInteresting": "票据、合同和说明书不再只能靠文件名猜内容。",
+  "remixIdea": "旧手机扫描、自动 OCR、按家庭成员归档，可以组成私人文件中心。",
+  "source": {
+    "label": "Paperless-ngx",
+    "url": "https://docs.paperless-ngx.com/"
+  },
+  "caution": "身份证明、合同等敏感文件需要可靠的访问控制和备份。",
+  "generatedBy": "fallback"
+}
