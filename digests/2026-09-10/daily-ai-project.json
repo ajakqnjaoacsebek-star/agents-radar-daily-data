@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-10",
+  "candidateId": "alternate-ending-radio",
+  "origin": "original-concept",
+  "title": "故事平行结局电台",
+  "oneLine": "输入一段旧故事，让不同模型各写一个可收听的结局。",
+  "summary": "输入一段旧故事，让不同模型各写一个可收听的结局。能比较模型叙事风格并练习语音合成。",
+  "problemSolved": "一个故事结束后你常会想“如果当时换个选择会怎样”，但自己懒得写完整续篇。",
+  "howItHelps": "它让不同模型各写一个平行结局，再转成可切换风格的短音频供你比较。",
+  "outcome": "一个可切换模型和结局风格的音频页面。",
+  "whyWorthwhile": "能比较模型叙事风格并练习语音合成。",
+  "skills": [
+    "创意写作",
+    "语音合成"
+  ],
+  "realWorldPotential": "适合作为互动故事或播客小实验。",
+  "feasibilityProbe": "先用公版故事生成三段一分钟结局。",
+  "costAndRisks": [
+    "避免改写受版权保护的长篇原文和模仿真人声音。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "避免改写受版权保护的长篇原文和模仿真人声音。"
+  },
+  "generatedBy": "curated-fallback"
+}
