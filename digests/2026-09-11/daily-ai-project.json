@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-11",
+  "candidateId": "dream-to-comic",
+  "origin": "original-concept",
+  "title": "梦境四格生成器",
+  "oneLine": "把醒来后的一段梦话变成有分镜的四格漫画。",
+  "summary": "把醒来后的一段梦话变成有分镜的四格漫画。能学习故事压缩、分镜和图像一致性。",
+  "problemSolved": "醒来时记得一个有趣的梦，过一会就模糊了，单纯记文字又不够有画面。",
+  "howItHelps": "它把你的梦话整理成四个可编辑分镜，先保留原文，再生成构图与对白草稿。",
+  "outcome": "一张保留原始梦境文字的可编辑漫画。",
+  "whyWorthwhile": "能学习故事压缩、分镜和图像一致性。",
+  "skills": [
+    "叙事",
+    "图像生成"
+  ],
+  "realWorldPotential": "可成为轻量日记和创意素材。",
+  "feasibilityProbe": "用一个短梦先生成文字分镜，不急着出图。",
+  "costAndRisks": [
+    "人物一致性和私人梦境内容需要自己把关。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "人物一致性和私人梦境内容需要自己把关。"
+  },
+  "generatedBy": "curated-fallback"
+}

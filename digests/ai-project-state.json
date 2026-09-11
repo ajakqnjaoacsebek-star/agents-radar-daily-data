@@ -190,6 +190,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "dream-to-comic",
+      "date": "2026-09-11",
+      "tags": [
+        "imagination",
+        "learning"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
