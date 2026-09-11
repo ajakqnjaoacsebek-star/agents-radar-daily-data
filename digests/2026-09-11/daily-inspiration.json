@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T04:45:50.180Z",
+  "candidateId": "evergreen:ventoy",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "Ventoy：一个 U 盘放多个系统安装镜像",
+  "summary": "Ventoy 能让启动 U 盘直接放入多个 ISO 文件并从菜单选择启动。",
+  "whyInteresting": "重装或维修电脑时，不必为每个系统反复格式化 U 盘。",
+  "remixIdea": "可以准备一个带系统镜像、诊断工具和说明文档的应急 U 盘。",
+  "source": {
+    "label": "Ventoy",
+    "url": "https://www.ventoy.net/"
+  },
+  "caution": "制作启动盘前要确认目标 U 盘，避免覆盖重要文件。",
+  "generatedBy": "fallback"
+}
