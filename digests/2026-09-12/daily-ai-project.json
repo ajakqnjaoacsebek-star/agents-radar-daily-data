@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-12",
+  "candidateId": "embedding-map",
+  "origin": "original-concept",
+  "title": "文本向量地图",
+  "oneLine": "把自己的短笔记投影成可点开的主题地图。",
+  "summary": "把自己的短笔记投影成可点开的主题地图。能用视觉方式理解 embedding 的相似含义。",
+  "problemSolved": "你的短笔记越积越多，文件夹分类固定，难以发现跨主题之间意外的联系。",
+  "howItHelps": "它按内容相似度把笔记放到二维地图上，你可以点开相邻笔记，发现新的组合线索。",
+  "outcome": "一个能查看相近与意外相近笔记的二维图。",
+  "whyWorthwhile": "能用视觉方式理解 embedding 的相似含义。",
+  "skills": [
+    "向量",
+    "降维可视化"
+  ],
+  "realWorldPotential": "可发现笔记主题和内容重复。",
+  "feasibilityProbe": "用五十条无敏感短句检查邻居是否符合直觉。",
+  "costAndRisks": [
+    "二维投影会扭曲距离，不能当严格分类。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "二维投影会扭曲距离，不能当严格分类。"
+  },
+  "generatedBy": "curated-fallback"
+}

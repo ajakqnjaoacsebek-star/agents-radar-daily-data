@@ -201,6 +201,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "embedding-map",
+      "date": "2026-09-12",
+      "tags": [
+        "learning",
+        "imagination"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
