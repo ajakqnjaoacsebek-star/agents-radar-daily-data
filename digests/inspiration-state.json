@@ -115,6 +115,10 @@
     {
       "id": "evergreen:ventoy",
       "date": "2026-09-11"
+    },
+    {
+      "id": "evergreen:scrcpy",
+      "date": "2026-09-12"
     }
   ]
 }

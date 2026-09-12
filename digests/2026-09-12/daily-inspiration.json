@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T04:40:21.586Z",
+  "candidateId": "evergreen:scrcpy",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "scrcpy：在电脑上查看和控制 Android 手机",
+  "summary": "scrcpy 是开源 Android 屏幕镜像与控制工具，可通过 USB 或网络连接。",
+  "whyInteresting": "演示手机应用、输入长文字和录制操作时会方便很多。",
+  "remixIdea": "把手机测试流程搬到电脑上，同时记录日志和屏幕视频。",
+  "source": {
+    "label": "scrcpy",
+    "url": "https://github.com/Genymobile/scrcpy"
+  },
+  "caution": "只连接自己或明确授权的设备，并在使用后关闭调试权限。",
+  "generatedBy": "fallback"
+}
