@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-13",
+  "candidateId": "local-file-renamer",
+  "origin": "original-concept",
+  "title": "文件命名提案器",
+  "oneLine": "根据内容与日期给扫描件提出一致的文件名。",
+  "summary": "根据内容与日期给扫描件提出一致的文件名。能练习内容摘要、命名规则和撤销机制。",
+  "problemSolved": "扫描件和下载文件名混乱，靠手工逐个查看和改名很费时间，也容易命名不一致。",
+  "howItHelps": "它读取内容和日期后提出统一文件名，逐个让你确认，并保留改名前后的记录。",
+  "outcome": "一个逐个确认并保留重命名日志的工具。",
+  "whyWorthwhile": "能练习内容摘要、命名规则和撤销机制。",
+  "skills": [
+    "文档理解",
+    "可逆自动化"
+  ],
+  "realWorldPotential": "适合整理票据、资料和项目附件。",
+  "feasibilityProbe": "复制十个样本文件到临时目录验证撤销。",
+  "costAndRisks": [
+    "不能直接在原目录批量改名，先处理副本。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不能直接在原目录批量改名，先处理副本。"
+  },
+  "generatedBy": "curated-fallback"
+}
