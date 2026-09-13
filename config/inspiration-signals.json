@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,245 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-09-06"
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49679396",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Can an earnest agreement with AI increase alignmnet. appears to be \"YES \"",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.echohive.ai/a-short-agreement-zero-observed-cheating"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49679103",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI's Code-Red Moment",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.theatlantic.com/technology/2026/09/dario-amodei-slow-down-ai-save-humanity/688610/"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49679017",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "What makes an A2A network work?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.monadix.ai/blog/a2a-strange-bedfellows-shared-goals"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49678975",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Nova Seed. Create an AI friend and build something together",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/mas-bandwidth/nova"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49678969",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Why are AI agents lying, cheating and coordinating?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49678961",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "A.I. Slopware Is Everywhere Now. Nobody Is Using It",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49678950",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Asking Anthropic CEO: 'Do you earnestly believe that AI could kill all humans?'",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.cnn.com/business/video/anderson-cooper-anthropic-ceo-dario-amodei-could-ai-kill-humans-digvid"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49678878",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Apple wants to train AI on your private personal data",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49678847",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://arxiv.org/abs/2609.11873"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:hn:49678783",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Align AI and Mathematics–To Something Else",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else/"
+    },
+    "signalDate": "2026-09-13"
+  },
+  {
+    "id": "signal:github:kruzovic7/ai-data-extractor",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "kruzovic7/ai-data-extractor",
+    "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · kruzovic7/ai-data-extractor",
+      "url": "https://github.com/kruzovic7/ai-data-extractor"
+    },
+    "signalDate": "2026-09-11"
+  },
+  {
+    "id": "signal:github:unstablebuild/rune",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "unstablebuild/rune",
+    "summary": "the development environment for pros",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · unstablebuild/rune",
+      "url": "https://github.com/unstablebuild/rune"
+    },
+    "signalDate": "2026-09-10"
+  },
+  {
+    "id": "signal:github:yudaprasetya007/routeVSCODE",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "yudaprasetya007/routeVSCODE",
+    "summary": "⚡ Zero-reload dynamic AI model switcher & local proxy for VSCode Copilot Chat via 9Router",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · yudaprasetya007/routeVSCODE",
+      "url": "https://github.com/yudaprasetya007/routeVSCODE"
+    },
+    "signalDate": "2026-09-10"
+  },
+  {
+    "id": "signal:github:FankChen/tracecrate",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "FankChen/tracecrate",
+    "summary": "Local-first AI agent trace workbench. Inspect Claude Code, Codex and OTLP logs, compare runs, and export privacy-conscious reports. No backend or API keys.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · FankChen/tracecrate",
+      "url": "https://github.com/FankChen/tracecrate"
+    },
+    "signalDate": "2026-09-10"
+  },
+  {
+    "id": "signal:github:Colafornia/short-video-generator-AI",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Colafornia/short-video-generator-AI",
+    "summary": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Colafornia/short-video-generator-AI",
+      "url": "https://github.com/Colafornia/short-video-generator-AI"
+    },
+    "signalDate": "2026-09-08"
+  },
+  {
+    "id": "signal:github:Loopera-ai/loopera",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Loopera-ai/loopera",
+    "summary": "面向基本面因子研究的智能体-A hypothesis-driven AI agent for fundamental factor research, with evidence-gated validation and research memory.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Loopera-ai/loopera",
+      "url": "https://github.com/Loopera-ai/loopera"
+    },
+    "signalDate": "2026-09-08"
+  },
+  {
+    "id": "signal:github:crwdla/tokentab",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "crwdla/tokentab",
+    "summary": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · crwdla/tokentab",
+      "url": "https://github.com/crwdla/tokentab"
+    },
+    "signalDate": "2026-09-07"
   },
   {
     "id": "signal:hn:49582772",
@@ -220,6 +458,48 @@
     "source": {
       "label": "Hacker News",
       "url": "https://lexfridman.com/dhh-2-transcript/"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:github:aimeoa/hanshuang-codex",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "aimeoa/hanshuang-codex",
+    "summary": "针对GPT 6.0,V4flash的破甲实验项目",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · aimeoa/hanshuang-codex",
+      "url": "https://github.com/aimeoa/hanshuang-codex"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:github:Noisyxl/brier",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Noisyxl/brier",
+    "summary": "Anyone can predict the future. Almost nobody keeps the receipt. A hash-chained prediction ledger for LLMs — sealed before the answer exists, graded with proper scoring rules.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Noisyxl/brier",
+      "url": "https://github.com/Noisyxl/brier"
+    },
+    "signalDate": "2026-09-06"
+  },
+  {
+    "id": "signal:github:tshemsedinov/reslop",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "tshemsedinov/reslop",
+    "summary": "👁️ Review AI generated code and plan changes",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · tshemsedinov/reslop",
+      "url": "https://github.com/tshemsedinov/reslop"
     },
     "signalDate": "2026-09-06"
   },
