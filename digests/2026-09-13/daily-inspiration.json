@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T04:53:21.770Z",
+  "candidateId": "evergreen:calibre",
+  "origin": "evergreen",
+  "category": "知识整理",
+  "title": "Calibre：给自己的电子书建图书馆",
+  "summary": "Calibre 是开源电子书管理工具，支持整理、转换和传输多种电子书格式。",
+  "whyInteresting": "散落在下载目录里的书可以像真正的图书馆一样被检索。",
+  "remixIdea": "给书加上“待读原因”标签，比单纯按作者分类更适合个人使用。",
+  "source": {
+    "label": "Calibre",
+    "url": "https://calibre-ebook.com/"
+  },
+  "generatedBy": "fallback"
+}

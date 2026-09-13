@@ -119,6 +119,10 @@
     {
       "id": "evergreen:scrcpy",
       "date": "2026-09-12"
+    },
+    {
+      "id": "evergreen:calibre",
+      "date": "2026-09-13"
     }
   ]
 }
