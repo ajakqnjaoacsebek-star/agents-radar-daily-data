@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T05:01:31.017Z",
+  "candidateId": "evergreen:ninite",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "Ninite：新 Windows 电脑一次装好多常用软件",
+  "summary": "Ninite 可以选择常用免费软件并生成统一安装程序，自动跳过工具栏等附加选项。",
+  "whyInteresting": "重装电脑后最重复的一轮下载安装可以明显缩短。",
+  "remixIdea": "提前保存自己的常用软件组合，新电脑或家人电脑都能复用。",
+  "source": {
+    "label": "Ninite",
+    "url": "https://ninite.com/"
+  },
+  "caution": "它仅覆盖列出的软件，安装前仍应核对选择和来源。",
+  "generatedBy": "fallback"
+}

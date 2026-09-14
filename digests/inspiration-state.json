@@ -123,6 +123,10 @@
     {
       "id": "evergreen:calibre",
       "date": "2026-09-13"
+    },
+    {
+      "id": "evergreen:ninite",
+      "date": "2026-09-14"
     }
   ]
 }
