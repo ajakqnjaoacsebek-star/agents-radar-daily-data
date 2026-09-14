@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-14",
+  "candidateId": "future-self-mail",
+  "origin": "original-concept",
+  "title": "未来自己回信器",
+  "oneLine": "先写下问题，再让系统基于你过去的记录模拟未来回信。",
+  "summary": "先写下问题，再让系统基于你过去的记录模拟未来回信。能探索个人记录、时间与生成式叙事的组合。",
+  "problemSolved": "面对长期选择时，你容易被当下情绪困住，也很难把过去的经验调出来一起思考。",
+  "howItHelps": "它先保存你的问题，再依据你授权的旧记录写一封“未来回信”，并明确区分真实依据与想象。",
+  "outcome": "一封同时显示事实依据与想象段落的延迟信。",
+  "whyWorthwhile": "能探索个人记录、时间与生成式叙事的组合。",
+  "skills": [
+    "个人数据",
+    "生成叙事"
+  ],
+  "realWorldPotential": "可作为目标复盘或情绪整理的创意工具。",
+  "feasibilityProbe": "用一周公开测试日记，检查事实与想象是否分开。",
+  "costAndRisks": [
+    "不能把生成文字当心理或人生建议，私人记录需加密。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不能把生成文字当心理或人生建议，私人记录需加密。"
+  },
+  "generatedBy": "curated-fallback"
+}

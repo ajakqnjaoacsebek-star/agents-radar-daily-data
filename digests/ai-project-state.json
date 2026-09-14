@@ -222,6 +222,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "future-self-mail",
+      "date": "2026-09-14",
+      "tags": [
+        "imagination"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
