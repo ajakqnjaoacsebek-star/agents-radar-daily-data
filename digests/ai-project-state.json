@@ -232,6 +232,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "menu-profit-explainer",
+      "date": "2026-09-15",
+      "tags": [
+        "commercial",
+        "practical"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

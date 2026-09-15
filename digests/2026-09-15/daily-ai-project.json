@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-15",
+  "candidateId": "menu-profit-explainer",
+  "origin": "original-concept",
+  "title": "菜单利润解释器",
+  "oneLine": "把菜品成本、售价和销量做成店主看得懂的建议。",
+  "summary": "把菜品成本、售价和销量做成店主看得懂的建议。能练习表格分析与非技术解释。",
+  "problemSolved": "小店有销售和成本数据，却很难看出哪些菜真正赚钱、哪些只是卖得多。",
+  "howItHelps": "它把成本、售价和销量放在一起，用店主能理解的方式解释原因，只给建议不自动改价。",
+  "outcome": "一个展示数据依据、不自动改价的经营小报表。",
+  "whyWorthwhile": "能练习表格分析与非技术解释。",
+  "skills": [
+    "数据分析",
+    "可视化"
+  ],
+  "realWorldPotential": "可作为餐饮数字化咨询的小型演示。",
+  "feasibilityProbe": "用一份虚构菜单核对毛利计算和异常提示。",
+  "costAndRisks": [
+    "真实成本常不完整，建议不能替代经营判断。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "真实成本常不完整，建议不能替代经营判断。"
+  },
+  "generatedBy": "curated-fallback"
+}
