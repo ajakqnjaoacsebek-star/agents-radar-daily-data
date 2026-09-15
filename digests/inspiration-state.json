@@ -127,6 +127,10 @@
     {
       "id": "evergreen:ninite",
       "date": "2026-09-14"
+    },
+    {
+      "id": "evergreen:have-i-been-pwned",
+      "date": "2026-09-15"
     }
   ]
 }

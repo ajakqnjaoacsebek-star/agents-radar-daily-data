@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T04:58:38.084Z",
+  "candidateId": "evergreen:have-i-been-pwned",
+  "origin": "evergreen",
+  "category": "数字生活",
+  "title": "Have I Been Pwned：检查邮箱是否出现在已知泄露中",
+  "summary": "你可以先查自己的邮箱是否出现在已知数据泄露里，判断哪些账号需要马上换密码。",
+  "whyInteresting": "当你担心账号不安全时，它能先给你公开证据，不用只靠猜。",
+  "remixIdea": "先查一个常用邮箱；如果命中，就更换重复使用的密码并开启双重验证。",
+  "source": {
+    "label": "Have I Been Pwned",
+    "url": "https://haveibeenpwned.com/"
+  },
+  "caution": "只在官方网站查询，不要把密码提交给任何所谓的泄露检查网站。",
+  "generatedBy": "fallback"
+}
