@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-16",
+  "candidateId": "personal-form-filler",
+  "origin": "original-concept",
+  "title": "个人表单草稿器",
+  "oneLine": "根据自己维护的资料生成表单填写草稿。",
+  "summary": "根据自己维护的资料生成表单填写草稿。能练习字段映射、隐私最小化和确认流程。",
+  "problemSolved": "你反复填写姓名、地址和经历，既费时间，又担心自动填表把资料填错或直接提交。",
+  "howItHelps": "它根据你自己维护的资料生成逐字段草稿，让你检查每一项，绝不会自动提交。",
+  "outcome": "一个字段逐项预览、永不自动提交的助手。",
+  "whyWorthwhile": "能练习字段映射、隐私最小化和确认流程。",
+  "skills": [
+    "信息映射",
+    "隐私设计"
+  ],
+  "realWorldPotential": "可减少重复填写报名与申请表的时间。",
+  "feasibilityProbe": "在本地假表单测试十个字段的映射准确率。",
+  "costAndRisks": [
+    "绝不自动提交，身份证明等敏感字段默认留空。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "绝不自动提交，身份证明等敏感字段默认留空。"
+  },
+  "generatedBy": "curated-fallback"
+}

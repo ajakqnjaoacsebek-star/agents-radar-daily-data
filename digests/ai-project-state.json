@@ -243,6 +243,16 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "personal-form-filler",
+      "date": "2026-09-16",
+      "tags": [
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
