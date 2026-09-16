@@ -1,146 +1,282 @@
 /**
- * Hacker News AI stories fetched from the official Firebase API.
+ * Hacker News AI Digest fetcher.
+ *
+ * Fetches top/best stories from HN Firebase API, filters for AI-relevant
+ * content, and provides utilities for building digest prompts.
  */
 
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
 
-export interface HnStory {
-  id: string;
-  hnRank?: number;
+export interface HnItem {
+  id: number;
   title: string;
-  url: string; // external URL, or HN discussion link if no external URL
-  hnUrl: string; // always the HN discussion link
-  points: number;
-  comments: number;
-  author: string;
-  createdAt: string;
+  url: string;
+  score: number;
+  by: string;
+  time: number;
+  descendants: number;
 }
 
-export interface HnData {
-  stories: HnStory[];
-  fetchSuccess: boolean;
+export interface HnRawItem {
+  id?: number;
+  title?: string;
+  url?: string;
+  score?: number;
+  by?: string;
+  time?: number;
+  descendants?: number;
+  type?: string;
+}
+
+export interface HnFetchResult {
+  items: HnItem[];
+  fetchedAt: string;
+  totalFetched: number;
 }
 
 // ---------------------------------------------------------------------------
 // Constants
 // ---------------------------------------------------------------------------
 
-const HN_TOP_STORIES = 30;
-const HN_STORIES_TO_SCAN = 500;
-const HN_BATCH_SIZE = 50;
+const HN_API_BASE = "https://hacker-news.firebaseio.com/v0";
+const HN_ITEM_URL = "https://news.ycombinator.com/item?id=";
 
-const HN_TOPSTORIES_URL = "https://hacker-news.firebaseio.com/v0/topstories.json";
-const HN_ITEM_URL = (id: number) => `https://hacker-news.firebaseio.com/v0/item/${id}.json`;
+/** Minimum score for an item to be considered */
+const MIN_SCORE = 10;
 
-// ---------------------------------------------------------------------------
-// Firebase API types
-// ---------------------------------------------------------------------------
+/** Maximum number of top story IDs to fetch */
+const MAX_STORIES_TO_FETCH = 200;
 
-interface HnFirebaseItem {
-  id: number;
-  deleted?: boolean;
-  dead?: boolean;
-  type?: string;
-  by?: string;
-  time?: number;
-  title?: string;
-  url?: string;
-  score?: number;
-  descendants?: number;
-}
+/** Maximum number of items to include in digest */
+const MAX_DIGEST_ITEMS = 30;
 
-const AI_KEYWORD_PATTERNS = [
-  /\bai\b/i,
-  /\ba\.i\./i,
-  /\bllm(s)?\b/i,
-  /\bml\b/i,
-  /machine learning/i,
-  /deep learning/i,
-  /neural/i,
-  /transformer/i,
-  /language model(s)?\b/i,
-  /foundation model(s)?\b/i,
-  /\brag\b/i,
-  /agent(s)?\b/i,
-  /openai/i,
-  /anthropic/i,
-  /claude/i,
-  /chatgpt/i,
-  /gemini/i,
-  /copilot/i,
+/** Per-request timeout (ms) */
+const FETCH_TIMEOUT_MS = 10_000;
+
+/** AI-related keywords for filtering */
+const AI_KEYWORDS = [
+  "ai",
+  "llm",
+  "gpt",
+  "claude",
+  "gemini",
+  "openai",
+  "anthropic",
+  "deepmind",
+  "machine learning",
+  "deep learning",
+  "neural network",
+  "transformer",
+  "diffusion",
+  "stable diffusion",
+  "midjourney",
+  "dall-e",
+  "dall·e",
+  "chatgpt",
+  "copilot",
+  "agent",
+  "rag",
+  "embedding",
+  "fine-tun",
+  "inference",
+  "hugging face",
+  "mistral",
+  "llama",
+  "falcon",
+  "language model",
+  "foundation model",
+  "multimodal",
+  "vector database",
+  "vector db",
+  "langchain",
+  "autogpt",
+  "reinforcement learning",
+  "rlhf",
+  "alignment",
+  "hallucination",
+  "prompt",
+  "tokenizer",
+  "attention mechanism",
+  "generative ai",
+  "artificial intelligence",
+  "ml ",
+  " ml",
+  "nlp",
+  "computer vision",
+  "image generation",
+  "text generation",
+  "code generation",
+  "nvidia",
+  "cuda",
+  "gpu cluster",
+  "tpu",
+  "openrouter",
+  "perplexity",
+  "cohere",
+  "together ai",
+  "replicate",
+  "groq",
+  "cerebras",
+  "sam altman",
+  "ilya sutskever",
+  "yann lecun",
+  "andrej karpathy",
 ];
 
-function isAiRelated(item: HnFirebaseItem): boolean {
-  const text = `${item.title ?? ""} ${item.url ?? ""}`;
-  return AI_KEYWORD_PATTERNS.some((pattern) => pattern.test(text));
+// ---------------------------------------------------------------------------
+// HTTP helper
+// ---------------------------------------------------------------------------
+
+async function httpGet(url: string): Promise<unknown> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const resp = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; agents-radar/1.0; +https://github.com/search?q=agents-radar)",
+        Accept: "application/json",
+      },
+      signal: controller.signal,
+    });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${url}`);
+    return await resp.json();
+  } finally {
+    clearTimeout(timer);
+  }
 }
 
-function toHnStory(item: HnFirebaseItem, hnRank: number): HnStory {
-  const id = String(item.id);
-  const hnUrl = `https://news.ycombinator.com/item?id=${id}`;
+// ---------------------------------------------------------------------------
+// Parsing
+// ---------------------------------------------------------------------------
+
+/**
+ * Parse a raw HN API item into a typed HnItem.
+ * Returns null if the item is not a valid story.
+ */
+export function parseHnItem(raw: HnRawItem): HnItem | null {
+  if (!raw || raw.type !== "story") return null;
+  if (!raw.title || !raw.id) return null;
 
   return {
-    id,
-    hnRank,
-    title: item.title ?? "(untitled)",
-    url: item.url ?? hnUrl,
-    hnUrl,
-    points: item.score ?? 0,
-    comments: item.descendants ?? 0,
-    author: item.by ?? "unknown",
-    createdAt: item.time ? new Date(item.time * 1000).toISOString() : new Date(0).toISOString(),
+    id: raw.id,
+    title: raw.title,
+    url: raw.url ?? `${HN_ITEM_URL}${raw.id}`,
+    score: raw.score ?? 0,
+    by: raw.by ?? "",
+    time: raw.time ?? 0,
+    descendants: raw.descendants ?? 0,
   };
 }
 
 // ---------------------------------------------------------------------------
-// Fetch
+// Filtering
 // ---------------------------------------------------------------------------
 
-export async function fetchHnData(): Promise<HnData> {
-  try {
-    const topResp = await fetch(HN_TOPSTORIES_URL, {
-      headers: { "User-Agent": "agents-radar/1.0" },
-    });
-    if (!topResp.ok) {
-      console.error(`  [hn] topstories: HTTP ${topResp.status}`);
-      return { stories: [], fetchSuccess: false };
-    }
+/**
+ * Filter HN items to those relevant to AI/ML topics.
+ */
+export function filterAiItems(items: HnItem[]): HnItem[] {
+  return items.filter((item) => {
+    if (item.score < MIN_SCORE) return false;
+    const lower = item.title.toLowerCase();
+    return AI_KEYWORDS.some((kw) => lower.includes(kw));
+  });
+}
 
-    const topIds = ((await topResp.json()) as number[]).slice(0, HN_STORIES_TO_SCAN);
-    const stories: HnStory[] = [];
+// ---------------------------------------------------------------------------
+// Formatting helpers
+// ---------------------------------------------------------------------------
 
-    for (let i = 0; i < topIds.length && stories.length < HN_TOP_STORIES; i += HN_BATCH_SIZE) {
-      const batchIds = topIds.slice(i, i + HN_BATCH_SIZE);
-      const items = await Promise.all(
-        batchIds.map(async (id): Promise<HnFirebaseItem | null> => {
-          const resp = await fetch(HN_ITEM_URL(id), {
-            headers: { "User-Agent": "agents-radar/1.0" },
-          });
-          if (!resp.ok) {
-            console.error(`  [hn] item ${id}: HTTP ${resp.status}`);
-            return null;
-          }
-          return (await resp.json()) as HnFirebaseItem;
-        }),
-      );
+/**
+ * Format a score number as a display string.
+ */
+export function formatScore(score: number): string {
+  return `${score} points`;
+}
 
-      for (let j = 0; j < items.length && stories.length < HN_TOP_STORIES; j += 1) {
-        const item = items[j];
-        if (!item || item.deleted || item.dead || item.type !== "story" || !item.title) {
-          continue;
-        }
-        if (isAiRelated(item)) {
-          stories.push(toHnStory(item, i + j + 1));
-        }
-      }
-    }
+// ---------------------------------------------------------------------------
+// Prompt building
+// ---------------------------------------------------------------------------
 
-    console.log(`  [hn] ${stories.length} AI stories (scanned ${topIds.length} topstories)`);
-    return { stories, fetchSuccess: stories.length > 0 };
-  } catch (err) {
-    console.error(`  [hn] fetch failed: ${err}`);
-    return { stories: [], fetchSuccess: false };
+/**
+ * Build an LLM prompt for generating an HN AI digest.
+ */
+export function buildHnDigestPrompt(items: HnItem[], date: string): string {
+  if (items.length === 0) {
+    return `Generate a Hacker News AI digest for ${date}. No items were found today.`;
   }
+
+  const itemList = items
+    .map(
+      (item, i) =>
+        `${i + 1}. [${item.score} points, ${item.descendants} comments] ${item.title}\n   URL: ${item.url}\n   HN: ${HN_ITEM_URL}${item.id}`
+    )
+    .join("\n\n");
+
+  return `You are generating a Hacker News AI Digest for ${date}.
+
+Below are the top AI-related Hacker News stories for today, sorted by score:
+
+${itemList}
+
+Please create a concise digest summarizing the most important AI news and discussions from Hacker News today. 
+Group related stories where appropriate. Include the HN discussion links.
+Focus on what matters most to AI practitioners and researchers.`;
+}
+
+// ---------------------------------------------------------------------------
+// Data fetching
+// ---------------------------------------------------------------------------
+
+/**
+ * Fetch top story IDs from HN.
+ */
+async function fetchTopStoryIds(): Promise<number[]> {
+  const ids = (await httpGet(`${HN_API_BASE}/topstories.json`)) as number[];
+  return ids.slice(0, MAX_STORIES_TO_FETCH);
+}
+
+/**
+ * Fetch a single HN item by ID.
+ */
+async function fetchItem(id: number): Promise<HnItem | null> {
+  try {
+    const raw = (await httpGet(`${HN_API_BASE}/item/${id}.json`)) as HnRawItem;
+    return parseHnItem(raw);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Fetch HN top stories, filter for AI content, and return results.
+ */
+export async function fetchHnAiItems(date: string): Promise<HnFetchResult> {
+  console.log("  [hn] Fetching top story IDs...");
+  const ids = await fetchTopStoryIds();
+  console.log(`  [hn] Got ${ids.length} story IDs, fetching details...`);
+
+  const items: HnItem[] = [];
+  for (const id of ids) {
+    const item = await fetchItem(id);
+    if (item) items.push(item);
+  }
+
+  console.log(`  [hn] Fetched ${items.length} stories`);
+
+  const aiItems = filterAiItems(items);
+  console.log(`  [hn] Filtered to ${aiItems.length} AI-relevant stories`);
+
+  // Sort by score descending
+  aiItems.sort((a, b) => b.score - a.score);
+
+  const topItems = aiItems.slice(0, MAX_DIGEST_ITEMS);
+
+  return {
+    items: topItems,
+    fetchedAt: date,
+    totalFetched: items.length,
+  };
 }
