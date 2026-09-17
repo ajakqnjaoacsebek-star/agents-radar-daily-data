@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-17",
+  "candidateId": "json-repair-lab",
+  "origin": "original-concept",
+  "title": "JSON 修复实验室",
+  "oneLine": "观察模型为什么会漏字段，并用 schema 把错误挡住。",
+  "summary": "观察模型为什么会漏字段，并用 schema 把错误挡住。能把结构化输出从提示技巧变成可靠工程。",
+  "problemSolved": "AI 输出 JSON 时偶尔漏字段或多写解释，程序报错后你只会重新问一次，搞不清根因。",
+  "howItHelps": "它把原输出、结构校验错误和修复结果并排展示，让你看懂怎样用规则挡住坏数据。",
+  "outcome": "一个展示原输出、校验错误和修复结果的页面。",
+  "whyWorthwhile": "能把结构化输出从提示技巧变成可靠工程。",
+  "skills": [
+    "JSON Schema",
+    "错误恢复"
+  ],
+  "realWorldPotential": "适合任何需要模型写入数据的项目。",
+  "feasibilityProbe": "准备十个故意含歧义的输入统计首次通过率。",
+  "costAndRisks": [
+    "自动修复不能偷偷补造关键事实。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "自动修复不能偷偷补造关键事实。"
+  },
+  "generatedBy": "curated-fallback"
+}
