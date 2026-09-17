@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T04:56:57.214Z",
+  "candidateId": "evergreen:healthchecks",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Healthchecks：任务没按时运行也能被发现",
+  "summary": "Healthchecks 通过接收定时任务的心跳请求，发现任务迟到或停止。",
+  "whyInteresting": "自动化最危险的失败方式，是安静地不再运行。",
+  "remixIdea": "让每日雷达完成后发送一次心跳，过点没收到就提醒。",
+  "source": {
+    "label": "Healthchecks",
+    "url": "https://healthchecks.io/"
+  },
+  "caution": "云服务和自托管方案的额度、保存时间与隐私条件不同。",
+  "generatedBy": "fallback"
+}
