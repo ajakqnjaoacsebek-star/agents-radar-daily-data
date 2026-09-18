@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-18",
+  "candidateId": "pet-caption-diary",
+  "origin": "original-concept",
+  "title": "宠物动作字幕日记",
+  "oneLine": "给宠物短视频生成明显标注为玩笑的拟人字幕。",
+  "summary": "给宠物短视频生成明显标注为玩笑的拟人字幕。能练习视频片段选择、视觉描述和幽默文案。",
+  "problemSolved": "宠物短视频很多，但久了只剩相似片段，你想留下更有趣的日常记忆。",
+  "howItHelps": "它为片段生成明确标注为玩笑的拟人字幕，按日期整理成可回看的小日记。",
+  "outcome": "一个按日期保存片段和趣味字幕的小日记。",
+  "whyWorthwhile": "能练习视频片段选择、视觉描述和幽默文案。",
+  "skills": [
+    "视频理解",
+    "创意文案"
+  ],
+  "realWorldPotential": "适合个人纪念和轻量内容创作。",
+  "feasibilityProbe": "用三段自有视频比较纯描述与趣味字幕。",
+  "costAndRisks": [
+    "不得把拟人字幕误当动物真实健康判断。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不得把拟人字幕误当动物真实健康判断。"
+  },
+  "generatedBy": "curated-fallback"
+}
