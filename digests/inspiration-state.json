@@ -139,6 +139,10 @@
     {
       "id": "evergreen:healthchecks",
       "date": "2026-09-17"
+    },
+    {
+      "id": "evergreen:librivox",
+      "date": "2026-09-18"
     }
   ]
 }

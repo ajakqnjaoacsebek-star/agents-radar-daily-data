@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T04:48:56.437Z",
+  "candidateId": "evergreen:librivox",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "LibriVox：志愿者录制的公版有声书",
+  "summary": "LibriVox 收录志愿者朗读的公共领域书籍，可在线收听或下载。",
+  "whyInteresting": "旧作品通过陌生人的声音获得了另一种生命。",
+  "remixIdea": "把它当作语言听力或通勤内容来源，并为喜欢的章节留下时间戳。",
+  "source": {
+    "label": "LibriVox",
+    "url": "https://librivox.org/"
+  },
+  "generatedBy": "fallback"
+}
