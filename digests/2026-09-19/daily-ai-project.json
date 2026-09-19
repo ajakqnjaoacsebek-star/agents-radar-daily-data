@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-19",
+  "candidateId": "rag-chunk-playground",
+  "origin": "original-concept",
+  "title": "RAG 切块游乐场",
+  "oneLine": "拖动切块大小，直接看检索结果怎么变化。",
+  "summary": "拖动切块大小，直接看检索结果怎么变化。能直观看见 RAG 失败常常发生在检索之前。",
+  "problemSolved": "同一份资料做检索时，有时找不到关键内容，你却不知道切块大小为什么会影响答案。",
+  "howItHelps": "它让你拖动切块参数，立刻比较不同设置找到的原文和最终回答。",
+  "outcome": "一个同文档多种切块策略的对照页。",
+  "whyWorthwhile": "能直观看见 RAG 失败常常发生在检索之前。",
+  "skills": [
+    "RAG",
+    "信息检索"
+  ],
+  "realWorldPotential": "可为私人资料搜索选择更合适的分段。",
+  "feasibilityProbe": "用含表格和标题的短文比较三种切块设置。",
+  "costAndRisks": [
+    "只看命中率会忽略上下文完整性和引用质量。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "只看命中率会忽略上下文完整性和引用质量。"
+  },
+  "generatedBy": "curated-fallback"
+}

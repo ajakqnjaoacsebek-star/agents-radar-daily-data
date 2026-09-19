@@ -273,6 +273,16 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "rag-chunk-playground",
+      "date": "2026-09-19",
+      "tags": [
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
