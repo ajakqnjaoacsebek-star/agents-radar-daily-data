@@ -143,6 +143,10 @@
     {
       "id": "evergreen:librivox",
       "date": "2026-09-18"
+    },
+    {
+      "id": "evergreen:forgejo",
+      "date": "2026-09-19"
     }
   ]
 }
