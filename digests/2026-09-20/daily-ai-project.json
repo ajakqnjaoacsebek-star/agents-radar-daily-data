@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-20",
+  "candidateId": "product-listing-quality",
+  "origin": "original-concept",
+  "title": "商品页质量检查器",
+  "oneLine": "检查商品页是否缺少规格、证据和购买前关键信息。",
+  "summary": "检查商品页是否缺少规格、证据和购买前关键信息。能练习规则、视觉检查和生成文案协作。",
+  "problemSolved": "商品页写了很多宣传词，却可能漏掉尺寸、使用条件和购买前真正影响决定的信息。",
+  "howItHelps": "它按品类检查规格与证据缺口，输出待补清单，由你确认后再修改页面。",
+  "outcome": "一个不自动发布的商品页改进清单。",
+  "whyWorthwhile": "能练习规则、视觉检查和生成文案协作。",
+  "skills": [
+    "多模态分析",
+    "内容质量"
+  ],
+  "realWorldPotential": "可作为小商家上架前的辅助服务。",
+  "feasibilityProbe": "对十个公开商品页手工标注缺失项再比较。",
+  "costAndRisks": [
+    "不得生成虚假卖点、评价或不存在的参数。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不得生成虚假卖点、评价或不存在的参数。"
+  },
+  "generatedBy": "curated-fallback"
+}

@@ -283,6 +283,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "product-listing-quality",
+      "date": "2026-09-20",
+      "tags": [
+        "commercial",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
