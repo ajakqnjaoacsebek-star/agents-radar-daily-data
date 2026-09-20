@@ -147,6 +147,10 @@
     {
       "id": "evergreen:forgejo",
       "date": "2026-09-19"
+    },
+    {
+      "id": "evergreen:duplicati",
+      "date": "2026-09-20"
     }
   ]
 }

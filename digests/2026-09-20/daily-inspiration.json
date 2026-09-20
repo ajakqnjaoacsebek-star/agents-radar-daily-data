@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T04:57:57.976Z",
+  "candidateId": "evergreen:duplicati",
+  "origin": "evergreen",
+  "category": "个人数据",
+  "title": "Duplicati：用网页界面安排加密备份",
+  "summary": "Duplicati 是开源备份软件，可把加密增量备份保存到多种目标。",
+  "whyInteresting": "不熟悉命令行也能建立定时备份计划。",
+  "remixIdea": "给照片、文档和项目分别设置频率，不必所有内容都用同一种策略。",
+  "source": {
+    "label": "Duplicati",
+    "url": "https://duplicati.com/"
+  },
+  "caution": "任何备份方案都应定期测试恢复，而不是只看任务显示成功。",
+  "generatedBy": "fallback"
+}
