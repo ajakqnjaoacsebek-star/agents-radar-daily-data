@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,287 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-09-13"
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49772165",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "The Ethics Issue of AI-Assisted Creation",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://im.not.ci/ai-creator-ethic/"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771931",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Using system-one models inside high-throughput data pipelines",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.southbridge.ai/blog/jev-entity-resolution"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771886",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI Bubble: 'They're coming to the end of this' – Eli the Computer Guy [video]",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=0YIczZDCgsM"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771827",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Why are AI leaders calling for a slow down? [audio]",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.cbc.ca/listen/cbc-podcasts/209-front-burner/episode/16237327-why-are-ai-leaders-calling-for-a-slow-down"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771815",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "A2E AI – an all-in-one AI video generator for text, images and avatars",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://textideo.com/model/a2e-ai"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771728",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Open-source free meme generator, friendly for AI agents and humans",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/terryds/memegenscript"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771721",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Pure Code: What remains with developers after AI writes the code?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://pure-code-essay.vercel.app/"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771657",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "How to handle manager adding AI bs to our codebase/designs etc.",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49771657"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771630",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "How the Berkeley Overmind won the 2010 StarCraft AI competition (2011)",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://arstechnica.com/gaming/2011/01/skynet-meets-the-swarm-how-the-berkeley-overmind-won-the-2010-starcraft-ai-competition/"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:hn:49771614",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Trump to Name AI Czar While Rejecting Safety Risks as a Hoax",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-19/trump-to-name-ai-czar-while-rejecting-safety-risks-as-a-hoax"
+    },
+    "signalDate": "2026-09-20"
+  },
+  {
+    "id": "signal:github:pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+    "summary": "Your Cheat Sheet For AI Engineering Interviews at Top AI Companies - Questions and Answers.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise"
+    },
+    "signalDate": "2026-09-19"
+  },
+  {
+    "id": "signal:github:isas1/skills",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "isas1/skills",
+    "summary": "Skills for explaining and summarising AI output: eli5-succinct, simple-summary, summary",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · isas1/skills",
+      "url": "https://github.com/isas1/skills"
+    },
+    "signalDate": "2026-09-19"
+  },
+  {
+    "id": "signal:github:AppitStudio/awesome-jev",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "AppitStudio/awesome-jev",
+    "summary": "Curated Jev resources and runnable examples for typed AI decisions.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · AppitStudio/awesome-jev",
+      "url": "https://github.com/AppitStudio/awesome-jev"
+    },
+    "signalDate": "2026-09-18"
+  },
+  {
+    "id": "signal:github:liyupi/ai-model-world",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "liyupi/ai-model-world",
+    "summary": "AI 大模型世界，把 556 个大模型拟人化成像素小人的可视化站点。进来就能看到此刻谁最聪明、谁最会写代码、谁最便宜、谁刚发布，往下是国内与国外分区的厂商广场、完整的发布时间线和多维排行榜。搜索认模型名、厂商和能力，输入「多模态」会直接列出全部多模态模型。数据取自 Epoch AI、models.dev、LiveBench 与 Hugging Face，每小时自动同步，所有文案由真实数据生成，不调用任何 LLM。Next.js 静态导出，零后端。",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · liyupi/ai-model-world",
+      "url": "https://github.com/liyupi/ai-model-world"
+    },
+    "signalDate": "2026-09-17"
+  },
+  {
+    "id": "signal:github:0xNatoshi/jev-codex-router",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "0xNatoshi/jev-codex-router",
+    "summary": "Per-turn model & reasoning routing for Codex, driven by Jev (TypeSafe System One): picks the model, thinking depth and speed mode for every turn.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · 0xNatoshi/jev-codex-router",
+      "url": "https://github.com/0xNatoshi/jev-codex-router"
+    },
+    "signalDate": "2026-09-17"
+  },
+  {
+    "id": "signal:github:devagrawal09/jev-review",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "devagrawal09/jev-review",
+    "summary": "A staged code-review workflow and local dashboard built with TypeSafe Jev.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · devagrawal09/jev-review",
+      "url": "https://github.com/devagrawal09/jev-review"
+    },
+    "signalDate": "2026-09-16"
+  },
+  {
+    "id": "signal:github:lakeday-org/perch",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "lakeday-org/perch",
+    "summary": "Semantic code linting with Jev",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · lakeday-org/perch",
+      "url": "https://github.com/lakeday-org/perch"
+    },
+    "signalDate": "2026-09-16"
+  },
+  {
+    "id": "signal:github:agentscope-ai-java/agentscope-java",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "agentscope-ai-java/agentscope-java",
+    "summary": "Build distributed, production-grade, long-running agents.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · agentscope-ai-java/agentscope-java",
+      "url": "https://github.com/agentscope-ai-java/agentscope-java"
+    },
+    "signalDate": "2026-09-14"
+  },
+  {
+    "id": "signal:github:RectangleStory/Superpowers_Multi_AI",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "RectangleStory/Superpowers_Multi_AI",
+    "summary": "⚡ Modular prompt-engineering framework for AI Agents (Cursor, Claude Code, Copilot). Forces structured SDLC, linear execution, context isolation, and systematic debugging via a standalone Windows launcher. Stop vibe coding, start agentic discipline! 🚀",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · RectangleStory/Superpowers_Multi_AI",
+      "url": "https://github.com/RectangleStory/Superpowers_Multi_AI"
+    },
+    "signalDate": "2026-09-14"
+  },
+  {
+    "id": "signal:github:ARahim3/cachebeat",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "ARahim3/cachebeat",
+    "summary": "A tiny Claude Code skill that keeps your prompt cache warm during idle sessions, so your next message reads from cache instead of paying full price.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · ARahim3/cachebeat",
+      "url": "https://github.com/ARahim3/cachebeat"
+    },
+    "signalDate": "2026-09-14"
   },
   {
     "id": "signal:hn:49679396",
