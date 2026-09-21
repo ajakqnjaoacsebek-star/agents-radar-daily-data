@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T05:01:58.813Z",
+  "candidateId": "evergreen:changedetection",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "changedetection.io：网页有变化时再通知你",
+  "summary": "changedetection.io 是开源网页变更监控工具，可比较页面内容并发送提醒。",
+  "whyInteresting": "不必每天手动刷新一个偶尔才变化的页面。",
+  "remixIdea": "监控软件发布页、活动报名或公开政策页面，把真正变化的内容送进日报。",
+  "source": {
+    "label": "changedetection.io",
+    "url": "https://changedetection.io/"
+  },
+  "caution": "监控频率应合理，并遵守目标网站的访问规则。",
+  "generatedBy": "fallback"
+}

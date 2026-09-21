@@ -151,6 +151,10 @@
     {
       "id": "evergreen:duplicati",
       "date": "2026-09-20"
+    },
+    {
+      "id": "evergreen:changedetection",
+      "date": "2026-09-21"
     }
   ]
 }
