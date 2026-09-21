@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-21",
+  "candidateId": "speech-transcription-bench",
+  "origin": "original-concept",
+  "title": "语音转写实测台",
+  "oneLine": "比较不同口音、噪声和说话速度下的转写结果。",
+  "summary": "比较不同口音、噪声和说话速度下的转写结果。能理解语音模型的边界和后处理需求。",
+  "problemSolved": "你想把录音自动转成文字，但自己的口音、环境噪声可能让宣传准确率失去参考。",
+  "howItHelps": "它用你的真实短录音测试不同转写方案，标出错字、耗时和费用。",
+  "outcome": "一个带原音频、差异和字错率的对照页。",
+  "whyWorthwhile": "能理解语音模型的边界和后处理需求。",
+  "skills": [
+    "语音识别",
+    "评测"
+  ],
+  "realWorldPotential": "可为语音笔记和字幕项目选方案。",
+  "feasibilityProbe": "录制十段公开内容，手工制作准确文本。",
+  "costAndRisks": [
+    "不得录制他人私人谈话，云端上传需授权。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不得录制他人私人谈话，云端上传需授权。"
+  },
+  "generatedBy": "curated-fallback"
+}

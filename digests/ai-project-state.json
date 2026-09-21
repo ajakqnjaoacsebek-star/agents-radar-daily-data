@@ -294,6 +294,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "speech-transcription-bench",
+      "date": "2026-09-21",
+      "tags": [
+        "learning"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
