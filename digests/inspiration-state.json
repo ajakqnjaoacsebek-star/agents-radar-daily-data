@@ -155,6 +155,10 @@
     {
       "id": "evergreen:changedetection",
       "date": "2026-09-21"
+    },
+    {
+      "id": "evergreen:lm-studio",
+      "date": "2026-09-22"
     }
   ]
 }

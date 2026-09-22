@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T05:03:05.385Z",
+  "candidateId": "evergreen:lm-studio",
+  "origin": "evergreen",
+  "category": "AI 工具",
+  "title": "LM Studio：图形化下载和试用本地模型",
+  "summary": "LM Studio 提供桌面界面来搜索、下载、聊天和启动本地模型接口。",
+  "whyInteresting": "它降低了比较不同开源模型的安装门槛。",
+  "remixIdea": "用同一个问题测试三个小模型，观察速度、内存和回答风格差异。",
+  "source": {
+    "label": "LM Studio",
+    "url": "https://lmstudio.ai/"
+  },
+  "caution": "软件免费使用条款和模型各自许可需要分别核对。",
+  "generatedBy": "fallback"
+}
