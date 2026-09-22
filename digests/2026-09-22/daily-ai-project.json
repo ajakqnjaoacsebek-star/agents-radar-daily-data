@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "date": "2026-09-22",
+  "candidateId": "quote-generator",
+  "origin": "original-concept",
+  "title": "服务报价草稿器",
+  "oneLine": "根据明确服务范围生成可解释的报价项目清单。",
+  "summary": "根据明确服务范围生成可解释的报价项目清单。能把模糊服务拆成范围、依赖和风险。",
+  "problemSolved": "接小单时你不知道怎样拆工时、列范围和报价，容易低估成本或与客户理解不一致。",
+  "howItHelps": "它根据服务范围生成可解释的报价草稿，清楚列出假设、成本、不包含项和可选项。",
+  "outcome": "一个显示工时假设、成本和不包含项的报价草稿。",
+  "whyWorthwhile": "能把模糊服务拆成范围、依赖和风险。",
+  "skills": [
+    "需求拆解",
+    "成本估算"
+  ],
+  "realWorldPotential": "适合自由职业或小型 AI 自动化服务。",
+  "feasibilityProbe": "用三个历史案例比较草稿与真实报价差异。",
+  "costAndRisks": [
+    "报价必须人工确认，不能承诺未知交付结果。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "报价必须人工确认，不能承诺未知交付结果。"
+  },
+  "generatedBy": "curated-fallback"
+}
