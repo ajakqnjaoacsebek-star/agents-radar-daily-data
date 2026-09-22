@@ -2,6 +2,15 @@ export const AI_PROJECT_VERSION = 1 as const;
 
 export type AiProjectOrigin = "verified-existing" | "original-concept";
 export type AiProjectTag = "practical" | "learning" | "imagination" | "commercial";
+export type AiProjectFormat = "specific-project" | "direction-exploration";
+export type AiProjectValueType =
+  | "practical"
+  | "economic"
+  | "earning-capability"
+  | "personal-capability"
+  | "long-term-asset"
+  | "creation-experience";
+export type AiProjectTasteStatus = "preferred" | "conditional" | "archive";
 
 export interface AiProjectSource {
   label: string;
@@ -27,6 +36,12 @@ export interface AiProjectCandidate {
   problemSolved: string;
   howItHelps: string;
   readerReady: boolean;
+  tasteStatus?: AiProjectTasteStatus;
+  format?: AiProjectFormat;
+  valueTypes?: AiProjectValueType[];
+  userFit?: string;
+  userActions?: string[];
+  manualAlternative?: string;
   outcome: string;
   whyWorthwhile: string;
   skills: string[];
@@ -51,6 +66,11 @@ export interface AiProjectCard {
   summary: string;
   problemSolved: string;
   howItHelps: string;
+  format: AiProjectFormat;
+  valueTypes: AiProjectValueType[];
+  userFit: string;
+  userActions: string[];
+  manualAlternative: string;
   outcome: string;
   whyWorthwhile: string;
   skills: string[];
@@ -115,6 +135,15 @@ function validDimension(value: unknown): value is number {
   return typeof value === "number" && Number.isFinite(value) && value >= 20 && value <= 100;
 }
 
+const VALUE_TYPES: AiProjectValueType[] = [
+  "practical",
+  "economic",
+  "earning-capability",
+  "personal-capability",
+  "long-term-asset",
+  "creation-experience",
+];
+
 export function validateAiProjectCatalog(candidates: AiProjectCandidate[]): AiProjectCandidate[] {
   const ids = new Set<string>();
   for (const item of candidates) {
@@ -143,6 +172,23 @@ export function validateAiProjectCatalog(candidates: AiProjectCandidate[]): AiPr
       typeof item.readerReady !== "boolean"
     ) {
       throw new Error(`Incomplete AI project reader explanation: ${item.candidateId}`);
+    }
+    if (item.tasteStatus && !["preferred", "conditional", "archive"].includes(item.tasteStatus)) {
+      throw new Error(`Invalid AI project taste status: ${item.candidateId}`);
+    }
+    if (item.tasteStatus && item.tasteStatus !== "archive") {
+      if (
+        !item.format ||
+        !["specific-project", "direction-exploration"].includes(item.format) ||
+        !item.valueTypes?.length ||
+        item.valueTypes.some((value) => !VALUE_TYPES.includes(value)) ||
+        !nonEmpty(item.userFit) ||
+        !item.userActions?.length ||
+        item.userActions.some((value) => !nonEmpty(value)) ||
+        !nonEmpty(item.manualAlternative)
+      ) {
+        throw new Error(`Incomplete AI project taste profile: ${item.candidateId}`);
+      }
     }
     if (
       !item.tags?.length ||
@@ -234,9 +280,24 @@ export function selectDailyAiProject(
   const lastSeven = recent90.filter((entry) => ageInDays(entry.date, date) < 7);
   const needsCrossDomain = lastSeven.length >= 6 && !lastSeven.some((entry) => entry.crossDomain);
 
-  let eligible = valid.filter((candidate) => candidate.readerReady && !blocked.has(candidate.candidateId));
+  const hasTasteProfile = valid.some(
+    (candidate) => candidate.tasteStatus === "preferred" || candidate.tasteStatus === "conditional",
+  );
+  const tasteEligible = (candidate: AiProjectCandidate): boolean =>
+    !hasTasteProfile || candidate.tasteStatus === "preferred";
+  let eligible = valid.filter(
+    (candidate) => candidate.readerReady && tasteEligible(candidate) && !blocked.has(candidate.candidateId),
+  );
   if (hasRecentLarge) eligible = eligible.filter((candidate) => !candidate.largeCommercial);
-  if (!eligible.length) throw new Error("No AI project candidate is eligible after 90-day deduplication");
+  if (!eligible.length && hasTasteProfile) {
+    // Repeating a well-matched project after a month is safer than publishing a new but irrelevant one.
+    eligible = valid.filter((candidate) => {
+      if (!candidate.readerReady || candidate.tasteStatus !== "preferred") return false;
+      const latest = recent90.find((entry) => entry.candidateId === candidate.candidateId);
+      return !latest || ageInDays(latest.date, date) >= 30;
+    });
+  }
+  if (!eligible.length) throw new Error("No reader-fit AI project candidate is eligible");
 
   const practicalCount = recent90.filter(
     (entry) => ageInDays(entry.date, date) < 30 && entry.tags.includes("practical"),
@@ -285,6 +346,13 @@ export function createAiProjectCard(
     summary: candidate.summary,
     problemSolved: candidate.problemSolved,
     howItHelps: candidate.howItHelps,
+    format: candidate.format ?? "specific-project",
+    valueTypes: [...(candidate.valueTypes ?? ["practical", "personal-capability"])],
+    userFit: candidate.userFit ?? candidate.whyWorthwhile,
+    userActions: [...(candidate.userActions ?? [candidate.feasibilityProbe])],
+    manualAlternative:
+      candidate.manualAlternative ??
+      "先用人工完成一次；只有当信息量、重复次数或判断难度明显增加时才值得自动化。",
     outcome: candidate.outcome,
     whyWorthwhile: candidate.whyWorthwhile,
     skills: [...candidate.skills],

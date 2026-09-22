@@ -135,6 +135,35 @@ describe("difficulty", () => {
 });
 
 describe("daily selection", () => {
+  const tasteProfile = {
+    tasteStatus: "preferred" as const,
+    format: "specific-project" as const,
+    valueTypes: ["personal-capability"] as AiProjectCandidate["valueTypes"],
+    userFit: "这个项目与你当前做 AI 项目的方式直接相关。",
+    userActions: ["输入一个真实样本", "亲自核对结果"],
+    manualAlternative: "样本很少时人工更快，只有需要长期复用时才值得做。",
+  };
+
+  it("prefers the calibrated reader-fit pool over unrelated archived ideas", () => {
+    const selected = selectDailyAiProject(
+      [candidate("unrelated", { tasteStatus: "archive" }), candidate("matched", tasteProfile)],
+      { recent: [] },
+      emptyPreferences,
+      "2026-08-24",
+    );
+    expect(selected.candidateId).toBe("matched");
+  });
+
+  it("reuses a well-matched project after thirty days instead of publishing an unrelated archive item", () => {
+    const selected = selectDailyAiProject(
+      [candidate("unrelated", { tasteStatus: "archive" }), candidate("matched", tasteProfile)],
+      { recent: [{ candidateId: "matched", date: "2026-07-20", tags: ["practical"] }] },
+      emptyPreferences,
+      "2026-08-24",
+    );
+    expect(selected.candidateId).toBe("matched");
+  });
+
   it("does not repeat an exact candidate within 90 days", () => {
     const selected = selectDailyAiProject(
       [candidate("recent"), candidate("fresh")],
@@ -220,5 +249,7 @@ describe("daily selection", () => {
     expect(card.title).toBe("Browser Use");
     expect(card.problemSolved).toBe(project.problemSolved);
     expect(card.howItHelps).toBe(project.howItHelps);
+    expect(card.format).toBe("specific-project");
+    expect(card.valueTypes).toContain("personal-capability");
   });
 });

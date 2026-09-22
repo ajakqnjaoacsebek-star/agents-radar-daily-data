@@ -1,20 +1,28 @@
 [
   {
     "candidateId": "browser-use-public-task",
-    "problemSolved": "你想让 AI 代替自己操作网页，却不知道它究竟能看见什么、会不会乱点。",
-    "howItHelps": "它会在公开网页上按你的指令观察页面、找到按钮并完成一次操作，同时把每一步保留下来让你检查。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Browser Use 公开网页代理",
     "oneLine": "让 AI 在无登录网页上观察、点击并完成一个小任务。",
     "summary": "让 AI 在无登录网页上观察、点击并完成一个小任务。能直观看懂浏览器 Agent 的观察—行动循环。",
+    "problemSolved": "你想让 AI 代替自己操作网页，却不知道它究竟能看见什么、会不会乱点。",
+    "howItHelps": "它会在公开网页上按你的指令观察页面、找到按钮并完成一次操作，同时把每一步保留下来让你检查。",
+    "readerReady": true,
     "outcome": "一个可回放的公开网页代理流程。",
     "whyWorthwhile": "能直观看懂浏览器 Agent 的观察—行动循环。",
-    "skills": ["浏览器自动化", "Agent 循环"],
+    "skills": [
+      "浏览器自动化",
+      "Agent 循环"
+    ],
     "realWorldPotential": "可改造成公开资料收集或网页验收工具。",
     "feasibilityProbe": "先让它在一个公开演示站完成三步任务并保存轨迹。",
-    "costAndRisks": ["网站条款、页面变化和提示注入都需要人工约束。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "网站条款、页面变化和提示注入都需要人工约束。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -29,24 +37,33 @@
       "label": "GitHub · browser-use/browser-use",
       "url": "https://github.com/browser-use/browser-use",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "n8n-ai-workflow",
-    "problemSolved": "你每天都在不同网站或表格之间复制信息，动作不难，却一直重复占时间。",
-    "howItHelps": "它会把“读取信息—交给 AI 整理—发送通知”连成一条看得见的流程，以后由流程自动跑。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "n8n AI 工作流",
     "oneLine": "把一个重复的信息搬运流程接成可视化自动化。",
     "summary": "把一个重复的信息搬运流程接成可视化自动化。能练习触发器、节点、失败重试和 AI 节点边界。",
+    "problemSolved": "你每天都在不同网站或表格之间复制信息，动作不难，却一直重复占时间。",
+    "howItHelps": "它会把“读取信息—交给 AI 整理—发送通知”连成一条看得见的流程，以后由流程自动跑。",
+    "readerReady": true,
     "outcome": "一条从公开输入到整理通知的 n8n 流程。",
     "whyWorthwhile": "能练习触发器、节点、失败重试和 AI 节点边界。",
-    "skills": ["工作流自动化", "错误处理"],
+    "skills": [
+      "工作流自动化",
+      "错误处理"
+    ],
     "realWorldPotential": "可用于日报、线索整理和个人提醒。",
     "feasibilityProbe": "先用两个节点跑通一条不含私人数据的流程。",
-    "costAndRisks": ["第三方节点权限和云端数据留存需要核对。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "第三方节点权限和云端数据留存需要核对。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -61,24 +78,33 @@
       "label": "GitHub · n8n-io/n8n",
       "url": "https://github.com/n8n-io/n8n",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "dify-app-builder",
-    "problemSolved": "你有一个适合 AI 处理的小需求，但不清楚怎样把模型、资料和按钮组合成能用的工具。",
-    "howItHelps": "它让你用拖拽和配置接入资料库与 AI，不必先写完整程序，就能做出一个解决单一问题的小应用。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Dify 小应用工坊",
     "oneLine": "用可视化编排做一个有知识库和工具调用的小应用。",
     "summary": "用可视化编排做一个有知识库和工具调用的小应用。能比较提示词、知识库和工具在产品里的分工。",
+    "problemSolved": "你有一个适合 AI 处理的小需求，但不清楚怎样把模型、资料和按钮组合成能用的工具。",
+    "howItHelps": "它让你用拖拽和配置接入资料库与 AI，不必先写完整程序，就能做出一个解决单一问题的小应用。",
+    "readerReady": true,
     "outcome": "一个只解决单一真实问题的 Dify 应用。",
     "whyWorthwhile": "能比较提示词、知识库和工具在产品里的分工。",
-    "skills": ["应用编排", "RAG"],
+    "skills": [
+      "应用编排",
+      "RAG"
+    ],
     "realWorldPotential": "适合快速验证内部助手或垂直问答。",
     "feasibilityProbe": "导入十页公开资料，检查五个问题能否给出引用。",
-    "costAndRisks": ["公开部署前要处理数据权限和模型费用。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "公开部署前要处理数据权限和模型费用。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -93,24 +119,33 @@
       "label": "GitHub · langgenius/dify",
       "url": "https://github.com/langgenius/dify",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "flowise-rag-canvas",
-    "problemSolved": "你把资料交给 AI 后，担心它凭空回答，却又看不懂检索问答是怎么工作的。",
-    "howItHelps": "它把“切资料、找相关段落、生成回答、显示引用”画成节点，你能逐步看到答案从哪里来。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Flowise RAG 画布",
     "oneLine": "拖拽搭出一个能引用资料来源的问答流程。",
     "summary": "拖拽搭出一个能引用资料来源的问答流程。能把抽象的检索、重排、生成过程看成具体节点。",
+    "problemSolved": "你把资料交给 AI 后，担心它凭空回答，却又看不懂检索问答是怎么工作的。",
+    "howItHelps": "它把“切资料、找相关段落、生成回答、显示引用”画成节点，你能逐步看到答案从哪里来。",
+    "readerReady": true,
     "outcome": "一张可视化 RAG 流程图和十条验收问题。",
     "whyWorthwhile": "能把抽象的检索、重排、生成过程看成具体节点。",
-    "skills": ["RAG", "可视化编排"],
+    "skills": [
+      "RAG",
+      "可视化编排"
+    ],
     "realWorldPotential": "可用于学习资料或产品手册问答。",
     "feasibilityProbe": "用同一份短文测试两种切块方式的引用准确率。",
-    "costAndRisks": ["组件版本和向量库配置会影响复现。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "组件版本和向量库配置会影响复现。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -125,24 +160,33 @@
       "label": "GitHub · FlowiseAI/Flowise",
       "url": "https://github.com/FlowiseAI/Flowise",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "ollama-local-chat",
-    "problemSolved": "你想聊敏感资料或节省云端费用，但不希望每次问题都发送到外部服务器。",
-    "howItHelps": "它会把一个可下载的模型直接运行在你的电脑上，再提供简单聊天入口；断网时也能做基础问答。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Ollama 本地模型台",
     "oneLine": "在电脑上运行一个本地模型并接入简单聊天页。",
     "summary": "在电脑上运行一个本地模型并接入简单聊天页。能理解模型文件、显存、上下文和本地 API。",
+    "problemSolved": "你想聊敏感资料或节省云端费用，但不希望每次问题都发送到外部服务器。",
+    "howItHelps": "它会把一个可下载的模型直接运行在你的电脑上，再提供简单聊天入口；断网时也能做基础问答。",
+    "readerReady": true,
     "outcome": "一个断网也能完成基础问答的本地入口。",
     "whyWorthwhile": "能理解模型文件、显存、上下文和本地 API。",
-    "skills": ["本地模型", "API 接入"],
+    "skills": [
+      "本地模型",
+      "API 接入"
+    ],
     "realWorldPotential": "适合隐私文本试验和离线小工具。",
     "feasibilityProbe": "先下载一个小模型，记录首字延迟和内存占用。",
-    "costAndRisks": ["模型体积、硬件速度和回答质量可能不理想。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "模型体积、硬件速度和回答质量可能不理想。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -157,24 +201,32 @@
       "label": "GitHub · ollama/ollama",
       "url": "https://github.com/ollama/ollama",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "llama-cpp-local-server",
-    "problemSolved": "你已经能在本地运行模型，却不知道怎样让自己的其他程序也能调用它。",
-    "howItHelps": "它把本地模型包装成一个标准接口，让网页、脚本或笔记工具像调用云端 API 一样调用电脑里的模型。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "llama.cpp 轻量推理服务",
     "oneLine": "把量化模型跑成一个兼容常见接口的本地服务。",
     "summary": "把量化模型跑成一个兼容常见接口的本地服务。能摸清量化、CPU/GPU 分层和吞吐之间的取舍。",
+    "problemSolved": "你已经能在本地运行模型，却不知道怎样让自己的其他程序也能调用它。",
+    "howItHelps": "它把本地模型包装成一个标准接口，让网页、脚本或笔记工具像调用云端 API 一样调用电脑里的模型。",
+    "readerReady": true,
     "outcome": "一个可被其他应用调用的本地推理端点。",
     "whyWorthwhile": "能摸清量化、CPU/GPU 分层和吞吐之间的取舍。",
-    "skills": ["模型推理", "性能测试"],
+    "skills": [
+      "模型推理",
+      "性能测试"
+    ],
     "realWorldPotential": "可成为多个个人工具共用的本地模型底座。",
     "feasibilityProbe": "用同一提示比较两种量化文件的速度和质量。",
-    "costAndRisks": ["编译选项与硬件后端可能造成安装难点。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "编译选项与硬件后端可能造成安装难点。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -189,24 +241,33 @@
       "label": "GitHub · ggml-org/llama.cpp",
       "url": "https://github.com/ggml-org/llama.cpp",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "open-webui-personal-portal",
-    "problemSolved": "你同时使用本地模型和云端模型，聊天记录与入口分散，切换起来很麻烦。",
-    "howItHelps": "它把不同模型放进同一个私人网页，统一保存会话、切换模型，并能挂载自己的资料。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Open WebUI 私人 AI 门户",
     "oneLine": "把本地与云端模型放进一个统一的私人聊天入口。",
     "summary": "把本地与云端模型放进一个统一的私人聊天入口。能学习多模型接入、用户界面和本地部署。",
+    "problemSolved": "你同时使用本地模型和云端模型，聊天记录与入口分散，切换起来很麻烦。",
+    "howItHelps": "它把不同模型放进同一个私人网页，统一保存会话、切换模型，并能挂载自己的资料。",
+    "readerReady": true,
     "outcome": "一个可切换模型、保存会话和挂载知识的门户。",
     "whyWorthwhile": "能学习多模型接入、用户界面和本地部署。",
-    "skills": ["多模型接入", "部署"],
+    "skills": [
+      "多模型接入",
+      "部署"
+    ],
     "realWorldPotential": "可作为家庭或个人 AI 工具首页。",
     "feasibilityProbe": "只连接一个本地模型，验证聊天历史与文件上传。",
-    "costAndRisks": ["开放到局域网前必须设置账号和访问边界。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "开放到局域网前必须设置账号和访问边界。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -221,24 +282,33 @@
       "label": "GitHub · open-webui/open-webui",
       "url": "https://github.com/open-webui/open-webui",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "langfuse-prompt-observer",
-    "problemSolved": "你的 AI 功能偶尔变慢、变贵或答坏了，但事后不知道是哪次调用出了问题。",
-    "howItHelps": "它记录每次请求的提示词、耗时、费用与结果，让你能找出失败原因并比较改动前后。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Langfuse 提示词观察站",
     "oneLine": "给自己的 AI 调用加上耗时、成本和输出追踪。",
     "summary": "给自己的 AI 调用加上耗时、成本和输出追踪。能从凭感觉调提示词转向有记录的迭代。",
+    "problemSolved": "你的 AI 功能偶尔变慢、变贵或答坏了，但事后不知道是哪次调用出了问题。",
+    "howItHelps": "它记录每次请求的提示词、耗时、费用与结果，让你能找出失败原因并比较改动前后。",
+    "readerReady": true,
     "outcome": "一个能对比两版提示词表现的观测面板。",
     "whyWorthwhile": "能从凭感觉调提示词转向有记录的迭代。",
-    "skills": ["可观测性", "提示词评测"],
+    "skills": [
+      "可观测性",
+      "提示词评测"
+    ],
     "realWorldPotential": "适合稳定日报、客服或 Agent 工作流。",
     "feasibilityProbe": "记录二十次同类调用，找出最常见的失败模式。",
-    "costAndRisks": ["日志可能包含私人内容，采集前要脱敏。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "日志可能包含私人内容，采集前要脱敏。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -253,24 +323,33 @@
       "label": "GitHub · langfuse/langfuse",
       "url": "https://github.com/langfuse/langfuse",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "litellm-model-router",
-    "problemSolved": "你接了多个 AI 模型后，每个接口写法不同，一个模型出错时整个功能也会停。",
-    "howItHelps": "它在中间提供统一入口，并按任务或故障把请求转给合适模型，让切换和备用方案更简单。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "LiteLLM 模型路由器",
     "oneLine": "用一个统一接口调用不同模型并做简单降级。",
     "summary": "用一个统一接口调用不同模型并做简单降级。能学习模型兼容、预算控制和容错路由。",
+    "problemSolved": "你接了多个 AI 模型后，每个接口写法不同，一个模型出错时整个功能也会停。",
+    "howItHelps": "它在中间提供统一入口，并按任务或故障把请求转给合适模型，让切换和备用方案更简单。",
+    "readerReady": true,
     "outcome": "一个能按任务或失败情况切换模型的网关。",
     "whyWorthwhile": "能学习模型兼容、预算控制和容错路由。",
-    "skills": ["模型路由", "成本控制"],
+    "skills": [
+      "模型路由",
+      "成本控制"
+    ],
     "realWorldPotential": "可减少个人项目切换供应商的改造量。",
     "feasibilityProbe": "让两个模型处理同一 JSON 任务，失败时自动切换。",
-    "costAndRisks": ["不同模型并非完全兼容，费用上限要明确。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "不同模型并非完全兼容，费用上限要明确。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -285,24 +364,33 @@
       "label": "GitHub · BerriAI/litellm",
       "url": "https://github.com/BerriAI/litellm",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "mem0-preference-memory",
-    "problemSolved": "你希望助手记住习惯，但又不想把全部聊天永久保存，也担心它记错。",
-    "howItHelps": "它只提取经过你确认的偏好，并提供查看、修改和删除页面，让记忆既有用又可控制。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Mem0 偏好记忆实验",
     "oneLine": "让助手记住经过确认的偏好，而不是保存整段聊天。",
     "summary": "让助手记住经过确认的偏好，而不是保存整段聊天。能区分短期上下文与长期结构化记忆。",
+    "problemSolved": "你希望助手记住习惯，但又不想把全部聊天永久保存，也担心它记错。",
+    "howItHelps": "它只提取经过你确认的偏好，并提供查看、修改和删除页面，让记忆既有用又可控制。",
+    "readerReady": true,
     "outcome": "一个可查看、修改和删除的偏好记忆页。",
     "whyWorthwhile": "能区分短期上下文与长期结构化记忆。",
-    "skills": ["长期记忆", "隐私设计"],
+    "skills": [
+      "长期记忆",
+      "隐私设计"
+    ],
     "realWorldPotential": "可用于个人助理和持续学习工具。",
     "feasibilityProbe": "只存五条人工确认偏好，观察十轮后是否正确调用。",
-    "costAndRisks": ["错误记忆和隐私泄露会比忘记更危险。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "错误记忆和隐私泄露会比忘记更危险。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -317,24 +405,32 @@
       "label": "GitHub · mem0ai/mem0",
       "url": "https://github.com/mem0ai/mem0",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "graphiti-timeline-memory",
-    "problemSolved": "项目、人物和计划会不断变化，普通笔记容易把旧信息和新信息混在一起。",
-    "howItHelps": "它把关系和发生时间一起保存，所以能回答某条信息什么时候改变、当前版本是什么。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Graphiti 时间线记忆",
     "oneLine": "把会变化的人物、项目和事件关系存成时间图谱。",
     "summary": "把会变化的人物、项目和事件关系存成时间图谱。能理解时序知识图谱比静态笔记多解决了什么。",
+    "problemSolved": "项目、人物和计划会不断变化，普通笔记容易把旧信息和新信息混在一起。",
+    "howItHelps": "它把关系和发生时间一起保存，所以能回答某条信息什么时候改变、当前版本是什么。",
+    "readerReady": true,
     "outcome": "一个能回答“某项信息何时改变”的小型记忆图。",
     "whyWorthwhile": "能理解时序知识图谱比静态笔记多解决了什么。",
-    "skills": ["知识图谱", "时序记忆"],
+    "skills": [
+      "知识图谱",
+      "时序记忆"
+    ],
     "realWorldPotential": "适合项目记录、客户状态和长期研究。",
     "feasibilityProbe": "录入十条带日期的项目变化，测试前后状态查询。",
-    "costAndRisks": ["实体抽取错误会造成关系污染，需要可纠正入口。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "实体抽取错误会造成关系污染，需要可纠正入口。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -349,24 +445,33 @@
       "label": "GitHub · getzep/graphiti",
       "url": "https://github.com/getzep/graphiti",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "llamaindex-study-search",
-    "problemSolved": "你的教材和笔记很多，临时想找一个知识点时翻文件很慢，又不想让 AI 脱离资料乱讲。",
-    "howItHelps": "它只在你指定的学习资料里搜索，回答时附上原文出处，方便你立即回到对应页面核对。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "LlamaIndex 学习资料检索",
     "oneLine": "把一组学习资料做成带引用的私人搜索。",
     "summary": "把一组学习资料做成带引用的私人搜索。能练习文档解析、索引、召回和引用核验。",
+    "problemSolved": "你的教材和笔记很多，临时想找一个知识点时翻文件很慢，又不想让 AI 脱离资料乱讲。",
+    "howItHelps": "它只在你指定的学习资料里搜索，回答时附上原文出处，方便你立即回到对应页面核对。",
+    "readerReady": true,
     "outcome": "一个只依据指定资料回答并显示出处的搜索页。",
     "whyWorthwhile": "能练习文档解析、索引、召回和引用核验。",
-    "skills": ["文档检索", "引用"],
+    "skills": [
+      "文档检索",
+      "引用"
+    ],
     "realWorldPotential": "适合备考、读书和内部资料查询。",
     "feasibilityProbe": "放入三份短资料，准备十个含干扰项的问题。",
-    "costAndRisks": ["扫描件质量和错误引用需要人工抽查。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "扫描件质量和错误引用需要人工抽查。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -381,24 +486,32 @@
       "label": "GitHub · run-llama/llama_index",
       "url": "https://github.com/run-llama/llama_index",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "langchain-tool-agent",
-    "problemSolved": "你想让 AI 帮忙查数据或计算，但担心它什么时候调用工具、会不会越权。",
-    "howItHelps": "它给 AI 两个权限明确的工具，并规定只有需要时才能调用；每次参数和结果都能看到。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "LangChain 工具调用练习",
     "oneLine": "让模型只在需要时调用两个受限工具。",
     "summary": "让模型只在需要时调用两个受限工具。能理解工具描述、参数校验和权限边界。",
+    "problemSolved": "你想让 AI 帮忙查数据或计算，但担心它什么时候调用工具、会不会越权。",
+    "howItHelps": "它给 AI 两个权限明确的工具，并规定只有需要时才能调用；每次参数和结果都能看到。",
+    "readerReady": true,
     "outcome": "一个能查数据但不能越权写入的 Agent。",
     "whyWorthwhile": "能理解工具描述、参数校验和权限边界。",
-    "skills": ["工具调用", "权限设计"],
+    "skills": [
+      "工具调用",
+      "权限设计"
+    ],
     "realWorldPotential": "可作为自动化助手的安全起点。",
     "feasibilityProbe": "准备五个应该调用和五个不该调用工具的问题。",
-    "costAndRisks": ["工具权限过宽会放大模型判断错误。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "工具权限过宽会放大模型判断错误。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -413,24 +526,33 @@
       "label": "GitHub · langchain-ai/langchain",
       "url": "https://github.com/langchain-ai/langchain",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "crewai-research-team",
-    "problemSolved": "你查一个主题时容易漏掉核验步骤，也很难判断多角色 Agent 到底有没有比单个 AI 更好。",
-    "howItHelps": "它让检索、核验和总结三个角色依次处理同一问题，并把来源与交接过程完整展示。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "CrewAI 小型研究队",
     "oneLine": "让检索、核验和总结三个角色完成一次公开资料研究。",
     "summary": "让检索、核验和总结三个角色完成一次公开资料研究。能观察多角色是否真的降低遗漏，而非只增加话术。",
+    "problemSolved": "你查一个主题时容易漏掉核验步骤，也很难判断多角色 Agent 到底有没有比单个 AI 更好。",
+    "howItHelps": "它让检索、核验和总结三个角色依次处理同一问题，并把来源与交接过程完整展示。",
+    "readerReady": true,
     "outcome": "一份带来源和角色轨迹的短研究报告。",
     "whyWorthwhile": "能观察多角色是否真的降低遗漏，而非只增加话术。",
-    "skills": ["多 Agent", "任务分工"],
+    "skills": [
+      "多 Agent",
+      "任务分工"
+    ],
     "realWorldPotential": "可用于竞品扫描和主题资料整理。",
     "feasibilityProbe": "用同一问题比较单 Agent 与三角色的事实错误数。",
-    "costAndRisks": ["多次模型调用会增加成本和相互传错信息。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "多次模型调用会增加成本和相互传错信息。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -445,24 +567,33 @@
       "label": "GitHub · crewAIInc/crewAI",
       "url": "https://github.com/crewAIInc/crewAI",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "autogen-model-debate",
-    "problemSolved": "同一个问题不同 AI 给出相反答案时，你不知道该信谁，也看不到各自的弱点。",
-    "howItHelps": "它先让两个模型独立回答和互相反驳，再由第三个模型对照证据裁决分歧。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "AutoGen 模型辩论场",
     "oneLine": "让两个模型先独立回答，再由第三个模型核对分歧。",
     "summary": "让两个模型先独立回答，再由第三个模型核对分歧。能看到模型差异，也能学习何时多模型值得成本。",
+    "problemSolved": "同一个问题不同 AI 给出相反答案时，你不知道该信谁，也看不到各自的弱点。",
+    "howItHelps": "它先让两个模型独立回答和互相反驳，再由第三个模型对照证据裁决分歧。",
+    "readerReady": true,
     "outcome": "一个展示答案、反驳和裁决依据的擂台。",
     "whyWorthwhile": "能看到模型差异，也能学习何时多模型值得成本。",
-    "skills": ["多模型协作", "评测"],
+    "skills": [
+      "多模型协作",
+      "评测"
+    ],
     "realWorldPotential": "可用于高不确定任务的辅助复核。",
     "feasibilityProbe": "挑十道有明确答案的问题统计纠错率。",
-    "costAndRisks": ["模型可能形成虚假共识，裁决也必须有外部证据。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "模型可能形成虚假共识，裁决也必须有外部证据。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -477,24 +608,33 @@
       "label": "GitHub · microsoft/autogen",
       "url": "https://github.com/microsoft/autogen",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "comfyui-image-workflow",
-    "problemSolved": "你偶尔生成出满意图片，却记不住当时用了哪些参数，下一次很难复现。",
-    "howItHelps": "它把模型、参考图、种子和后处理拆成可保存的节点流程，之后可以重跑或只替换其中一步。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "ComfyUI 图像工作流",
     "oneLine": "把一次可重复的图像生成过程拆成节点图。",
     "summary": "把一次可重复的图像生成过程拆成节点图。能直观看懂图像模型各阶段怎样影响结果。",
+    "problemSolved": "你偶尔生成出满意图片，却记不住当时用了哪些参数，下一次很难复现。",
+    "howItHelps": "它把模型、参考图、种子和后处理拆成可保存的节点流程，之后可以重跑或只替换其中一步。",
+    "readerReady": true,
     "outcome": "一张能复用种子、参考图和后处理的工作流。",
     "whyWorthwhile": "能直观看懂图像模型各阶段怎样影响结果。",
-    "skills": ["图像生成", "节点工作流"],
+    "skills": [
+      "图像生成",
+      "节点工作流"
+    ],
     "realWorldPotential": "可用于封面、素材和视觉实验。",
     "feasibilityProbe": "固定提示与种子，只改变一个节点比较输出。",
-    "costAndRisks": ["模型许可、显存和人物肖像授权需要确认。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "模型许可、显存和人物肖像授权需要确认。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -509,24 +649,33 @@
       "label": "GitHub · ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "sd-webui-style-lab",
-    "problemSolved": "你不断试提示词和参数，却只留下零散图片，不知道哪种设置真正影响了风格。",
-    "howItHelps": "它把每张样图与提示词、种子和参数绑定，做成可搜索的对照实验册。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Stable Diffusion 风格实验室",
     "oneLine": "建立一组可复现的提示、参数和样图对照。",
     "summary": "建立一组可复现的提示、参数和样图对照。能把随机试图变成可复盘的视觉实验。",
+    "problemSolved": "你不断试提示词和参数，却只留下零散图片，不知道哪种设置真正影响了风格。",
+    "howItHelps": "它把每张样图与提示词、种子和参数绑定，做成可搜索的对照实验册。",
+    "readerReady": true,
     "outcome": "一个按参数检索的个人图像实验册。",
     "whyWorthwhile": "能把随机试图变成可复盘的视觉实验。",
-    "skills": ["图像模型", "实验记录"],
+    "skills": [
+      "图像模型",
+      "实验记录"
+    ],
     "realWorldPotential": "可为海报、插画和角色设计积累方法。",
     "feasibilityProbe": "用同一主题跑九宫格，只改变采样或引导参数。",
-    "costAndRisks": ["本地模型可能占用大量磁盘与显存。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "本地模型可能占用大量磁盘与显存。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -541,24 +690,33 @@
       "label": "GitHub · AUTOMATIC1111/stable-diffusion-webui",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "docling-document-extractor",
-    "problemSolved": "PDF 里有表格、双栏或复杂版面时，直接复制给 AI 经常顺序错乱、内容丢失。",
-    "howItHelps": "它先把页面拆成标题、段落和表格，再把原页与解析结果并排显示，方便你发现错位。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Docling 文档拆解器",
     "oneLine": "把 PDF、表格和版面转成可检查的结构化内容。",
     "summary": "把 PDF、表格和版面转成可检查的结构化内容。能学习复杂文档进入 AI 前最容易在哪一步失真。",
+    "problemSolved": "PDF 里有表格、双栏或复杂版面时，直接复制给 AI 经常顺序错乱、内容丢失。",
+    "howItHelps": "它先把页面拆成标题、段落和表格，再把原页与解析结果并排显示，方便你发现错位。",
+    "readerReady": true,
     "outcome": "一个显示原页与解析结果对照的文档工具。",
     "whyWorthwhile": "能学习复杂文档进入 AI 前最容易在哪一步失真。",
-    "skills": ["文档解析", "结构化数据"],
+    "skills": [
+      "文档解析",
+      "结构化数据"
+    ],
     "realWorldPotential": "可用于资料库、合同预处理和表格提取。",
     "feasibilityProbe": "选三页含表格的 PDF，逐项核对标题与单元格。",
-    "costAndRisks": ["OCR 与版面识别错误不能静默进入后续回答。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "OCR 与版面识别错误不能静默进入后续回答。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -573,24 +731,33 @@
       "label": "GitHub · docling-project/docling",
       "url": "https://github.com/docling-project/docling",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "markitdown-study-importer",
-    "problemSolved": "你的学习资料有 Word、PDF、表格等多种格式，每种都要单独处理才能交给 AI。",
-    "howItHelps": "它把常见文件批量转换成统一的 Markdown，并在导入前让你预览内容是否完整。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "MarkItDown 学习资料入口",
     "oneLine": "把常见文件统一转成适合 AI 阅读的 Markdown。",
     "summary": "把常见文件统一转成适合 AI 阅读的 Markdown。能理解统一文本格式怎样简化后续搜索与总结。",
+    "problemSolved": "你的学习资料有 Word、PDF、表格等多种格式，每种都要单独处理才能交给 AI。",
+    "howItHelps": "它把常见文件批量转换成统一的 Markdown，并在导入前让你预览内容是否完整。",
+    "readerReady": true,
     "outcome": "一个批量导入并预览转换结果的本地入口。",
     "whyWorthwhile": "能理解统一文本格式怎样简化后续搜索与总结。",
-    "skills": ["文件转换", "数据清洗"],
+    "skills": [
+      "文件转换",
+      "数据清洗"
+    ],
     "realWorldPotential": "可作为私人知识库的第一道处理。",
     "feasibilityProbe": "转换五种文件，各找一个格式丢失的边界案例。",
-    "costAndRisks": ["转换结果可能遗漏批注、公式和复杂表格。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "转换结果可能遗漏批注、公式和复杂表格。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -605,24 +772,33 @@
       "label": "GitHub · microsoft/markitdown",
       "url": "https://github.com/microsoft/markitdown",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "crawl4ai-website-to-notes",
-    "problemSolved": "你收藏了很多网页，但广告、菜单和页面改版让内容难以整理，也可能以后找不到原文。",
-    "howItHelps": "它提取公开网页的正文、标题和来源链接，保存成干净且可追溯的笔记。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Crawl4AI 网页转笔记",
     "oneLine": "把公开网页正文、标题和链接整理成可追溯笔记。",
     "summary": "把公开网页正文、标题和链接整理成可追溯笔记。能练习抓取、正文提取和来源保真。",
+    "problemSolved": "你收藏了很多网页，但广告、菜单和页面改版让内容难以整理，也可能以后找不到原文。",
+    "howItHelps": "它提取公开网页的正文、标题和来源链接，保存成干净且可追溯的笔记。",
+    "readerReady": true,
     "outcome": "一个输入网址即可保存干净内容和来源的工具。",
     "whyWorthwhile": "能练习抓取、正文提取和来源保真。",
-    "skills": ["网页抓取", "内容清洗"],
+    "skills": [
+      "网页抓取",
+      "内容清洗"
+    ],
     "realWorldPotential": "可用于专题研究和资料归档。",
     "feasibilityProbe": "对三个结构不同的公开页面比较提取完整度。",
-    "costAndRisks": ["遵守 robots、版权和访问频率，不抓登录内容。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "遵守 robots、版权和访问频率，不抓登录内容。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -637,24 +813,33 @@
       "label": "GitHub · unclecode/crawl4ai",
       "url": "https://github.com/unclecode/crawl4ai",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "stagehand-browser-task",
-    "problemSolved": "纯自然语言网页代理有时会乱走，纯代码脚本又很容易因页面小改动而失效。",
-    "howItHelps": "它把固定步骤写成代码，把难定位的页面部分交给 AI，并在失败时指出停在哪一步。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "Stagehand 网页操作脚本",
     "oneLine": "把自然语言步骤和确定性代码组合成网页任务。",
     "summary": "把自然语言步骤和确定性代码组合成网页任务。能比较纯选择器脚本与 AI 操作各自适合的位置。",
+    "problemSolved": "纯自然语言网页代理有时会乱走，纯代码脚本又很容易因页面小改动而失效。",
+    "howItHelps": "它把固定步骤写成代码，把难定位的页面部分交给 AI，并在失败时指出停在哪一步。",
+    "readerReady": true,
     "outcome": "一个失败时能看见具体步骤的浏览器脚本。",
     "whyWorthwhile": "能比较纯选择器脚本与 AI 操作各自适合的位置。",
-    "skills": ["浏览器自动化", "可靠性"],
+    "skills": [
+      "浏览器自动化",
+      "可靠性"
+    ],
     "realWorldPotential": "适合公开后台演示、测试和资料录入。",
     "feasibilityProbe": "先在测试站完成一次表单填写并故意改变按钮文案。",
-    "costAndRisks": ["真实平台自动操作可能违反规则或触发风控。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "真实平台自动操作可能违反规则或触发风控。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -669,24 +854,33 @@
       "label": "GitHub · browserbase/stagehand",
       "url": "https://github.com/browserbase/stagehand",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "pydantic-ai-structured-agent",
-    "problemSolved": "你让 AI 生成项目卡或表格时，经常遇到缺字段、格式乱，后续程序直接报错。",
-    "howItHelps": "它先规定输出结构，再自动检查每个字段；不合格就纠正或明确失败，不让脏数据悄悄进入系统。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "PydanticAI 结构化 Agent",
     "oneLine": "让模型输出经过类型校验的项目卡，而不是随意文本。",
     "summary": "让模型输出经过类型校验的项目卡，而不是随意文本。能学习 schema、验证和模型重试的工程价值。",
+    "problemSolved": "你让 AI 生成项目卡或表格时，经常遇到缺字段、格式乱，后续程序直接报错。",
+    "howItHelps": "它先规定输出结构，再自动检查每个字段；不合格就纠正或明确失败，不让脏数据悄悄进入系统。",
+    "readerReady": true,
     "outcome": "一个遇到缺字段会自动纠正或失败的 Agent。",
     "whyWorthwhile": "能学习 schema、验证和模型重试的工程价值。",
-    "skills": ["结构化输出", "类型校验"],
+    "skills": [
+      "结构化输出",
+      "类型校验"
+    ],
     "realWorldPotential": "适合日报、表单处理和业务自动化。",
     "feasibilityProbe": "设计一个必填 schema，用十条模糊输入测试错误处理。",
-    "costAndRisks": ["过度重试会增加费用，错误不能被默认值掩盖。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "过度重试会增加费用，错误不能被默认值掩盖。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -701,24 +895,32 @@
       "label": "GitHub · pydantic/pydantic-ai",
       "url": "https://github.com/pydantic/pydantic-ai",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "mcp-servers-toolbox",
-    "problemSolved": "你听说可以给 Codex 接工具，却不清楚工具怎样被发现、何时调用以及权限边界在哪。",
-    "howItHelps": "它会做一个只有读取权限的小工具，并展示 Codex 每次调用的原因、参数和返回结果。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "MCP 工具箱实验",
     "oneLine": "给 Codex 接一个只读工具并观察它何时调用。",
     "summary": "给 Codex 接一个只读工具并观察它何时调用。能理解模型上下文协议如何把外部能力暴露给 Agent。",
+    "problemSolved": "你听说可以给 Codex 接工具，却不清楚工具怎样被发现、何时调用以及权限边界在哪。",
+    "howItHelps": "它会做一个只有读取权限的小工具，并展示 Codex 每次调用的原因、参数和返回结果。",
+    "readerReady": true,
     "outcome": "一个带权限说明和调用日志的 MCP 小服务。",
     "whyWorthwhile": "能理解模型上下文协议如何把外部能力暴露给 Agent。",
-    "skills": ["MCP", "工具权限"],
+    "skills": [
+      "MCP",
+      "工具权限"
+    ],
     "realWorldPotential": "可连接个人资料、数据库或内部 API。",
     "feasibilityProbe": "只实现一个只读查询工具，准备五个调用边界问题。",
-    "costAndRisks": ["服务端必须限制路径、参数和返回的敏感信息。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "服务端必须限制路径、参数和返回的敏感信息。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -733,24 +935,33 @@
       "label": "GitHub · modelcontextprotocol/servers",
       "url": "https://github.com/modelcontextprotocol/servers",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "mindsdb-data-question",
-    "problemSolved": "你有一张数据表，却不会写查询语句，也担心 AI 给出的数字无法核对。",
-    "howItHelps": "它把你的自然语言问题转成实际查询，同时把查询语句和原始结果一起显示。",
-    "readerReady": true,
     "origin": "verified-existing",
     "title": "MindsDB 数据问答试验",
     "oneLine": "让自然语言问题转成对一份小数据表的可核对查询。",
     "summary": "让自然语言问题转成对一份小数据表的可核对查询。能学习 AI 数据分析为什么必须保留可追溯查询。",
+    "problemSolved": "你有一张数据表，却不会写查询语句，也担心 AI 给出的数字无法核对。",
+    "howItHelps": "它把你的自然语言问题转成实际查询，同时把查询语句和原始结果一起显示。",
+    "readerReady": true,
     "outcome": "一个同时展示答案和实际查询语句的数据页。",
     "whyWorthwhile": "能学习 AI 数据分析为什么必须保留可追溯查询。",
-    "skills": ["数据问答", "查询核验"],
+    "skills": [
+      "数据问答",
+      "查询核验"
+    ],
     "realWorldPotential": "可用于个人账目、运营表和简单报表。",
     "feasibilityProbe": "准备十个手算答案的问题核对生成查询。",
-    "costAndRisks": ["错误查询可能给出看似合理的数字，禁止直接写库。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "错误查询可能给出看似合理的数字，禁止直接写库。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -765,24 +976,33 @@
       "label": "GitHub · mindsdb/mindsdb",
       "url": "https://github.com/mindsdb/mindsdb",
       "verifiedAt": "2026-08-24"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "idea-evidence-vault",
-    "problemSolved": "你经常冒出项目点子，但一兴奋就直接开工，后来才发现需求不真实或已有更好方案。",
-    "howItHelps": "它会保存点子，替你收集类似产品、真实讨论和反面证据，再给出“继续、调整或暂缓”的判断材料。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "模糊点子验证器",
     "oneLine": "把一句脑海灵感变成证据卡，而不是立刻开工。",
     "summary": "把一句脑海灵感变成证据卡，而不是立刻开工。能训练先验证关键假设，再决定投入。",
+    "problemSolved": "你经常冒出项目点子，但一兴奋就直接开工，后来才发现需求不真实或已有更好方案。",
+    "howItHelps": "它会保存点子，替你收集类似产品、真实讨论和反面证据，再给出“继续、调整或暂缓”的判断材料。",
+    "readerReady": true,
     "outcome": "一个保存竞品、用户讨论、风险和下一步的点子库。",
     "whyWorthwhile": "能训练先验证关键假设，再决定投入。",
-    "skills": ["需求验证", "信息检索"],
+    "skills": [
+      "需求验证",
+      "信息检索"
+    ],
     "realWorldPotential": "适合所有个人项目立项和定期回看。",
     "feasibilityProbe": "拿一个旧想法找三个竞品与五条真实讨论。",
-    "costAndRisks": ["搜索证据可能有偏差，结论必须标注不确定性。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "搜索证据可能有偏差，结论必须标注不确定性。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -792,24 +1012,45 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "搜索证据可能有偏差，结论必须标注不确定性。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "你经常先记下点子、过一阵才决定要不要做；这个项目正好把“马上开工”改成“先查证再收藏”。",
+    "userActions": [
+      "输入一个你真实想过的点子",
+      "让系统找相似产品、真实讨论和反对证据",
+      "自己选择继续、调整或暂缓，并把证据留下"
+    ],
+    "manualAlternative": "人工搜索一次并不难，但点子多起来后很容易漏掉反面证据，也无法积累一套可回看的判断记录。"
   },
   {
     "candidateId": "download-folder-organizer",
-    "problemSolved": "下载文件夹越来越乱，你又不敢让自动工具直接移动文件，怕放错或误删。",
-    "howItHelps": "它先读取文件名和内容，解释每个文件可能是什么并提出归档位置，只有你确认后才移动。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "下载文件夹侦探",
     "oneLine": "让 AI 先解释文件用途，再建议归档位置。",
     "summary": "让 AI 先解释文件用途，再建议归档位置。能练习文件分类、可逆操作和人工确认。",
+    "problemSolved": "下载文件夹越来越乱，你又不敢让自动工具直接移动文件，怕放错或误删。",
+    "howItHelps": "它先读取文件名和内容，解释每个文件可能是什么并提出归档位置，只有你确认后才移动。",
+    "readerReady": true,
     "outcome": "一个只给建议、确认后才移动文件的整理器。",
     "whyWorthwhile": "能练习文件分类、可逆操作和人工确认。",
-    "skills": ["文件自动化", "安全操作"],
+    "skills": [
+      "文件自动化",
+      "安全操作"
+    ],
     "realWorldPotential": "可减少长期堆积而不冒误删风险。",
     "feasibilityProbe": "扫描二十个副本文件，只生成移动计划不执行。",
-    "costAndRisks": ["文件名可能含私人信息，删除必须始终人工确认。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "文件名可能含私人信息，删除必须始终人工确认。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -819,24 +1060,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "文件名可能含私人信息，删除必须始终人工确认。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "receipt-warranty-keeper",
-    "problemSolved": "需要退换或报修时，你常常想不起发票放哪、保修什么时候到期。",
-    "howItHelps": "它从票据照片中提取商品、金额和截止日期，集中保存，并在快到期时提醒你。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "发票与保修期管家",
     "oneLine": "从票据照片提取商品、金额和保修截止日。",
     "summary": "从票据照片提取商品、金额和保修截止日。能练习 OCR、日期归一化和低置信度复核。",
+    "problemSolved": "需要退换或报修时，你常常想不起发票放哪、保修什么时候到期。",
+    "howItHelps": "它从票据照片中提取商品、金额和截止日期，集中保存，并在快到期时提醒你。",
+    "readerReady": true,
     "outcome": "一个可按到期时间查找凭证的本地清单。",
     "whyWorthwhile": "能练习 OCR、日期归一化和低置信度复核。",
-    "skills": ["OCR", "结构化提取"],
+    "skills": [
+      "OCR",
+      "结构化提取"
+    ],
     "realWorldPotential": "退换、维修或报销时能快速找到证据。",
     "feasibilityProbe": "用五张不同版式票据核对金额与日期字段。",
-    "costAndRisks": ["票据含敏感信息，优先本地处理并允许手改。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "票据含敏感信息，优先本地处理并允许手改。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -846,24 +1096,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "票据含敏感信息，优先本地处理并允许手改。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "screenshot-action-extractor",
-    "problemSolved": "聊天和网页截图里藏着地址、时间或待办，存进相册后很容易忘记处理。",
-    "howItHelps": "它从截图中找出可能的行动项，并让你逐条确认，确认后才加入待办清单。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "截图待办提取箱",
     "oneLine": "从聊天或网页截图里提取可能的行动项。",
     "summary": "从聊天或网页截图里提取可能的行动项。能学习视觉文字提取与不确定信息确认。",
+    "problemSolved": "聊天和网页截图里藏着地址、时间或待办，存进相册后很容易忘记处理。",
+    "howItHelps": "它从截图中找出可能的行动项，并让你逐条确认，确认后才加入待办清单。",
+    "readerReady": true,
     "outcome": "一个逐条确认后才进入待办清单的截图入口。",
     "whyWorthwhile": "能学习视觉文字提取与不确定信息确认。",
-    "skills": ["视觉理解", "人机确认"],
+    "skills": [
+      "视觉理解",
+      "人机确认"
+    ],
     "realWorldPotential": "适合临时把截图变成可执行提醒。",
     "feasibilityProbe": "用十张无敏感内容截图统计漏项与误项。",
-    "costAndRisks": ["截图可能包含私人聊天，禁止自动上传未知服务。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "截图可能包含私人聊天，禁止自动上传未知服务。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -873,24 +1132,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "截图可能包含私人聊天，禁止自动上传未知服务。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "personal-form-filler",
-    "problemSolved": "你反复填写姓名、地址和经历，既费时间，又担心自动填表把资料填错或直接提交。",
-    "howItHelps": "它根据你自己维护的资料生成逐字段草稿，让你检查每一项，绝不会自动提交。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "个人表单草稿器",
     "oneLine": "根据自己维护的资料生成表单填写草稿。",
     "summary": "根据自己维护的资料生成表单填写草稿。能练习字段映射、隐私最小化和确认流程。",
+    "problemSolved": "你反复填写姓名、地址和经历，既费时间，又担心自动填表把资料填错或直接提交。",
+    "howItHelps": "它根据你自己维护的资料生成逐字段草稿，让你检查每一项，绝不会自动提交。",
+    "readerReady": true,
     "outcome": "一个字段逐项预览、永不自动提交的助手。",
     "whyWorthwhile": "能练习字段映射、隐私最小化和确认流程。",
-    "skills": ["信息映射", "隐私设计"],
+    "skills": [
+      "信息映射",
+      "隐私设计"
+    ],
     "realWorldPotential": "可减少重复填写报名与申请表的时间。",
     "feasibilityProbe": "在本地假表单测试十个字段的映射准确率。",
-    "costAndRisks": ["绝不自动提交，身份证明等敏感字段默认留空。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "绝不自动提交，身份证明等敏感字段默认留空。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -900,24 +1167,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "绝不自动提交，身份证明等敏感字段默认留空。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "meeting-to-task-board",
-    "problemSolved": "开完会大家似乎达成了共识，但过几天没人记得谁要做什么、什么时候完成。",
-    "howItHelps": "它把会议记录拆成决定、负责人和截止日，再让参会者确认后形成任务板。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "会议结论落地板",
     "oneLine": "把一段会议记录拆成决定、负责人和截止日。",
     "summary": "把一段会议记录拆成决定、负责人和截止日。能学习结构化提取和责任信息的歧义处理。",
+    "problemSolved": "开完会大家似乎达成了共识，但过几天没人记得谁要做什么、什么时候完成。",
+    "howItHelps": "它把会议记录拆成决定、负责人和截止日，再让参会者确认后形成任务板。",
+    "readerReady": true,
     "outcome": "一个需要参会者确认的任务草稿板。",
     "whyWorthwhile": "能学习结构化提取和责任信息的歧义处理。",
-    "skills": ["信息抽取", "协作流程"],
+    "skills": [
+      "信息抽取",
+      "协作流程"
+    ],
     "realWorldPotential": "适合小团队会后快速核对行动项。",
     "feasibilityProbe": "用一次旧会议记录与真实会后任务做差异比较。",
-    "costAndRisks": ["模型不能凭空指定负责人或截止日期。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "模型不能凭空指定负责人或截止日期。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -927,24 +1203,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "模型不能凭空指定负责人或截止日期。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "job-description-decoder",
-    "problemSolved": "职位描述里混着硬性条件、宣传话术和模糊要求，你很难快速判断是否适合申请。",
-    "howItHelps": "它把招聘信息拆成必须项、加分项、你的证据和待询问问题，帮你看清差距再决定。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "职位描述拆解镜",
     "oneLine": "把招聘描述拆成硬要求、软要求和待确认信息。",
     "summary": "把招聘描述拆成硬要求、软要求和待确认信息。能学习文本分类，也能更清楚地判断岗位匹配。",
+    "problemSolved": "职位描述里混着硬性条件、宣传话术和模糊要求，你很难快速判断是否适合申请。",
+    "howItHelps": "它把招聘信息拆成必须项、加分项、你的证据和待询问问题，帮你看清差距再决定。",
+    "readerReady": true,
     "outcome": "一个技能差距与提问清单，而不是自动替你投递。",
     "whyWorthwhile": "能学习文本分类，也能更清楚地判断岗位匹配。",
-    "skills": ["文本分析", "决策辅助"],
+    "skills": [
+      "文本分析",
+      "决策辅助"
+    ],
     "realWorldPotential": "可辅助求职准备和面试问题整理。",
     "feasibilityProbe": "选三份真实职位描述，手工核对模型分类。",
-    "costAndRisks": ["招聘信息可能夸大，禁止把匹配分当录用概率。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "招聘信息可能夸大，禁止把匹配分当录用概率。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -954,24 +1239,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "招聘信息可能夸大，禁止把匹配分当录用概率。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "used-goods-checklist",
-    "problemSolved": "你偶尔买二手商品时，不知道该问什么、现场检查哪里，也缺少议价依据。",
-    "howItHelps": "它按商品类型生成验机步骤、风险问题和价格依据，现场可以照着逐项勾选。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "二手商品参谋",
     "oneLine": "根据商品类别生成验机问题、风险点和议价依据。",
     "summary": "根据商品类别生成验机问题、风险点和议价依据。能练习把零散经验变成条件化规则。",
+    "problemSolved": "你偶尔买二手商品时，不知道该问什么、现场检查哪里，也缺少议价依据。",
+    "howItHelps": "它按商品类型生成验机步骤、风险问题和价格依据，现场可以照着逐项勾选。",
+    "readerReady": true,
     "outcome": "一张购买前可勾选的核验清单。",
     "whyWorthwhile": "能练习把零散经验变成条件化规则。",
-    "skills": ["知识整理", "规则生成"],
+    "skills": [
+      "知识整理",
+      "规则生成"
+    ],
     "realWorldPotential": "低频使用也能在高价二手交易前降低遗漏。",
     "feasibilityProbe": "针对一款旧手机核对十条清单是否可实际检查。",
-    "costAndRisks": ["不能替代现场验机，价格信息需要核对日期。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "不能替代现场验机，价格信息需要核对日期。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -981,24 +1274,32 @@
       "costRisk": 20,
       "uncertainty": 30,
       "explanation": "不能替代现场验机，价格信息需要核对日期。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "home-inventory-search",
-    "problemSolved": "不常用物品收起来后，你过几个月只记得“家里有”，却完全想不起放在哪。",
-    "howItHelps": "它用照片、名称和位置建立家庭清单，以后搜索物品就能看到具体收纳位置。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭物品搜索地图",
     "oneLine": "拍照登记不常用物品并记录放置位置。",
     "summary": "拍照登记不常用物品并记录放置位置。能练习图像标签、搜索和数据纠错。",
+    "problemSolved": "不常用物品收起来后，你过几个月只记得“家里有”，却完全想不起放在哪。",
+    "howItHelps": "它用照片、名称和位置建立家庭清单，以后搜索物品就能看到具体收纳位置。",
+    "readerReady": true,
     "outcome": "一个能回答“东西放哪了”的家庭清单。",
     "whyWorthwhile": "能练习图像标签、搜索和数据纠错。",
-    "skills": ["图像分类", "搜索"],
+    "skills": [
+      "图像分类",
+      "搜索"
+    ],
     "realWorldPotential": "适合工具、线材、药品和收纳箱管理。",
     "feasibilityProbe": "先登记一个抽屉的二十件物品并测试模糊搜索。",
-    "costAndRisks": ["家庭照片应本地保存，药品信息不能替代说明书。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "家庭照片应本地保存，药品信息不能替代说明书。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1008,24 +1309,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "家庭照片应本地保存，药品信息不能替代说明书。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "subscription-cost-audit",
-    "problemSolved": "会员和软件订阅分散在不同账单里，重复扣费或悄悄涨价很难及时发现。",
-    "howItHelps": "它只读整理账单中的订阅名称、周期和金额，标出重复项与价格变化供你确认。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "订阅费用体检",
     "oneLine": "把账单里的重复订阅和涨价线索整理出来。",
     "summary": "把账单里的重复订阅和涨价线索整理出来。能练习交易文本归类和异常解释。",
+    "problemSolved": "会员和软件订阅分散在不同账单里，重复扣费或悄悄涨价很难及时发现。",
+    "howItHelps": "它只读整理账单中的订阅名称、周期和金额，标出重复项与价格变化供你确认。",
+    "readerReady": true,
     "outcome": "一个只读的月度订阅清单与确认提醒。",
     "whyWorthwhile": "能练习交易文本归类和异常解释。",
-    "skills": ["数据清洗", "异常检测"],
+    "skills": [
+      "数据清洗",
+      "异常检测"
+    ],
     "realWorldPotential": "可发现被忘记的小额持续支出。",
     "feasibilityProbe": "导入一份脱敏 CSV，手工核对所有订阅识别。",
-    "costAndRisks": ["金融数据敏感，禁止自动取消或进行支付操作。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "金融数据敏感，禁止自动取消或进行支付操作。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1035,24 +1345,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "金融数据敏感，禁止自动取消或进行支付操作。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "browser-tab-recovery",
-    "problemSolved": "浏览器开了几十个标签页，关掉怕丢资料，不关又找不到重点、拖慢电脑。",
-    "howItHelps": "它把标签按主题分组并保存恢复入口，让你可以放心分批关闭，需要时再还原。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "浏览器标签页复盘器",
     "oneLine": "把大量未关标签聚成主题并保留恢复入口。",
     "summary": "把大量未关标签聚成主题并保留恢复入口。能学习 URL 聚类和可逆的浏览器整理。",
+    "problemSolved": "浏览器开了几十个标签页，关掉怕丢资料，不关又找不到重点、拖慢电脑。",
+    "howItHelps": "它把标签按主题分组并保存恢复入口，让你可以放心分批关闭，需要时再还原。",
+    "readerReady": true,
     "outcome": "一份可按主题保存和逐批关闭的标签快照。",
     "whyWorthwhile": "能学习 URL 聚类和可逆的浏览器整理。",
-    "skills": ["文本聚类", "浏览器扩展"],
+    "skills": [
+      "文本聚类",
+      "浏览器扩展"
+    ],
     "realWorldPotential": "适合研究后清理窗口又不丢上下文。",
     "feasibilityProbe": "导出三十个公开标签，只生成分组不关闭页面。",
-    "costAndRisks": ["浏览记录可能暴露隐私，默认仅本机处理。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "浏览记录可能暴露隐私，默认仅本机处理。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1062,24 +1381,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "浏览记录可能暴露隐私，默认仅本机处理。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "local-file-renamer",
-    "problemSolved": "扫描件和下载文件名混乱，靠手工逐个查看和改名很费时间，也容易命名不一致。",
-    "howItHelps": "它读取内容和日期后提出统一文件名，逐个让你确认，并保留改名前后的记录。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "文件命名提案器",
     "oneLine": "根据内容与日期给扫描件提出一致的文件名。",
     "summary": "根据内容与日期给扫描件提出一致的文件名。能练习内容摘要、命名规则和撤销机制。",
+    "problemSolved": "扫描件和下载文件名混乱，靠手工逐个查看和改名很费时间，也容易命名不一致。",
+    "howItHelps": "它读取内容和日期后提出统一文件名，逐个让你确认，并保留改名前后的记录。",
+    "readerReady": true,
     "outcome": "一个逐个确认并保留重命名日志的工具。",
     "whyWorthwhile": "能练习内容摘要、命名规则和撤销机制。",
-    "skills": ["文档理解", "可逆自动化"],
+    "skills": [
+      "文档理解",
+      "可逆自动化"
+    ],
     "realWorldPotential": "适合整理票据、资料和项目附件。",
     "feasibilityProbe": "复制十个样本文件到临时目录验证撤销。",
-    "costAndRisks": ["不能直接在原目录批量改名，先处理副本。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "不能直接在原目录批量改名，先处理副本。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1089,24 +1416,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不能直接在原目录批量改名，先处理副本。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "photo-duplicate-story",
-    "problemSolved": "相册里同一场景有很多连拍，既占空间又难挑出真正值得留的照片。",
-    "howItHelps": "它找出相似照片并按事件分组，请你选择代表照片；只做整理草稿，不会自动删除。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "照片重复与故事整理",
     "oneLine": "找出近似照片并让你选择最有代表性的一张。",
     "summary": "找出近似照片并让你选择最有代表性的一张。能练习视觉相似度和人工选择界面。",
+    "problemSolved": "相册里同一场景有很多连拍，既占空间又难挑出真正值得留的照片。",
+    "howItHelps": "它找出相似照片并按事件分组，请你选择代表照片；只做整理草稿，不会自动删除。",
+    "readerReady": true,
     "outcome": "一个按事件分组、不会自动删图的相册草稿。",
     "whyWorthwhile": "能练习视觉相似度和人工选择界面。",
-    "skills": ["图像向量", "聚类"],
+    "skills": [
+      "图像向量",
+      "聚类"
+    ],
     "realWorldPotential": "可减轻相册冗余并保留事件线索。",
     "feasibilityProbe": "在复制相册里测试五十张照片的重复分组。",
-    "costAndRisks": ["人脸和位置数据敏感，任何删除必须可恢复。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "人脸和位置数据敏感，任何删除必须可恢复。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1116,24 +1452,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "人脸和位置数据敏感，任何删除必须可恢复。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "contract-clause-highlighter",
-    "problemSolved": "合同很长，你容易漏看自动续费、违约责任或付款条件，又不希望 AI 代替法律判断。",
-    "howItHelps": "它把关键条款高亮并链接回原文位置，让你先快速找到风险，再自行或请专业人士确认。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "合同条款高亮器",
     "oneLine": "把付款、自动续费和违约条款标出来供人工阅读。",
     "summary": "把付款、自动续费和违约条款标出来供人工阅读。能练习长文定位与引用，而不是生成法律结论。",
+    "problemSolved": "合同很长，你容易漏看自动续费、违约责任或付款条件，又不希望 AI 代替法律判断。",
+    "howItHelps": "它把关键条款高亮并链接回原文位置，让你先快速找到风险，再自行或请专业人士确认。",
+    "readerReady": true,
     "outcome": "一份带原文定位的风险阅读辅助页。",
     "whyWorthwhile": "能练习长文定位与引用，而不是生成法律结论。",
-    "skills": ["长文检索", "引用定位"],
+    "skills": [
+      "长文检索",
+      "引用定位"
+    ],
     "realWorldPotential": "可帮助普通人更快找到需要重点询问的条款。",
     "feasibilityProbe": "用一份公开合同检查每条高亮是否能回到原文。",
-    "costAndRisks": ["不是法律意见，重要合同必须由专业人士复核。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "不是法律意见，重要合同必须由专业人士复核。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1143,24 +1488,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不是法律意见，重要合同必须由专业人士复核。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "travel-plan-conflict-check",
-    "problemSolved": "行程看起来排满了，却可能忽略转场时间、休馆日或两个预订互相冲突。",
-    "howItHelps": "它逐项核对地点、营业时间和交通间隔，把冲突证据与仍需确认的地方列出来。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "旅行计划冲突检查",
     "oneLine": "检查行程中的转场时间、营业日和预订冲突。",
     "summary": "检查行程中的转场时间、营业日和预订冲突。能练习日期推理和外部事实核验。",
+    "problemSolved": "行程看起来排满了，却可能忽略转场时间、休馆日或两个预订互相冲突。",
+    "howItHelps": "它逐项核对地点、营业时间和交通间隔，把冲突证据与仍需确认的地方列出来。",
+    "readerReady": true,
     "outcome": "一个显示冲突证据和待确认项的行程审阅器。",
     "whyWorthwhile": "能练习日期推理和外部事实核验。",
-    "skills": ["时间推理", "事实核验"],
+    "skills": [
+      "时间推理",
+      "事实核验"
+    ],
     "realWorldPotential": "适合复杂旅行计划的出发前检查。",
     "feasibilityProbe": "用一份旧行程故意加入三个冲突看能否找出。",
-    "costAndRisks": ["营业时间和交通信息会变化，必须标注核验时间。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "营业时间和交通信息会变化，必须标注核验时间。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1170,24 +1524,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "营业时间和交通信息会变化，必须标注核验时间。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "meal-leftover-planner",
-    "problemSolved": "冰箱里已有食材快过期，你却常常先买新的，最后不知道该优先吃什么。",
-    "howItHelps": "它根据你确认的库存和保质期安排三日菜单，并给出缺少食材时的替代方案。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "剩菜优先菜单",
     "oneLine": "根据已有食材和保质期先安排该吃什么。",
     "summary": "根据已有食材和保质期先安排该吃什么。能练习约束条件与不完整库存输入。",
+    "problemSolved": "冰箱里已有食材快过期，你却常常先买新的，最后不知道该优先吃什么。",
+    "howItHelps": "它根据你确认的库存和保质期安排三日菜单，并给出缺少食材时的替代方案。",
+    "readerReady": true,
     "outcome": "一个展示使用顺序与替代方案的三日菜单。",
     "whyWorthwhile": "能练习约束条件与不完整库存输入。",
-    "skills": ["约束规划", "推荐系统"],
+    "skills": [
+      "约束规划",
+      "推荐系统"
+    ],
     "realWorldPotential": "可减少浪费并简化晚餐决策。",
     "feasibilityProbe": "只录入十样食材，检查是否优先使用快过期物品。",
-    "costAndRisks": ["过敏和食品安全信息必须由用户确认。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "过敏和食品安全信息必须由用户确认。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1197,24 +1559,33 @@
       "costRisk": 20,
       "uncertainty": 30,
       "explanation": "过敏和食品安全信息必须由用户确认。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "voice-note-inbox",
-    "problemSolved": "你随手录下很多语音想法，之后很少重听，也分不清哪些要行动、哪些只是随想。",
-    "howItHelps": "它先转写语音，再分成想法、待办和待思考问题；原音频一直保留，你确认后才归档。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "语音灵感收件箱",
     "oneLine": "把零散语音分成想法、待办和需要再想的问题。",
     "summary": "把零散语音分成想法、待办和需要再想的问题。能练习语音转写、分类和低摩擦记录。",
+    "problemSolved": "你随手录下很多语音想法，之后很少重听，也分不清哪些要行动、哪些只是随想。",
+    "howItHelps": "它先转写语音，再分成想法、待办和待思考问题；原音频一直保留，你确认后才归档。",
+    "readerReady": true,
     "outcome": "一个保留原音频并等待确认的灵感入口。",
     "whyWorthwhile": "能练习语音转写、分类和低摩擦记录。",
-    "skills": ["语音识别", "信息分类"],
+    "skills": [
+      "语音识别",
+      "信息分类"
+    ],
     "realWorldPotential": "适合走路或忙碌时快速捕捉想法。",
     "feasibilityProbe": "录十条短语音，比较转写与人工分类差异。",
-    "costAndRisks": ["环境噪声会误识别，私人录音不得默认上传。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "环境噪声会误识别，私人录音不得默认上传。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1224,24 +1595,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "环境噪声会误识别，私人录音不得默认上传。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "price-change-watcher",
-    "problemSolved": "你想等商品降价，却只能反复打开页面检查，也不知道所谓促销是不是真便宜。",
-    "howItHelps": "它定期记录公开商品页的价格、时间和链接，画出变化曲线，让你看到真实历史再决定。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "价格变化证据板",
     "oneLine": "定期记录公开商品页价格并展示历史变化。",
     "summary": "定期记录公开商品页价格并展示历史变化。能练习定时任务、网页变化和证据保存。",
+    "problemSolved": "你想等商品降价，却只能反复打开页面检查，也不知道所谓促销是不是真便宜。",
+    "howItHelps": "它定期记录公开商品页的价格、时间和链接，画出变化曲线，让你看到真实历史再决定。",
+    "readerReady": true,
     "outcome": "一个带抓取时间和原始链接的价格曲线。",
     "whyWorthwhile": "能练习定时任务、网页变化和证据保存。",
-    "skills": ["定时任务", "网页监控"],
+    "skills": [
+      "定时任务",
+      "网页监控"
+    ],
     "realWorldPotential": "适合低频大件的购买观察。",
     "feasibilityProbe": "只监控一个公开页面一周，确认选择器是否稳定。",
-    "costAndRisks": ["遵守站点规则，价格不代表库存或最终成交价。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "遵守站点规则，价格不代表库存或最终成交价。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1251,24 +1631,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "遵守站点规则，价格不代表库存或最终成交价。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "family-tech-support",
-    "problemSolved": "家人只会说“电脑坏了”，你远程听不清现象，又担心让他们乱点造成更大问题。",
-    "howItHelps": "它把描述转成一步一步的安全检查卡，标明截图位置和停止条件，便于你远程指导。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭远程排障卡",
     "oneLine": "把家人描述的电脑问题转换成安全的检查步骤。",
     "summary": "把家人描述的电脑问题转换成安全的检查步骤。能练习面向非技术用户写清楚可逆步骤。",
+    "problemSolved": "家人只会说“电脑坏了”，你远程听不清现象，又担心让他们乱点造成更大问题。",
+    "howItHelps": "它把描述转成一步一步的安全检查卡，标明截图位置和停止条件，便于你远程指导。",
+    "readerReady": true,
     "outcome": "一张带截图位置和停止条件的排障卡。",
     "whyWorthwhile": "能练习面向非技术用户写清楚可逆步骤。",
-    "skills": ["故障诊断", "交互文案"],
+    "skills": [
+      "故障诊断",
+      "交互文案"
+    ],
     "realWorldPotential": "可减少远程电话里反复确认的时间。",
     "feasibilityProbe": "拿一个常见网络问题让非技术用户按卡片操作。",
-    "costAndRisks": ["不得要求关闭安全软件或执行高风险命令。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "不得要求关闭安全软件或执行高风险命令。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1278,24 +1666,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不得要求关闭安全软件或执行高风险命令。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "software-settings-guide",
-    "problemSolved": "某个软件设置藏得很深，你每次换电脑或版本后都要重新搜索一遍。",
-    "howItHelps": "它保存准确菜单路径、软件版本和截图，以后按软件名就能直接找到自己的操作小抄。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "软件设置路径记忆",
     "oneLine": "记录某个难找设置的准确路径和版本截图。",
     "summary": "记录某个难找设置的准确路径和版本截图。能练习版本化文档和截图标注。",
+    "problemSolved": "某个软件设置藏得很深，你每次换电脑或版本后都要重新搜索一遍。",
+    "howItHelps": "它保存准确菜单路径、软件版本和截图，以后按软件名就能直接找到自己的操作小抄。",
+    "readerReady": true,
     "outcome": "一个按软件版本搜索的私人设置小抄。",
     "whyWorthwhile": "能练习版本化文档和截图标注。",
-    "skills": ["文档化", "版本管理"],
+    "skills": [
+      "文档化",
+      "版本管理"
+    ],
     "realWorldPotential": "适合保存偶尔才会用到的配置经验。",
     "feasibilityProbe": "记录一个浏览器权限设置并在重启后复现。",
-    "costAndRisks": ["软件升级会让路径失效，需要保留适用版本。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "软件升级会让路径失效，需要保留适用版本。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1305,24 +1701,33 @@
       "costRisk": 20,
       "uncertainty": 30,
       "explanation": "软件升级会让路径失效，需要保留适用版本。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "file-version-diff",
-    "problemSolved": "别人发来新版文档时，你看到很多文字变化，却不知道哪些会真正影响工作。",
-    "howItHelps": "它把新旧文档按条款或段落对齐，用通俗语言解释变化影响，并链接回原文。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "文档版本差异翻译器",
     "oneLine": "把两个文档的变化按影响而不是按字符解释。",
     "summary": "把两个文档的变化按影响而不是按字符解释。能练习差异算法与语义解释结合。",
+    "problemSolved": "别人发来新版文档时，你看到很多文字变化，却不知道哪些会真正影响工作。",
+    "howItHelps": "它把新旧文档按条款或段落对齐，用通俗语言解释变化影响，并链接回原文。",
+    "readerReady": true,
     "outcome": "一份可回到原段落的修改摘要。",
     "whyWorthwhile": "能练习差异算法与语义解释结合。",
-    "skills": ["文本差异", "语义摘要"],
+    "skills": [
+      "文本差异",
+      "语义摘要"
+    ],
     "realWorldPotential": "适合制度、合同草稿和项目说明更新。",
     "feasibilityProbe": "用一份公开文档改五处，检查是否全部定位。",
-    "costAndRisks": ["摘要不能替代逐条审阅，尤其是数字与否定词。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "摘要不能替代逐条审阅，尤其是数字与否定词。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1332,24 +1737,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "摘要不能替代逐条审阅，尤其是数字与否定词。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "personal-search-query",
-    "problemSolved": "你脑中只有一个模糊问题，直接搜索得到一堆不相关结果，也不知道该换哪些关键词。",
-    "howItHelps": "它先追问目标，再把问题改写成几条可核验的搜索句，并把每条证据与原问题放在一起。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "私人搜索提问器",
     "oneLine": "把模糊问题改写成几条可核验的搜索查询。",
     "summary": "把模糊问题改写成几条可核验的搜索查询。能练习问题拆解和来源交叉验证。",
+    "problemSolved": "你脑中只有一个模糊问题，直接搜索得到一堆不相关结果，也不知道该换哪些关键词。",
+    "howItHelps": "它先追问目标，再把问题改写成几条可核验的搜索句，并把每条证据与原问题放在一起。",
+    "readerReady": true,
     "outcome": "一个保留原问题、查询和证据的搜索草稿页。",
     "whyWorthwhile": "能练习问题拆解和来源交叉验证。",
-    "skills": ["问题拆解", "检索"],
+    "skills": [
+      "问题拆解",
+      "检索"
+    ],
     "realWorldPotential": "可用于购买、学习和项目预研。",
     "feasibilityProbe": "拿三个模糊问题比较改写前后的有效来源数。",
-    "costAndRisks": ["搜索排序带偏差，不能只取第一条结论。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "搜索排序带偏差，不能只取第一条结论。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1359,24 +1773,33 @@
       "costRisk": 20,
       "uncertainty": 30,
       "explanation": "搜索排序带偏差，不能只取第一条结论。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "daily-decision-log",
-    "problemSolved": "你做过许多选择，却很少回头验证当时的判断，容易重复同一种错误。",
-    "howItHelps": "它每天只让你记一个选择、理由和预期，之后补上结果，慢慢看出自己的判断偏差。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "轻量决策日志",
     "oneLine": "每天只记录一个选择、理由和之后的结果。",
     "summary": "每天只记录一个选择、理由和之后的结果。能训练把直觉转成可复盘的假设。",
+    "problemSolved": "你做过许多选择，却很少回头验证当时的判断，容易重复同一种错误。",
+    "howItHelps": "它每天只让你记一个选择、理由和预期，之后补上结果，慢慢看出自己的判断偏差。",
+    "readerReady": true,
     "outcome": "一个能回看判断偏差的极简决策档案。",
     "whyWorthwhile": "能训练把直觉转成可复盘的假设。",
-    "skills": ["结构化记录", "复盘"],
+    "skills": [
+      "结构化记录",
+      "复盘"
+    ],
     "realWorldPotential": "适合项目取舍、购买和学习安排。",
     "feasibilityProbe": "连续记录七个小决定并在一周后补结果。",
-    "costAndRisks": ["不应用分数替代价值判断或制造记录负担。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "不应用分数替代价值判断或制造记录负担。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1386,24 +1809,32 @@
       "costRisk": 20,
       "uncertainty": 30,
       "explanation": "不应用分数替代价值判断或制造记录负担。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "email-attachment-ledger",
-    "problemSolved": "重要附件散落在旧邮件和本地文件夹里，需要时记得收到过，却找不到保存在哪里。",
-    "howItHelps": "它读取你导出的邮件清单，建立邮件、附件与本地存放位置的索引，不直接访问邮箱。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "邮件附件去向清单",
     "oneLine": "只读扫描导出的邮件清单，标记重要附件存放位置。",
     "summary": "只读扫描导出的邮件清单，标记重要附件存放位置。能练习实体匹配和不读取正文的隐私最小化。",
+    "problemSolved": "重要附件散落在旧邮件和本地文件夹里，需要时记得收到过，却找不到保存在哪里。",
+    "howItHelps": "它读取你导出的邮件清单，建立邮件、附件与本地存放位置的索引，不直接访问邮箱。",
+    "readerReady": true,
     "outcome": "一个邮件、附件与本地文件之间的索引。",
     "whyWorthwhile": "能练习实体匹配和不读取正文的隐私最小化。",
-    "skills": ["实体匹配", "数据最小化"],
+    "skills": [
+      "实体匹配",
+      "数据最小化"
+    ],
     "realWorldPotential": "适合找回合同、票据和项目资料。",
     "feasibilityProbe": "对二十封脱敏邮件匹配附件文件名和日期。",
-    "costAndRisks": ["不要连接主邮箱自动下载，先用导出样本验证。"],
-    "tags": ["practical"],
+    "costAndRisks": [
+      "不要连接主邮箱自动下载，先用导出样本验证。"
+    ],
+    "tags": [
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1413,24 +1844,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不要连接主邮箱自动下载，先用导出样本验证。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "json-repair-lab",
-    "problemSolved": "AI 输出 JSON 时偶尔漏字段或多写解释，程序报错后你只会重新问一次，搞不清根因。",
-    "howItHelps": "它把原输出、结构校验错误和修复结果并排展示，让你看懂怎样用规则挡住坏数据。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "JSON 修复实验室",
     "oneLine": "观察模型为什么会漏字段，并用 schema 把错误挡住。",
     "summary": "观察模型为什么会漏字段，并用 schema 把错误挡住。能把结构化输出从提示技巧变成可靠工程。",
+    "problemSolved": "AI 输出 JSON 时偶尔漏字段或多写解释，程序报错后你只会重新问一次，搞不清根因。",
+    "howItHelps": "它把原输出、结构校验错误和修复结果并排展示，让你看懂怎样用规则挡住坏数据。",
+    "readerReady": true,
     "outcome": "一个展示原输出、校验错误和修复结果的页面。",
     "whyWorthwhile": "能把结构化输出从提示技巧变成可靠工程。",
-    "skills": ["JSON Schema", "错误恢复"],
+    "skills": [
+      "JSON Schema",
+      "错误恢复"
+    ],
     "realWorldPotential": "适合任何需要模型写入数据的项目。",
     "feasibilityProbe": "准备十个故意含歧义的输入统计首次通过率。",
-    "costAndRisks": ["自动修复不能偷偷补造关键事实。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "自动修复不能偷偷补造关键事实。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1440,24 +1879,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "自动修复不能偷偷补造关键事实。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "prompt-regression",
-    "problemSolved": "你改了一句提示词，眼前案例变好了，却可能让其他任务悄悄退步。",
-    "howItHelps": "它每次用同一批真实样例测试新旧提示词，显示通过率和具体变差的案例。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "提示词回归测试台",
     "oneLine": "每次改提示词都跑同一批样例看有没有退步。",
     "summary": "每次改提示词都跑同一批样例看有没有退步。能学习提示词也需要版本和回归测试。",
+    "problemSolved": "你改了一句提示词，眼前案例变好了，却可能让其他任务悄悄退步。",
+    "howItHelps": "它每次用同一批真实样例测试新旧提示词，显示通过率和具体变差的案例。",
+    "readerReady": true,
     "outcome": "一个显示通过率、差异和失败案例的测试页。",
     "whyWorthwhile": "能学习提示词也需要版本和回归测试。",
-    "skills": ["提示词工程", "自动化测试"],
+    "skills": [
+      "提示词工程",
+      "自动化测试"
+    ],
     "realWorldPotential": "可稳定摘要、分类和抽取型功能。",
     "feasibilityProbe": "选二十个历史输入，为每个写手工期望。",
-    "costAndRisks": ["样例过少会造成虚假信心，不能只测顺手案例。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "样例过少会造成虚假信心，不能只测顺手案例。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1467,24 +1915,46 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "样例过少会造成虚假信心，不能只测顺手案例。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "long-term-asset",
+      "earning-capability"
+    ],
+    "userFit": "它能把“感觉这个提示词更好了”变成可重复比较，是你以后做可靠 AI 产品时能反复用的能力。",
+    "userActions": [
+      "保存十个你真实遇到过的输入",
+      "每次改提示词都批量运行并并排比较",
+      "把变差的样例留下，形成自己的回归题库"
+    ],
+    "manualAlternative": "只改一次提示词人工看就够；长期迭代或准备交付给别人时，回归测试才有明显价值。"
   },
   {
     "candidateId": "model-arena",
-    "problemSolved": "不同 AI 都说自己更聪明，你又常凭印象选择，不知道哪个更适合自己的任务。",
-    "howItHelps": "它隐藏模型名字，用同一道真实任务盲测多个模型；你先选答案，再揭晓质量、速度和费用。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "个人 AI 模型擂台",
     "oneLine": "用同一任务盲测多个模型，最后再揭晓名字。",
     "summary": "用同一任务盲测多个模型，最后再揭晓名字。能摆脱品牌印象，了解不同模型适合什么。",
+    "problemSolved": "不同 AI 都说自己更聪明，你又常凭印象选择，不知道哪个更适合自己的任务。",
+    "howItHelps": "它隐藏模型名字，用同一道真实任务盲测多个模型；你先选答案，再揭晓质量、速度和费用。",
+    "readerReady": true,
     "outcome": "一个保存题目、答案、偏好和费用的擂台。",
     "whyWorthwhile": "能摆脱品牌印象，了解不同模型适合什么。",
-    "skills": ["模型评测", "盲测设计"],
+    "skills": [
+      "模型评测",
+      "盲测设计"
+    ],
     "realWorldPotential": "可为写作、代码和聊天任务选择模型。",
     "feasibilityProbe": "先用十道自己熟悉的问题做匿名两两比较。",
-    "costAndRisks": ["个人偏好不是通用智商，费用与版本要记录。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "个人偏好不是通用智商，费用与版本要记录。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1494,24 +1964,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "个人偏好不是通用智商，费用与版本要记录。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "rag-chunk-playground",
-    "problemSolved": "同一份资料做检索时，有时找不到关键内容，你却不知道切块大小为什么会影响答案。",
-    "howItHelps": "它让你拖动切块参数，立刻比较不同设置找到的原文和最终回答。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "RAG 切块游乐场",
     "oneLine": "拖动切块大小，直接看检索结果怎么变化。",
     "summary": "拖动切块大小，直接看检索结果怎么变化。能直观看见 RAG 失败常常发生在检索之前。",
+    "problemSolved": "同一份资料做检索时，有时找不到关键内容，你却不知道切块大小为什么会影响答案。",
+    "howItHelps": "它让你拖动切块参数，立刻比较不同设置找到的原文和最终回答。",
+    "readerReady": true,
     "outcome": "一个同文档多种切块策略的对照页。",
     "whyWorthwhile": "能直观看见 RAG 失败常常发生在检索之前。",
-    "skills": ["RAG", "信息检索"],
+    "skills": [
+      "RAG",
+      "信息检索"
+    ],
     "realWorldPotential": "可为私人资料搜索选择更合适的分段。",
     "feasibilityProbe": "用含表格和标题的短文比较三种切块设置。",
-    "costAndRisks": ["只看命中率会忽略上下文完整性和引用质量。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "只看命中率会忽略上下文完整性和引用质量。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1521,24 +1999,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "只看命中率会忽略上下文完整性和引用质量。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "embedding-map",
-    "problemSolved": "你的短笔记越积越多，文件夹分类固定，难以发现跨主题之间意外的联系。",
-    "howItHelps": "它按内容相似度把笔记放到二维地图上，你可以点开相邻笔记，发现新的组合线索。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "文本向量地图",
     "oneLine": "把自己的短笔记投影成可点开的主题地图。",
     "summary": "把自己的短笔记投影成可点开的主题地图。能用视觉方式理解 embedding 的相似含义。",
+    "problemSolved": "你的短笔记越积越多，文件夹分类固定，难以发现跨主题之间意外的联系。",
+    "howItHelps": "它按内容相似度把笔记放到二维地图上，你可以点开相邻笔记，发现新的组合线索。",
+    "readerReady": true,
     "outcome": "一个能查看相近与意外相近笔记的二维图。",
     "whyWorthwhile": "能用视觉方式理解 embedding 的相似含义。",
-    "skills": ["向量", "降维可视化"],
+    "skills": [
+      "向量",
+      "降维可视化"
+    ],
     "realWorldPotential": "可发现笔记主题和内容重复。",
     "feasibilityProbe": "用五十条无敏感短句检查邻居是否符合直觉。",
-    "costAndRisks": ["二维投影会扭曲距离，不能当严格分类。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "二维投影会扭曲距离，不能当严格分类。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1548,24 +2035,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "二维投影会扭曲距离，不能当严格分类。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "agent-tool-permission",
-    "problemSolved": "你想给 AI 更多工具提高能力，又担心它读到不该读的数据或执行危险操作。",
-    "howItHelps": "它提供不同权限开关并记录每次允许、拒绝和等待确认的调用，让你亲自观察边界。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "Agent 权限沙盒",
     "oneLine": "给 Agent 不同工具权限，观察它会不会越界。",
     "summary": "给 Agent 不同工具权限，观察它会不会越界。能把安全边界做成可测试行为。",
+    "problemSolved": "你想给 AI 更多工具提高能力，又担心它读到不该读的数据或执行危险操作。",
+    "howItHelps": "它提供不同权限开关并记录每次允许、拒绝和等待确认的调用，让你亲自观察边界。",
+    "readerReady": true,
     "outcome": "一个记录允许、拒绝和需确认调用的实验台。",
     "whyWorthwhile": "能把安全边界做成可测试行为。",
-    "skills": ["Agent 安全", "权限模型"],
+    "skills": [
+      "Agent 安全",
+      "权限模型"
+    ],
     "realWorldPotential": "可为浏览器和文件自动化设计确认规则。",
     "feasibilityProbe": "设计十个诱导越权任务，确保写操作都被挡住。",
-    "costAndRisks": ["沙盒测试不能证明真实环境绝对安全。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "沙盒测试不能证明真实环境绝对安全。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1575,24 +2070,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "沙盒测试不能证明真实环境绝对安全。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "llm-cost-simulator",
-    "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-    "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "模型成本模拟器",
     "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
     "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
+    "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
+    "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+    "readerReady": true,
     "outcome": "一个按任务量展示月度区间的预算表。",
     "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
-    "skills": ["Token 估算", "成本建模"],
+    "skills": [
+      "Token 估算",
+      "成本建模"
+    ],
     "realWorldPotential": "可避免自动化上线后账单失控。",
     "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
-    "costAndRisks": ["价格会变化，必须显示数据日期和误差区间。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "价格会变化，必须显示数据日期和误差区间。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1602,24 +2106,46 @@
       "costRisk": 20,
       "uncertainty": 30,
       "explanation": "价格会变化，必须显示数据日期和误差区间。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "earning-capability"
+    ],
+    "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+    "userActions": [
+      "输入一个真实项目的提示词长度和每日调用次数",
+      "对比三种模型的月成本和失败重试成本",
+      "设置自己能接受的预算上限并验证降级方案"
+    ],
+    "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。"
   },
   {
     "candidateId": "structured-output-challenge",
-    "problemSolved": "你知道 AI 可以输出表格或 JSON，但遇到复杂字段就容易失败，也不知道该怎样循序练习。",
-    "howItHelps": "它从简单列表到嵌套结构设置一组关卡，自动告诉你哪里不合格以及怎样修正。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "结构化输出闯关",
     "oneLine": "从简单列表逐步挑战嵌套、联合类型和约束。",
     "summary": "从简单列表逐步挑战嵌套、联合类型和约束。能在有趣反馈里掌握 schema 设计。",
+    "problemSolved": "你知道 AI 可以输出表格或 JSON，但遇到复杂字段就容易失败，也不知道该怎样循序练习。",
+    "howItHelps": "它从简单列表到嵌套结构设置一组关卡，自动告诉你哪里不合格以及怎样修正。",
+    "readerReady": true,
     "outcome": "一组可自动判分的模型输出关卡。",
     "whyWorthwhile": "能在有趣反馈里掌握 schema 设计。",
-    "skills": ["结构化输出", "测试设计"],
+    "skills": [
+      "结构化输出",
+      "测试设计"
+    ],
     "realWorldPotential": "可作为以后所有数据型 AI 项目的练习场。",
     "feasibilityProbe": "先做五关，记录哪类约束最容易失败。",
-    "costAndRisks": ["不要为了过关把错误字段静默删掉。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "不要为了过关把错误字段静默删掉。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1629,24 +2155,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不要为了过关把错误字段静默删掉。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "small-finetune-feasibility",
-    "problemSolved": "你听说微调能让模型更懂业务，却不确定自己的问题是否值得花钱训练。",
-    "howItHelps": "它先用提示词和资料检索建立基线，再用少量样本试验，对比后告诉你微调有没有实际增益。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "小型微调可行性试验",
     "oneLine": "先判断提示词和检索解决不了的问题是否值得微调。",
     "summary": "先判断提示词和检索解决不了的问题是否值得微调。能理解微调真正改变什么，而不是把它当魔法。",
+    "problemSolved": "你听说微调能让模型更懂业务，却不确定自己的问题是否值得花钱训练。",
+    "howItHelps": "它先用提示词和资料检索建立基线，再用少量样本试验，对比后告诉你微调有没有实际增益。",
+    "readerReady": true,
     "outcome": "一份含基线、少量样本和对比结果的实验报告。",
     "whyWorthwhile": "能理解微调真正改变什么，而不是把它当魔法。",
-    "skills": ["微调", "实验设计"],
+    "skills": [
+      "微调",
+      "实验设计"
+    ],
     "realWorldPotential": "适合固定风格、分类或格式任务的长期优化。",
     "feasibilityProbe": "准备五十条高质量样本，先跑零样本基线。",
-    "costAndRisks": ["数据质量、算力和评测成本高，不能承诺一定提升。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "数据质量、算力和评测成本高，不能承诺一定提升。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1656,24 +2190,33 @@
       "costRisk": 60,
       "uncertainty": 70,
       "explanation": "数据质量、算力和评测成本高，不能承诺一定提升。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "ocr-quality-bench",
-    "problemSolved": "你要识别中文票据、表格或手写内容，却不知道本地和云端 OCR 哪个更准、更划算。",
-    "howItHelps": "它让多个 OCR 读取同一批样本，按字段统计准确率、速度和费用，并保留错误位置。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "OCR 质量擂台",
     "oneLine": "比较本地与云端 OCR 对中文、表格和手写的表现。",
     "summary": "比较本地与云端 OCR 对中文、表格和手写的表现。能学习输入质量比后续大模型更关键的场景。",
+    "problemSolved": "你要识别中文票据、表格或手写内容，却不知道本地和云端 OCR 哪个更准、更划算。",
+    "howItHelps": "它让多个 OCR 读取同一批样本，按字段统计准确率、速度和费用，并保留错误位置。",
+    "readerReady": true,
     "outcome": "一份按字段统计准确率和费用的基准。",
     "whyWorthwhile": "能学习输入质量比后续大模型更关键的场景。",
-    "skills": ["OCR", "基准测试"],
+    "skills": [
+      "OCR",
+      "基准测试"
+    ],
     "realWorldPotential": "可为票据、书页和表单项目选技术。",
     "feasibilityProbe": "建立二十张有人工真值的小样本集。",
-    "costAndRisks": ["样本中的私人信息必须遮盖，手写识别误差高。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "样本中的私人信息必须遮盖，手写识别误差高。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1683,24 +2226,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "样本中的私人信息必须遮盖，手写识别误差高。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "speech-transcription-bench",
-    "problemSolved": "你想把录音自动转成文字，但自己的口音、环境噪声可能让宣传准确率失去参考。",
-    "howItHelps": "它用你的真实短录音测试不同转写方案，标出错字、耗时和费用。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "语音转写实测台",
     "oneLine": "比较不同口音、噪声和说话速度下的转写结果。",
     "summary": "比较不同口音、噪声和说话速度下的转写结果。能理解语音模型的边界和后处理需求。",
+    "problemSolved": "你想把录音自动转成文字，但自己的口音、环境噪声可能让宣传准确率失去参考。",
+    "howItHelps": "它用你的真实短录音测试不同转写方案，标出错字、耗时和费用。",
+    "readerReady": true,
     "outcome": "一个带原音频、差异和字错率的对照页。",
     "whyWorthwhile": "能理解语音模型的边界和后处理需求。",
-    "skills": ["语音识别", "评测"],
+    "skills": [
+      "语音识别",
+      "评测"
+    ],
     "realWorldPotential": "可为语音笔记和字幕项目选方案。",
     "feasibilityProbe": "录制十段公开内容，手工制作准确文本。",
-    "costAndRisks": ["不得录制他人私人谈话，云端上传需授权。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "不得录制他人私人谈话，云端上传需授权。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1710,24 +2261,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不得录制他人私人谈话，云端上传需授权。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "vision-ui-grounding",
-    "problemSolved": "你想让 AI 看着截图操作软件，却不确定它能否准确找到你说的按钮。",
-    "howItHelps": "它让模型在截图上标出目标坐标，再与真实位置比较误差，直接判断能不能用于自动点击。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "视觉界面定位实验",
     "oneLine": "测试模型能否把“点设置按钮”定位到准确区域。",
     "summary": "测试模型能否把“点设置按钮”定位到准确区域。能理解视觉 Agent 为什么会点错界面。",
+    "problemSolved": "你想让 AI 看着截图操作软件，却不确定它能否准确找到你说的按钮。",
+    "howItHelps": "它让模型在截图上标出目标坐标，再与真实位置比较误差，直接判断能不能用于自动点击。",
+    "readerReady": true,
     "outcome": "一个显示模型坐标、真实坐标和误差的实验页。",
     "whyWorthwhile": "能理解视觉 Agent 为什么会点错界面。",
-    "skills": ["视觉理解", "界面自动化"],
+    "skills": [
+      "视觉理解",
+      "界面自动化"
+    ],
     "realWorldPotential": "可用于桌面操作和测试辅助。",
     "feasibilityProbe": "用十张公开软件截图标注单一控件位置。",
-    "costAndRisks": ["不能在真实账号界面直接执行高风险点击。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "不能在真实账号界面直接执行高风险点击。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1737,24 +2297,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不能在真实账号界面直接执行高风险点击。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "local-vs-cloud",
-    "problemSolved": "你在本地模型和云端模型之间犹豫，只看网上评测无法判断自己的电脑和任务适合哪个。",
-    "howItHelps": "它用同一批私人任务实测两边的质量、速度、隐私和费用，生成只针对你的选择报告。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "本地模型与云模型对照",
     "oneLine": "在隐私、速度、费用和质量四项上比较同一任务。",
     "summary": "在隐私、速度、费用和质量四项上比较同一任务。能形成自己的模型选型尺度而非听宣传。",
+    "problemSolved": "你在本地模型和云端模型之间犹豫，只看网上评测无法判断自己的电脑和任务适合哪个。",
+    "howItHelps": "它用同一批私人任务实测两边的质量、速度、隐私和费用，生成只针对你的选择报告。",
+    "readerReady": true,
     "outcome": "一份针对自己电脑与任务的选择报告。",
     "whyWorthwhile": "能形成自己的模型选型尺度而非听宣传。",
-    "skills": ["模型评测", "系统取舍"],
+    "skills": [
+      "模型评测",
+      "系统取舍"
+    ],
     "realWorldPotential": "可指导后续项目用本地还是云端。",
     "feasibilityProbe": "选三类任务各跑十次并记录冷启动与总耗时。",
-    "costAndRisks": ["测试结果只适用于当时版本、硬件和网络。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "测试结果只适用于当时版本、硬件和网络。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1764,24 +2333,45 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "测试结果只适用于当时版本、硬件和网络。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "practical"
+    ],
+    "userFit": "它能让你亲自知道本地模型到底够不够聪明、能省多少钱，而不是只听别人争论。",
+    "userActions": [
+      "选十个自己常用的真实任务",
+      "让一个本地模型和一个云模型盲测同题",
+      "记录质量、速度、费用和隐私差异后决定各用在哪"
+    ],
+    "manualAlternative": "偶尔聊天无需测试；当你想省 API 钱或处理私人资料时，这个判断会直接影响后续项目。"
   },
   {
     "candidateId": "citation-checker",
-    "problemSolved": "AI 回答带了很多链接，看起来可靠，但链接内容可能根本没有支持它的结论。",
-    "howItHelps": "它拆出每条主张，打开对应来源并并排显示证据句，标注支持、部分支持或不支持。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "引用真实性检查器",
     "oneLine": "逐条检查 AI 回答里的引用是否真的支持结论。",
     "summary": "逐条检查 AI 回答里的引用是否真的支持结论。能学习来源存在不等于来源支持。",
+    "problemSolved": "AI 回答带了很多链接，看起来可靠，但链接内容可能根本没有支持它的结论。",
+    "howItHelps": "它拆出每条主张，打开对应来源并并排显示证据句，标注支持、部分支持或不支持。",
+    "readerReady": true,
     "outcome": "一个把主张、证据句和支持程度并排展示的页面。",
     "whyWorthwhile": "能学习来源存在不等于来源支持。",
-    "skills": ["事实核验", "文本蕴含"],
+    "skills": [
+      "事实核验",
+      "文本蕴含"
+    ],
     "realWorldPotential": "适合研究摘要、日报和资料问答。",
     "feasibilityProbe": "准备十条有真有假的引用关系做人工真值。",
-    "costAndRisks": ["检查器本身也会误判，重要结论仍需打开原文。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "检查器本身也会误判，重要结论仍需打开原文。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1791,24 +2381,46 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "检查器本身也会误判，重要结论仍需打开原文。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "你以后会越来越依赖 AI 找资料，这个项目能帮你检查链接是否真的支持回答，避免被看似可靠的引用骗到。",
+    "userActions": [
+      "准备十条带链接的 AI 回答",
+      "抓取原文并逐条判断支持、部分支持或不支持",
+      "把误判样例加入回归测试"
+    ],
+    "manualAlternative": "重要内容少时人工逐条看最好；资料多、需要持续核验时，自动初筛才有价值。"
   },
   {
     "candidateId": "memory-decay-experiment",
-    "problemSolved": "助手长期记忆越存越多，旧偏好可能已经过期，错误记忆还会反复影响回答。",
-    "howItHelps": "它模拟记忆的写入、更新、遗忘和再次确认，让你看到每条记忆为何被使用。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 记忆衰减实验",
     "oneLine": "观察长期记忆何时应该遗忘、更新或要求确认。",
     "summary": "观察长期记忆何时应该遗忘、更新或要求确认。能学习长期助手最难的不是记住，而是记对。",
+    "problemSolved": "助手长期记忆越存越多，旧偏好可能已经过期，错误记忆还会反复影响回答。",
+    "howItHelps": "它模拟记忆的写入、更新、遗忘和再次确认，让你看到每条记忆为何被使用。",
+    "readerReady": true,
     "outcome": "一个能回放记忆写入与使用原因的模拟器。",
     "whyWorthwhile": "能学习长期助手最难的不是记住，而是记对。",
-    "skills": ["记忆系统", "隐私"],
+    "skills": [
+      "记忆系统",
+      "隐私"
+    ],
     "realWorldPotential": "可改进个人助理和持续推荐。",
     "feasibilityProbe": "创建十条会变化的偏好，模拟三个月更新。",
-    "costAndRisks": ["陈旧记忆可能误导用户，必须可查看和删除。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "陈旧记忆可能误导用户，必须可查看和删除。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1818,24 +2430,32 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "陈旧记忆可能误导用户，必须可查看和删除。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "multi-agent-handoff",
-    "problemSolved": "多个 Agent 接力时经常重复调查或漏掉关键上下文，你看不出交接包是否真的够用。",
-    "howItHelps": "它故意让第一个 Agent 中途停止，再让第二个只凭交接包继续，并统计遗漏与重复工作。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "多 Agent 交接实验",
     "oneLine": "让一个 Agent 停在中途，另一个只看交接包继续。",
     "summary": "让一个 Agent 停在中途，另一个只看交接包继续。能学习任务状态怎样被压缩成可接手的信息。",
+    "problemSolved": "多个 Agent 接力时经常重复调查或漏掉关键上下文，你看不出交接包是否真的够用。",
+    "howItHelps": "它故意让第一个 Agent 中途停止，再让第二个只凭交接包继续，并统计遗漏与重复工作。",
+    "readerReady": true,
     "outcome": "一份衡量上下文遗漏和重复工作的交接报告。",
     "whyWorthwhile": "能学习任务状态怎样被压缩成可接手的信息。",
-    "skills": ["多 Agent", "上下文工程"],
+    "skills": [
+      "多 Agent",
+      "上下文工程"
+    ],
     "realWorldPotential": "可用于长任务、代码审查和分工协作。",
     "feasibilityProbe": "选择一个三步任务，在第二步强制切换执行者。",
-    "costAndRisks": ["交接包可能遗漏隐含假设，需要验收清单。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "交接包可能遗漏隐含假设，需要验收清单。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1845,24 +2465,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "交接包可能遗漏隐含假设，需要验收清单。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "它能训练你把一个复杂任务交给另一个 AI 继续，而不是每次换模型都从头解释。",
+    "userActions": [
+      "让一个 Agent 做到任务中途",
+      "只把目标、现状、证据和下一步写成交接包",
+      "让另一个 Agent 接手并记录它缺了什么"
+    ],
+    "manualAlternative": "单人短任务无需交接；复杂项目或多 Agent 协作时，这项能力能直接减少丢上下文。"
   },
   {
     "candidateId": "eval-dataset-maker",
-    "problemSolved": "AI 曾经答错的问题散落在聊天里，修好一次后，下次改动又可能复发。",
-    "howItHelps": "它把真实失败输入、期望结果和失败原因收成小题库，之后每次改模型或提示词都能重测。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "个人评测集制作器",
     "oneLine": "把遇到过的失败输入保存成可重复测试的题库。",
     "summary": "把遇到过的失败输入保存成可重复测试的题库。能让项目质量跟着真实错误积累而提高。",
+    "problemSolved": "AI 曾经答错的问题散落在聊天里，修好一次后，下次改动又可能复发。",
+    "howItHelps": "它把真实失败输入、期望结果和失败原因收成小题库，之后每次改模型或提示词都能重测。",
+    "readerReady": true,
     "outcome": "一个包含输入、期望、来源和失败类型的小数据集。",
     "whyWorthwhile": "能让项目质量跟着真实错误积累而提高。",
-    "skills": ["评测数据", "失败分类"],
+    "skills": [
+      "评测数据",
+      "失败分类"
+    ],
     "realWorldPotential": "适合任何长期使用的 AI 功能。",
     "feasibilityProbe": "从一个旧项目收集二十个真实失败案例。",
-    "costAndRisks": ["评测集不能包含未经脱敏的私人数据。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "评测集不能包含未经脱敏的私人数据。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1872,24 +2513,45 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "评测集不能包含未经脱敏的私人数据。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "long-term-asset",
+      "earning-capability"
+    ],
+    "userFit": "它会把你做项目时踩过的坑变成以后自动验收的题目，让能力不只停留在一次修好。",
+    "userActions": [
+      "从一个已做项目中挑十个失败输入",
+      "写出什么算合格和不合格",
+      "让新版自动重跑并保存差异"
+    ],
+    "manualAlternative": "只有两三个样例时人工检查更快；项目反复改动或要给别人用时，评测集才成为长期资产。"
   },
   {
     "candidateId": "context-compression",
-    "problemSolved": "长对话很费 token，但直接摘要又可能丢掉后续任务需要的细节。",
-    "howItHelps": "它用原文、普通摘要和结构化记忆分别完成同一任务，对比费用节省与正确率。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "上下文压缩比赛",
     "oneLine": "比较原文、摘要和结构化记忆对后续任务的影响。",
     "summary": "比较原文、摘要和结构化记忆对后续任务的影响。能理解压缩不是越短越好，而是保留任务相关信息。",
+    "problemSolved": "长对话很费 token，但直接摘要又可能丢掉后续任务需要的细节。",
+    "howItHelps": "它用原文、普通摘要和结构化记忆分别完成同一任务，对比费用节省与正确率。",
+    "readerReady": true,
     "outcome": "一个显示 token 节省与问题正确率的对照实验。",
     "whyWorthwhile": "能理解压缩不是越短越好，而是保留任务相关信息。",
-    "skills": ["上下文工程", "评测"],
+    "skills": [
+      "上下文工程",
+      "评测"
+    ],
     "realWorldPotential": "可降低长期对话和 Agent 任务成本。",
     "feasibilityProbe": "用一段长项目记录回答十个细节与决策问题。",
-    "costAndRisks": ["摘要可能丢失否定、数字和未决事项。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "摘要可能丢失否定、数字和未决事项。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1899,24 +2561,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "摘要可能丢失否定、数字和未决事项。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "practical",
+      "earning-capability"
+    ],
+    "userFit": "它能直接提高你用 Codex 做长项目的能力：用更少上下文保住关键约束，减少重复解释和 token 成本。",
+    "userActions": [
+      "选一个你真实做过的长任务",
+      "分别用原文、普通摘要和结构化交接包继续",
+      "比较遗漏、返工和 token，再固定最好模板"
+    ],
+    "manualAlternative": "短对话无需压缩；跨很多轮、换任务或换模型时，它才会明显减少返工。"
   },
   {
     "candidateId": "synthetic-data-audit",
-    "problemSolved": "你想用 AI 生成训练或测试数据，却担心样本重复、比例失衡，甚至出现不现实内容。",
-    "howItHelps": "它检查重复度、类别分布和异常样本，并抽出一批让你人工核对。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "合成数据偏差检查",
     "oneLine": "生成小数据集后检查重复、失衡和不现实样本。",
     "summary": "生成小数据集后检查重复、失衡和不现实样本。能学习合成数据不是自动可靠的捷径。",
+    "problemSolved": "你想用 AI 生成训练或测试数据，却担心样本重复、比例失衡，甚至出现不现实内容。",
+    "howItHelps": "它检查重复度、类别分布和异常样本，并抽出一批让你人工核对。",
+    "readerReady": true,
     "outcome": "一份合成数据健康报告和人工抽样页。",
     "whyWorthwhile": "能学习合成数据不是自动可靠的捷径。",
-    "skills": ["合成数据", "数据质量"],
+    "skills": [
+      "合成数据",
+      "数据质量"
+    ],
     "realWorldPotential": "可辅助测试分类、抽取和表单流程。",
     "feasibilityProbe": "生成一百条样本，检查类别比例和近似重复。",
-    "costAndRisks": ["不能用合成数据替代真实用户分布或敏感决策数据。"],
-    "tags": ["learning"],
+    "costAndRisks": [
+      "不能用合成数据替代真实用户分布或敏感决策数据。"
+    ],
+    "tags": [
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1926,24 +2609,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不能用合成数据替代真实用户分布或敏感决策数据。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "tool-call-replay",
-    "problemSolved": "Agent 调用工具失败后，你只看到最终报错，不知道是哪一步参数错了，也难以安全复现。",
-    "howItHelps": "它记录每一步工具参数和返回值，在隔离环境中重放失败路径，形成可检查的时间线。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "工具调用回放器",
     "oneLine": "记录 Agent 的工具参数并在安全环境里重放失败。",
     "summary": "记录 Agent 的工具参数并在安全环境里重放失败。能学习 Agent 调试为何需要可复现轨迹。",
+    "problemSolved": "Agent 调用工具失败后，你只看到最终报错，不知道是哪一步参数错了，也难以安全复现。",
+    "howItHelps": "它记录每一步工具参数和返回值，在隔离环境中重放失败路径，形成可检查的时间线。",
+    "readerReady": true,
     "outcome": "一个可查看每一步输入、输出和错误的时间线。",
     "whyWorthwhile": "能学习 Agent 调试为何需要可复现轨迹。",
-    "skills": ["Agent 调试", "事件日志"],
+    "skills": [
+      "Agent 调试",
+      "事件日志"
+    ],
     "realWorldPotential": "可定位浏览器、文件和 API 自动化故障。",
     "feasibilityProbe": "让一个测试工具在第三步失败并完整重放。",
-    "costAndRisks": ["日志必须过滤 token、私人路径和敏感返回值。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "日志必须过滤 token、私人路径和敏感返回值。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -1953,24 +2645,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "日志必须过滤 token、私人路径和敏感返回值。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "friend-desktop-pet",
-    "problemSolved": "你想做一个有朋友特色的桌宠，但普通角色模板没有熟悉感，也怕未经同意使用形象。",
-    "howItHelps": "在朋友同意后，它把获准使用的表情和口头禅做成本地互动角色，并允许随时替换或删除素材。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "朋友形象桌宠",
     "oneLine": "在获得同意后，把朋友的表情和口头禅做成桌面互动角色。",
     "summary": "在获得同意后，把朋友的表情和口头禅做成桌面互动角色。能把图像、动画、语音和人格提示组合起来。",
+    "problemSolved": "你想做一个有朋友特色的桌宠，但普通角色模板没有熟悉感，也怕未经同意使用形象。",
+    "howItHelps": "在朋友同意后，它把获准使用的表情和口头禅做成本地互动角色，并允许随时替换或删除素材。",
+    "readerReady": true,
     "outcome": "一个会根据时间弹出轻量互动的本地桌宠。",
     "whyWorthwhile": "能把图像、动画、语音和人格提示组合起来。",
-    "skills": ["角色设计", "桌面应用"],
+    "skills": [
+      "角色设计",
+      "桌面应用"
+    ],
     "realWorldPotential": "主要价值是好玩，也可延伸成陪伴式提醒。",
     "feasibilityProbe": "先用虚构角色做三个动作，确认交互是否有趣。",
-    "costAndRisks": ["真实人物肖像和声音必须获得明确授权。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "真实人物肖像和声音必须获得明确授权。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -1980,24 +2681,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "真实人物肖像和声音必须获得明确授权。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "creation-experience",
+      "personal-capability"
+    ],
+    "userFit": "你明确觉得桌宠方向有趣；它能让你做出一个真正在桌面上活动、可展示给朋友看的成果。",
+    "userActions": [
+      "先用虚构角色做透明桌面窗口和三个动作",
+      "加入文字对话或语音中的一种",
+      "确认好玩后再在获得同意的前提下换成朋友形象"
+    ],
+    "manualAlternative": "人工图片或聊天机器人无法产生常驻桌面的互动感，这个项目的价值在可见、可玩的完整体验。"
   },
   {
     "candidateId": "dream-to-comic",
-    "problemSolved": "醒来时记得一个有趣的梦，过一会就模糊了，单纯记文字又不够有画面。",
-    "howItHelps": "它把你的梦话整理成四个可编辑分镜，先保留原文，再生成构图与对白草稿。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "梦境四格生成器",
     "oneLine": "把醒来后的一段梦话变成有分镜的四格漫画。",
     "summary": "把醒来后的一段梦话变成有分镜的四格漫画。能学习故事压缩、分镜和图像一致性。",
+    "problemSolved": "醒来时记得一个有趣的梦，过一会就模糊了，单纯记文字又不够有画面。",
+    "howItHelps": "它把你的梦话整理成四个可编辑分镜，先保留原文，再生成构图与对白草稿。",
+    "readerReady": true,
     "outcome": "一张保留原始梦境文字的可编辑漫画。",
     "whyWorthwhile": "能学习故事压缩、分镜和图像一致性。",
-    "skills": ["叙事", "图像生成"],
+    "skills": [
+      "叙事",
+      "图像生成"
+    ],
     "realWorldPotential": "可成为轻量日记和创意素材。",
     "feasibilityProbe": "用一个短梦先生成文字分镜，不急着出图。",
-    "costAndRisks": ["人物一致性和私人梦境内容需要自己把关。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "人物一致性和私人梦境内容需要自己把关。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2007,24 +2729,32 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "人物一致性和私人梦境内容需要自己把关。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "room-soundscape",
-    "problemSolved": "学习或工作时你想要合适的环境声，却很难找到和当下房间氛围一致的组合。",
-    "howItHelps": "它从房间照片提取明暗和场景线索，生成可手动调节的雨声、城市声或机械声组合。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "房间声音风景",
     "oneLine": "根据房间照片生成一段可调节的环境音组合。",
     "summary": "根据房间照片生成一段可调节的环境音组合。能把视觉理解与音频素材编排连接起来。",
+    "problemSolved": "学习或工作时你想要合适的环境声，却很难找到和当下房间氛围一致的组合。",
+    "howItHelps": "它从房间照片提取明暗和场景线索，生成可手动调节的雨声、城市声或机械声组合。",
+    "readerReady": true,
     "outcome": "一个可切换雨声、机械声和城市声的氛围页。",
     "whyWorthwhile": "能把视觉理解与音频素材编排连接起来。",
-    "skills": ["视觉理解", "音频设计"],
+    "skills": [
+      "视觉理解",
+      "音频设计"
+    ],
     "realWorldPotential": "适合专注、展览或沉浸体验。",
     "feasibilityProbe": "只用免版权音效做三种房间气氛并盲听选择。",
-    "costAndRisks": ["必须核对音频许可，生成判断可能刻板。"],
-    "tags": ["imagination"],
+    "costAndRisks": [
+      "必须核对音频许可，生成判断可能刻板。"
+    ],
+    "tags": [
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2034,24 +2764,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "必须核对音频许可，生成判断可能刻板。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "alternate-ending-radio",
-    "problemSolved": "一个故事结束后你常会想“如果当时换个选择会怎样”，但自己懒得写完整续篇。",
-    "howItHelps": "它让不同模型各写一个平行结局，再转成可切换风格的短音频供你比较。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "故事平行结局电台",
     "oneLine": "输入一段旧故事，让不同模型各写一个可收听的结局。",
     "summary": "输入一段旧故事，让不同模型各写一个可收听的结局。能比较模型叙事风格并练习语音合成。",
+    "problemSolved": "一个故事结束后你常会想“如果当时换个选择会怎样”，但自己懒得写完整续篇。",
+    "howItHelps": "它让不同模型各写一个平行结局，再转成可切换风格的短音频供你比较。",
+    "readerReady": true,
     "outcome": "一个可切换模型和结局风格的音频页面。",
     "whyWorthwhile": "能比较模型叙事风格并练习语音合成。",
-    "skills": ["创意写作", "语音合成"],
+    "skills": [
+      "创意写作",
+      "语音合成"
+    ],
     "realWorldPotential": "适合作为互动故事或播客小实验。",
     "feasibilityProbe": "先用公版故事生成三段一分钟结局。",
-    "costAndRisks": ["避免改写受版权保护的长篇原文和模仿真人声音。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "避免改写受版权保护的长篇原文和模仿真人声音。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2061,24 +2800,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "避免改写受版权保护的长篇原文和模仿真人声音。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "family-memory-map",
-    "problemSolved": "老照片和长辈故事分散在手机里，时间久了很难知道照片在哪里拍、人物是谁。",
-    "howItHelps": "在家人同意后，它把照片、地点、年份和口述故事连到私人地图上，点击地点就能回看。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭记忆地图",
     "oneLine": "把获得同意的老照片和地点连成可浏览的家庭地图。",
     "summary": "把获得同意的老照片和地点连成可浏览的家庭地图。能学习实体关系、地理数据和数字叙事。",
+    "problemSolved": "老照片和长辈故事分散在手机里，时间久了很难知道照片在哪里拍、人物是谁。",
+    "howItHelps": "在家人同意后，它把照片、地点、年份和口述故事连到私人地图上，点击地点就能回看。",
+    "readerReady": true,
     "outcome": "一个按地点打开照片、故事和年份的私人地图。",
     "whyWorthwhile": "能学习实体关系、地理数据和数字叙事。",
-    "skills": ["地图", "数字叙事"],
+    "skills": [
+      "地图",
+      "数字叙事"
+    ],
     "realWorldPotential": "可保存家庭历史并形成小型口述档案。",
     "feasibilityProbe": "先用三张无敏感照片和两个公开地点做原型。",
-    "costAndRisks": ["家庭成员授权、地点隐私和备份方式必须先确定。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "家庭成员授权、地点隐私和备份方式必须先确定。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2088,24 +2836,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "家庭成员授权、地点隐私和备份方式必须先确定。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "ai-time-capsule",
-    "problemSolved": "你对未来有很多判断，事后却只记得猜对的部分，很难诚实检验自己的预测。",
-    "howItHelps": "它封存带日期的预测，到期后自动寻找现实证据，并把原话与实际结果并排展示。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 时间胶囊",
     "oneLine": "记录今天的预测，未来打开时由 AI 对照实际发生了什么。",
     "summary": "记录今天的预测，未来打开时由 AI 对照实际发生了什么。能练习时间任务、证据对照和不确定性表达。",
+    "problemSolved": "你对未来有很多判断，事后却只记得猜对的部分，很难诚实检验自己的预测。",
+    "howItHelps": "它封存带日期的预测，到期后自动寻找现实证据，并把原话与实际结果并排展示。",
+    "readerReady": true,
     "outcome": "一个按解锁日期展示原预测与现实证据的胶囊库。",
     "whyWorthwhile": "能练习时间任务、证据对照和不确定性表达。",
-    "skills": ["定时任务", "事实核验"],
+    "skills": [
+      "定时任务",
+      "事实核验"
+    ],
     "realWorldPotential": "可用于个人目标、技术趋势或生活记录。",
     "feasibilityProbe": "创建一个七天胶囊并验证到期提醒与链接保存。",
-    "costAndRisks": ["预测只是记录，不应伪装成可靠预言。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "预测只是记录，不应伪装成可靠预言。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2115,24 +2872,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "预测只是记录，不应伪装成可靠预言。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "weather-mood-light",
-    "problemSolved": "桌面灯只能固定开关，你想让环境更有氛围，又不想被自动规则完全控制。",
-    "howItHelps": "它把公开天气和你手动选择的状态映射成灯光场景，并随时允许你覆盖规则。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "天气心情灯",
     "oneLine": "把公开天气和自己的状态映射成桌面灯光场景。",
     "summary": "把公开天气和自己的状态映射成桌面灯光场景。能把 API、情绪标签和硬件控制串起来。",
+    "problemSolved": "桌面灯只能固定开关，你想让环境更有氛围，又不想被自动规则完全控制。",
+    "howItHelps": "它把公开天气和你手动选择的状态映射成灯光场景，并随时允许你覆盖规则。",
+    "readerReady": true,
     "outcome": "一个可手动覆盖规则的灯光控制原型。",
     "whyWorthwhile": "能把 API、情绪标签和硬件控制串起来。",
-    "skills": ["硬件控制", "API"],
+    "skills": [
+      "硬件控制",
+      "API"
+    ],
     "realWorldPotential": "可作为房间氛围和物联网入门。",
     "feasibilityProbe": "先用网页色块模拟灯光，不连接真实硬件。",
-    "costAndRisks": ["情绪推断不能替代自我感受，硬件要防过热。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "情绪推断不能替代自我感受，硬件要防过热。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2142,24 +2908,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "情绪推断不能替代自我感受，硬件要防过热。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "voice-character-game",
-    "problemSolved": "你想直观感受不同 AI 声音的表现力，但普通试听很快就无聊。",
-    "howItHelps": "它让多个声音用同一句话扮演不同角色，做成能猜设定、计分的浏览器小游戏。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "声音角色猜猜看",
     "oneLine": "让不同语音角色用同一句话表演，玩家猜设定。",
     "summary": "让不同语音角色用同一句话表演，玩家猜设定。能练习语音合成、提示控制和交互反馈。",
+    "problemSolved": "你想直观感受不同 AI 声音的表现力，但普通试听很快就无聊。",
+    "howItHelps": "它让多个声音用同一句话扮演不同角色，做成能猜设定、计分的浏览器小游戏。",
+    "readerReady": true,
     "outcome": "一个带计分和角色卡的浏览器小游戏。",
     "whyWorthwhile": "能练习语音合成、提示控制和交互反馈。",
-    "skills": ["语音合成", "游戏交互"],
+    "skills": [
+      "语音合成",
+      "游戏交互"
+    ],
     "realWorldPotential": "适合聚会、直播或语言练习。",
     "feasibilityProbe": "先用三种合成角色做十轮盲猜。",
-    "costAndRisks": ["不得克隆未授权真人声音，需控制调用费用。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "不得克隆未授权真人声音，需控制调用费用。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2169,24 +2944,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不得克隆未授权真人声音，需控制调用费用。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "museum-object-chat",
-    "problemSolved": "博物馆说明牌常常专业又简短，你看完仍不懂一件物品当年到底怎么用。",
-    "howItHelps": "它只依据公开馆藏资料，让物件用第一人称讲时代和用途；每句话都能展开原始来源。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "博物馆物件自述",
     "oneLine": "让公开馆藏资料里的物件用第一人称讲清时代与用途。",
     "summary": "让公开馆藏资料里的物件用第一人称讲清时代与用途。能练习角色化表达，同时保持事实来源。",
+    "problemSolved": "博物馆说明牌常常专业又简短，你看完仍不懂一件物品当年到底怎么用。",
+    "howItHelps": "它只依据公开馆藏资料，让物件用第一人称讲时代和用途；每句话都能展开原始来源。",
+    "readerReady": true,
     "outcome": "一个每句话都能展开原始馆藏来源的对话页。",
     "whyWorthwhile": "能练习角色化表达，同时保持事实来源。",
-    "skills": ["知识表达", "引用"],
+    "skills": [
+      "知识表达",
+      "引用"
+    ],
     "realWorldPotential": "可用于展览导览和历史学习。",
     "feasibilityProbe": "选一件公版馆藏，只允许模型使用三条官方资料。",
-    "costAndRisks": ["角色语气不能掩盖不确定事实或文化敏感性。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "角色语气不能掩盖不确定事实或文化敏感性。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2196,24 +2980,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "角色语气不能掩盖不确定事实或文化敏感性。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "photo-era-remixer",
-    "problemSolved": "你想理解不同年代的设计风格，但只看概念介绍很难形成直观感觉。",
-    "howItHelps": "它用你自己的照片分别排成不同年代的海报，同时说明字体、颜色和版式为什么这样选。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "照片年代视觉混搭",
     "oneLine": "把自己的照片按不同年代的设计语言重新排版。",
     "summary": "把自己的照片按不同年代的设计语言重新排版。能学习设计参考拆解而非只写风格关键词。",
+    "problemSolved": "你想理解不同年代的设计风格，但只看概念介绍很难形成直观感觉。",
+    "howItHelps": "它用你自己的照片分别排成不同年代的海报，同时说明字体、颜色和版式为什么这样选。",
+    "readerReady": true,
     "outcome": "一组保留原图、说明风格要素的视觉海报。",
     "whyWorthwhile": "能学习设计参考拆解而非只写风格关键词。",
-    "skills": ["视觉设计", "图像编辑"],
+    "skills": [
+      "视觉设计",
+      "图像编辑"
+    ],
     "realWorldPotential": "适合作为个人海报和设计练习。",
     "feasibilityProbe": "先选一张无人物照片，做三个年代的版式草图。",
-    "costAndRisks": ["不要冒充历史真实性，人物照片需本人同意。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "不要冒充历史真实性，人物照片需本人同意。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2223,24 +3016,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不要冒充历史真实性，人物照片需本人同意。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "daily-life-rpg",
-    "problemSolved": "普通待办列表让你觉得压力大，坚持几天就放弃，但游戏化工具又常常惩罚没完成。",
-    "howItHelps": "它把一周任务变成可调难度的地图和奖励，由你决定节奏，未完成不会扣分。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "现实生活 RPG",
     "oneLine": "把一周真实任务变成不惩罚人的轻量任务地图。",
     "summary": "把一周真实任务变成不惩罚人的轻量任务地图。能学习状态机、推荐和行为设计边界。",
+    "problemSolved": "普通待办列表让你觉得压力大，坚持几天就放弃，但游戏化工具又常常惩罚没完成。",
+    "howItHelps": "它把一周任务变成可调难度的地图和奖励，由你决定节奏，未完成不会扣分。",
+    "readerReady": true,
     "outcome": "一个能手动调节难度和奖励的生活游戏板。",
     "whyWorthwhile": "能学习状态机、推荐和行为设计边界。",
-    "skills": ["游戏化", "状态管理"],
+    "skills": [
+      "游戏化",
+      "状态管理"
+    ],
     "realWorldPotential": "可增加重复小事的趣味性。",
     "feasibilityProbe": "只设置三个可完成任务，观察是否真的更愿意行动。",
-    "costAndRisks": ["避免用连续签到制造压力或替用户安排重要决定。"],
-    "tags": ["imagination", "practical"],
+    "costAndRisks": [
+      "避免用连续签到制造压力或替用户安排重要决定。"
+    ],
+    "tags": [
+      "imagination",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2250,24 +3052,45 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "避免用连续签到制造压力或替用户安排重要决定。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "creation-experience",
+      "personal-capability"
+    ],
+    "userFit": "如果普通待办让你不想打开，它可以把真实任务变成一张可玩的地图，而不是再做一个严肃清单。",
+    "userActions": [
+      "挑三件本周真的要做的事",
+      "把它们改成关卡、奖励和可跳过规则",
+      "用七天记录自己是否真的更愿意行动"
+    ],
+    "manualAlternative": "如果普通待办已经够用，就不值得做；只有游戏化确实让你更愿意行动时才继续。"
   },
   {
     "candidateId": "pet-caption-diary",
-    "problemSolved": "宠物短视频很多，但久了只剩相似片段，你想留下更有趣的日常记忆。",
-    "howItHelps": "它为片段生成明确标注为玩笑的拟人字幕，按日期整理成可回看的小日记。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "宠物动作字幕日记",
     "oneLine": "给宠物短视频生成明显标注为玩笑的拟人字幕。",
     "summary": "给宠物短视频生成明显标注为玩笑的拟人字幕。能练习视频片段选择、视觉描述和幽默文案。",
+    "problemSolved": "宠物短视频很多，但久了只剩相似片段，你想留下更有趣的日常记忆。",
+    "howItHelps": "它为片段生成明确标注为玩笑的拟人字幕，按日期整理成可回看的小日记。",
+    "readerReady": true,
     "outcome": "一个按日期保存片段和趣味字幕的小日记。",
     "whyWorthwhile": "能练习视频片段选择、视觉描述和幽默文案。",
-    "skills": ["视频理解", "创意文案"],
+    "skills": [
+      "视频理解",
+      "创意文案"
+    ],
     "realWorldPotential": "适合个人纪念和轻量内容创作。",
     "feasibilityProbe": "用三段自有视频比较纯描述与趣味字幕。",
-    "costAndRisks": ["不得把拟人字幕误当动物真实健康判断。"],
-    "tags": ["imagination"],
+    "costAndRisks": [
+      "不得把拟人字幕误当动物真实健康判断。"
+    ],
+    "tags": [
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2277,24 +3100,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不得把拟人字幕误当动物真实健康判断。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "city-walk-narrator",
-    "problemSolved": "你路过熟悉街区时只看到建筑表面，不知道附近曾发生过什么，普通导览又太长。",
-    "howItHelps": "它根据公开地点资料为路线写短旁白，到达对应位置才播放，并保留原始来源供你深挖。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "城市散步旁白",
     "oneLine": "根据公开地点资料为一条步行路线生成可核验旁白。",
     "summary": "根据公开地点资料为一条步行路线生成可核验旁白。能结合地理位置、叙事和事实来源。",
+    "problemSolved": "你路过熟悉街区时只看到建筑表面，不知道附近曾发生过什么，普通导览又太长。",
+    "howItHelps": "它根据公开地点资料为路线写短旁白，到达对应位置才播放，并保留原始来源供你深挖。",
+    "readerReady": true,
     "outcome": "一个走到地点才播放短故事的地图原型。",
     "whyWorthwhile": "能结合地理位置、叙事和事实来源。",
-    "skills": ["地理信息", "语音叙事"],
+    "skills": [
+      "地理信息",
+      "语音叙事"
+    ],
     "realWorldPotential": "可用于旅行、小众街区和文化导览。",
     "feasibilityProbe": "为一公里路线做三个站点并实地检查时长。",
-    "costAndRisks": ["定位、交通安全和历史事实都需要人工核对。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "定位、交通安全和历史事实都需要人工核对。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2304,24 +3136,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "定位、交通安全和历史事实都需要人工核对。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "keyboard-music",
-    "problemSolved": "你想做一个不用乐器也能玩的互动作品，又不希望程序记录自己实际输入的文字。",
-    "howItHelps": "它只读取击键节奏和按键类型，把速度与停顿实时变成音乐，不保存输入内容。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "键盘节奏乐器",
     "oneLine": "把打字速度和常用按键映射成实时音乐。",
     "summary": "把打字速度和常用按键映射成实时音乐。能练习事件流、音频合成和隐私最小化。",
+    "problemSolved": "你想做一个不用乐器也能玩的互动作品，又不希望程序记录自己实际输入的文字。",
+    "howItHelps": "它只读取击键节奏和按键类型，把速度与停顿实时变成音乐，不保存输入内容。",
+    "readerReady": true,
     "outcome": "一个不记录文字内容、只读取节奏的网页乐器。",
     "whyWorthwhile": "能练习事件流、音频合成和隐私最小化。",
-    "skills": ["Web Audio", "实时交互"],
+    "skills": [
+      "Web Audio",
+      "实时交互"
+    ],
     "realWorldPotential": "主要是好玩，也可做装置或直播互动。",
     "feasibilityProbe": "只读取键位类别与时间间隔，生成三种节奏。",
-    "costAndRisks": ["绝不能保存真实输入内容或充当键盘记录器。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "绝不能保存真实输入内容或充当键盘记录器。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2331,24 +3172,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "绝不能保存真实输入内容或充当键盘记录器。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "shadow-puppet-vision",
-    "problemSolved": "你想体验摄像头和 AI 视觉能做什么，但不想一开始就做复杂识别系统。",
-    "howItHelps": "它只在本地识别手势轮廓，把你的动作映射成屏幕里的幻想生物，马上能看到互动结果。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "摄像头影子木偶",
     "oneLine": "把手势轮廓变成屏幕里的幻想生物。",
     "summary": "把手势轮廓变成屏幕里的幻想生物。能学习实时视觉、骨架点和动画映射。",
+    "problemSolved": "你想体验摄像头和 AI 视觉能做什么，但不想一开始就做复杂识别系统。",
+    "howItHelps": "它只在本地识别手势轮廓，把你的动作映射成屏幕里的幻想生物，马上能看到互动结果。",
+    "readerReady": true,
     "outcome": "一个本地摄像头手势驱动的互动场景。",
     "whyWorthwhile": "能学习实时视觉、骨架点和动画映射。",
-    "skills": ["计算机视觉", "动画"],
+    "skills": [
+      "计算机视觉",
+      "动画"
+    ],
     "realWorldPotential": "可用于亲子游戏和互动展览。",
     "feasibilityProbe": "先识别两种简单手势并映射到两个动作。",
-    "costAndRisks": ["摄像头画面默认不上传、不保存，并明确显示启用状态。"],
-    "tags": ["imagination", "learning"],
+    "costAndRisks": [
+      "摄像头画面默认不上传、不保存，并明确显示启用状态。"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2358,24 +3208,32 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "摄像头画面默认不上传、不保存，并明确显示启用状态。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "future-self-mail",
-    "problemSolved": "面对长期选择时，你容易被当下情绪困住，也很难把过去的经验调出来一起思考。",
-    "howItHelps": "它先保存你的问题，再依据你授权的旧记录写一封“未来回信”，并明确区分真实依据与想象。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "未来自己回信器",
     "oneLine": "先写下问题，再让系统基于你过去的记录模拟未来回信。",
     "summary": "先写下问题，再让系统基于你过去的记录模拟未来回信。能探索个人记录、时间与生成式叙事的组合。",
+    "problemSolved": "面对长期选择时，你容易被当下情绪困住，也很难把过去的经验调出来一起思考。",
+    "howItHelps": "它先保存你的问题，再依据你授权的旧记录写一封“未来回信”，并明确区分真实依据与想象。",
+    "readerReady": true,
     "outcome": "一封同时显示事实依据与想象段落的延迟信。",
     "whyWorthwhile": "能探索个人记录、时间与生成式叙事的组合。",
-    "skills": ["个人数据", "生成叙事"],
+    "skills": [
+      "个人数据",
+      "生成叙事"
+    ],
     "realWorldPotential": "可作为目标复盘或情绪整理的创意工具。",
     "feasibilityProbe": "用一周公开测试日记，检查事实与想象是否分开。",
-    "costAndRisks": ["不能把生成文字当心理或人生建议，私人记录需加密。"],
-    "tags": ["imagination"],
+    "costAndRisks": [
+      "不能把生成文字当心理或人生建议，私人记录需加密。"
+    ],
+    "tags": [
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2385,24 +3243,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不能把生成文字当心理或人生建议，私人记录需加密。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "local-shop-faq",
-    "problemSolved": "小店反复回答营业时间、预约和菜单问题，顾客等回复，店主也被琐事打断。",
-    "howItHelps": "它只依据店主确认的资料回答常见问题，遇到资料没有的情况就明确转人工。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "小店常见问题助手",
     "oneLine": "把营业时间、菜单和预约规则做成带来源的回答页。",
     "summary": "把营业时间、菜单和预约规则做成带来源的回答页。能学习知识库、拒答和真实业务边界。",
+    "problemSolved": "小店反复回答营业时间、预约和菜单问题，顾客等回复，店主也被琐事打断。",
+    "howItHelps": "它只依据店主确认的资料回答常见问题，遇到资料没有的情况就明确转人工。",
+    "readerReady": true,
     "outcome": "一个答不上来就转人工的店铺 FAQ 原型。",
     "whyWorthwhile": "能学习知识库、拒答和真实业务边界。",
-    "skills": ["RAG", "人工接管"],
+    "skills": [
+      "RAG",
+      "人工接管"
+    ],
     "realWorldPotential": "可作为给本地商家的低成本 AI 服务样板。",
     "feasibilityProbe": "用二十个真实问题测试回答与拒答边界。",
-    "costAndRisks": ["错误营业信息会直接影响客户，必须有维护入口。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "错误营业信息会直接影响客户，必须有维护入口。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2412,24 +3279,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "错误营业信息会直接影响客户，必须有维护入口。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "niche-lead-radar",
-    "problemSolved": "你想做有真实需求的产品，却总从自己的想象出发，不知道人们正在反复抱怨什么。",
-    "howItHelps": "它扫描公开论坛，聚合同类问题并保留原帖，再生成可用于访谈核实的问题清单。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "小众需求线索雷达",
     "oneLine": "从公开论坛讨论里找反复出现、尚未解决的问题。",
     "summary": "从公开论坛讨论里找反复出现、尚未解决的问题。能练习需求发现而不是先造产品。",
+    "problemSolved": "你想做有真实需求的产品，却总从自己的想象出发，不知道人们正在反复抱怨什么。",
+    "howItHelps": "它扫描公开论坛，聚合同类问题并保留原帖，再生成可用于访谈核实的问题清单。",
+    "readerReady": true,
     "outcome": "一份包含原帖、频率和可验证访谈问题的线索表。",
     "whyWorthwhile": "能练习需求发现而不是先造产品。",
-    "skills": ["公开数据分析", "需求研究"],
+    "skills": [
+      "公开数据分析",
+      "需求研究"
+    ],
     "realWorldPotential": "可为咨询、工具或内容产品寻找方向。",
     "feasibilityProbe": "只分析一个公开社区的五十条帖子并手工核对。",
-    "costAndRisks": ["遵守社区规则，不抓私人资料或自动骚扰用户。"],
-    "tags": ["commercial", "learning"],
+    "costAndRisks": [
+      "遵守社区规则，不抓私人资料或自动骚扰用户。"
+    ],
+    "tags": [
+      "commercial",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2439,24 +3315,47 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "遵守社区规则，不抓私人资料或自动骚扰用户。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "economic",
+      "earning-capability",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "你目前最缺的不是再想一个功能，而是知道网上哪些问题反复出现、谁真的在为它困扰。",
+    "userActions": [
+      "先选 GitHub Issues 和 Hacker News 两个公开来源",
+      "收集带原链接的抱怨与求助并合并同类项",
+      "挑一个高频问题，回到原帖人工确认是否值得继续"
+    ],
+    "manualAlternative": "偶尔人工浏览足够看热闹；要跨平台连续观察并保留证据时，雷达才比人工有明显价值。"
   },
   {
     "candidateId": "quote-generator",
-    "problemSolved": "接小单时你不知道怎样拆工时、列范围和报价，容易低估成本或与客户理解不一致。",
-    "howItHelps": "它根据服务范围生成可解释的报价草稿，清楚列出假设、成本、不包含项和可选项。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "服务报价草稿器",
     "oneLine": "根据明确服务范围生成可解释的报价项目清单。",
     "summary": "根据明确服务范围生成可解释的报价项目清单。能把模糊服务拆成范围、依赖和风险。",
+    "problemSolved": "接小单时你不知道怎样拆工时、列范围和报价，容易低估成本或与客户理解不一致。",
+    "howItHelps": "它根据服务范围生成可解释的报价草稿，清楚列出假设、成本、不包含项和可选项。",
+    "readerReady": true,
     "outcome": "一个显示工时假设、成本和不包含项的报价草稿。",
     "whyWorthwhile": "能把模糊服务拆成范围、依赖和风险。",
-    "skills": ["需求拆解", "成本估算"],
+    "skills": [
+      "需求拆解",
+      "成本估算"
+    ],
     "realWorldPotential": "适合自由职业或小型 AI 自动化服务。",
     "feasibilityProbe": "用三个历史案例比较草稿与真实报价差异。",
-    "costAndRisks": ["报价必须人工确认，不能承诺未知交付结果。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "报价必须人工确认，不能承诺未知交付结果。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2466,24 +3365,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "报价必须人工确认，不能承诺未知交付结果。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "menu-profit-explainer",
-    "problemSolved": "小店有销售和成本数据，却很难看出哪些菜真正赚钱、哪些只是卖得多。",
-    "howItHelps": "它把成本、售价和销量放在一起，用店主能理解的方式解释原因，只给建议不自动改价。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "菜单利润解释器",
     "oneLine": "把菜品成本、售价和销量做成店主看得懂的建议。",
     "summary": "把菜品成本、售价和销量做成店主看得懂的建议。能练习表格分析与非技术解释。",
+    "problemSolved": "小店有销售和成本数据，却很难看出哪些菜真正赚钱、哪些只是卖得多。",
+    "howItHelps": "它把成本、售价和销量放在一起，用店主能理解的方式解释原因，只给建议不自动改价。",
+    "readerReady": true,
     "outcome": "一个展示数据依据、不自动改价的经营小报表。",
     "whyWorthwhile": "能练习表格分析与非技术解释。",
-    "skills": ["数据分析", "可视化"],
+    "skills": [
+      "数据分析",
+      "可视化"
+    ],
     "realWorldPotential": "可作为餐饮数字化咨询的小型演示。",
     "feasibilityProbe": "用一份虚构菜单核对毛利计算和异常提示。",
-    "costAndRisks": ["真实成本常不完整，建议不能替代经营判断。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "真实成本常不完整，建议不能替代经营判断。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2493,24 +3401,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "真实成本常不完整，建议不能替代经营判断。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "appointment-no-show",
-    "problemSolved": "预约总有人爽约，你想适当提醒，却不希望粗暴地给顾客贴上“高风险”标签。",
-    "howItHelps": "它只分析不同提醒时间与到店情况的关系，提出提醒策略，不对个人做惩罚性判断。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "预约爽约提醒实验",
     "oneLine": "根据历史记录找出适合发送提醒的时间，而非给人打标签。",
     "summary": "根据历史记录找出适合发送提醒的时间，而非给人打标签。能学习分类问题中的公平性和可操作建议。",
+    "problemSolved": "预约总有人爽约，你想适当提醒，却不希望粗暴地给顾客贴上“高风险”标签。",
+    "howItHelps": "它只分析不同提醒时间与到店情况的关系，提出提醒策略，不对个人做惩罚性判断。",
+    "readerReady": true,
     "outcome": "一个只建议提醒策略的预约分析页。",
     "whyWorthwhile": "能学习分类问题中的公平性和可操作建议。",
-    "skills": ["数据分析", "风险沟通"],
+    "skills": [
+      "数据分析",
+      "风险沟通"
+    ],
     "realWorldPotential": "可用于理发、维修和咨询等预约业务。",
     "feasibilityProbe": "用匿名模拟数据比较固定提醒与分层提醒。",
-    "costAndRisks": ["不得根据敏感属性区别对待或自动拒绝客户。"],
-    "tags": ["commercial", "learning"],
+    "costAndRisks": [
+      "不得根据敏感属性区别对待或自动拒绝客户。"
+    ],
+    "tags": [
+      "commercial",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2520,24 +3437,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不得根据敏感属性区别对待或自动拒绝客户。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "review-theme-radar",
-    "problemSolved": "客户评价越来越多，你只能看到零散好评差评，很难知道哪些问题反复出现。",
-    "howItHelps": "它把公开评价聚成表扬、抱怨和待核实主题，每个结论都能点回原评价。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "客户评价主题雷达",
     "oneLine": "把公开评价聚成表扬、抱怨和待核实主题。",
     "summary": "把公开评价聚成表扬、抱怨和待核实主题。能练习文本聚类与证据回链。",
+    "problemSolved": "客户评价越来越多，你只能看到零散好评差评，很难知道哪些问题反复出现。",
+    "howItHelps": "它把公开评价聚成表扬、抱怨和待核实主题，每个结论都能点回原评价。",
+    "readerReady": true,
     "outcome": "一个能打开原评价的月度主题板。",
     "whyWorthwhile": "能练习文本聚类与证据回链。",
-    "skills": ["文本聚类", "情感分析"],
+    "skills": [
+      "文本聚类",
+      "情感分析"
+    ],
     "realWorldPotential": "可帮助小商家发现重复服务问题。",
     "feasibilityProbe": "手工标注五十条评价，比较模型主题是否可信。",
-    "costAndRisks": ["评价有偏差，不能据此识别或针对个人。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "评价有偏差，不能据此识别或针对个人。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2547,24 +3473,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "评价有偏差，不能据此识别或针对个人。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "micro-course-product",
-    "problemSolved": "你有一项具体经验想分享或尝试售卖，却不知道怎样缩成别人半小时能真正学会的内容。",
-    "howItHelps": "它帮你挑一个可演示的小技能，整理成讲解、练习和反馈三部分，先做出可试学原型。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "经验微课产品化",
     "oneLine": "把一项自己会的具体技能做成三十分钟可完成的小课。",
     "summary": "把一项自己会的具体技能做成三十分钟可完成的小课。能学习内容结构、用户验证和 AI 辅助制作。",
+    "problemSolved": "你有一项具体经验想分享或尝试售卖，却不知道怎样缩成别人半小时能真正学会的内容。",
+    "howItHelps": "它帮你挑一个可演示的小技能，整理成讲解、练习和反馈三部分，先做出可试学原型。",
+    "readerReady": true,
     "outcome": "一个含演示、练习和反馈入口的微课原型。",
     "whyWorthwhile": "能学习内容结构、用户验证和 AI 辅助制作。",
-    "skills": ["内容设计", "用户测试"],
+    "skills": [
+      "内容设计",
+      "用户测试"
+    ],
     "realWorldPotential": "可作为低成本数字产品实验。",
     "feasibilityProbe": "先找三个人完成一节课，观察卡住的位置。",
-    "costAndRisks": ["不能用 AI 拼凑未经核验的专业知识或侵权材料。"],
-    "tags": ["commercial", "learning"],
+    "costAndRisks": [
+      "不能用 AI 拼凑未经核验的专业知识或侵权材料。"
+    ],
+    "tags": [
+      "commercial",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2574,24 +3509,47 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不能用 AI 拼凑未经核验的专业知识或侵权材料。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "economic",
+      "earning-capability",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "它让你练习把自己会的一件小事做成别人愿意学、甚至愿意付费的最小内容产品。",
+    "userActions": [
+      "选一个你确实做过的小技能",
+      "用 AI 辅助做一节三十分钟以内的演示和练习",
+      "找三个人试学，观察他们在哪一步卡住"
+    ],
+    "manualAlternative": "只写一篇说明当然更快；做这个项目的价值是验证别人能否学会，以及你有没有产品化和表达能力。"
   },
   {
     "candidateId": "industry-digest-service",
-    "problemSolved": "某个小行业的信息散落在网站、公告和论坛里，目标用户没有时间每天筛选。",
-    "howItHelps": "它定期收集公开信号、保留来源并生成经人工核验的短报，让你验证是否有人愿意订阅。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "垂直行业情报订阅",
     "oneLine": "为一个很窄的行业收集公开信号并给出人工核验摘要。",
     "summary": "为一个很窄的行业收集公开信号并给出人工核验摘要。能练习抓取、去重、编辑和持续交付。",
+    "problemSolved": "某个小行业的信息散落在网站、公告和论坛里，目标用户没有时间每天筛选。",
+    "howItHelps": "它定期收集公开信号、保留来源并生成经人工核验的短报，让你验证是否有人愿意订阅。",
+    "readerReady": true,
     "outcome": "一份可追溯来源的周报和订阅落地页。",
     "whyWorthwhile": "能练习抓取、去重、编辑和持续交付。",
-    "skills": ["信息管道", "内容产品"],
+    "skills": [
+      "信息管道",
+      "内容产品"
+    ],
     "realWorldPotential": "可验证企业或从业者是否愿意为节省时间付费。",
     "feasibilityProbe": "先连续做两期样刊，请五位目标读者反馈。",
-    "costAndRisks": ["版权、来源可用性和持续维护成本不可忽略。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "版权、来源可用性和持续维护成本不可忽略。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2601,24 +3559,46 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "版权、来源可用性和持续维护成本不可忽略。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "economic",
+      "earning-capability",
+      "long-term-asset"
+    ],
+    "userFit": "它能把你已经做过的日报能力，迁移成针对某个真实人群的付费信息服务实验。",
+    "userActions": [
+      "先找到一个信息分散且更新频繁的小领域",
+      "连续两期人工核验并保留原始来源",
+      "拿样刊问五位目标读者是否愿意持续看或付费"
+    ],
+    "manualAlternative": "只做一期时人工整理更省事；只有读者需要持续更新，自动管道和长期资料库才有经济价值。"
   },
   {
     "candidateId": "product-listing-quality",
-    "problemSolved": "商品页写了很多宣传词，却可能漏掉尺寸、使用条件和购买前真正影响决定的信息。",
-    "howItHelps": "它按品类检查规格与证据缺口，输出待补清单，由你确认后再修改页面。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "商品页质量检查器",
     "oneLine": "检查商品页是否缺少规格、证据和购买前关键信息。",
     "summary": "检查商品页是否缺少规格、证据和购买前关键信息。能练习规则、视觉检查和生成文案协作。",
+    "problemSolved": "商品页写了很多宣传词，却可能漏掉尺寸、使用条件和购买前真正影响决定的信息。",
+    "howItHelps": "它按品类检查规格与证据缺口，输出待补清单，由你确认后再修改页面。",
+    "readerReady": true,
     "outcome": "一个不自动发布的商品页改进清单。",
     "whyWorthwhile": "能练习规则、视觉检查和生成文案协作。",
-    "skills": ["多模态分析", "内容质量"],
+    "skills": [
+      "多模态分析",
+      "内容质量"
+    ],
     "realWorldPotential": "可作为小商家上架前的辅助服务。",
     "feasibilityProbe": "对十个公开商品页手工标注缺失项再比较。",
-    "costAndRisks": ["不得生成虚假卖点、评价或不存在的参数。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "不得生成虚假卖点、评价或不存在的参数。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2628,24 +3608,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不得生成虚假卖点、评价或不存在的参数。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "customer-return-reason",
-    "problemSolved": "退货备注内容杂乱，只看退货率无法知道问题来自商品、描述还是物流。",
-    "howItHelps": "它把备注关联到商品和可核对主题，同时保留原始记录，帮助你找到优先改进点。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "退货原因归因板",
     "oneLine": "把退货备注与商品问题关联到可核对主题。",
     "summary": "把退货备注与商品问题关联到可核对主题。能练习脏文本整理与业务问题定位。",
+    "problemSolved": "退货备注内容杂乱，只看退货率无法知道问题来自商品、描述还是物流。",
+    "howItHelps": "它把备注关联到商品和可核对主题，同时保留原始记录，帮助你找到优先改进点。",
+    "readerReady": true,
     "outcome": "一个按商品和原因查看原始记录的改进面板。",
     "whyWorthwhile": "能练习脏文本整理与业务问题定位。",
-    "skills": ["文本分类", "数据分析"],
+    "skills": [
+      "文本分类",
+      "数据分析"
+    ],
     "realWorldPotential": "可帮助电商先改最常见的描述或包装问题。",
     "feasibilityProbe": "用匿名模拟退货数据验证主题与数量。",
-    "costAndRisks": ["不能把模型推断当客户事实，个人信息必须移除。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "不能把模型推断当客户事实，个人信息必须移除。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2655,24 +3644,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不能把模型推断当客户事实，个人信息必须移除。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "supplier-document-check",
-    "problemSolved": "供应商发来的报价、资质和交付文件格式各异，关键字段缺失时很容易被忽略。",
-    "howItHelps": "它逐份检查价格、有效期、资质和交付条件，把缺口链接到原文位置供你追问。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "供应商资料完整性检查",
     "oneLine": "检查报价单、资质和交付条件是否缺关键字段。",
     "summary": "检查报价单、资质和交付条件是否缺关键字段。能练习文档抽取和规则化审核。",
+    "problemSolved": "供应商发来的报价、资质和交付文件格式各异，关键字段缺失时很容易被忽略。",
+    "howItHelps": "它逐份检查价格、有效期、资质和交付条件，把缺口链接到原文位置供你追问。",
+    "readerReady": true,
     "outcome": "一份链接到原文位置的资料缺口清单。",
     "whyWorthwhile": "能练习文档抽取和规则化审核。",
-    "skills": ["文档 AI", "规则校验"],
+    "skills": [
+      "文档 AI",
+      "规则校验"
+    ],
     "realWorldPotential": "可作为采购前的行政辅助流程。",
     "feasibilityProbe": "用三份公开样本验证二十个必填字段。",
-    "costAndRisks": ["不能替代法律、质量或资质专业审核。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "不能替代法律、质量或资质专业审核。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2682,24 +3680,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不能替代法律、质量或资质专业审核。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "simple-crm-followup",
-    "problemSolved": "你靠记忆跟进少量客户，经常忘记上次谈到哪里，商业软件又显得过重。",
-    "howItHelps": "它根据你手动记录的阶段和历史生成下一次联系草稿，到时间提醒但绝不自动发送。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "轻量客户跟进提醒",
     "oneLine": "根据人工记录的阶段生成下一次联系草稿。",
     "summary": "根据人工记录的阶段生成下一次联系草稿。能学习状态机与生成文本在销售流程中的分工。",
+    "problemSolved": "你靠记忆跟进少量客户，经常忘记上次谈到哪里，商业软件又显得过重。",
+    "howItHelps": "它根据你手动记录的阶段和历史生成下一次联系草稿，到时间提醒但绝不自动发送。",
+    "readerReady": true,
     "outcome": "一个不自动发送、可查看历史的跟进看板。",
     "whyWorthwhile": "能学习状态机与生成文本在销售流程中的分工。",
-    "skills": ["状态管理", "文本生成"],
+    "skills": [
+      "状态管理",
+      "文本生成"
+    ],
     "realWorldPotential": "适合小团队低频客户关系维护。",
     "feasibilityProbe": "用十个模拟客户检查提醒是否符合阶段。",
-    "costAndRisks": ["禁止群发骚扰，联系频率和内容必须人工确认。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "禁止群发骚扰，联系频率和内容必须人工确认。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2709,24 +3716,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "禁止群发骚扰，联系频率和内容必须人工确认。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "local-event-content",
-    "problemSolved": "活动信息确认后，还要分别写海报、日程和问答，多处改动容易出现时间地点不一致。",
-    "howItHelps": "它从同一份已确认信息生成多渠道内容草稿，并用事实核对表提示不同版本的冲突。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "本地活动内容包",
     "oneLine": "从主办方确认的信息生成海报文案、日程和问答草稿。",
     "summary": "从主办方确认的信息生成海报文案、日程和问答草稿。能练习一次事实、多种格式的内容生产。",
+    "problemSolved": "活动信息确认后，还要分别写海报、日程和问答，多处改动容易出现时间地点不一致。",
+    "howItHelps": "它从同一份已确认信息生成多渠道内容草稿，并用事实核对表提示不同版本的冲突。",
+    "readerReady": true,
     "outcome": "一个多渠道内容包和事实核对表。",
     "whyWorthwhile": "能练习一次事实、多种格式的内容生产。",
-    "skills": ["内容生成", "事实一致性"],
+    "skills": [
+      "内容生成",
+      "事实一致性"
+    ],
     "realWorldPotential": "可作为给小型活动的交付型服务。",
     "feasibilityProbe": "用一场虚构活动检查各渠道时间地点是否一致。",
-    "costAndRisks": ["发布前必须由主办方确认，不得编造嘉宾或权益。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "发布前必须由主办方确认，不得编造嘉宾或权益。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2736,24 +3752,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "发布前必须由主办方确认，不得编造嘉宾或权益。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "creator-sponsor-match",
-    "problemSolved": "你想找商业合作，却不知道自己的内容适合哪些品牌，也不想购买或抓取私人联系方式。",
-    "howItHelps": "它分析公开内容主题，提出可能契合的品牌类型和合作理由，形成待人工验证的假设清单。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "创作者合作匹配草稿",
     "oneLine": "根据公开内容主题寻找可能契合的品牌类型。",
     "summary": "根据公开内容主题寻找可能契合的品牌类型。能练习语义匹配与商业假设验证。",
+    "problemSolved": "你想找商业合作，却不知道自己的内容适合哪些品牌，也不想购买或抓取私人联系方式。",
+    "howItHelps": "它分析公开内容主题，提出可能契合的品牌类型和合作理由，形成待人工验证的假设清单。",
+    "readerReady": true,
     "outcome": "一份不含私人联系方式的合作假设清单。",
     "whyWorthwhile": "能练习语义匹配与商业假设验证。",
-    "skills": ["语义匹配", "商业研究"],
+    "skills": [
+      "语义匹配",
+      "商业研究"
+    ],
     "realWorldPotential": "可辅助创作者准备更有针对性的合作提案。",
     "feasibilityProbe": "用十个公开创作者与品牌案例人工判断匹配。",
-    "costAndRisks": ["不得自动群发或收集非公开联系人信息。"],
-    "tags": ["commercial", "learning"],
+    "costAndRisks": [
+      "不得自动群发或收集非公开联系人信息。"
+    ],
+    "tags": [
+      "commercial",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2763,24 +3788,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不得自动群发或收集非公开联系人信息。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "business-process-audit",
-    "problemSolved": "你知道小企业有流程可以自动化，却容易一上来就做大系统，最后发现入口数据拿不到。",
-    "howItHelps": "它先访谈并画出一个重复流程，找出最耗时、最安全且最适合先验证的单一步骤。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "小企业流程体检",
     "oneLine": "访谈一个重复流程，找出最适合自动化的单一步骤。",
     "summary": "访谈一个重复流程，找出最适合自动化的单一步骤。能学习解决真实问题从观察流程开始。",
+    "problemSolved": "你知道小企业有流程可以自动化，却容易一上来就做大系统，最后发现入口数据拿不到。",
+    "howItHelps": "它先访谈并画出一个重复流程，找出最耗时、最安全且最适合先验证的单一步骤。",
+    "readerReady": true,
     "outcome": "一张现状流程、风险和候选自动化地图。",
     "whyWorthwhile": "能学习解决真实问题从观察流程开始。",
-    "skills": ["流程分析", "自动化设计"],
+    "skills": [
+      "流程分析",
+      "自动化设计"
+    ],
     "realWorldPotential": "可发展成 AI 自动化咨询或实施服务。",
     "feasibilityProbe": "跟一位真实使用者走完整流程并测量耗时。",
-    "costAndRisks": ["未经理解就自动化会放大坏流程和权限风险。"],
-    "tags": ["commercial", "learning"],
+    "costAndRisks": [
+      "未经理解就自动化会放大坏流程和权限风险。"
+    ],
+    "tags": [
+      "commercial",
+      "learning"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2790,24 +3824,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "未经理解就自动化会放大坏流程和权限风险。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "vertical-chatbot-demo",
-    "problemSolved": "你想为某个行业做问答机器人，但普通演示什么都回答，无法证明它可靠或能交付。",
-    "howItHelps": "它只使用小领域资料，回答带引用、不会就拒答，并用二十个真实问题验收。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "垂直知识问答样板",
     "oneLine": "为一个小领域做带引用、会拒答的演示机器人。",
     "summary": "为一个小领域做带引用、会拒答的演示机器人。能学习从数据到交付的完整小闭环。",
+    "problemSolved": "你想为某个行业做问答机器人，但普通演示什么都回答，无法证明它可靠或能交付。",
+    "howItHelps": "它只使用小领域资料，回答带引用、不会就拒答，并用二十个真实问题验收。",
+    "readerReady": true,
     "outcome": "一个包含二十个验收问题和人工转接入口的样板。",
     "whyWorthwhile": "能学习从数据到交付的完整小闭环。",
-    "skills": ["RAG", "产品验收"],
+    "skills": [
+      "RAG",
+      "产品验收"
+    ],
     "realWorldPotential": "可作为向真实客户展示能力的作品。",
     "feasibilityProbe": "只选十页公开资料，先验证引用和拒答。",
-    "costAndRisks": ["领域错误可能造成损失，禁止冒充专业意见。"],
-    "tags": ["commercial", "practical"],
+    "costAndRisks": [
+      "领域错误可能造成损失，禁止冒充专业意见。"
+    ],
+    "tags": [
+      "commercial",
+      "practical"
+    ],
     "crossDomain": false,
     "largeCommercial": false,
     "difficulty": {
@@ -2817,24 +3860,46 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "领域错误可能造成损失，禁止冒充专业意见。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "earning-capability",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "这是一个能展示“我会把 AI 做成可靠产品”的作品，不只是会调用聊天接口。",
+    "userActions": [
+      "选十页自己能核对的资料",
+      "做带引用、不会就拒答的问答页",
+      "准备二十个真实问题，记录错误并改进"
+    ],
+    "manualAlternative": "把文件直接发给通用 AI 更快；项目价值在于可重复、可验收、能给别人使用的交付能力。"
   },
   {
     "candidateId": "ai-blender-room",
-    "problemSolved": "你对三维建模感兴趣，却不知道 AI 能在哪些步骤帮忙，也担心完整场景太难。",
-    "howItHelps": "它用文字和参考图辅助拆解建模步骤，从一个简单低模房间开始，并保留每次修改过程。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "AI + Blender 房间建模",
     "oneLine": "用文字和参考图辅助生成一个简单房间的建模步骤。",
     "summary": "用文字和参考图辅助生成一个简单房间的建模步骤。能把 AI 作为三维学习搭档而非一键成品机。",
+    "problemSolved": "你对三维建模感兴趣，却不知道 AI 能在哪些步骤帮忙，也担心完整场景太难。",
+    "howItHelps": "它用文字和参考图辅助拆解建模步骤，从一个简单低模房间开始，并保留每次修改过程。",
+    "readerReady": true,
     "outcome": "一个可旋转查看、保留制作过程的低模房间。",
     "whyWorthwhile": "能把 AI 作为三维学习搭档而非一键成品机。",
-    "skills": ["三维建模", "视觉参考"],
+    "skills": [
+      "三维建模",
+      "视觉参考"
+    ],
     "realWorldPotential": "可用于游戏场景、空间草图和视觉表达。",
     "feasibilityProbe": "先只做墙、桌、灯三个物体并核对比例。",
-    "costAndRisks": ["生成脚本可能报错，长期掌握仍需学习 Blender 基础。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "生成脚本可能报错，长期掌握仍需学习 Blender 基础。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2844,24 +3909,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "生成脚本可能报错，长期掌握仍需学习 Blender 基础。"
-    }
+    },
+    "tasteStatus": "conditional",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "creation-experience"
+    ],
+    "userFit": "当你确实想做游戏场景、空间草图或三维作品时，它能带你进入 AI 加三维的长期方向。",
+    "userActions": [
+      "先做墙、桌和灯三个低模物体",
+      "让 AI 解释步骤而不是一键生成",
+      "导出可旋转场景并决定是否继续学 Blender"
+    ],
+    "manualAlternative": "只做摆件且没有后续用途时不值得，因此必须先有明确作品目标。"
   },
   {
     "candidateId": "music-stem-practice",
-    "problemSolved": "练歌或乐器时你想单独听鼓、贝斯或人声，但手里的完整歌曲无法方便分轨练习。",
-    "howItHelps": "对你有权使用的音乐，它会分离练习轨，并提供调速、循环和音量控制。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 分轨练习助手",
     "oneLine": "把自己有权使用的音乐分离成鼓、贝斯和人声练习轨。",
     "summary": "把自己有权使用的音乐分离成鼓、贝斯和人声练习轨。能把音频模型与真实乐器学习结合起来。",
+    "problemSolved": "练歌或乐器时你想单独听鼓、贝斯或人声，但手里的完整歌曲无法方便分轨练习。",
+    "howItHelps": "对你有权使用的音乐，它会分离练习轨，并提供调速、循环和音量控制。",
+    "readerReady": true,
     "outcome": "一个可调速、循环小节的个人练习页。",
     "whyWorthwhile": "能把音频模型与真实乐器学习结合起来。",
-    "skills": ["音频分离", "音乐练习"],
+    "skills": [
+      "音频分离",
+      "音乐练习"
+    ],
     "realWorldPotential": "适合扒谱、节奏训练和翻唱准备。",
     "feasibilityProbe": "用一段自录音乐测试分轨噪声与节拍同步。",
-    "costAndRisks": ["只能处理有权使用的音频，分离会产生伪影。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "只能处理有权使用的音频，分离会产生伪影。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2871,24 +3957,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "只能处理有权使用的音频，分离会产生伪影。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "video-shot-planner",
-    "problemSolved": "拍短视频时你常到了现场才发现镜头接不上、对白太长或条件不允许重拍。",
-    "howItHelps": "它先把想法变成带镜头、对白、时长和拍摄条件的分镜草稿，让你拍摄前低成本排练。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 视频分镜排练",
     "oneLine": "先用文字和草图验证短视频镜头，再拿起相机。",
     "summary": "先用文字和草图验证短视频镜头，再拿起相机。能学习影像叙事并减少无目的拍摄。",
+    "problemSolved": "拍短视频时你常到了现场才发现镜头接不上、对白太长或条件不允许重拍。",
+    "howItHelps": "它先把想法变成带镜头、对白、时长和拍摄条件的分镜草稿，让你拍摄前低成本排练。",
+    "readerReady": true,
     "outcome": "一张含镜头、对白、时长和拍摄条件的分镜板。",
     "whyWorthwhile": "能学习影像叙事并减少无目的拍摄。",
-    "skills": ["分镜", "多模态生成"],
+    "skills": [
+      "分镜",
+      "多模态生成"
+    ],
     "realWorldPotential": "可用于教程、产品演示和个人创作。",
     "feasibilityProbe": "给三十秒主题做六镜头纸面排练并计时。",
-    "costAndRisks": ["生成分镜不能替代现场光线、表演和安全判断。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "生成分镜不能替代现场光线、表演和安全判断。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2898,24 +3993,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "生成分镜不能替代现场光线、表演和安全判断。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "garden-health-log",
-    "problemSolved": "植物状态变化很慢，你凭印象判断浇水或光照，常常看不出问题从什么时候开始。",
-    "howItHelps": "它要求定期拍同一角度并记录环境，把叶色和生长变化放到时间线上供你对照。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "植物生长观察簿",
     "oneLine": "定期拍同一株植物，记录叶色、浇水和环境变化。",
     "summary": "定期拍同一株植物，记录叶色、浇水和环境变化。能练习视觉变化检测与时序数据。",
+    "problemSolved": "植物状态变化很慢，你凭印象判断浇水或光照，常常看不出问题从什么时候开始。",
+    "howItHelps": "它要求定期拍同一角度并记录环境，把叶色和生长变化放到时间线上供你对照。",
+    "readerReady": true,
     "outcome": "一个时间线对比和人工备注的植物档案。",
     "whyWorthwhile": "能练习视觉变化检测与时序数据。",
-    "skills": ["计算机视觉", "时间序列"],
+    "skills": [
+      "计算机视觉",
+      "时间序列"
+    ],
     "realWorldPotential": "适合园艺记录和小型环境实验。",
     "feasibilityProbe": "固定角度拍七天，检查模型能否区分光线与真实变化。",
-    "costAndRisks": ["不能把图像判断当病害诊断，重要问题请咨询专业人士。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "不能把图像判断当病害诊断，重要问题请咨询专业人士。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2925,24 +4029,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不能把图像判断当病害诊断，重要问题请咨询专业人士。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "arduino-voice-control",
-    "problemSolved": "你想把 AI 与硬件结合，却担心语音识别错误会触发不安全动作。",
-    "howItHelps": "它只接受少量白名单命令，把语音映射到灯光或舵机，并为无法确认的命令拒绝执行。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "语音控制 Arduino 小装置",
     "oneLine": "把有限语音命令映射到安全的灯光或舵机动作。",
     "summary": "把有限语音命令映射到安全的灯光或舵机动作。能把语音识别、串口和物理反馈串起来。",
+    "problemSolved": "你想把 AI 与硬件结合，却担心语音识别错误会触发不安全动作。",
+    "howItHelps": "它只接受少量白名单命令，把语音映射到灯光或舵机，并为无法确认的命令拒绝执行。",
+    "readerReady": true,
     "outcome": "一个只接受白名单指令的桌面硬件原型。",
     "whyWorthwhile": "能把语音识别、串口和物理反馈串起来。",
-    "skills": ["嵌入式", "语音识别"],
+    "skills": [
+      "嵌入式",
+      "语音识别"
+    ],
     "realWorldPotential": "可作为智能家居和互动装置入门。",
     "feasibilityProbe": "先让“开灯/关灯”控制低压 LED 并加物理急停。",
-    "costAndRisks": ["接线和电源有安全风险，只做低压实验。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "接线和电源有安全风险，只做低压实验。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2952,24 +4065,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "接线和电源有安全风险，只做低压实验。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "creation-experience"
+    ],
+    "userFit": "它能让你第一次把 AI 从屏幕里的回答变成真实灯光或动作，成果直观且能继续扩展。",
+    "userActions": [
+      "准备低压 Arduino、LED 或小舵机",
+      "先只识别开灯和关灯两条白名单指令",
+      "加入失败拒绝和物理急停，再考虑扩展"
+    ],
+    "manualAlternative": "手按开关当然更快；这个项目的价值是学习语音、代码和硬件如何形成安全闭环。"
   },
   {
     "candidateId": "3d-print-repair-part",
-    "problemSolved": "家里一个小塑料零件坏了，买不到替换件，但你又没有从照片直接建模的经验。",
-    "howItHelps": "它根据照片和你测量的尺寸辅助画出非承重替换件，打印后还能根据误差继续调整。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "AI 辅助维修零件建模",
     "oneLine": "根据尺寸和照片设计一个简单非承重替换件。",
     "summary": "根据尺寸和照片设计一个简单非承重替换件。能把视觉理解、CAD 和现实迭代结合起来。",
+    "problemSolved": "家里一个小塑料零件坏了，买不到替换件，但你又没有从照片直接建模的经验。",
+    "howItHelps": "它根据照片和你测量的尺寸辅助画出非承重替换件，打印后还能根据误差继续调整。",
+    "readerReady": true,
     "outcome": "一个可打印、带尺寸记录的维修零件模型。",
     "whyWorthwhile": "能把视觉理解、CAD 和现实迭代结合起来。",
-    "skills": ["CAD", "3D 打印"],
+    "skills": [
+      "CAD",
+      "3D 打印"
+    ],
     "realWorldPotential": "可修复旋钮、卡扣等低风险日用品。",
     "feasibilityProbe": "先做一个无承重旋钮，打印后测量误差。",
-    "costAndRisks": ["禁止用于承重、电气、车辆或安全关键部件。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "禁止用于承重、电气、车辆或安全关键部件。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -2979,24 +4113,46 @@
       "costRisk": 60,
       "uncertainty": 70,
       "explanation": "禁止用于承重、电气、车辆或安全关键部件。"
-    }
+    },
+    "tasteStatus": "conditional",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "creation-experience"
+    ],
+    "userFit": "当你真有一个坏掉且买不到的非承重零件时，它能把 AI、测量、建模和打印连接起来。",
+    "userActions": [
+      "测量真实零件尺寸",
+      "建一个简单非承重替换件",
+      "打印后测误差并迭代一次"
+    ],
+    "manualAlternative": "没有真实维修需求时只是摆件，因此只在出现具体物件时推荐。"
   },
   {
     "candidateId": "sports-form-review",
-    "problemSolved": "你看教学视频觉得动作会了，实际练习时却看不到自己关节角度与示范差在哪里。",
-    "howItHelps": "它在你的练习视频上标出关键姿态，与公开教学要点并排比较，同时说明识别不确定处。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "运动动作对比练习",
     "oneLine": "把自己的动作与公开教学关键点做可视化对照。",
     "summary": "把自己的动作与公开教学关键点做可视化对照。能学习姿态估计和运动反馈的边界。",
+    "problemSolved": "你看教学视频觉得动作会了，实际练习时却看不到自己关节角度与示范差在哪里。",
+    "howItHelps": "它在你的练习视频上标出关键姿态，与公开教学要点并排比较，同时说明识别不确定处。",
+    "readerReady": true,
     "outcome": "一个标注关节角度和不确定性的复盘视频。",
     "whyWorthwhile": "能学习姿态估计和运动反馈的边界。",
-    "skills": ["姿态估计", "视频分析"],
+    "skills": [
+      "姿态估计",
+      "视频分析"
+    ],
     "realWorldPotential": "可辅助自我观察基础动作。",
     "feasibilityProbe": "只分析一个低风险动作，与人工标注对比。",
-    "costAndRisks": ["不是医疗或教练建议，避免因错误提示造成受伤。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "不是医疗或教练建议，避免因错误提示造成受伤。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3006,24 +4162,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不是医疗或教练建议，避免因错误提示造成受伤。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "creation-experience"
+    ],
+    "userFit": "如果你近期练某项运动，它能把视觉模型和真实动作结合，做出能看见差异的个人练习作品。",
+    "userActions": [
+      "只选一个低风险基础动作",
+      "录制自己与公开示范并标出关键姿态",
+      "请懂动作的人核对模型提示，错误就停用"
+    ],
+    "manualAlternative": "没有长期运动需求时不值得做；有固定动作想改善时，视频对比才比偶尔照镜子有价值。"
   },
   {
     "candidateId": "language-pronunciation",
-    "problemSolved": "你听得出自己发音不对，却不知道问题在音素、节奏还是重音，反复跟读进步很慢。",
-    "howItHelps": "它把录音与目标音节在时间线上对齐，标出具体差异，并允许立刻重录比较。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "发音对照工作台",
     "oneLine": "把自己的录音与目标音节在节奏和音素上对照。",
     "summary": "把自己的录音与目标音节在节奏和音素上对照。能把语音识别用于真实语言学习。",
+    "problemSolved": "你听得出自己发音不对，却不知道问题在音素、节奏还是重音，反复跟读进步很慢。",
+    "howItHelps": "它把录音与目标音节在时间线上对齐，标出具体差异，并允许立刻重录比较。",
+    "readerReady": true,
     "outcome": "一个可重录、显示差异而不打击人的练习页。",
     "whyWorthwhile": "能把语音识别用于真实语言学习。",
-    "skills": ["语音分析", "学习反馈"],
+    "skills": [
+      "语音分析",
+      "学习反馈"
+    ],
     "realWorldPotential": "适合长期口语与跟读练习。",
     "feasibilityProbe": "只练十个短句，请真人核对模型反馈。",
-    "costAndRisks": ["口音不是错误，分数必须避免单一标准偏见。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "口音不是错误，分数必须避免单一标准偏见。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3033,24 +4210,46 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "口音不是错误，分数必须避免单一标准偏见。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "如果你有口语练习需求，它能把“听起来不对”变成可以重录和比较的具体反馈。",
+    "userActions": [
+      "录制十个自己确实要练的短句",
+      "把录音与目标音节和节奏对齐",
+      "请真人核对反馈，再保留可信指标"
+    ],
+    "manualAlternative": "偶尔查一个词用现成工具更快；长期练习并想看自己的变化时，个人工作台才值得。"
   },
   {
     "candidateId": "recipe-vision",
-    "problemSolved": "打开冰箱时你看见很多食材，却想不出能做什么；让 AI 直接看图又可能认错。",
-    "howItHelps": "它先从照片列出可能的食材，请你确认库存后才生成简单食谱和替代方案。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "冰箱视觉食谱草稿",
     "oneLine": "从食材照片列出可能已有的东西，再由你确认。",
     "summary": "从食材照片列出可能已有的东西，再由你确认。能学习视觉识别与约束推荐如何配合。",
+    "problemSolved": "打开冰箱时你看见很多食材，却想不出能做什么；让 AI 直接看图又可能认错。",
+    "howItHelps": "它先从照片列出可能的食材，请你确认库存后才生成简单食谱和替代方案。",
+    "readerReady": true,
     "outcome": "一个确认库存后才生成的简易食谱页。",
     "whyWorthwhile": "能学习视觉识别与约束推荐如何配合。",
-    "skills": ["视觉识别", "推荐"],
+    "skills": [
+      "视觉识别",
+      "推荐"
+    ],
     "realWorldPotential": "可减少临时决定晚餐的摩擦。",
     "feasibilityProbe": "拍十样食材，先只测试识别和手动纠错。",
-    "costAndRisks": ["过敏、变质和营养问题必须由人判断。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "过敏、变质和营养问题必须由人判断。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3060,24 +4259,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "过敏、变质和营养问题必须由人判断。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "home-energy-anomaly",
-    "problemSolved": "智能插座记录了大量曲线，但你只看到数字，不知道哪个时段异常、可能是什么设备造成。",
-    "howItHelps": "它标出与平常不同的用电时段，保留原始曲线并给出可核实的可能原因。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "家庭用电异常解释",
     "oneLine": "把智能插座数据变成可理解的异常时间段。",
     "summary": "把智能插座数据变成可理解的异常时间段。能练习时间序列、异常检测和谨慎解释。",
+    "problemSolved": "智能插座记录了大量曲线，但你只看到数字，不知道哪个时段异常、可能是什么设备造成。",
+    "howItHelps": "它标出与平常不同的用电时段，保留原始曲线并给出可核实的可能原因。",
+    "readerReady": true,
     "outcome": "一个显示原始曲线和可能原因的只读面板。",
     "whyWorthwhile": "能练习时间序列、异常检测和谨慎解释。",
-    "skills": ["时间序列", "物联网"],
+    "skills": [
+      "时间序列",
+      "物联网"
+    ],
     "realWorldPotential": "可发现设备忘关或待机耗电模式。",
     "feasibilityProbe": "监测一个低功率设备一周并手工记录开关。",
-    "costAndRisks": ["不能据此判断电气故障，高压问题找专业人员。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "不能据此判断电气故障，高压问题找专业人员。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3087,24 +4295,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不能据此判断电气故障，高压问题找专业人员。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "museum-study-guide",
-    "problemSolved": "去博物馆时你漫无目的地看完就忘，官方资料又太多，不知道怎样围绕一个主题参观。",
-    "howItHelps": "它从公开馆藏中选出一条主题路线，为每件展品准备观察问题并链接原始资料。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "馆藏主题学习路线",
     "oneLine": "从公开馆藏资料生成一条带来源的主题参观路线。",
     "summary": "从公开馆藏资料生成一条带来源的主题参观路线。能把 AI 用于策展式学习而不只做问答。",
+    "problemSolved": "去博物馆时你漫无目的地看完就忘，官方资料又太多，不知道怎样围绕一个主题参观。",
+    "howItHelps": "它从公开馆藏中选出一条主题路线，为每件展品准备观察问题并链接原始资料。",
+    "readerReady": true,
     "outcome": "一个含顺序、问题和原始馆藏链接的学习页。",
     "whyWorthwhile": "能把 AI 用于策展式学习而不只做问答。",
-    "skills": ["知识组织", "学习设计"],
+    "skills": [
+      "知识组织",
+      "学习设计"
+    ],
     "realWorldPotential": "适合历史、美术和博物馆自学。",
     "feasibilityProbe": "选一个主题与五件馆藏，核对年代和馆藏号。",
-    "costAndRisks": ["文化解释需要尊重来源，不能补造故事。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "文化解释需要尊重来源，不能补造故事。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3114,24 +4331,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "文化解释需要尊重来源，不能补造故事。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "personal-finance-scenario",
-    "problemSolved": "你在比较预算方案时容易只看一个最终数字，忽略假设变化和现金流压力。",
-    "howItHelps": "它让你自己填写收入、支出和时间假设，比较多个区间结果，不预测收益也不替你做决定。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "个人财务情景沙盘",
     "oneLine": "用自己输入的假设比较不同预算方案，而非预测收益。",
     "summary": "用自己输入的假设比较不同预算方案，而非预测收益。能学习模型如何辅助解释而不替代计算。",
+    "problemSolved": "你在比较预算方案时容易只看一个最终数字，忽略假设变化和现金流压力。",
+    "howItHelps": "它让你自己填写收入、支出和时间假设，比较多个区间结果，不预测收益也不替你做决定。",
+    "readerReady": true,
     "outcome": "一个显示假设、区间和现金流变化的情景表。",
     "whyWorthwhile": "能学习模型如何辅助解释而不替代计算。",
-    "skills": ["情景建模", "数据解释"],
+    "skills": [
+      "情景建模",
+      "数据解释"
+    ],
     "realWorldPotential": "可用于理解应急金、订阅和大额支出的影响。",
     "feasibilityProbe": "用虚构数字与手算结果核对三个情景。",
-    "costAndRisks": ["不是金融建议，不连接账户、不预测投资收益。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "不是金融建议，不连接账户、不预测投资收益。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3141,24 +4367,45 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "不是金融建议，不连接账户、不预测投资收益。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability"
+    ],
+    "userFit": "作为学生，你可以用它比较订阅、大额购买和储蓄计划，而不是去算餐馆利润或做不相关的生意工具。",
+    "userActions": [
+      "用虚构数字建立收入、固定支出和一次性支出",
+      "比较三个方案的每月现金余量",
+      "用手算核对后再换成自己的数字"
+    ],
+    "manualAlternative": "简单预算表人工就够用；只有你想比较很多假设并看清变化来源时，AI 解释层才有价值。"
   },
   {
     "candidateId": "accessibility-caption",
-    "problemSolved": "你的网站有很多图片，但不知道怎样写替代文本，自动生成又可能脱离页面语境。",
-    "howItHelps": "它同时读取图片和所在页面内容，生成可编辑草稿，并让你逐张审阅后再使用。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "无障碍图像说明助手",
     "oneLine": "为自己的网站图片生成可编辑的替代文本草稿。",
     "summary": "为自己的网站图片生成可编辑的替代文本草稿。能把视觉模型与真实无障碍需求结合。",
+    "problemSolved": "你的网站有很多图片，但不知道怎样写替代文本，自动生成又可能脱离页面语境。",
+    "howItHelps": "它同时读取图片和所在页面内容，生成可编辑草稿，并让你逐张审阅后再使用。",
+    "readerReady": true,
     "outcome": "一个同时展示图片、上下文和说明的审阅页。",
     "whyWorthwhile": "能把视觉模型与真实无障碍需求结合。",
-    "skills": ["视觉理解", "无障碍设计"],
+    "skills": [
+      "视觉理解",
+      "无障碍设计"
+    ],
     "realWorldPotential": "可改善内容网站和产品页面体验。",
     "feasibilityProbe": "请两位使用者审阅十张图片的说明是否有用。",
-    "costAndRisks": ["自动说明可能遗漏上下文，不能未经审核直接发布。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "自动说明可能遗漏上下文，不能未经审核直接发布。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3168,24 +4415,33 @@
       "costRisk": 25,
       "uncertainty": 40,
       "explanation": "自动说明可能遗漏上下文，不能未经审核直接发布。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "map-storytelling",
-    "problemSolved": "公开数据表里有很多行数字，普通人很难看出地点之间的差异和背后的故事。",
-    "howItHelps": "它把数据放到可点击地图上，用短叙事解释变化，每个结论都能回到原始数据行。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "公开数据地图故事",
     "oneLine": "把一份城市公开数据做成能点开的地图叙事。",
     "summary": "把一份城市公开数据做成能点开的地图叙事。能学习数据清洗、地理可视化和叙事责任。",
+    "problemSolved": "公开数据表里有很多行数字，普通人很难看出地点之间的差异和背后的故事。",
+    "howItHelps": "它把数据放到可点击地图上，用短叙事解释变化，每个结论都能回到原始数据行。",
+    "readerReady": true,
     "outcome": "一个每个结论都能回到原始数据行的网页。",
     "whyWorthwhile": "能学习数据清洗、地理可视化和叙事责任。",
-    "skills": ["GIS", "数据叙事"],
+    "skills": [
+      "GIS",
+      "数据叙事"
+    ],
     "realWorldPotential": "可用于社区观察、学习和作品集。",
     "feasibilityProbe": "先用一个区的五十条记录验证坐标与图例。",
-    "costAndRisks": ["地图会放大空间偏见，不展示个人精确位置。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "地图会放大空间偏见，不展示个人精确位置。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3195,24 +4451,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "地图会放大空间偏见，不展示个人精确位置。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "book-private-search",
-    "problemSolved": "教材、讲义和笔记散在多个文件里，复习时记得见过某个概念，却找不到在哪一页。",
-    "howItHelps": "它建立只属于你资料的搜索库，回答时显示页码引用，还能按课程切换范围。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "学习资料私人搜索",
     "oneLine": "把自己的教材、讲义和笔记做成只依据资料回答的搜索。",
     "summary": "把自己的教材、讲义和笔记做成只依据资料回答的搜索。能把 AI 用于长期学习而不是临时总结。",
+    "problemSolved": "教材、讲义和笔记散在多个文件里，复习时记得见过某个概念，却找不到在哪一页。",
+    "howItHelps": "它建立只属于你资料的搜索库，回答时显示页码引用，还能按课程切换范围。",
+    "readerReady": true,
     "outcome": "一个带页码引用、可按课程切换的私人检索库。",
     "whyWorthwhile": "能把 AI 用于长期学习而不是临时总结。",
-    "skills": ["RAG", "学习系统"],
+    "skills": [
+      "RAG",
+      "学习系统"
+    ],
     "realWorldPotential": "适合备考、读书和复习阶段。",
     "feasibilityProbe": "先导入一个章节，用十道已知答案问题验收。",
-    "costAndRisks": ["版权资料只限个人使用，扫描错误要人工纠正。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "版权资料只限个人使用，扫描错误要人工纠正。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3222,24 +4487,46 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "版权资料只限个人使用，扫描错误要人工纠正。"
-    }
+    },
+    "tasteStatus": "conditional",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "等你开始备考或系统读书时，它能让教材、讲义和笔记真正变成可检索资料库。",
+    "userActions": [
+      "先导入一个章节",
+      "用十道已知答案问题核对引用页码",
+      "通过后再逐步加入其余资料"
+    ],
+    "manualAlternative": "没进入长期学习阶段时直接问 Codex 更快，因此只在你开始备考或读书时推荐。"
   },
   {
     "candidateId": "exam-study-simulator",
-    "problemSolved": "你刷题后只知道对错，不清楚薄弱点来自哪个章节，也容易让 AI 出超出资料范围的题。",
-    "howItHelps": "它只依据你的教材生成题目，记录错因与出处，再给出下一轮复习重点。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "考试情境练习器",
     "oneLine": "根据自己的资料生成练习题并追踪薄弱点。",
     "summary": "根据自己的资料生成练习题并追踪薄弱点。能学习检索、题目生成和掌握度跟踪。",
+    "problemSolved": "你刷题后只知道对错，不清楚薄弱点来自哪个章节，也容易让 AI 出超出资料范围的题。",
+    "howItHelps": "它只依据你的教材生成题目，记录错因与出处，再给出下一轮复习重点。",
+    "readerReady": true,
     "outcome": "一个显示出处、错因和复习建议的练习页。",
     "whyWorthwhile": "能学习检索、题目生成和掌握度跟踪。",
-    "skills": ["教育应用", "评测"],
+    "skills": [
+      "教育应用",
+      "评测"
+    ],
     "realWorldPotential": "可用于阶段性自测，不替代系统学习。",
     "feasibilityProbe": "从一章资料生成十题并由自己逐题核对出处。",
-    "costAndRisks": ["模型可能出错题，必须显示来源且允许废题。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "模型可能出错题，必须显示来源且允许废题。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3249,24 +4536,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "模型可能出错题，必须显示来源且允许废题。"
-    }
+    },
+    "tasteStatus": "conditional",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability"
+    ],
+    "userFit": "等你开始备考时，它能根据自己的资料出题并记录薄弱点。",
+    "userActions": [
+      "只选一章资料",
+      "生成十题并逐题核对出处",
+      "记录错因，确认是否比普通刷题更有帮助"
+    ],
+    "manualAlternative": "没有明确考试时没有使用场景，因此只在备考阶段推荐。"
   },
   {
     "candidateId": "job-application-assistant",
-    "problemSolved": "找工作时职位要求、简历证据和投递版本散乱，重复填写又容易误投或触发平台风险。",
-    "howItHelps": "它整理职位与个人证据，生成每次申请草稿；任何最终提交都必须由你亲自确认。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "求职申请人工确认助手",
     "oneLine": "整理职位要求、简历证据和每次投递草稿。",
     "summary": "整理职位要求、简历证据和每次投递草稿。能把 AI 自动化与平台合规、真实经历约束结合。",
+    "problemSolved": "找工作时职位要求、简历证据和投递版本散乱，重复填写又容易误投或触发平台风险。",
+    "howItHelps": "它整理职位与个人证据，生成每次申请草稿；任何最终提交都必须由你亲自确认。",
+    "readerReady": true,
     "outcome": "一个任何提交都需要人工点击确认的求职看板。",
     "whyWorthwhile": "能把 AI 自动化与平台合规、真实经历约束结合。",
-    "skills": ["浏览器辅助", "信息匹配"],
+    "skills": [
+      "浏览器辅助",
+      "信息匹配"
+    ],
     "realWorldPotential": "可减少重复准备，但保留每次申请的针对性。",
     "feasibilityProbe": "只在测试表单生成草稿，不登录平台、不自动投递。",
-    "costAndRisks": ["平台规则、账号风控和虚假简历风险必须优先处理。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "平台规则、账号风控和虚假简历风险必须优先处理。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3276,24 +4584,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "平台规则、账号风控和虚假简历风险必须优先处理。"
-    }
+    },
+    "tasteStatus": "conditional",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "earning-capability"
+    ],
+    "userFit": "等你开始集中求职时，它能整理岗位要求和简历证据，但不会替你自动投递。",
+    "userActions": [
+      "导入一个真实岗位和自己的简历",
+      "生成匹配证据与待补项",
+      "由你确认后只生成投递草稿"
+    ],
+    "manualAlternative": "零散投递人工更快，只有集中求职时才值得建立。"
   },
   {
     "candidateId": "college-choice-explorer",
-    "problemSolved": "志愿选择信息来源多、年份不同，学校名次容易掩盖专业偏好和个人限制。",
-    "howItHelps": "它把学校、专业、你的偏好和数据年份放进同一比较视图，并列出需要向老师核实的问题。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "志愿选择信息探索器",
     "oneLine": "把学校、专业和个人偏好做成可追溯的比较视图。",
     "summary": "把学校、专业和个人偏好做成可追溯的比较视图。能学习高影响决策工具为什么必须透明。",
+    "problemSolved": "志愿选择信息来源多、年份不同，学校名次容易掩盖专业偏好和个人限制。",
+    "howItHelps": "它把学校、专业、你的偏好和数据年份放进同一比较视图，并列出需要向老师核实的问题。",
+    "readerReady": true,
     "outcome": "一个显示数据年份、来源和待咨询问题的探索页。",
     "whyWorthwhile": "能学习高影响决策工具为什么必须透明。",
-    "skills": ["数据比较", "决策辅助"],
+    "skills": [
+      "数据比较",
+      "决策辅助"
+    ],
     "realWorldPotential": "可帮助家庭组织公开信息与个人考虑。",
     "feasibilityProbe": "用三所学校的官方数据核对所有字段与年份。",
-    "costAndRisks": ["不能替代招生政策、老师和家庭决策，数据会变化。"],
-    "tags": ["learning", "practical"],
+    "costAndRisks": [
+      "不能替代招生政策、老师和家庭决策，数据会变化。"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3303,24 +4632,33 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "不能替代招生政策、老师和家庭决策，数据会变化。"
-    }
+    },
+    "tasteStatus": "archive"
   },
   {
     "candidateId": "news-claim-map",
-    "problemSolved": "同一新闻在不同媒体里说法不同，你容易把评论当事实，也很难追到最初来源。",
-    "howItHelps": "它拆出各篇报道的主张、引用与分歧，画成关系图，点击节点就能回到原文。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "新闻主张证据图",
     "oneLine": "把多篇报道里的主张、来源和分歧画成关系图。",
     "summary": "把多篇报道里的主张、来源和分歧画成关系图。能学习媒体素养、实体关系和来源核验。",
+    "problemSolved": "同一新闻在不同媒体里说法不同，你容易把评论当事实，也很难追到最初来源。",
+    "howItHelps": "它拆出各篇报道的主张、引用与分歧，画成关系图，点击节点就能回到原文。",
+    "readerReady": true,
     "outcome": "一个能点回原文、区分事实与评论的证据地图。",
     "whyWorthwhile": "能学习媒体素养、实体关系和来源核验。",
-    "skills": ["信息抽取", "知识图谱"],
+    "skills": [
+      "信息抽取",
+      "知识图谱"
+    ],
     "realWorldPotential": "适合学习复杂事件而不是只看摘要。",
     "feasibilityProbe": "选一个低争议科技事件，手工核对十条主张。",
-    "costAndRisks": ["自动抽取可能误连人物与观点，不能用于骚扰个人。"],
-    "tags": ["learning", "imagination"],
+    "costAndRisks": [
+      "自动抽取可能误连人物与观点，不能用于骚扰个人。"
+    ],
+    "tags": [
+      "learning",
+      "imagination"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3330,24 +4668,45 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "自动抽取可能误连人物与观点，不能用于骚扰个人。"
-    }
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "它训练你不被一篇摘要带着走，能把新闻中的事实、观点和原始来源分开。",
+    "userActions": [
+      "选一个自己感兴趣的低争议科技事件",
+      "收集三到五篇报道并拆出主张和引用",
+      "画出分歧图并逐条点回原文核对"
+    ],
+    "manualAlternative": "只想知道大概发生什么时直接阅读更快；遇到重要或互相矛盾的信息时，证据图才值得。"
   },
   {
     "candidateId": "public-data-neighborhood",
-    "problemSolved": "你想了解附近天气、交通或设施变化，却没有精力阅读各个公开数据网站。",
-    "howItHelps": "它只用聚合公开数据生成社区小报，展示变化趋势，不追踪个人或精确家庭位置。",
-    "readerReady": true,
     "origin": "original-concept",
     "title": "社区公开数据观察站",
     "oneLine": "把天气、交通或公共设施数据做成附近变化小报。",
     "summary": "把天气、交通或公共设施数据做成附近变化小报。能把 API、地图和日常生活问题连接起来。",
+    "problemSolved": "你想了解附近天气、交通或设施变化，却没有精力阅读各个公开数据网站。",
+    "howItHelps": "它只用聚合公开数据生成社区小报，展示变化趋势，不追踪个人或精确家庭位置。",
+    "readerReady": true,
     "outcome": "一个只使用聚合公开数据的社区信息页。",
     "whyWorthwhile": "能把 API、地图和日常生活问题连接起来。",
-    "skills": ["开放数据", "地图"],
+    "skills": [
+      "开放数据",
+      "地图"
+    ],
     "realWorldPotential": "可成为社区内容、学习项目或公共服务原型。",
     "feasibilityProbe": "先选一个官方数据源，验证更新时间和缺失值。",
-    "costAndRisks": ["禁止展示可识别个人的数据，来源中断要明确提示。"],
-    "tags": ["practical", "learning"],
+    "costAndRisks": [
+      "禁止展示可识别个人的数据，来源中断要明确提示。"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
     "crossDomain": true,
     "largeCommercial": false,
     "difficulty": {
@@ -3357,6 +4716,487 @@
       "costRisk": 35,
       "uncertainty": 55,
       "explanation": "禁止展示可识别个人的数据，来源中断要明确提示。"
+    },
+    "tasteStatus": "preferred",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "creation-experience"
+    ],
+    "userFit": "它让你把 AI 和地图、公共数据结合，做出一个与你所在城市或校园周边有关的可见作品。",
+    "userActions": [
+      "只选一个官方公开数据源",
+      "做一张显示地点和时间变化的小地图",
+      "核对更新时间、缺失值和是否真的对出行有用"
+    ],
+    "manualAlternative": "偶尔查天气或公交用现成 App 更快；要把多个长期变化放在一起观察时才值得自建。"
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": false,
+    "largeCommercial": false,
+    "candidateId": "klinko-idea-validator",
+    "origin": "verified-existing",
+    "title": "给项目点子办一场小型试营业",
+    "oneLine": "先找证据和致命假设，再决定要不要把一个点子做成完整项目。",
+    "summary": "你把一个模糊点子交进去，它不会马上替你写代码，而是先找目标人群、现有替代品、反对证据和最危险的假设，最后给出一场一到三小时可执行的小测试。",
+    "problemSolved": "你经常会突然想到一个项目，但不知道它是真的有用，还是只在脑海里听起来不错；直接开工又可能浪费几天。",
+    "howItHelps": "它把点子拆成“谁会用、现在怎么解决、什么情况证明它不值得做”，再给你一个最便宜的验证动作。你得到的是判断依据，不是漂亮但空泛的项目计划。",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "economic",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "这正对应你“先把想法记下来、定期判断、确认后再让 Codex 开工”的习惯。",
+    "userActions": [
+      "输入一个你最近真实想过的点子",
+      "让系统搜索相似产品、真实抱怨和现有替代办法",
+      "亲自核对证据，选择继续、缩小或暂缓"
+    ],
+    "manualAlternative": "只有一个点子时可以手工搜；点子持续增加后，这个系统能保留统一判断标准和历史证据。",
+    "outcome": "一个可以长期收藏的点子档案库；每个点子都有证据、致命假设、判断和下一步。",
+    "whyWorthwhile": "它能减少凭兴奋开工，也会训练你判断需求、竞品和可行性的能力。",
+    "skills": [
+      "需求验证",
+      "证据检索",
+      "关键假设设计"
+    ],
+    "realWorldPotential": "既能筛自己的项目，也能成为以后判断可变现方向的入口。",
+    "feasibilityProbe": "今天拿一个真实点子，用公开资料找三个替代方案和五条用户讨论，看结论是否改变你的决定。",
+    "costAndRisks": [
+      "公开讨论不等于付费意愿",
+      "外部服务可能需要账号或 API Key",
+      "不得把模型推测当成市场事实"
+    ],
+    "tags": [
+      "practical",
+      "learning",
+      "commercial"
+    ],
+    "difficulty": {
+      "technical": 42,
+      "dependencies": 35,
+      "time": 38,
+      "costRisk": 25,
+      "uncertainty": 48,
+      "explanation": "两颗星。最难的是找到真实证据并承认点子可能不成立，页面和数据结构反而简单。"
+    },
+    "source": {
+      "label": "GitHub · Klinko Startup Idea Validator",
+      "url": "https://github.com/klinkoai/klinko-startup-idea-validator",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": false,
+    "largeCommercial": false,
+    "candidateId": "ideaforge-demand-radar",
+    "origin": "verified-existing",
+    "title": "跨平台真实需求雷达",
+    "oneLine": "从 GitHub、Hacker News 等公开讨论里，找出人们反复抱怨且可能愿意解决的问题。",
+    "summary": "系统定期收集公开求助、抱怨和现有替代方案，把同类问题合并，并保留原帖供你核对。它不直接宣布“这是商机”，而是给你一张可继续访谈和验证的线索榜。",
+    "problemSolved": "你想做有用或能产生经济价值的项目，但在学校很难碰到足够多的真实客户，也不知道线上哪里有需求。",
+    "howItHelps": "它替你持续观察多个公开平台，把重复出现的问题、受影响人群、现有解决办法和原链接放到一起。你不用每天刷平台，也不会只凭一次抱怨就开工。",
+    "format": "specific-project",
+    "valueTypes": [
+      "economic",
+      "earning-capability",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "它直接补上你目前“找不到需求”的缺口，也比替某个小商家做一次低价小单更能积累长期判断能力。",
+    "userActions": [
+      "第一版只接 GitHub Issues 和 Hacker News",
+      "把同类问题聚合并展示频率、原帖和现有替代品",
+      "每周人工挑一个线索，回原帖核验并设计访谈问题"
+    ],
+    "manualAlternative": "偶尔浏览可以发现零散灵感；跨平台、持续去重和回看历史时，自动雷达的价值才明显。",
+    "outcome": "一个每天更新的需求线索榜，能点回原文，并记录你对每条线索的判断。",
+    "whyWorthwhile": "你会练到公开数据获取、聚类、证据核验和需求判断；这些能力也能服务未来的产品或兼职。",
+    "skills": [
+      "公开数据收集",
+      "需求聚类",
+      "商机验证",
+      "证据核验"
+    ],
+    "realWorldPotential": "可用于寻找个人项目、内容选题、开源工具方向，成熟后也可能做成垂直情报服务。",
+    "feasibilityProbe": "先抓两个公开来源各五十条内容，人工检查前十名是否真是重复问题，而不是关键词巧合。",
+    "costAndRisks": [
+      "遵守平台条款和频率限制",
+      "不抓私人资料、不自动联系用户",
+      "高频讨论不代表有人付钱"
+    ],
+    "tags": [
+      "commercial",
+      "learning",
+      "practical"
+    ],
+    "difficulty": {
+      "technical": 58,
+      "dependencies": 52,
+      "time": 55,
+      "costRisk": 30,
+      "uncertainty": 62,
+      "explanation": "三颗星。抓取不算最难，难点是去重、保留证据并避免把热闹误判成需求。"
+    },
+    "source": {
+      "label": "GitHub · IdeaForge",
+      "url": "https://github.com/VinGuar/IdeaForge",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": true,
+    "largeCommercial": false,
+    "candidateId": "desktop-ai-companion-lab",
+    "origin": "verified-existing",
+    "title": "能听会说的实体感 AI 桌面伙伴",
+    "oneLine": "先让一个桌面角色能对话、记住少量信息，再决定是否给它接外壳、屏幕或舵机。",
+    "summary": "第一阶段不是马上造完整机器人，而是在 Windows 桌面上做一个会听、会说、有表情和有限记忆的角色；确认你真的喜欢这种互动后，再让它控制灯光、舵机或小屏幕。",
+    "problemSolved": "你对桌宠和现实中的 AI 伙伴感兴趣，但直接买硬件、做外壳和调模型太麻烦，也不知道完成后是否真的好玩。",
+    "howItHelps": "它把高难度目标拆成桌面角色、语音对话、记忆、实体动作四层。每做完一层就能看到结果，前一层不好玩就不用继续花钱。",
+    "format": "specific-project",
+    "valueTypes": [
+      "creation-experience",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "这是你明确觉得有趣的方向；成果可见、可玩，也能把语音、角色、记忆和硬件知识串起来。",
+    "userActions": [
+      "先运行开源桌面伙伴并替换一个角色或动作",
+      "加入本地或云端语音对话和三条可控记忆",
+      "使用一周后仍想继续，再购买低压硬件做一个动作"
+    ],
+    "manualAlternative": "普通聊天 AI 更省事，但它没有常驻角色和物理反馈；这个项目追求的是创作体验与完整系统能力。",
+    "outcome": "一个能在桌面陪你说话、保留少量可删除记忆，并有机会连接真实装置的个人作品。",
+    "whyWorthwhile": "它能跨越桌面应用、语音、模型调用、记忆与硬件，是少数既有趣又能长期扩展的作品。",
+    "skills": [
+      "桌面应用",
+      "语音识别与合成",
+      "记忆设计",
+      "低压硬件控制"
+    ],
+    "realWorldPotential": "可做个人作品、展览互动、陪伴式提醒或开源硬件原型；不保证形成商业产品。",
+    "feasibilityProbe": "先不买硬件，只用现成开源项目跑通一个透明桌面角色和一次语音往返，观察自己是否愿意持续使用。",
+    "costAndRisks": [
+      "完整版本投入可能较大",
+      "真人形象和声音必须获得授权",
+      "麦克风与记忆数据应本地优先且可删除"
+    ],
+    "tags": [
+      "imagination",
+      "learning"
+    ],
+    "difficulty": {
+      "technical": 76,
+      "dependencies": 72,
+      "time": 82,
+      "costRisk": 55,
+      "uncertainty": 68,
+      "explanation": "四颗星。软件原型可先做，真正接入稳定语音和硬件后会变成长期项目。"
+    },
+    "source": {
+      "label": "GitHub · desktop-ai-companion",
+      "url": "https://github.com/moheith/desktop-ai-companion",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": false,
+    "largeCommercial": false,
+    "candidateId": "ai-app-core-clone",
+    "origin": "verified-existing",
+    "title": "复现一个热门 AI 产品最关键的那一下",
+    "oneLine": "不抄完整产品，只挑它最让你惊讶的一个交互或能力，做成可运行原型。",
+    "summary": "你每周从 GitHub、抖音或产品榜挑一个真正在流行的 AI 项目，先弄清用户为什么喜欢，再只复现一个核心闭环，例如“给截图→生成可运行页面”。",
+    "problemSolved": "你想从网上热门项目获得灵感，但只看介绍学不到实现方法；完整照抄又太大、很快失去耐心。",
+    "howItHelps": "它强迫你先判断项目最有价值的一步，再把输入、处理和输出跑通。完成后你既理解了别人为什么火，也留下一个能继续改造的代码底座。",
+    "format": "direction-exploration",
+    "valueTypes": [
+      "personal-capability",
+      "creation-experience",
+      "earning-capability",
+      "long-term-asset"
+    ],
+    "userFit": "你明确希望我从网上找热门、实用、有趣的项目；这种做法让推荐不只停留在“看看”，而是转成真正学会。",
+    "userActions": [
+      "挑一个近期真实项目并写出它最吸引你的一个功能",
+      "把核心闭环限制为一次输入、一次处理、一次输出",
+      "做完后再决定改成自己的用途还是停在学习样品"
+    ],
+    "manualAlternative": "只看演示最快，但不能形成实现能力；完整复制太慢，复现一个核心闭环是中间路线。",
+    "outcome": "一个能运行的核心功能样品，以及你对原项目价值、实现难点和可改造方向的拆解。",
+    "whyWorthwhile": "它能持续拓宽眼界，又把观察转成代码、产品判断和可复用模块。",
+    "skills": [
+      "产品拆解",
+      "快速原型",
+      "界面与数据闭环",
+      "开源许可判断"
+    ],
+    "realWorldPotential": "有些样品可以改成个人工具、作品集或垂直小产品，但必须避免直接复制品牌和受保护素材。",
+    "feasibilityProbe": "先参考 ai-app-cloner 的做法，只拿一个公开页面截图，验证能否还原一个可点击界面，而不是复制整款 App。",
+    "costAndRisks": [
+      "遵守开源许可和商标边界",
+      "不要复制付费数据或私有接口",
+      "控制范围，否则很容易变成无底洞"
+    ],
+    "tags": [
+      "learning",
+      "practical",
+      "imagination"
+    ],
+    "difficulty": {
+      "technical": 55,
+      "dependencies": 48,
+      "time": 58,
+      "costRisk": 28,
+      "uncertainty": 55,
+      "explanation": "三颗星。每次难度取决于所选功能，必须主动砍掉登录、支付和完整后台。"
+    },
+    "source": {
+      "label": "GitHub · ai-app-cloner",
+      "url": "https://github.com/Birkenpapier/ai-app-cloner",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": false,
+    "largeCommercial": false,
+    "candidateId": "first-paid-ai-microproduct",
+    "origin": "original-concept",
+    "title": "从一个已验证需求做出首个可收费小产品",
+    "oneLine": "先找到一个人正在花时间或钱解决的问题，再做只解决其中一步的小工具。",
+    "summary": "这不是让你先写一个 SaaS，而是从真实需求出发：找到现有笨办法、确认对方愿意试，再用 AI 做一个可以交付的小闭环，最后才谈收费。",
+    "problemSolved": "你希望 AI 项目有现实经济价值，但目前缺少明确需求和变现路径，担心做完仍找不到用户。",
+    "howItHelps": "它把“赚钱项目”拆成需求证据、第一位用户、人工服务、半自动工具四步。你会先证明有人真的在意，再决定是否值得产品化。",
+    "format": "direction-exploration",
+    "valueTypes": [
+      "economic",
+      "earning-capability",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "它允许你先通过网络找到需求，不要求在学校里碰运气，也不要求靠三四十元的小单长期耗时间。",
+    "userActions": [
+      "从需求雷达或熟悉社区挑一个有现有笨办法的问题",
+      "联系一位愿意反馈的人，先人工完成一次并记录耗时",
+      "只自动化最贵或最容易出错的一步，再判断是否收费"
+    ],
+    "manualAlternative": "第一单应该允许人工完成；如果每次都只能靠大量人工且收入覆盖不了时间，就应停止而不是强行自动化。",
+    "outcome": "一个有真实用户反馈、成本记录和收费判断的小产品实验；失败也会留下需求证据。",
+    "whyWorthwhile": "你会学习价值判断、用户沟通、范围控制、交付和定价，而不是闭门造车。",
+    "skills": [
+      "需求访谈",
+      "服务设计",
+      "AI 自动化",
+      "成本与定价"
+    ],
+    "realWorldPotential": "可能变成一次付费交付、数字产品或订阅工具，也可能在验证后明确放弃。",
+    "feasibilityProbe": "先不写产品；用两小时找到一个真实问题、一位愿意交流的人和一种现有解决办法。找不到就换方向。",
+    "costAndRisks": [
+      "不承诺赚钱",
+      "不得自动骚扰或绕过平台规则",
+      "先限制预算和最长验证时间",
+      "注意个人信息与收款合规"
+    ],
+    "tags": [
+      "commercial",
+      "learning",
+      "practical"
+    ],
+    "difficulty": {
+      "technical": 48,
+      "dependencies": 50,
+      "time": 62,
+      "costRisk": 38,
+      "uncertainty": 75,
+      "explanation": "三颗星。技术不一定难，真正难的是找到真实用户、控制投入并接受需求可能不成立。"
+    }
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": false,
+    "largeCommercial": false,
+    "candidateId": "student-ai-portfolio",
+    "origin": "verified-existing",
+    "title": "把做过的 AI 项目变成一份能展示的学生作品集",
+    "oneLine": "自动读项目说明和成果链接，帮你挑出真正值得展示的内容并生成可部署网站。",
+    "summary": "它不是空白模板，而是先读你做过的仓库和完成记录，找出最能说明能力的项目，再写成别人看得懂的作品介绍。",
+    "problemSolved": "你会逐渐做很多 AI 项目，但如果成果散在文件夹和聊天记录里，以后求职、合作或回顾时很难证明自己会什么。",
+    "howItHelps": "它读取你授权的项目说明、截图和成果，提炼“解决了什么、你做了什么、结果如何”，再生成一个可编辑的作品集。",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "earning-capability",
+      "long-term-asset",
+      "personal-capability"
+    ],
+    "userFit": "你现在就在持续做项目；越早建立成果记录，未来越不需要临时回忆和包装。",
+    "userActions": [
+      "先选两个真正完成的项目",
+      "让系统从 README 和复盘中提取成果与证据",
+      "人工删掉夸张表述后发布一个最小作品集"
+    ],
+    "manualAlternative": "只有一两个项目时人工写很快；项目多起来后，自动整理和持续更新才形成长期资产。",
+    "outcome": "一个能展示真实项目、成果证据和所学能力的个人网站。",
+    "whyWorthwhile": "它既能提高表达和复盘能力，也能为求职、合作或接单留下可信入口。",
+    "skills": [
+      "项目叙事",
+      "资料抽取",
+      "网站发布",
+      "事实核验"
+    ],
+    "realWorldPotential": "可直接用于学生作品展示、求职和寻找合作者。",
+    "feasibilityProbe": "只导入两个公开项目，检查生成介绍是否准确、是否比原 README 更容易看懂。",
+    "costAndRisks": [
+      "不得编造成果或夸大贡献",
+      "私人仓库和简历需最小权限",
+      "公开前清除密钥和私人信息"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
+    "difficulty": {
+      "technical": 48,
+      "dependencies": 42,
+      "time": 50,
+      "costRisk": 25,
+      "uncertainty": 40,
+      "explanation": "两颗星。技术路线成熟，主要工作是整理真实证据并把介绍写得可信。"
+    },
+    "source": {
+      "label": "GitHub · ScoutFolio",
+      "url": "https://github.com/aaron-sulbaran/scoutfolio",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": false,
+    "largeCommercial": false,
+    "candidateId": "open-source-issue-scout",
+    "origin": "verified-existing",
+    "title": "帮你挑一个真能完成的开源任务",
+    "oneLine": "按你的技能和可用时间筛选 GitHub 问题，避免第一次贡献就撞上大坑。",
+    "summary": "它读取带有 good first issue 等标签的公开任务，再按主题、技术、预计时间和描述清晰度排序，让你从一个小修复开始接触真实协作。",
+    "problemSolved": "你想提高真实开发能力或积累公开成果，但 GitHub 任务太多，不知道哪个适合自己、做了是否有人接收。",
+    "howItHelps": "它先筛掉信息不完整、长期没人维护或明显超出能力的任务，再给出需要读哪些文件、先问维护者什么和预计风险。",
+    "format": "specific-project",
+    "valueTypes": [
+      "personal-capability",
+      "earning-capability",
+      "long-term-asset"
+    ],
+    "userFit": "这比自己凭空设计练习更接近真实问题，还能积累公开协作和作品证据。",
+    "userActions": [
+      "输入你会的语言、想学方向和半天或一天时间",
+      "核对三个候选 issue 的维护状态与验收标准",
+      "先评论确认范围，再完成最小修复或文档改进"
+    ],
+    "manualAlternative": "GitHub 搜索本身不难；AI 的价值在于读 issue 和仓库背景、估算范围并解释为什么适合你。",
+    "outcome": "一个与你当前能力匹配的开源任务清单，以及至少一次真实贡献尝试。",
+    "whyWorthwhile": "你会练到读陌生项目、沟通、测试和提交，而不是只做自己设定答案的练习。",
+    "skills": [
+      "开源协作",
+      "代码阅读",
+      "任务估算",
+      "Pull Request"
+    ],
+    "realWorldPotential": "公开贡献可进入作品集，也可能带来合作机会，但不保证变现。",
+    "feasibilityProbe": "先不用 AI 写代码，只验证工具推荐的三个 issue 是否仍开放、范围清晰且维护者活跃。",
+    "costAndRisks": [
+      "不要批量占用 issue",
+      "先遵守仓库贡献规范",
+      "模型对难度和工时的估计可能错误"
+    ],
+    "tags": [
+      "learning",
+      "practical"
+    ],
+    "difficulty": {
+      "technical": 50,
+      "dependencies": 42,
+      "time": 55,
+      "costRisk": 20,
+      "uncertainty": 52,
+      "explanation": "两到三颗星。筛选器容易做，真正挑战是完成一次陌生仓库里的真实贡献。"
+    },
+    "source": {
+      "label": "GitHub · github-issue-analyzer",
+      "url": "https://github.com/AlonNaor22/github-issue-analyzer",
+      "verifiedAt": "2026-09-22"
+    }
+  },
+  {
+    "readerReady": true,
+    "tasteStatus": "preferred",
+    "crossDomain": false,
+    "largeCommercial": false,
+    "candidateId": "ai-app-spec-builder",
+    "origin": "verified-existing",
+    "title": "把一句想法问成可交给 Codex 的项目说明",
+    "oneLine": "通过一轮有针对性的问题，把模糊想法整理成范围、页面、数据和验收标准。",
+    "summary": "它不会直接替你开工，而是像产品经理一样追问用户、场景、数据、边界和最小验证，最后产出一份能交给 Codex 继续讨论的项目说明。",
+    "problemSolved": "你有时知道大概想做什么，却在项目进行中不断补需求，导致返工或做出自己也用不上的功能。",
+    "howItHelps": "它围绕最不确定的地方提问，把想法变成用户场景、最小范围、不可做事项和验收例子，降低沟通遗漏。",
+    "format": "specific-project",
+    "valueTypes": [
+      "practical",
+      "personal-capability",
+      "long-term-asset"
+    ],
+    "userFit": "你经常直接在 Codex 开始项目；这个工具能在开工前把模糊想法整理成更稳定的输入，但不会取代你和 Codex 的讨论。",
+    "userActions": [
+      "输入一个仍然模糊的真实想法",
+      "回答系统提出的十个以内关键问题",
+      "删除不需要的功能，把结果交给 Codex 做可行性检查"
+    ],
+    "manualAlternative": "你直接和 Codex 讨论也能完成；只有想保存统一模板、比较多个点子时才值得做成工具。",
+    "outcome": "一份包含使用场景、最小范围、数据来源、风险和验收例子的项目说明。",
+    "whyWorthwhile": "它能训练需求表达和范围控制，也能减少后续返工。",
+    "skills": [
+      "需求澄清",
+      "范围控制",
+      "验收设计",
+      "结构化输出"
+    ],
+    "realWorldPotential": "可成为个人项目入口，也可用于帮助别人把想法整理成可开发说明。",
+    "feasibilityProbe": "拿一个旧项目的最初想法跑一遍，看生成问题是否能提前发现后来发生的返工。",
+    "costAndRisks": [
+      "不能把完整文档误当成需求已被验证",
+      "问题过多会让工具比直接对话更麻烦"
+    ],
+    "tags": [
+      "practical",
+      "learning"
+    ],
+    "difficulty": {
+      "technical": 38,
+      "dependencies": 30,
+      "time": 38,
+      "costRisk": 22,
+      "uncertainty": 42,
+      "explanation": "两颗星。结构化问答容易实现，难点是只问真正影响范围的问题。"
+    },
+    "source": {
+      "label": "GitHub · AI App Idea Generator",
+      "url": "https://github.com/Enterprise-DNA-OS/ai-app-idea-generator",
+      "verifiedAt": "2026-09-22"
     }
   }
 ]

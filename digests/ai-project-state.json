@@ -265,56 +265,63 @@
       "stars": 2
     },
     {
-      "candidateId": "pet-caption-diary",
+      "candidateId": "klinko-idea-validator",
       "date": "2026-09-18",
       "tags": [
-        "imagination"
-      ],
-      "crossDomain": true,
-      "largeCommercial": false,
-      "stars": 2
-    },
-    {
-      "candidateId": "rag-chunk-playground",
-      "date": "2026-09-19",
-      "tags": [
-        "learning"
+        "practical",
+        "learning",
+        "commercial"
       ],
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
     },
     {
-      "candidateId": "product-listing-quality",
+      "candidateId": "ai-app-core-clone",
+      "date": "2026-09-19",
+      "tags": [
+        "learning",
+        "practical",
+        "imagination"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
+    },
+    {
+      "candidateId": "desktop-ai-companion-lab",
       "date": "2026-09-20",
       "tags": [
+        "imagination",
+        "learning"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 4
+    },
+    {
+      "candidateId": "first-paid-ai-microproduct",
+      "date": "2026-09-21",
+      "tags": [
         "commercial",
+        "learning",
         "practical"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 2
+      "stars": 3
     },
     {
-      "candidateId": "speech-transcription-bench",
-      "date": "2026-09-21",
-      "tags": [
-        "learning"
-      ],
-      "crossDomain": true,
-      "largeCommercial": false,
-      "stars": 2
-    },
-    {
-      "candidateId": "quote-generator",
+      "candidateId": "ideaforge-demand-radar",
       "date": "2026-09-22",
       "tags": [
         "commercial",
+        "learning",
         "practical"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 2
+      "stars": 3
     }
   ]
 }

@@ -1,29 +1,51 @@
 {
   "version": 1,
   "date": "2026-09-18",
-  "candidateId": "pet-caption-diary",
-  "origin": "original-concept",
-  "title": "宠物动作字幕日记",
-  "oneLine": "给宠物短视频生成明显标注为玩笑的拟人字幕。",
-  "summary": "给宠物短视频生成明显标注为玩笑的拟人字幕。能练习视频片段选择、视觉描述和幽默文案。",
-  "problemSolved": "宠物短视频很多，但久了只剩相似片段，你想留下更有趣的日常记忆。",
-  "howItHelps": "它为片段生成明确标注为玩笑的拟人字幕，按日期整理成可回看的小日记。",
-  "outcome": "一个按日期保存片段和趣味字幕的小日记。",
-  "whyWorthwhile": "能练习视频片段选择、视觉描述和幽默文案。",
+  "candidateId": "klinko-idea-validator",
+  "origin": "verified-existing",
+  "title": "给项目点子办一场小型试营业",
+  "oneLine": "先找证据和致命假设，再决定要不要把一个点子做成完整项目。",
+  "summary": "你把一个模糊点子交进去，它不会马上替你写代码，而是先找目标人群、现有替代品、反对证据和最危险的假设，最后给出一场一到三小时可执行的小测试。",
+  "problemSolved": "你经常会突然想到一个项目，但不知道它是真的有用，还是只在脑海里听起来不错；直接开工又可能浪费几天。",
+  "howItHelps": "它把点子拆成“谁会用、现在怎么解决、什么情况证明它不值得做”，再给你一个最便宜的验证动作。你得到的是判断依据，不是漂亮但空泛的项目计划。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "economic",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "这正对应你“先把想法记下来、定期判断、确认后再让 Codex 开工”的习惯。",
+  "userActions": [
+    "输入一个你最近真实想过的点子",
+    "让系统搜索相似产品、真实抱怨和现有替代办法",
+    "亲自核对证据，选择继续、缩小或暂缓"
+  ],
+  "manualAlternative": "只有一个点子时可以手工搜；点子持续增加后，这个系统能保留统一判断标准和历史证据。",
+  "outcome": "一个可以长期收藏的点子档案库；每个点子都有证据、致命假设、判断和下一步。",
+  "whyWorthwhile": "它能减少凭兴奋开工，也会训练你判断需求、竞品和可行性的能力。",
   "skills": [
-    "视频理解",
-    "创意文案"
+    "需求验证",
+    "证据检索",
+    "关键假设设计"
   ],
-  "realWorldPotential": "适合个人纪念和轻量内容创作。",
-  "feasibilityProbe": "用三段自有视频比较纯描述与趣味字幕。",
+  "realWorldPotential": "既能筛自己的项目，也能成为以后判断可变现方向的入口。",
+  "feasibilityProbe": "今天拿一个真实点子，用公开资料找三个替代方案和五条用户讨论，看结论是否改变你的决定。",
   "costAndRisks": [
-    "不得把拟人字幕误当动物真实健康判断。"
+    "公开讨论不等于付费意愿",
+    "外部服务可能需要账号或 API Key",
+    "不得把模型推测当成市场事实"
   ],
+  "source": {
+    "label": "GitHub · Klinko Startup Idea Validator",
+    "url": "https://github.com/klinkoai/klinko-startup-idea-validator",
+    "verifiedAt": "2026-09-22"
+  },
   "difficulty": {
     "scale": 5,
-    "rawScore": 38,
+    "rawScore": 39,
     "currentStars": 2,
-    "explanation": "不得把拟人字幕误当动物真实健康判断。"
+    "explanation": "两颗星。最难的是找到真实证据并承认点子可能不成立，页面和数据结构反而简单。"
   },
   "generatedBy": "curated-fallback"
 }

@@ -1,29 +1,51 @@
 {
   "version": 1,
   "date": "2026-09-20",
-  "candidateId": "product-listing-quality",
-  "origin": "original-concept",
-  "title": "商品页质量检查器",
-  "oneLine": "检查商品页是否缺少规格、证据和购买前关键信息。",
-  "summary": "检查商品页是否缺少规格、证据和购买前关键信息。能练习规则、视觉检查和生成文案协作。",
-  "problemSolved": "商品页写了很多宣传词，却可能漏掉尺寸、使用条件和购买前真正影响决定的信息。",
-  "howItHelps": "它按品类检查规格与证据缺口，输出待补清单，由你确认后再修改页面。",
-  "outcome": "一个不自动发布的商品页改进清单。",
-  "whyWorthwhile": "能练习规则、视觉检查和生成文案协作。",
+  "candidateId": "desktop-ai-companion-lab",
+  "origin": "verified-existing",
+  "title": "能听会说的实体感 AI 桌面伙伴",
+  "oneLine": "先让一个桌面角色能对话、记住少量信息，再决定是否给它接外壳、屏幕或舵机。",
+  "summary": "第一阶段不是马上造完整机器人，而是在 Windows 桌面上做一个会听、会说、有表情和有限记忆的角色；确认你真的喜欢这种互动后，再让它控制灯光、舵机或小屏幕。",
+  "problemSolved": "你对桌宠和现实中的 AI 伙伴感兴趣，但直接买硬件、做外壳和调模型太麻烦，也不知道完成后是否真的好玩。",
+  "howItHelps": "它把高难度目标拆成桌面角色、语音对话、记忆、实体动作四层。每做完一层就能看到结果，前一层不好玩就不用继续花钱。",
+  "format": "specific-project",
+  "valueTypes": [
+    "creation-experience",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "这是你明确觉得有趣的方向；成果可见、可玩，也能把语音、角色、记忆和硬件知识串起来。",
+  "userActions": [
+    "先运行开源桌面伙伴并替换一个角色或动作",
+    "加入本地或云端语音对话和三条可控记忆",
+    "使用一周后仍想继续，再购买低压硬件做一个动作"
+  ],
+  "manualAlternative": "普通聊天 AI 更省事，但它没有常驻角色和物理反馈；这个项目追求的是创作体验与完整系统能力。",
+  "outcome": "一个能在桌面陪你说话、保留少量可删除记忆，并有机会连接真实装置的个人作品。",
+  "whyWorthwhile": "它能跨越桌面应用、语音、模型调用、记忆与硬件，是少数既有趣又能长期扩展的作品。",
   "skills": [
-    "多模态分析",
-    "内容质量"
+    "桌面应用",
+    "语音识别与合成",
+    "记忆设计",
+    "低压硬件控制"
   ],
-  "realWorldPotential": "可作为小商家上架前的辅助服务。",
-  "feasibilityProbe": "对十个公开商品页手工标注缺失项再比较。",
+  "realWorldPotential": "可做个人作品、展览互动、陪伴式提醒或开源硬件原型；不保证形成商业产品。",
+  "feasibilityProbe": "先不买硬件，只用现成开源项目跑通一个透明桌面角色和一次语音往返，观察自己是否愿意持续使用。",
   "costAndRisks": [
-    "不得生成虚假卖点、评价或不存在的参数。"
+    "完整版本投入可能较大",
+    "真人形象和声音必须获得授权",
+    "麦克风与记忆数据应本地优先且可删除"
   ],
+  "source": {
+    "label": "GitHub · desktop-ai-companion",
+    "url": "https://github.com/moheith/desktop-ai-companion",
+    "verifiedAt": "2026-09-22"
+  },
   "difficulty": {
     "scale": 5,
-    "rawScore": 38,
-    "currentStars": 2,
-    "explanation": "不得生成虚假卖点、评价或不存在的参数。"
+    "rawScore": 73,
+    "currentStars": 4,
+    "explanation": "四颗星。软件原型可先做，真正接入稳定语音和硬件后会变成长期项目。"
   },
   "generatedBy": "curated-fallback"
 }
