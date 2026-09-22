@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 const verifiedAt = "2026-08-24";
@@ -33,6 +33,9 @@ function project([
     title,
     oneLine,
     summary: `${oneLine}${why}`,
+    problemSolved: `你对“${title}”有兴趣，但还不知道它是否值得自己投入，也不清楚在什么真实场景里会用到。`,
+    howItHelps: `它会带你先完成一个最小验证，亲自得到“${outcome}”，再由你决定要不要继续扩大。`,
+    readerReady: true,
     outcome,
     whyWorthwhile: why,
     skills,
@@ -1884,7 +1887,24 @@ const rows = [
   ],
 ];
 
-const catalog = rows.map(project);
+let existingById = new Map();
+try {
+  const existing = JSON.parse(await readFile(resolve("config", "ai-project-catalog.json"), "utf8"));
+  existingById = new Map(existing.map((item) => [item.candidateId, item]));
+} catch {
+  // A fresh checkout can still build the base catalog from the curated rows.
+}
+
+const catalog = rows.map(project).map((candidate) => {
+  const existing = existingById.get(candidate.candidateId);
+  if (!existing) return candidate;
+  return {
+    ...candidate,
+    problemSolved: existing.problemSolved ?? candidate.problemSolved,
+    howItHelps: existing.howItHelps ?? candidate.howItHelps,
+    readerReady: existing.readerReady ?? candidate.readerReady,
+  };
+});
 if (new Set(catalog.map((item) => item.candidateId)).size !== catalog.length)
   throw new Error("Duplicate candidate ID");
 if (new Set(catalog.map((item) => item.oneLine)).size !== catalog.length)

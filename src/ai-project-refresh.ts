@@ -99,6 +99,7 @@ function sourceBoundFallback(signal: AiProjectSignalEvidence): AiProjectCandidat
     problemSolved: "你看到了一个近期 AI 项目，但还不清楚它能替自己解决什么具体问题。",
     howItHelps: "这条信号只保留真实来源，等编辑补齐面向你的用途解释后才会进入每日推荐。",
     readerReady: false,
+    tasteStatus: "archive",
     outcome: "一个只覆盖核心能力、可以亲自试用和判断的原型。",
     whyWorthwhile: "从真实项目倒推实现，比只读介绍更容易看懂它为什么有价值。",
     skills: ["需求拆解", "AI 能力接入", "可行性验证"],
@@ -266,7 +267,13 @@ export async function fetchAiProjectEvidence(
 }
 
 export function buildAiProjectOrganizerPrompt(evidence: AiProjectSignalEvidence[]): string {
-  return `你是面向 AI 新手的项目编辑。只能根据证据数组草拟完整中文候选，不得创造或修改来源事实。不要从产品或技术的角度介绍，要先从读者角度讲清楚：他可能遇到什么具体问题（problemSolved），这个项目会经过哪些动作帮助他（howItHelps），以及做完能拿到什么可见成果（outcome）。避免专业英文堆叠和“提升效率、赋能工作流”这类空话。每个候选必须原样返回 signalId，并提供 title、oneLine、summary、problemSolved、howItHelps、readerReady:true、outcome、whyWorthwhile、skills、realWorldPotential、feasibilityProbe、costAndRisks、tags、crossDomain、largeCommercial、difficulty 五维(20-100)和 explanation。只输出 {"candidates":[]} JSON。证据：\n${JSON.stringify(evidence, null, 2)}`;
+  return `你是为一名正在学习 AI、会使用 Codex 做项目的学生筛选项目。只能根据证据数组草拟完整中文候选，不得创造或修改来源事实。
+
+硬门槛：项目必须至少满足一种真实价值：现在能用、提高独立做事或赚钱能力、形成长期资产、带来值得动手的创作体验。单纯替人省几分钟、面向餐馆等与学生无关的行业小工具、只有专业术语没有个人场景的项目，tasteStatus 必须是 archive 且 readerReady:false。商业方向必须讲清谁可能付钱、为什么不用通用 AI、第一位真实用户去哪里找。方向探索卡可以不要求立刻开发，但必须给出一到三小时的验证动作。
+
+不要从产品或技术的角度介绍，要从读者角度讲清楚：他在什么场景会用（problemSolved），需要亲手做哪几步（userActions），项目如何帮助他（howItHelps），做完拿到什么可见成果（outcome），为什么适合这名学生（userFit），以及人工处理是否更省事（manualAlternative）。避免专业英文堆叠和“提升效率、赋能工作流”这类空话。
+
+每个候选必须原样返回 signalId，并提供 title、oneLine、summary、problemSolved、howItHelps、readerReady、tasteStatus(preferred|conditional|archive)、format(specific-project|direction-exploration)、valueTypes(practical|economic|earning-capability|personal-capability|long-term-asset|creation-experience)、userFit、userActions、manualAlternative、outcome、whyWorthwhile、skills、realWorldPotential、feasibilityProbe、costAndRisks、tags、crossDomain、largeCommercial、difficulty 五维(20-100)和 explanation。只输出 {"candidates":[]} JSON。证据：\n${JSON.stringify(evidence, null, 2)}`;
 }
 
 export async function organizeAiProjectEvidence(

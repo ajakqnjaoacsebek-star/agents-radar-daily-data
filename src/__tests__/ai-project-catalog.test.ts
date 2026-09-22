@@ -12,6 +12,15 @@ describe("initial AI project catalog", () => {
     expect(new Set(catalog.map((item) => item.candidateId)).size).toBe(catalog.length);
   });
 
+  it("keeps a substantial calibrated pool and archives the old generic pool", () => {
+    const preferred = catalog.filter((item) => item.tasteStatus === "preferred");
+    expect(preferred.length).toBeGreaterThanOrEqual(25);
+    expect(
+      preferred.every((item) => item.userActions?.length && item.userFit && item.manualAlternative),
+    ).toBe(true);
+    expect(catalog.some((item) => item.tasteStatus === "archive")).toBe(true);
+  });
+
   it("does not pad the catalog with repeated generic project copy", () => {
     expect(new Set(catalog.map((item) => item.oneLine)).size).toBe(catalog.length);
     expect(new Set(catalog.map((item) => item.outcome)).size).toBe(catalog.length);

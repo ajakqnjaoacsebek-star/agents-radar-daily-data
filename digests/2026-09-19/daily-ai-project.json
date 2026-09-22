@@ -1,29 +1,52 @@
 {
   "version": 1,
   "date": "2026-09-19",
-  "candidateId": "rag-chunk-playground",
-  "origin": "original-concept",
-  "title": "RAG 切块游乐场",
-  "oneLine": "拖动切块大小，直接看检索结果怎么变化。",
-  "summary": "拖动切块大小，直接看检索结果怎么变化。能直观看见 RAG 失败常常发生在检索之前。",
-  "problemSolved": "同一份资料做检索时，有时找不到关键内容，你却不知道切块大小为什么会影响答案。",
-  "howItHelps": "它让你拖动切块参数，立刻比较不同设置找到的原文和最终回答。",
-  "outcome": "一个同文档多种切块策略的对照页。",
-  "whyWorthwhile": "能直观看见 RAG 失败常常发生在检索之前。",
+  "candidateId": "ai-app-core-clone",
+  "origin": "verified-existing",
+  "title": "复现一个热门 AI 产品最关键的那一下",
+  "oneLine": "不抄完整产品，只挑它最让你惊讶的一个交互或能力，做成可运行原型。",
+  "summary": "你每周从 GitHub、抖音或产品榜挑一个真正在流行的 AI 项目，先弄清用户为什么喜欢，再只复现一个核心闭环，例如“给截图→生成可运行页面”。",
+  "problemSolved": "你想从网上热门项目获得灵感，但只看介绍学不到实现方法；完整照抄又太大、很快失去耐心。",
+  "howItHelps": "它强迫你先判断项目最有价值的一步，再把输入、处理和输出跑通。完成后你既理解了别人为什么火，也留下一个能继续改造的代码底座。",
+  "format": "direction-exploration",
+  "valueTypes": [
+    "personal-capability",
+    "creation-experience",
+    "earning-capability",
+    "long-term-asset"
+  ],
+  "userFit": "你明确希望我从网上找热门、实用、有趣的项目；这种做法让推荐不只停留在“看看”，而是转成真正学会。",
+  "userActions": [
+    "挑一个近期真实项目并写出它最吸引你的一个功能",
+    "把核心闭环限制为一次输入、一次处理、一次输出",
+    "做完后再决定改成自己的用途还是停在学习样品"
+  ],
+  "manualAlternative": "只看演示最快，但不能形成实现能力；完整复制太慢，复现一个核心闭环是中间路线。",
+  "outcome": "一个能运行的核心功能样品，以及你对原项目价值、实现难点和可改造方向的拆解。",
+  "whyWorthwhile": "它能持续拓宽眼界，又把观察转成代码、产品判断和可复用模块。",
   "skills": [
-    "RAG",
-    "信息检索"
+    "产品拆解",
+    "快速原型",
+    "界面与数据闭环",
+    "开源许可判断"
   ],
-  "realWorldPotential": "可为私人资料搜索选择更合适的分段。",
-  "feasibilityProbe": "用含表格和标题的短文比较三种切块设置。",
+  "realWorldPotential": "有些样品可以改成个人工具、作品集或垂直小产品，但必须避免直接复制品牌和受保护素材。",
+  "feasibilityProbe": "先参考 ai-app-cloner 的做法，只拿一个公开页面截图，验证能否还原一个可点击界面，而不是复制整款 App。",
   "costAndRisks": [
-    "只看命中率会忽略上下文完整性和引用质量。"
+    "遵守开源许可和商标边界",
+    "不要复制付费数据或私有接口",
+    "控制范围，否则很容易变成无底洞"
   ],
+  "source": {
+    "label": "GitHub · ai-app-cloner",
+    "url": "https://github.com/Birkenpapier/ai-app-cloner",
+    "verifiedAt": "2026-09-22"
+  },
   "difficulty": {
     "scale": 5,
-    "rawScore": 38,
-    "currentStars": 2,
-    "explanation": "只看命中率会忽略上下文完整性和引用质量。"
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "三颗星。每次难度取决于所选功能，必须主动砍掉登录、支付和完整后台。"
   },
   "generatedBy": "curated-fallback"
 }

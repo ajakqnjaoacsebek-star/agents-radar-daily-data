@@ -1,29 +1,52 @@
 {
   "version": 1,
   "date": "2026-09-22",
-  "candidateId": "quote-generator",
-  "origin": "original-concept",
-  "title": "服务报价草稿器",
-  "oneLine": "根据明确服务范围生成可解释的报价项目清单。",
-  "summary": "根据明确服务范围生成可解释的报价项目清单。能把模糊服务拆成范围、依赖和风险。",
-  "problemSolved": "接小单时你不知道怎样拆工时、列范围和报价，容易低估成本或与客户理解不一致。",
-  "howItHelps": "它根据服务范围生成可解释的报价草稿，清楚列出假设、成本、不包含项和可选项。",
-  "outcome": "一个显示工时假设、成本和不包含项的报价草稿。",
-  "whyWorthwhile": "能把模糊服务拆成范围、依赖和风险。",
+  "candidateId": "ideaforge-demand-radar",
+  "origin": "verified-existing",
+  "title": "跨平台真实需求雷达",
+  "oneLine": "从 GitHub、Hacker News 等公开讨论里，找出人们反复抱怨且可能愿意解决的问题。",
+  "summary": "系统定期收集公开求助、抱怨和现有替代方案，把同类问题合并，并保留原帖供你核对。它不直接宣布“这是商机”，而是给你一张可继续访谈和验证的线索榜。",
+  "problemSolved": "你想做有用或能产生经济价值的项目，但在学校很难碰到足够多的真实客户，也不知道线上哪里有需求。",
+  "howItHelps": "它替你持续观察多个公开平台，把重复出现的问题、受影响人群、现有解决办法和原链接放到一起。你不用每天刷平台，也不会只凭一次抱怨就开工。",
+  "format": "specific-project",
+  "valueTypes": [
+    "economic",
+    "earning-capability",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "它直接补上你目前“找不到需求”的缺口，也比替某个小商家做一次低价小单更能积累长期判断能力。",
+  "userActions": [
+    "第一版只接 GitHub Issues 和 Hacker News",
+    "把同类问题聚合并展示频率、原帖和现有替代品",
+    "每周人工挑一个线索，回原帖核验并设计访谈问题"
+  ],
+  "manualAlternative": "偶尔浏览可以发现零散灵感；跨平台、持续去重和回看历史时，自动雷达的价值才明显。",
+  "outcome": "一个每天更新的需求线索榜，能点回原文，并记录你对每条线索的判断。",
+  "whyWorthwhile": "你会练到公开数据获取、聚类、证据核验和需求判断；这些能力也能服务未来的产品或兼职。",
   "skills": [
-    "需求拆解",
-    "成本估算"
+    "公开数据收集",
+    "需求聚类",
+    "商机验证",
+    "证据核验"
   ],
-  "realWorldPotential": "适合自由职业或小型 AI 自动化服务。",
-  "feasibilityProbe": "用三个历史案例比较草稿与真实报价差异。",
+  "realWorldPotential": "可用于寻找个人项目、内容选题、开源工具方向，成熟后也可能做成垂直情报服务。",
+  "feasibilityProbe": "先抓两个公开来源各五十条内容，人工检查前十名是否真是重复问题，而不是关键词巧合。",
   "costAndRisks": [
-    "报价必须人工确认，不能承诺未知交付结果。"
+    "遵守平台条款和频率限制",
+    "不抓私人资料、不自动联系用户",
+    "高频讨论不代表有人付钱"
   ],
+  "source": {
+    "label": "GitHub · IdeaForge",
+    "url": "https://github.com/VinGuar/IdeaForge",
+    "verifiedAt": "2026-09-22"
+  },
   "difficulty": {
     "scale": 5,
-    "rawScore": 38,
-    "currentStars": 2,
-    "explanation": "报价必须人工确认，不能承诺未知交付结果。"
+    "rawScore": 54,
+    "currentStars": 3,
+    "explanation": "三颗星。抓取不算最难，难点是去重、保留证据并避免把热闹误判成需求。"
   },
   "generatedBy": "curated-fallback"
 }

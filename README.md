@@ -10,9 +10,11 @@ A GitHub Actions workflow for aggregating AI ecosystem signals from 10 data sour
 
 ### 每日 AI 项目（独立模块）
 
-- `.github/workflows/daily-ai-project.yml` 每天北京时间 08:30 从 120 条人工整理的长期库与近期信号池中确定性选择一个项目，不调用模型；输出 `digests/YYYY-MM-DD/daily-ai-project.json`。
+- `.github/workflows/daily-ai-project.yml` 每天北京时间 08:30 从长期库与近期信号池中确定性选择一个项目，不调用模型；输出 `digests/YYYY-MM-DD/daily-ai-project.json`。
 - `.github/workflows/weekly-ai-project-refresh.yml` 每周日北京时间 07:30 从 GitHub、Hacker News、Product Hunt、Hugging Face 和官方 Feed 更新近期池。配置 `DEEPSEEK_API_KEY` 时最多整理一次；无余额或来源失败时保留旧池，日更仍由长期库继续。
 - 真实项目必须保留核验来源，原创构想必须明确标记。模型生成的标题、摘要和链接不会覆盖抓取证据。
+- 日选先经过个人适配门槛：必须讲清使用场景、用户要做的操作、对用户的具体价值，以及何时人工处理反而更划算。当前主池为 28 条已校准候选，旧的泛化小助手和身份不匹配项目保留在归档但不再进入日更；备考、求职、三维等候选只在相应场景启用。
+- 卡片允许“具体项目”和“方向探索”两种形态；价值可以是现在能用、提高个人或赚钱能力、形成长期资产、创造经济价值或值得动手的创作体验。宁可在 30 天后重看一个匹配项目，也不拿无关新项目凑数。
 - `manifest.json` 用独立 `hasAiProject` 字段标记日期；AI 项目状态和两个工作流都不读取或修改每日灵感文件。
 - 私人偏好只通过 `AI_PROJECT_VAULT_READ_TOKEN` 从独立私有仓库读取，日志和公共 JSON 不包含收藏、反馈或 token。仓库变量为 `AI_PROJECT_VAULT_OWNER`、`AI_PROJECT_VAULT_REPO`、`AI_PROJECT_VAULT_BRANCH`、`AI_PROJECT_VAULT_PATH`。
 

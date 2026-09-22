@@ -1,29 +1,48 @@
 {
   "version": 1,
   "date": "2026-09-21",
-  "candidateId": "speech-transcription-bench",
+  "candidateId": "first-paid-ai-microproduct",
   "origin": "original-concept",
-  "title": "语音转写实测台",
-  "oneLine": "比较不同口音、噪声和说话速度下的转写结果。",
-  "summary": "比较不同口音、噪声和说话速度下的转写结果。能理解语音模型的边界和后处理需求。",
-  "problemSolved": "你想把录音自动转成文字，但自己的口音、环境噪声可能让宣传准确率失去参考。",
-  "howItHelps": "它用你的真实短录音测试不同转写方案，标出错字、耗时和费用。",
-  "outcome": "一个带原音频、差异和字错率的对照页。",
-  "whyWorthwhile": "能理解语音模型的边界和后处理需求。",
-  "skills": [
-    "语音识别",
-    "评测"
+  "title": "从一个已验证需求做出首个可收费小产品",
+  "oneLine": "先找到一个人正在花时间或钱解决的问题，再做只解决其中一步的小工具。",
+  "summary": "这不是让你先写一个 SaaS，而是从真实需求出发：找到现有笨办法、确认对方愿意试，再用 AI 做一个可以交付的小闭环，最后才谈收费。",
+  "problemSolved": "你希望 AI 项目有现实经济价值，但目前缺少明确需求和变现路径，担心做完仍找不到用户。",
+  "howItHelps": "它把“赚钱项目”拆成需求证据、第一位用户、人工服务、半自动工具四步。你会先证明有人真的在意，再决定是否值得产品化。",
+  "format": "direction-exploration",
+  "valueTypes": [
+    "economic",
+    "earning-capability",
+    "personal-capability",
+    "long-term-asset"
   ],
-  "realWorldPotential": "可为语音笔记和字幕项目选方案。",
-  "feasibilityProbe": "录制十段公开内容，手工制作准确文本。",
+  "userFit": "它允许你先通过网络找到需求，不要求在学校里碰运气，也不要求靠三四十元的小单长期耗时间。",
+  "userActions": [
+    "从需求雷达或熟悉社区挑一个有现有笨办法的问题",
+    "联系一位愿意反馈的人，先人工完成一次并记录耗时",
+    "只自动化最贵或最容易出错的一步，再判断是否收费"
+  ],
+  "manualAlternative": "第一单应该允许人工完成；如果每次都只能靠大量人工且收入覆盖不了时间，就应停止而不是强行自动化。",
+  "outcome": "一个有真实用户反馈、成本记录和收费判断的小产品实验；失败也会留下需求证据。",
+  "whyWorthwhile": "你会学习价值判断、用户沟通、范围控制、交付和定价，而不是闭门造车。",
+  "skills": [
+    "需求访谈",
+    "服务设计",
+    "AI 自动化",
+    "成本与定价"
+  ],
+  "realWorldPotential": "可能变成一次付费交付、数字产品或订阅工具，也可能在验证后明确放弃。",
+  "feasibilityProbe": "先不写产品；用两小时找到一个真实问题、一位愿意交流的人和一种现有解决办法。找不到就换方向。",
   "costAndRisks": [
-    "不得录制他人私人谈话，云端上传需授权。"
+    "不承诺赚钱",
+    "不得自动骚扰或绕过平台规则",
+    "先限制预算和最长验证时间",
+    "注意个人信息与收款合规"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 38,
-    "currentStars": 2,
-    "explanation": "不得录制他人私人谈话，云端上传需授权。"
+    "rawScore": 56,
+    "currentStars": 3,
+    "explanation": "三颗星。技术不一定难，真正难的是找到真实用户、控制投入并接受需求可能不成立。"
   },
   "generatedBy": "curated-fallback"
 }
