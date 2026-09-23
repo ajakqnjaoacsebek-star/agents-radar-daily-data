@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-09-23",
+  "candidateId": "industry-digest-service",
+  "origin": "original-concept",
+  "title": "垂直行业情报订阅",
+  "oneLine": "为一个很窄的行业收集公开信号并给出人工核验摘要。",
+  "summary": "为一个很窄的行业收集公开信号并给出人工核验摘要。能练习抓取、去重、编辑和持续交付。",
+  "problemSolved": "某个小行业的信息散落在网站、公告和论坛里，目标用户没有时间每天筛选。",
+  "howItHelps": "它定期收集公开信号、保留来源并生成经人工核验的短报，让你验证是否有人愿意订阅。",
+  "format": "specific-project",
+  "valueTypes": [
+    "economic",
+    "earning-capability",
+    "long-term-asset"
+  ],
+  "userFit": "它能把你已经做过的日报能力，迁移成针对某个真实人群的付费信息服务实验。",
+  "userActions": [
+    "先找到一个信息分散且更新频繁的小领域",
+    "连续两期人工核验并保留原始来源",
+    "拿样刊问五位目标读者是否愿意持续看或付费"
+  ],
+  "manualAlternative": "只做一期时人工整理更省事；只有读者需要持续更新，自动管道和长期资料库才有经济价值。",
+  "outcome": "一份可追溯来源的周报和订阅落地页。",
+  "whyWorthwhile": "能练习抓取、去重、编辑和持续交付。",
+  "skills": [
+    "信息管道",
+    "内容产品"
+  ],
+  "realWorldPotential": "可验证企业或从业者是否愿意为节省时间付费。",
+  "feasibilityProbe": "先连续做两期样刊，请五位目标读者反馈。",
+  "costAndRisks": [
+    "版权、来源可用性和持续维护成本不可忽略。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "版权、来源可用性和持续维护成本不可忽略。"
+  },
+  "generatedBy": "curated-fallback"
+}
