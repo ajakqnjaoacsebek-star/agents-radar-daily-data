@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T04:49:26.704Z",
+  "candidateId": "evergreen:godot",
+  "origin": "evergreen",
+  "category": "开源项目",
+  "title": "Godot：不只用来做游戏的开源交互引擎",
+  "summary": "Godot 是开源二维与三维引擎，也可制作交互演示和可视化应用。",
+  "whyInteresting": "一个想法可以先变成可点击、可移动的空间，而不只是普通网页。",
+  "remixIdea": "把自己的学习路线做成一张可探索地图，完成项目后点亮一个区域。",
+  "source": {
+    "label": "Godot",
+    "url": "https://godotengine.org/"
+  },
+  "generatedBy": "fallback"
+}
