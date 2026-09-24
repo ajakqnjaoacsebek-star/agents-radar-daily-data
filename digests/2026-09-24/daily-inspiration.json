@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T04:57:22.128Z",
+  "candidateId": "evergreen:libreoffice",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "LibreOffice：可以离线使用的开源办公套件",
+  "summary": "你可以免费、离线地打开和编辑常见文档、表格与演示文件，不必一直依赖订阅软件。",
+  "whyInteresting": "它适合旧电脑、临时设备或网络不稳定的场景，也能给你的自动化脚本提供可处理的办公文件。",
+  "remixIdea": "拿一份不敏感的 Word 或 Excel 文件试着打开、修改并重新导出，检查格式是否满足你。",
+  "source": {
+    "label": "LibreOffice",
+    "url": "https://www.libreoffice.org/"
+  },
+  "generatedBy": "fallback"
+}
