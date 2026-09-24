@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "date": "2026-09-24",
+  "candidateId": "ai-app-spec-builder",
+  "origin": "verified-existing",
+  "title": "把一句想法问成可交给 Codex 的项目说明",
+  "oneLine": "通过一轮有针对性的问题，把模糊想法整理成范围、页面、数据和验收标准。",
+  "summary": "它不会直接替你开工，而是像产品经理一样追问用户、场景、数据、边界和最小验证，最后产出一份能交给 Codex 继续讨论的项目说明。",
+  "problemSolved": "你有时知道大概想做什么，却在项目进行中不断补需求，导致返工或做出自己也用不上的功能。",
+  "howItHelps": "它围绕最不确定的地方提问，把想法变成用户场景、最小范围、不可做事项和验收例子，降低沟通遗漏。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "你经常直接在 Codex 开始项目；这个工具能在开工前把模糊想法整理成更稳定的输入，但不会取代你和 Codex 的讨论。",
+  "userActions": [
+    "输入一个仍然模糊的真实想法",
+    "回答系统提出的十个以内关键问题",
+    "删除不需要的功能，把结果交给 Codex 做可行性检查"
+  ],
+  "manualAlternative": "你直接和 Codex 讨论也能完成；只有想保存统一模板、比较多个点子时才值得做成工具。",
+  "outcome": "一份包含使用场景、最小范围、数据来源、风险和验收例子的项目说明。",
+  "whyWorthwhile": "它能训练需求表达和范围控制，也能减少后续返工。",
+  "skills": [
+    "需求澄清",
+    "范围控制",
+    "验收设计",
+    "结构化输出"
+  ],
+  "realWorldPotential": "可成为个人项目入口，也可用于帮助别人把想法整理成可开发说明。",
+  "feasibilityProbe": "拿一个旧项目的最初想法跑一遍，看生成问题是否能提前发现后来发生的返工。",
+  "costAndRisks": [
+    "不能把完整文档误当成需求已被验证",
+    "问题过多会让工具比直接对话更麻烦"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 36,
+    "currentStars": 2,
+    "explanation": "两颗星。结构化问答容易实现，难点是只问真正影响范围的问题。"
+  },
+  "source": {
+    "label": "GitHub · AI App Idea Generator",
+    "url": "https://github.com/Enterprise-DNA-OS/ai-app-idea-generator",
+    "verifiedAt": "2026-09-22"
+  },
+  "generatedBy": "curated-fallback"
+}
