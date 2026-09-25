@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-09-25",
+  "candidateId": "idea-evidence-vault",
+  "origin": "original-concept",
+  "title": "模糊点子验证器",
+  "oneLine": "把一句脑海灵感变成证据卡，而不是立刻开工。",
+  "summary": "把一句脑海灵感变成证据卡，而不是立刻开工。能训练先验证关键假设，再决定投入。",
+  "problemSolved": "你经常冒出项目点子，但一兴奋就直接开工，后来才发现需求不真实或已有更好方案。",
+  "howItHelps": "它会保存点子，替你收集类似产品、真实讨论和反面证据，再给出“继续、调整或暂缓”的判断材料。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "你经常先记下点子、过一阵才决定要不要做；这个项目正好把“马上开工”改成“先查证再收藏”。",
+  "userActions": [
+    "输入一个你真实想过的点子",
+    "让系统找相似产品、真实讨论和反对证据",
+    "自己选择继续、调整或暂缓，并把证据留下"
+  ],
+  "manualAlternative": "人工搜索一次并不难，但点子多起来后很容易漏掉反面证据，也无法积累一套可回看的判断记录。",
+  "outcome": "一个保存竞品、用户讨论、风险和下一步的点子库。",
+  "whyWorthwhile": "能训练先验证关键假设，再决定投入。",
+  "skills": [
+    "需求验证",
+    "信息检索"
+  ],
+  "realWorldPotential": "适合所有个人项目立项和定期回看。",
+  "feasibilityProbe": "拿一个旧想法找三个竞品与五条真实讨论。",
+  "costAndRisks": [
+    "搜索证据可能有偏差，结论必须标注不确定性。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "搜索证据可能有偏差，结论必须标注不确定性。"
+  },
+  "generatedBy": "curated-fallback"
+}

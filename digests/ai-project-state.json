@@ -344,6 +344,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "idea-evidence-vault",
+      "date": "2026-09-25",
+      "tags": [
+        "practical",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
