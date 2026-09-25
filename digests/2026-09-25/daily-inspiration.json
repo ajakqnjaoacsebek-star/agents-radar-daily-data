@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T05:02:11.191Z",
+  "candidateId": "evergreen:anythingllm",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "AnythingLLM：把文档问答做成独立工作区",
+  "summary": "AnythingLLM 是桌面和自托管 AI 应用，可连接文档、模型和 Agent 工具。",
+  "whyInteresting": "不同主题的资料可以分成互不干扰的工作区。",
+  "remixIdea": "分别建立工作、学习和项目资料区，让回答只引用对应范围。",
+  "source": {
+    "label": "AnythingLLM",
+    "url": "https://anythingllm.com/"
+  },
+  "generatedBy": "fallback"
+}

@@ -167,6 +167,10 @@
     {
       "id": "evergreen:libreoffice",
       "date": "2026-09-24"
+    },
+    {
+      "id": "evergreen:anythingllm",
+      "date": "2026-09-25"
     }
   ]
 }
