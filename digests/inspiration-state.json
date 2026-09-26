@@ -171,6 +171,10 @@
     {
       "id": "evergreen:anythingllm",
       "date": "2026-09-25"
+    },
+    {
+      "id": "evergreen:node-red",
+      "date": "2026-09-26"
     }
   ]
 }

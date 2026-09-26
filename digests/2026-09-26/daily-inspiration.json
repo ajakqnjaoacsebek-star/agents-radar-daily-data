@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-26",
+  "generatedAt": "2026-09-26T05:04:47.920Z",
+  "candidateId": "evergreen:node-red",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Node-RED：用连线搭出自动化逻辑",
+  "summary": "Node-RED 用可视化节点连接设备、接口和数据处理步骤。",
+  "whyInteresting": "它让自动化更像画流程图，而不是先写一大段程序。",
+  "remixIdea": "可以让家中传感器、消息通知和一个简单 AI 判断连成小系统。",
+  "source": {
+    "label": "Node-RED",
+    "url": "https://nodered.org/"
+  },
+  "generatedBy": "fallback"
+}
