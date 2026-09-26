@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-09-26",
+  "candidateId": "language-pronunciation",
+  "origin": "original-concept",
+  "title": "发音对照工作台",
+  "oneLine": "把自己的录音与目标音节在节奏和音素上对照。",
+  "summary": "把自己的录音与目标音节在节奏和音素上对照。能把语音识别用于真实语言学习。",
+  "problemSolved": "你听得出自己发音不对，却不知道问题在音素、节奏还是重音，反复跟读进步很慢。",
+  "howItHelps": "它把录音与目标音节在时间线上对齐，标出具体差异，并允许立刻重录比较。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "如果你有口语练习需求，它能把“听起来不对”变成可以重录和比较的具体反馈。",
+  "userActions": [
+    "录制十个自己确实要练的短句",
+    "把录音与目标音节和节奏对齐",
+    "请真人核对反馈，再保留可信指标"
+  ],
+  "manualAlternative": "偶尔查一个词用现成工具更快；长期练习并想看自己的变化时，个人工作台才值得。",
+  "outcome": "一个可重录、显示差异而不打击人的练习页。",
+  "whyWorthwhile": "能把语音识别用于真实语言学习。",
+  "skills": [
+    "语音分析",
+    "学习反馈"
+  ],
+  "realWorldPotential": "适合长期口语与跟读练习。",
+  "feasibilityProbe": "只练十个短句，请真人核对模型反馈。",
+  "costAndRisks": [
+    "口音不是错误，分数必须避免单一标准偏见。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "口音不是错误，分数必须避免单一标准偏见。"
+  },
+  "generatedBy": "curated-fallback"
+}
