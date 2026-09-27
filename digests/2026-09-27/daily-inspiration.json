@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T05:22:55.925Z",
+  "candidateId": "evergreen:crawl4ai",
+  "origin": "evergreen",
+  "category": "AI 工具",
+  "title": "Crawl4AI：面向 AI 数据准备的开源网页抓取器",
+  "summary": "Crawl4AI 可把网页转换成更清晰的 Markdown 或结构化数据。",
+  "whyInteresting": "它把“给 AI 找资料”前面的网页清理步骤单独做成工具。",
+  "remixIdea": "用它整理一组公开教程，再生成带原始页面引用的主题索引。",
+  "source": {
+    "label": "Crawl4AI",
+    "url": "https://github.com/unclecode/crawl4ai"
+  },
+  "caution": "只处理有权访问和合理使用的公开内容。",
+  "generatedBy": "fallback"
+}

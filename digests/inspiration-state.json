@@ -175,6 +175,10 @@
     {
       "id": "evergreen:node-red",
       "date": "2026-09-26"
+    },
+    {
+      "id": "evergreen:crawl4ai",
+      "date": "2026-09-27"
     }
   ]
 }
