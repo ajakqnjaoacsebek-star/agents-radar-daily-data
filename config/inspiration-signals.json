@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,287 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-09-20"
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49863072",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Sydney retiree bids to be first to travel Australia on electric motorcycle",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.abc.net.au/news/2026-09-27/man-aims-to-travel-australia-on-electric-motorcycle/107190208"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862980",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Minicut AI: Higgsfield but for AI Drama and Film",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.minicut.ai"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862920",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: PeerTalk.ai - Let your agent talk to a friend's agent",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://peertalk.ai"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862642",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: FinderySearch – The AI powered smart search engine",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://aurasearch-real-private-unlimited-search-engine-18351778012.asia-southeast1.run.app/"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862641",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Ask HN: Are you unfollowing friends on GitHub because of AI slop?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=49862641"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862602",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Simulating Airband Am Radios",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://bitbashing.io/am-radio.html"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862289",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Insurers claim AI is increasing healthcare costs",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862227",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Play Diplomacy against AIs like Claude or GPT: they betray, scheme, etc.",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://twitter.com/olam_labs/status/2103986923346043362"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862203",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "The AI Doomsday Future Is Not Inevitable",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://theintercept.com/2026/09/14/surveillance-tech-ai-military-flock/"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:hn:49862131",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "His Novel Had a Shot at a Top Book Prize. Then Someone Ran an A.I. Test.",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.nytimes.com/2026/09/25/world/europe/thelyson-orelien-ai-canada-haiti-france.html"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:github:amitshekhariitbhu/ai-system-design",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "amitshekhariitbhu/ai-system-design",
+    "summary": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · amitshekhariitbhu/ai-system-design",
+      "url": "https://github.com/amitshekhariitbhu/ai-system-design"
+    },
+    "signalDate": "2026-09-25"
+  },
+  {
+    "id": "signal:github:wildminder/awesome-qwen-image",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "wildminder/awesome-qwen-image",
+    "summary": "Qwen-Image 2.1. Checkpoints, quants, prompt engines, LoRAs, and tooling",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · wildminder/awesome-qwen-image",
+      "url": "https://github.com/wildminder/awesome-qwen-image"
+    },
+    "signalDate": "2026-09-24"
+  },
+  {
+    "id": "signal:github:aurorainfra/grev",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "aurorainfra/grev",
+    "summary": "Thinking coreutils",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · aurorainfra/grev",
+      "url": "https://github.com/aurorainfra/grev"
+    },
+    "signalDate": "2026-09-24"
+  },
+  {
+    "id": "signal:github:yukitorido/short-video-generator-AI",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "yukitorido/short-video-generator-AI",
+    "summary": "AI video processing pipeline for generating vertical shorts using LLMs, Whisper transcription, highlight detection and automated editing",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · yukitorido/short-video-generator-AI",
+      "url": "https://github.com/yukitorido/short-video-generator-AI"
+    },
+    "signalDate": "2026-09-23"
+  },
+  {
+    "id": "signal:github:chelinho139/wow-ai",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "chelinho139/wow-ai",
+    "summary": "Addon to use AI (Claude, Codex and Grok) inside World of Warcraft (WoW)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · chelinho139/wow-ai",
+      "url": "https://github.com/chelinho139/wow-ai"
+    },
+    "signalDate": "2026-09-23"
+  },
+  {
+    "id": "signal:github:VictorButoi/FleXray",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "VictorButoi/FleXray",
+    "summary": "FleXray: Universal Clinical X-ray Segmentation",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · VictorButoi/FleXray",
+      "url": "https://github.com/VictorButoi/FleXray"
+    },
+    "signalDate": "2026-09-22"
+  },
+  {
+    "id": "signal:github:andududu/jeview",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "andududu/jeview",
+    "summary": "An unofficial local visualizer for Jev (TypeSafe): a live view of every call your code makes. Not affiliated with TypeSafe AI.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · andududu/jeview",
+      "url": "https://github.com/andududu/jeview"
+    },
+    "signalDate": "2026-09-21"
+  },
+  {
+    "id": "signal:github:hazelpe/ComptyAI",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "hazelpe/ComptyAI",
+    "summary": "Turn token activity into compute. A compute-access protocol designed for Robinhood Chain: protocol fees fund GPU capacity for token holders.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · hazelpe/ComptyAI",
+      "url": "https://github.com/hazelpe/ComptyAI"
+    },
+    "signalDate": "2026-09-21"
+  },
+  {
+    "id": "signal:github:electric-capital/quest",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "electric-capital/quest",
+    "summary": "An open source, self-hosted, safety-focused AI workbench",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · electric-capital/quest",
+      "url": "https://github.com/electric-capital/quest"
+    },
+    "signalDate": "2026-09-21"
+  },
+  {
+    "id": "signal:github:kyegomez/open-jev",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "kyegomez/open-jev",
+    "summary": "an open-source, from-first-principles reconstruction of the ideas behind TypeSafe AI's Jev, written in pytorch",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · kyegomez/open-jev",
+      "url": "https://github.com/kyegomez/open-jev"
+    },
+    "signalDate": "2026-09-21"
   },
   {
     "id": "signal:hn:49772165",
