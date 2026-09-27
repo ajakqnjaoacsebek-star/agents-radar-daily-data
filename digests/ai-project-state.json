@@ -366,6 +366,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "local-vs-cloud",
+      "date": "2026-09-27",
+      "tags": [
+        "learning",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
