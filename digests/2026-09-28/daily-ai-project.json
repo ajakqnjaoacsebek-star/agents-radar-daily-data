@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "date": "2026-09-28",
+  "candidateId": "micro-course-product",
+  "origin": "original-concept",
+  "title": "经验微课产品化",
+  "oneLine": "把一项自己会的具体技能做成三十分钟可完成的小课。",
+  "summary": "把一项自己会的具体技能做成三十分钟可完成的小课。能学习内容结构、用户验证和 AI 辅助制作。",
+  "problemSolved": "你有一项具体经验想分享或尝试售卖，却不知道怎样缩成别人半小时能真正学会的内容。",
+  "howItHelps": "它帮你挑一个可演示的小技能，整理成讲解、练习和反馈三部分，先做出可试学原型。",
+  "format": "specific-project",
+  "valueTypes": [
+    "economic",
+    "earning-capability",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "它让你练习把自己会的一件小事做成别人愿意学、甚至愿意付费的最小内容产品。",
+  "userActions": [
+    "选一个你确实做过的小技能",
+    "用 AI 辅助做一节三十分钟以内的演示和练习",
+    "找三个人试学，观察他们在哪一步卡住"
+  ],
+  "manualAlternative": "只写一篇说明当然更快；做这个项目的价值是验证别人能否学会，以及你有没有产品化和表达能力。",
+  "outcome": "一个含演示、练习和反馈入口的微课原型。",
+  "whyWorthwhile": "能学习内容结构、用户验证和 AI 辅助制作。",
+  "skills": [
+    "内容设计",
+    "用户测试"
+  ],
+  "realWorldPotential": "可作为低成本数字产品实验。",
+  "feasibilityProbe": "先找三个人完成一节课，观察卡住的位置。",
+  "costAndRisks": [
+    "不能用 AI 拼凑未经核验的专业知识或侵权材料。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不能用 AI 拼凑未经核验的专业知识或侵权材料。"
+  },
+  "generatedBy": "curated-fallback"
+}
