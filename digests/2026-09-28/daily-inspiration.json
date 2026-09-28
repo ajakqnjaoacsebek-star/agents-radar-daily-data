@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T05:29:18.106Z",
+  "candidateId": "evergreen:khoj",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "Khoj：围绕个人资料工作的开源 AI 助手",
+  "summary": "Khoj 可连接个人文档、网页和模型，提供搜索、聊天和自动任务。",
+  "whyInteresting": "AI 助手可以围绕自己的资料和习惯逐渐变得有上下文。",
+  "remixIdea": "让它只关注一个窄范围，例如追踪项目决策和未解决问题。",
+  "source": {
+    "label": "Khoj",
+    "url": "https://khoj.dev/"
+  },
+  "generatedBy": "fallback"
+}
