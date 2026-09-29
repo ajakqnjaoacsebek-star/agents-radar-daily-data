@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T05:48:14.034Z",
+  "candidateId": "evergreen:blender",
+  "origin": "evergreen",
+  "category": "开源项目",
+  "title": "Blender：一个软件覆盖完整三维创作流程",
+  "summary": "Blender 是开源三维创作套件，涵盖建模、动画、渲染、合成和视频编辑。",
+  "whyInteresting": "它展示了一个社区项目也能长成专业级完整工具。",
+  "remixIdea": "不必先学建模，可以从修改一个现成场景或生成简单产品转台动画开始。",
+  "source": {
+    "label": "Blender",
+    "url": "https://www.blender.org/"
+  },
+  "generatedBy": "fallback"
+}
