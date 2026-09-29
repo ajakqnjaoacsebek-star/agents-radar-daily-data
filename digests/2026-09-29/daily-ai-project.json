@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "date": "2026-09-29",
+  "candidateId": "open-source-issue-scout",
+  "origin": "verified-existing",
+  "title": "帮你挑一个真能完成的开源任务",
+  "oneLine": "按你的技能和可用时间筛选 GitHub 问题，避免第一次贡献就撞上大坑。",
+  "summary": "它读取带有 good first issue 等标签的公开任务，再按主题、技术、预计时间和描述清晰度排序，让你从一个小修复开始接触真实协作。",
+  "problemSolved": "你想提高真实开发能力或积累公开成果，但 GitHub 任务太多，不知道哪个适合自己、做了是否有人接收。",
+  "howItHelps": "它先筛掉信息不完整、长期没人维护或明显超出能力的任务，再给出需要读哪些文件、先问维护者什么和预计风险。",
+  "format": "specific-project",
+  "valueTypes": [
+    "personal-capability",
+    "earning-capability",
+    "long-term-asset"
+  ],
+  "userFit": "这比自己凭空设计练习更接近真实问题，还能积累公开协作和作品证据。",
+  "userActions": [
+    "输入你会的语言、想学方向和半天或一天时间",
+    "核对三个候选 issue 的维护状态与验收标准",
+    "先评论确认范围，再完成最小修复或文档改进"
+  ],
+  "manualAlternative": "GitHub 搜索本身不难；AI 的价值在于读 issue 和仓库背景、估算范围并解释为什么适合你。",
+  "outcome": "一个与你当前能力匹配的开源任务清单，以及至少一次真实贡献尝试。",
+  "whyWorthwhile": "你会练到读陌生项目、沟通、测试和提交，而不是只做自己设定答案的练习。",
+  "skills": [
+    "开源协作",
+    "代码阅读",
+    "任务估算",
+    "Pull Request"
+  ],
+  "realWorldPotential": "公开贡献可进入作品集，也可能带来合作机会，但不保证变现。",
+  "feasibilityProbe": "先不用 AI 写代码，只验证工具推荐的三个 issue 是否仍开放、范围清晰且维护者活跃。",
+  "costAndRisks": [
+    "不要批量占用 issue",
+    "先遵守仓库贡献规范",
+    "模型对难度和工时的估计可能错误"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 47,
+    "currentStars": 2,
+    "explanation": "两到三颗星。筛选器容易做，真正挑战是完成一次陌生仓库里的真实贡献。"
+  },
+  "source": {
+    "label": "GitHub · github-issue-analyzer",
+    "url": "https://github.com/AlonNaor22/github-issue-analyzer",
+    "verifiedAt": "2026-09-22"
+  },
+  "generatedBy": "curated-fallback"
+}
