@@ -399,6 +399,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "personal-finance-scenario",
+      "date": "2026-09-30",
+      "tags": [
+        "learning",
+        "practical"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

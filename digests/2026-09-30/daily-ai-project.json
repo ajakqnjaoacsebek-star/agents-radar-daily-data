@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-09-30",
+  "candidateId": "personal-finance-scenario",
+  "origin": "original-concept",
+  "title": "个人财务情景沙盘",
+  "oneLine": "用自己输入的假设比较不同预算方案，而非预测收益。",
+  "summary": "用自己输入的假设比较不同预算方案，而非预测收益。能学习模型如何辅助解释而不替代计算。",
+  "problemSolved": "你在比较预算方案时容易只看一个最终数字，忽略假设变化和现金流压力。",
+  "howItHelps": "它让你自己填写收入、支出和时间假设，比较多个区间结果，不预测收益也不替你做决定。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "personal-capability"
+  ],
+  "userFit": "作为学生，你可以用它比较订阅、大额购买和储蓄计划，而不是去算餐馆利润或做不相关的生意工具。",
+  "userActions": [
+    "用虚构数字建立收入、固定支出和一次性支出",
+    "比较三个方案的每月现金余量",
+    "用手算核对后再换成自己的数字"
+  ],
+  "manualAlternative": "简单预算表人工就够用；只有你想比较很多假设并看清变化来源时，AI 解释层才有价值。",
+  "outcome": "一个显示假设、区间和现金流变化的情景表。",
+  "whyWorthwhile": "能学习模型如何辅助解释而不替代计算。",
+  "skills": [
+    "情景建模",
+    "数据解释"
+  ],
+  "realWorldPotential": "可用于理解应急金、订阅和大额支出的影响。",
+  "feasibilityProbe": "用虚构数字与手算结果核对三个情景。",
+  "costAndRisks": [
+    "不是金融建议，不连接账户、不预测投资收益。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不是金融建议，不连接账户、不预测投资收益。"
+  },
+  "generatedBy": "curated-fallback"
+}
