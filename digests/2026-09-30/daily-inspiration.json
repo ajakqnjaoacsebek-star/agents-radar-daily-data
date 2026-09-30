@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-09-30",
+  "generatedAt": "2026-09-30T05:37:49.287Z",
+  "candidateId": "evergreen:baserow",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Baserow：开源的在线数据库表格",
+  "summary": "你可以像填表格一样整理项目、客户或资料，又能让这些数据被表单和自动化继续使用。",
+  "whyInteresting": "它能让你先用熟悉的表格起步，之后再慢慢长成一个小型业务系统。",
+  "remixIdea": "先建一张“项目想法表”，只放名称、难度、价值和来源四列。",
+  "source": {
+    "label": "Baserow",
+    "url": "https://baserow.io/"
+  },
+  "generatedBy": "fallback"
+}
