@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-10-01",
+  "candidateId": "prompt-regression",
+  "origin": "original-concept",
+  "title": "提示词回归测试台",
+  "oneLine": "每次改提示词都跑同一批样例看有没有退步。",
+  "summary": "每次改提示词都跑同一批样例看有没有退步。能学习提示词也需要版本和回归测试。",
+  "problemSolved": "你改了一句提示词，眼前案例变好了，却可能让其他任务悄悄退步。",
+  "howItHelps": "它每次用同一批真实样例测试新旧提示词，显示通过率和具体变差的案例。",
+  "format": "specific-project",
+  "valueTypes": [
+    "personal-capability",
+    "long-term-asset",
+    "earning-capability"
+  ],
+  "userFit": "它能把“感觉这个提示词更好了”变成可重复比较，是你以后做可靠 AI 产品时能反复用的能力。",
+  "userActions": [
+    "保存十个你真实遇到过的输入",
+    "每次改提示词都批量运行并并排比较",
+    "把变差的样例留下，形成自己的回归题库"
+  ],
+  "manualAlternative": "只改一次提示词人工看就够；长期迭代或准备交付给别人时，回归测试才有明显价值。",
+  "outcome": "一个显示通过率、差异和失败案例的测试页。",
+  "whyWorthwhile": "能学习提示词也需要版本和回归测试。",
+  "skills": [
+    "提示词工程",
+    "自动化测试"
+  ],
+  "realWorldPotential": "可稳定摘要、分类和抽取型功能。",
+  "feasibilityProbe": "选二十个历史输入，为每个写手工期望。",
+  "costAndRisks": [
+    "样例过少会造成虚假信心，不能只测顺手案例。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "样例过少会造成虚假信心，不能只测顺手案例。"
+  },
+  "generatedBy": "curated-fallback"
+}
