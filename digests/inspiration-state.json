@@ -191,6 +191,10 @@
     {
       "id": "evergreen:baserow",
       "date": "2026-09-30"
+    },
+    {
+      "id": "evergreen:mapcrunch",
+      "date": "2026-10-01"
     }
   ]
 }

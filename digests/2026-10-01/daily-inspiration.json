@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T06:01:55.076Z",
+  "candidateId": "evergreen:mapcrunch",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "MapCrunch：随机把你丢到世界某条街上",
+  "summary": "MapCrunch 随机打开街景地点，适合进行虚拟漫游。",
+  "whyInteresting": "你会看到不在旅游榜单里的普通道路、住宅和商店。",
+  "remixIdea": "猜测自己落在哪个国家，再从路牌、建筑和行车方向寻找证据。",
+  "source": {
+    "label": "MapCrunch",
+    "url": "https://www.mapcrunch.com/"
+  },
+  "generatedBy": "fallback"
+}
