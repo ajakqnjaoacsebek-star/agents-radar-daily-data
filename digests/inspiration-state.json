@@ -195,6 +195,10 @@
     {
       "id": "evergreen:mapcrunch",
       "date": "2026-10-01"
+    },
+    {
+      "id": "evergreen:gitea",
+      "date": "2026-10-02"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T05:44:42.583Z",
+  "candidateId": "evergreen:gitea",
+  "origin": "evergreen",
+  "category": "开源项目",
+  "title": "Gitea：在自己的设备上建立代码协作站",
+  "summary": "Gitea 是轻量自托管 Git 服务，提供仓库、Issue、代码审查和自动化能力。",
+  "whyInteresting": "Git 仓库服务也可以运行在小型服务器或家庭设备上。",
+  "remixIdea": "建立一个只放私人自动化和配置的家庭代码库，保留完整变更历史。",
+  "source": {
+    "label": "Gitea",
+    "url": "https://about.gitea.com/"
+  },
+  "generatedBy": "fallback"
+}
