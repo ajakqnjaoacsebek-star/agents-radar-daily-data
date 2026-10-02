@@ -421,6 +421,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "student-ai-portfolio",
+      "date": "2026-10-02",
+      "tags": [
+        "practical",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }

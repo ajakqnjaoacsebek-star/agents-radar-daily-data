@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "date": "2026-10-02",
+  "candidateId": "student-ai-portfolio",
+  "origin": "verified-existing",
+  "title": "把做过的 AI 项目变成一份能展示的学生作品集",
+  "oneLine": "自动读项目说明和成果链接，帮你挑出真正值得展示的内容并生成可部署网站。",
+  "summary": "它不是空白模板，而是先读你做过的仓库和完成记录，找出最能说明能力的项目，再写成别人看得懂的作品介绍。",
+  "problemSolved": "你会逐渐做很多 AI 项目，但如果成果散在文件夹和聊天记录里，以后求职、合作或回顾时很难证明自己会什么。",
+  "howItHelps": "它读取你授权的项目说明、截图和成果，提炼“解决了什么、你做了什么、结果如何”，再生成一个可编辑的作品集。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "earning-capability",
+    "long-term-asset",
+    "personal-capability"
+  ],
+  "userFit": "你现在就在持续做项目；越早建立成果记录，未来越不需要临时回忆和包装。",
+  "userActions": [
+    "先选两个真正完成的项目",
+    "让系统从 README 和复盘中提取成果与证据",
+    "人工删掉夸张表述后发布一个最小作品集"
+  ],
+  "manualAlternative": "只有一两个项目时人工写很快；项目多起来后，自动整理和持续更新才形成长期资产。",
+  "outcome": "一个能展示真实项目、成果证据和所学能力的个人网站。",
+  "whyWorthwhile": "它既能提高表达和复盘能力，也能为求职、合作或接单留下可信入口。",
+  "skills": [
+    "项目叙事",
+    "资料抽取",
+    "网站发布",
+    "事实核验"
+  ],
+  "realWorldPotential": "可直接用于学生作品展示、求职和寻找合作者。",
+  "feasibilityProbe": "只导入两个公开项目，检查生成介绍是否准确、是否比原 README 更容易看懂。",
+  "costAndRisks": [
+    "不得编造成果或夸大贡献",
+    "私人仓库和简历需最小权限",
+    "公开前清除密钥和私人信息"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 43,
+    "currentStars": 2,
+    "explanation": "两颗星。技术路线成熟，主要工作是整理真实证据并把介绍写得可信。"
+  },
+  "source": {
+    "label": "GitHub · ScoutFolio",
+    "url": "https://github.com/aaron-sulbaran/scoutfolio",
+    "verifiedAt": "2026-09-22"
+  },
+  "generatedBy": "curated-fallback"
+}
