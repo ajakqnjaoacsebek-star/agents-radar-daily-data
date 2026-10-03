@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T05:22:57.930Z",
+  "candidateId": "evergreen:linkwarden",
+  "origin": "evergreen",
+  "category": "知识整理",
+  "title": "Linkwarden：保存链接时顺便留下网页副本",
+  "summary": "Linkwarden 是协作式书签与网页归档工具，可按集合和标签整理链接。",
+  "whyInteresting": "原网页消失后，收藏夹里不一定只剩一个失效地址。",
+  "remixIdea": "把每日灵感自动归档，逐渐形成按主题可检索的个人案例库。",
+  "source": {
+    "label": "Linkwarden",
+    "url": "https://linkwarden.app/"
+  },
+  "generatedBy": "fallback"
+}

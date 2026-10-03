@@ -199,6 +199,10 @@
     {
       "id": "evergreen:gitea",
       "date": "2026-10-02"
+    },
+    {
+      "id": "evergreen:linkwarden",
+      "date": "2026-10-03"
     }
   ]
 }
