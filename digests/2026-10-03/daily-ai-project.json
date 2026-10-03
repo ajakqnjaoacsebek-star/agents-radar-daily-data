@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-10-03",
+  "candidateId": "arduino-voice-control",
+  "origin": "original-concept",
+  "title": "语音控制 Arduino 小装置",
+  "oneLine": "把有限语音命令映射到安全的灯光或舵机动作。",
+  "summary": "把有限语音命令映射到安全的灯光或舵机动作。能把语音识别、串口和物理反馈串起来。",
+  "problemSolved": "你想把 AI 与硬件结合，却担心语音识别错误会触发不安全动作。",
+  "howItHelps": "它只接受少量白名单命令，把语音映射到灯光或舵机，并为无法确认的命令拒绝执行。",
+  "format": "specific-project",
+  "valueTypes": [
+    "personal-capability",
+    "creation-experience"
+  ],
+  "userFit": "它能让你第一次把 AI 从屏幕里的回答变成真实灯光或动作，成果直观且能继续扩展。",
+  "userActions": [
+    "准备低压 Arduino、LED 或小舵机",
+    "先只识别开灯和关灯两条白名单指令",
+    "加入失败拒绝和物理急停，再考虑扩展"
+  ],
+  "manualAlternative": "手按开关当然更快；这个项目的价值是学习语音、代码和硬件如何形成安全闭环。",
+  "outcome": "一个只接受白名单指令的桌面硬件原型。",
+  "whyWorthwhile": "能把语音识别、串口和物理反馈串起来。",
+  "skills": [
+    "嵌入式",
+    "语音识别"
+  ],
+  "realWorldPotential": "可作为智能家居和互动装置入门。",
+  "feasibilityProbe": "先让“开灯/关灯”控制低压 LED 并加物理急停。",
+  "costAndRisks": [
+    "接线和电源有安全风险，只做低压实验。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "接线和电源有安全风险，只做低压实验。"
+  },
+  "generatedBy": "curated-fallback"
+}
