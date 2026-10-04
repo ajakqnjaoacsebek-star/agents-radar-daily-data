@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,259 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-09-27"
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950524",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "What's the Future for Pure Math Research in the Age of AI? [Wolfram]",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=gPrWX8i1htM"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950478",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: SuperLocalMemory 4.0 \"Governed Memory Operating System for AI Agents\"",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://arxiv.org/abs/2608.08253"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950288",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI can clone your indie game, but not its soul",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://twitter.com/robertvaradan/status/2106061989122334778"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950240",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Chalkboard and Avatar for AI Agents",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/zohayrslileh/more-space"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950236",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Give your AI agent awareness of what's happening around you",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/SyncSo-Inc/syncso"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950180",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "What is the true reach of a human being?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.echohive.ai/the-reach-of-being"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950108",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "How the bad science of AI doomerism is good for big business",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://thebulletin.org/2026/09/how-the-bad-science-of-ai-doomerism-is-good-for-big-business/"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49950052",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Inside Anthropic's Quest to Instill Morality into Its A.I. Models",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49949988",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "OpenAI's latest features take direct aim at the app store model",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:hn:49949938",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Superharness Built This",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://djentic.ai/showcase/particle-engine/"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:github:whirlchat/whirl",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "whirlchat/whirl",
+    "summary": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · whirlchat/whirl",
+      "url": "https://github.com/whirlchat/whirl"
+    },
+    "signalDate": "2026-10-02"
+  },
+  {
+    "id": "signal:github:xop01/ai_goodpractice",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "xop01/ai_goodpractice",
+    "summary": "full guide to help you integrate AI in your workflow, for both beginners and experienced users",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · xop01/ai_goodpractice",
+      "url": "https://github.com/xop01/ai_goodpractice"
+    },
+    "signalDate": "2026-10-02"
+  },
+  {
+    "id": "signal:github:facebookresearch/swe-sweep",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "facebookresearch/swe-sweep",
+    "summary": "How many bugs can LMs find & fix in large codebases?",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · facebookresearch/swe-sweep",
+      "url": "https://github.com/facebookresearch/swe-sweep"
+    },
+    "signalDate": "2026-10-01"
+  },
+  {
+    "id": "signal:github:NuvexNetwork/nuvex-services",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "NuvexNetwork/nuvex-services",
+    "summary": "Off-chain services for Nuvex. This repository does not deploy programs and it is not a source of protocol truth.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · NuvexNetwork/nuvex-services",
+      "url": "https://github.com/NuvexNetwork/nuvex-services"
+    },
+    "signalDate": "2026-09-30"
+  },
+  {
+    "id": "signal:github:arjunkshah12345-hash/openpages",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "arjunkshah12345-hash/openpages",
+    "summary": "Open-source AI workspace for humans and agents — SuperCompress as the core context layer.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · arjunkshah12345-hash/openpages",
+      "url": "https://github.com/arjunkshah12345-hash/openpages"
+    },
+    "signalDate": "2026-09-30"
+  },
+  {
+    "id": "signal:github:VoltEmperorChaos/ai-agent-for-pc",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "VoltEmperorChaos/ai-agent-for-pc",
+    "summary": "A simple Windows AI agent that runs locally with a single .exe file. No command line or complex setup required.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · VoltEmperorChaos/ai-agent-for-pc",
+      "url": "https://github.com/VoltEmperorChaos/ai-agent-for-pc"
+    },
+    "signalDate": "2026-09-30"
+  },
+  {
+    "id": "signal:github:strands-labs/strands-decider",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "strands-labs/strands-decider",
+    "summary": "A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · strands-labs/strands-decider",
+      "url": "https://github.com/strands-labs/strands-decider"
+    },
+    "signalDate": "2026-09-29"
+  },
+  {
+    "id": "signal:github:KKKKhazix/AIHOT",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "KKKKhazix/AIHOT",
+    "summary": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · KKKKhazix/AIHOT",
+      "url": "https://github.com/KKKKhazix/AIHOT"
+    },
+    "signalDate": "2026-09-28"
   },
   {
     "id": "signal:hn:49863072",
@@ -276,6 +528,34 @@
     "source": {
       "label": "Hacker News",
       "url": "https://www.nytimes.com/2026/09/25/world/europe/thelyson-orelien-ai-canada-haiti-france.html"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:github:scarletkc/seiso",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "scarletkc/seiso",
+    "summary": "A Markdown convention and linter for project docs written by AI and read by humans and agents",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · scarletkc/seiso",
+      "url": "https://github.com/scarletkc/seiso"
+    },
+    "signalDate": "2026-09-27"
+  },
+  {
+    "id": "signal:github:ufo-ai/ufo-core",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "ufo-ai/ufo-core",
+    "summary": "Agent operating system",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · ufo-ai/ufo-core",
+      "url": "https://github.com/ufo-ai/ufo-core"
     },
     "signalDate": "2026-09-27"
   },
