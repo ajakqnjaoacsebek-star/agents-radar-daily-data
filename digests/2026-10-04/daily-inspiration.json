@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T05:59:03.841Z",
+  "candidateId": "evergreen:zotero",
+  "origin": "evergreen",
+  "category": "知识整理",
+  "title": "Zotero：把网页和资料变成可检索收藏",
+  "summary": "Zotero 可以保存网页、论文和元数据，并通过标签与文件夹进行整理。",
+  "whyInteresting": "收藏不再只是浏览器里越积越多的一排链接。",
+  "remixIdea": "可以建一个“以后可能做的项目”资料库，每条只写一句为什么留下。",
+  "source": {
+    "label": "Zotero",
+    "url": "https://www.zotero.org/"
+  },
+  "generatedBy": "fallback"
+}

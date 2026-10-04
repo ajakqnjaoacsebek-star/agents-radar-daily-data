@@ -203,6 +203,10 @@
     {
       "id": "evergreen:linkwarden",
       "date": "2026-10-03"
+    },
+    {
+      "id": "evergreen:zotero",
+      "date": "2026-10-04"
     }
   ]
 }
