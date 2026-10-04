@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "candidateId": "vertical-chatbot-demo",
+  "origin": "original-concept",
+  "title": "垂直知识问答样板",
+  "oneLine": "为一个小领域做带引用、会拒答的演示机器人。",
+  "summary": "为一个小领域做带引用、会拒答的演示机器人。能学习从数据到交付的完整小闭环。",
+  "problemSolved": "你想为某个行业做问答机器人，但普通演示什么都回答，无法证明它可靠或能交付。",
+  "howItHelps": "它只使用小领域资料，回答带引用、不会就拒答，并用二十个真实问题验收。",
+  "format": "specific-project",
+  "valueTypes": [
+    "earning-capability",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "这是一个能展示“我会把 AI 做成可靠产品”的作品，不只是会调用聊天接口。",
+  "userActions": [
+    "选十页自己能核对的资料",
+    "做带引用、不会就拒答的问答页",
+    "准备二十个真实问题，记录错误并改进"
+  ],
+  "manualAlternative": "把文件直接发给通用 AI 更快；项目价值在于可重复、可验收、能给别人使用的交付能力。",
+  "outcome": "一个包含二十个验收问题和人工转接入口的样板。",
+  "whyWorthwhile": "能学习从数据到交付的完整小闭环。",
+  "skills": [
+    "RAG",
+    "产品验收"
+  ],
+  "realWorldPotential": "可作为向真实客户展示能力的作品。",
+  "feasibilityProbe": "只选十页公开资料，先验证引用和拒答。",
+  "costAndRisks": [
+    "领域错误可能造成损失，禁止冒充专业意见。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "领域错误可能造成损失，禁止冒充专业意见。"
+  },
+  "generatedBy": "curated-fallback"
+}
