@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T05:47:23.296Z",
+  "candidateId": "evergreen:internet-archive",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "Internet Archive：去看看互联网以前的样子",
+  "summary": "Internet Archive 保存网页快照、书籍、音频、视频和软件等数字文化资料。",
+  "whyInteresting": "一个已经消失的网站或旧版产品页面，可能仍能被重新打开。",
+  "remixIdea": "研究一个产品时顺手看看它五年前的首页，常能发现定位如何变化。",
+  "source": {
+    "label": "Internet Archive",
+    "url": "https://archive.org/"
+  },
+  "caution": "馆藏内容的版权状态不同，下载和再利用前应核对。",
+  "generatedBy": "fallback"
+}

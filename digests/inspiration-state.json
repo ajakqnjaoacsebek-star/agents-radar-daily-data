@@ -207,6 +207,10 @@
     {
       "id": "evergreen:zotero",
       "date": "2026-10-04"
+    },
+    {
+      "id": "evergreen:internet-archive",
+      "date": "2026-10-05"
     }
   ]
 }
