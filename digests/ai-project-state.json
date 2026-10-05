@@ -454,6 +454,16 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "context-compression",
+      "date": "2026-10-05",
+      "tags": [
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
