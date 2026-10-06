@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-10-06",
+  "candidateId": "friend-desktop-pet",
+  "origin": "original-concept",
+  "title": "朋友形象桌宠",
+  "oneLine": "在获得同意后，把朋友的表情和口头禅做成桌面互动角色。",
+  "summary": "在获得同意后，把朋友的表情和口头禅做成桌面互动角色。能把图像、动画、语音和人格提示组合起来。",
+  "problemSolved": "你想做一个有朋友特色的桌宠，但普通角色模板没有熟悉感，也怕未经同意使用形象。",
+  "howItHelps": "在朋友同意后，它把获准使用的表情和口头禅做成本地互动角色，并允许随时替换或删除素材。",
+  "format": "specific-project",
+  "valueTypes": [
+    "creation-experience",
+    "personal-capability"
+  ],
+  "userFit": "你明确觉得桌宠方向有趣；它能让你做出一个真正在桌面上活动、可展示给朋友看的成果。",
+  "userActions": [
+    "先用虚构角色做透明桌面窗口和三个动作",
+    "加入文字对话或语音中的一种",
+    "确认好玩后再在获得同意的前提下换成朋友形象"
+  ],
+  "manualAlternative": "人工图片或聊天机器人无法产生常驻桌面的互动感，这个项目的价值在可见、可玩的完整体验。",
+  "outcome": "一个会根据时间弹出轻量互动的本地桌宠。",
+  "whyWorthwhile": "能把图像、动画、语音和人格提示组合起来。",
+  "skills": [
+    "角色设计",
+    "桌面应用"
+  ],
+  "realWorldPotential": "主要价值是好玩，也可延伸成陪伴式提醒。",
+  "feasibilityProbe": "先用虚构角色做三个动作，确认交互是否有趣。",
+  "costAndRisks": [
+    "真实人物肖像和声音必须获得明确授权。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "真实人物肖像和声音必须获得明确授权。"
+  },
+  "generatedBy": "curated-fallback"
+}
