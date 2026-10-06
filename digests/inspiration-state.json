@@ -211,6 +211,10 @@
     {
       "id": "evergreen:internet-archive",
       "date": "2026-10-05"
+    },
+    {
+      "id": "evergreen:ollama",
+      "date": "2026-10-06"
     }
   ]
 }

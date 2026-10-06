@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T06:26:42.812Z",
+  "candidateId": "evergreen:ollama",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "Ollama：在自己的电脑上运行开源模型",
+  "summary": "Ollama 提供下载和运行多种开源模型的本地工具与接口。",
+  "whyInteresting": "一些 AI 实验可以不把资料发送到远端服务。",
+  "remixIdea": "可以做一个只处理本地笔记的摘要器，比较隐私、速度和效果。",
+  "source": {
+    "label": "Ollama",
+    "url": "https://ollama.com/"
+  },
+  "caution": "不同模型对内存和显卡要求差异很大，使用前应核对硬件需求。",
+  "generatedBy": "fallback"
+}
