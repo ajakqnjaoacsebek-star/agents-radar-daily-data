@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "candidateId": "multi-agent-handoff",
+  "origin": "original-concept",
+  "title": "多 Agent 交接实验",
+  "oneLine": "让一个 Agent 停在中途，另一个只看交接包继续。",
+  "summary": "让一个 Agent 停在中途，另一个只看交接包继续。能学习任务状态怎样被压缩成可接手的信息。",
+  "problemSolved": "多个 Agent 接力时经常重复调查或漏掉关键上下文，你看不出交接包是否真的够用。",
+  "howItHelps": "它故意让第一个 Agent 中途停止，再让第二个只凭交接包继续，并统计遗漏与重复工作。",
+  "format": "specific-project",
+  "valueTypes": [
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "它能训练你把一个复杂任务交给另一个 AI 继续，而不是每次换模型都从头解释。",
+  "userActions": [
+    "让一个 Agent 做到任务中途",
+    "只把目标、现状、证据和下一步写成交接包",
+    "让另一个 Agent 接手并记录它缺了什么"
+  ],
+  "manualAlternative": "单人短任务无需交接；复杂项目或多 Agent 协作时，这项能力能直接减少丢上下文。",
+  "outcome": "一份衡量上下文遗漏和重复工作的交接报告。",
+  "whyWorthwhile": "能学习任务状态怎样被压缩成可接手的信息。",
+  "skills": [
+    "多 Agent",
+    "上下文工程"
+  ],
+  "realWorldPotential": "可用于长任务、代码审查和分工协作。",
+  "feasibilityProbe": "选择一个三步任务，在第二步强制切换执行者。",
+  "costAndRisks": [
+    "交接包可能遗漏隐含假设，需要验收清单。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "交接包可能遗漏隐含假设，需要验收清单。"
+  },
+  "generatedBy": "curated-fallback"
+}

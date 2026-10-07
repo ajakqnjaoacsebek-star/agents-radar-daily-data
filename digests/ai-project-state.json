@@ -475,6 +475,16 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "multi-agent-handoff",
+      "date": "2026-10-07",
+      "tags": [
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
