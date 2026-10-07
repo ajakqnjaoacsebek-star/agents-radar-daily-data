@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T06:05:39.067Z",
+  "candidateId": "evergreen:whisper",
+  "origin": "evergreen",
+  "category": "AI 工具",
+  "title": "Whisper：把录音转成可以搜索的文字",
+  "summary": "Whisper 是开源语音识别模型，可用于多语言转写和翻译。",
+  "whyInteresting": "会议、采访或自己的语音想法可以变成可检索材料。",
+  "remixIdea": "把语音备忘录自动转写，再让系统只提取待办和新想法。",
+  "source": {
+    "label": "Whisper",
+    "url": "https://github.com/openai/whisper"
+  },
+  "caution": "录制和转写他人声音前应获得同意，并保护敏感音频。",
+  "generatedBy": "fallback"
+}
