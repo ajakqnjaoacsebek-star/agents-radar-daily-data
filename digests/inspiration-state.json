@@ -219,6 +219,10 @@
     {
       "id": "evergreen:whisper",
       "date": "2026-10-07"
+    },
+    {
+      "id": "evergreen:duckdb",
+      "date": "2026-10-08"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T06:11:18.902Z",
+  "candidateId": "evergreen:duckdb",
+  "origin": "evergreen",
+  "category": "数据项目",
+  "title": "DuckDB：直接分析本地 CSV 和 Parquet 文件",
+  "summary": "DuckDB 是嵌入式分析数据库，可在本地进程中查询多种数据文件。",
+  "whyInteresting": "分析中等规模数据不一定先搭建一台数据库服务器。",
+  "remixIdea": "把历日日报元数据放进一个文件，用 SQL 找出最常出现的主题和来源。",
+  "source": {
+    "label": "DuckDB",
+    "url": "https://duckdb.org/"
+  },
+  "generatedBy": "fallback"
+}
