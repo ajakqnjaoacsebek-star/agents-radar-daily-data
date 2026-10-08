@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "candidateId": "news-claim-map",
+  "origin": "original-concept",
+  "title": "新闻主张证据图",
+  "oneLine": "把多篇报道里的主张、来源和分歧画成关系图。",
+  "summary": "把多篇报道里的主张、来源和分歧画成关系图。能学习媒体素养、实体关系和来源核验。",
+  "problemSolved": "同一新闻在不同媒体里说法不同，你容易把评论当事实，也很难追到最初来源。",
+  "howItHelps": "它拆出各篇报道的主张、引用与分歧，画成关系图，点击节点就能回到原文。",
+  "format": "specific-project",
+  "valueTypes": [
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "它训练你不被一篇摘要带着走，能把新闻中的事实、观点和原始来源分开。",
+  "userActions": [
+    "选一个自己感兴趣的低争议科技事件",
+    "收集三到五篇报道并拆出主张和引用",
+    "画出分歧图并逐条点回原文核对"
+  ],
+  "manualAlternative": "只想知道大概发生什么时直接阅读更快；遇到重要或互相矛盾的信息时，证据图才值得。",
+  "outcome": "一个能点回原文、区分事实与评论的证据地图。",
+  "whyWorthwhile": "能学习媒体素养、实体关系和来源核验。",
+  "skills": [
+    "信息抽取",
+    "知识图谱"
+  ],
+  "realWorldPotential": "适合学习复杂事件而不是只看摘要。",
+  "feasibilityProbe": "选一个低争议科技事件，手工核对十条主张。",
+  "costAndRisks": [
+    "自动抽取可能误连人物与观点，不能用于骚扰个人。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "自动抽取可能误连人物与观点，不能用于骚扰个人。"
+  },
+  "generatedBy": "curated-fallback"
+}
