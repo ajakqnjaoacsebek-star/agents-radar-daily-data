@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-10-09",
+  "candidateId": "citation-checker",
+  "origin": "original-concept",
+  "title": "引用真实性检查器",
+  "oneLine": "逐条检查 AI 回答里的引用是否真的支持结论。",
+  "summary": "逐条检查 AI 回答里的引用是否真的支持结论。能学习来源存在不等于来源支持。",
+  "problemSolved": "AI 回答带了很多链接，看起来可靠，但链接内容可能根本没有支持它的结论。",
+  "howItHelps": "它拆出每条主张，打开对应来源并并排显示证据句，标注支持、部分支持或不支持。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "你以后会越来越依赖 AI 找资料，这个项目能帮你检查链接是否真的支持回答，避免被看似可靠的引用骗到。",
+  "userActions": [
+    "准备十条带链接的 AI 回答",
+    "抓取原文并逐条判断支持、部分支持或不支持",
+    "把误判样例加入回归测试"
+  ],
+  "manualAlternative": "重要内容少时人工逐条看最好；资料多、需要持续核验时，自动初筛才有价值。",
+  "outcome": "一个把主张、证据句和支持程度并排展示的页面。",
+  "whyWorthwhile": "能学习来源存在不等于来源支持。",
+  "skills": [
+    "事实核验",
+    "文本蕴含"
+  ],
+  "realWorldPotential": "适合研究摘要、日报和资料问答。",
+  "feasibilityProbe": "准备十条有真有假的引用关系做人工真值。",
+  "costAndRisks": [
+    "检查器本身也会误判，重要结论仍需打开原文。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "检查器本身也会误判，重要结论仍需打开原文。"
+  },
+  "generatedBy": "curated-fallback"
+}
