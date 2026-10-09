@@ -223,6 +223,10 @@
     {
       "id": "evergreen:duckdb",
       "date": "2026-10-08"
+    },
+    {
+      "id": "evergreen:cyberchef",
+      "date": "2026-10-09"
     }
   ]
 }
