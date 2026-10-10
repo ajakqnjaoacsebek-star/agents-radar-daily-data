@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T05:57:38.633Z",
+  "candidateId": "evergreen:audacity",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "Audacity：免费处理录音和声音",
+  "summary": "Audacity 是开源音频录制与编辑工具，支持剪辑、降噪和多轨处理。",
+  "whyInteresting": "一段普通录音经过简单清理，就能更适合作为播客、旁白或资料。",
+  "remixIdea": "把一条每日灵感录成一分钟语音，试试自己更喜欢读还是听。",
+  "source": {
+    "label": "Audacity",
+    "url": "https://www.audacityteam.org/"
+  },
+  "generatedBy": "fallback"
+}
