@@ -507,6 +507,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "niche-lead-radar",
+      "date": "2026-10-10",
+      "tags": [
+        "commercial",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }

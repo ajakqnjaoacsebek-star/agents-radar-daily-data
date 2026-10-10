@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "candidateId": "niche-lead-radar",
+  "origin": "original-concept",
+  "title": "小众需求线索雷达",
+  "oneLine": "从公开论坛讨论里找反复出现、尚未解决的问题。",
+  "summary": "从公开论坛讨论里找反复出现、尚未解决的问题。能练习需求发现而不是先造产品。",
+  "problemSolved": "你想做有真实需求的产品，却总从自己的想象出发，不知道人们正在反复抱怨什么。",
+  "howItHelps": "它扫描公开论坛，聚合同类问题并保留原帖，再生成可用于访谈核实的问题清单。",
+  "format": "specific-project",
+  "valueTypes": [
+    "economic",
+    "earning-capability",
+    "personal-capability",
+    "long-term-asset"
+  ],
+  "userFit": "你目前最缺的不是再想一个功能，而是知道网上哪些问题反复出现、谁真的在为它困扰。",
+  "userActions": [
+    "先选 GitHub Issues 和 Hacker News 两个公开来源",
+    "收集带原链接的抱怨与求助并合并同类项",
+    "挑一个高频问题，回到原帖人工确认是否值得继续"
+  ],
+  "manualAlternative": "偶尔人工浏览足够看热闹；要跨平台连续观察并保留证据时，雷达才比人工有明显价值。",
+  "outcome": "一份包含原帖、频率和可验证访谈问题的线索表。",
+  "whyWorthwhile": "能练习需求发现而不是先造产品。",
+  "skills": [
+    "公开数据分析",
+    "需求研究"
+  ],
+  "realWorldPotential": "可为咨询、工具或内容产品寻找方向。",
+  "feasibilityProbe": "只分析一个公开社区的五十条帖子并手工核对。",
+  "costAndRisks": [
+    "遵守社区规则，不抓私人资料或自动骚扰用户。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "遵守社区规则，不抓私人资料或自动骚扰用户。"
+  },
+  "generatedBy": "curated-fallback"
+}
