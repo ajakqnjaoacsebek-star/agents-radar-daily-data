@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-10-11",
+  "candidateId": "public-data-neighborhood",
+  "origin": "original-concept",
+  "title": "社区公开数据观察站",
+  "oneLine": "把天气、交通或公共设施数据做成附近变化小报。",
+  "summary": "把天气、交通或公共设施数据做成附近变化小报。能把 API、地图和日常生活问题连接起来。",
+  "problemSolved": "你想了解附近天气、交通或设施变化，却没有精力阅读各个公开数据网站。",
+  "howItHelps": "它只用聚合公开数据生成社区小报，展示变化趋势，不追踪个人或精确家庭位置。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "personal-capability",
+    "creation-experience"
+  ],
+  "userFit": "它让你把 AI 和地图、公共数据结合，做出一个与你所在城市或校园周边有关的可见作品。",
+  "userActions": [
+    "只选一个官方公开数据源",
+    "做一张显示地点和时间变化的小地图",
+    "核对更新时间、缺失值和是否真的对出行有用"
+  ],
+  "manualAlternative": "偶尔查天气或公交用现成 App 更快；要把多个长期变化放在一起观察时才值得自建。",
+  "outcome": "一个只使用聚合公开数据的社区信息页。",
+  "whyWorthwhile": "能把 API、地图和日常生活问题连接起来。",
+  "skills": [
+    "开放数据",
+    "地图"
+  ],
+  "realWorldPotential": "可成为社区内容、学习项目或公共服务原型。",
+  "feasibilityProbe": "先选一个官方数据源，验证更新时间和缺失值。",
+  "costAndRisks": [
+    "禁止展示可识别个人的数据，来源中断要明确提示。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "禁止展示可识别个人的数据，来源中断要明确提示。"
+  },
+  "generatedBy": "curated-fallback"
+}

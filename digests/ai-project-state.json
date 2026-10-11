@@ -518,6 +518,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "public-data-neighborhood",
+      "date": "2026-10-11",
+      "tags": [
+        "practical",
+        "learning"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
