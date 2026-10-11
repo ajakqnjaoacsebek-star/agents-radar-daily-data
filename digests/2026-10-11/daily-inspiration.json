@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T05:52:56.521Z",
+  "candidateId": "evergreen:kiwix",
+  "origin": "evergreen",
+  "category": "知识整理",
+  "title": "Kiwix：把大型知识网站带到离线环境",
+  "summary": "Kiwix 可以下载并离线阅读维基百科等开放知识内容。",
+  "whyInteresting": "没有稳定网络时，知识库仍然可以完整留在本地。",
+  "remixIdea": "可以给旧电脑或旅行设备准备一个离线知识包。",
+  "source": {
+    "label": "Kiwix",
+    "url": "https://kiwix.org/"
+  },
+  "generatedBy": "fallback"
+}

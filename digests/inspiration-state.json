@@ -231,6 +231,10 @@
     {
       "id": "evergreen:audacity",
       "date": "2026-10-10"
+    },
+    {
+      "id": "evergreen:kiwix",
+      "date": "2026-10-11"
     }
   ]
 }
