@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,231 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-10-04"
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039633",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: GSD Task Manager – an MCP server that gives your AI agent a task list",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/vscarpenter/gsd-task-manager"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039630",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI agents in a stand-up call",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://atoll92.github.io/agent-standup/"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039627",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039548",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI Layer – Claude Code Plugins with DuckDB Memory and CI Workflows",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://gitlab.com/kriscodes2-claude-plugins/ai-layer"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039529",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Ask HN: Local LLM Usage Box",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50039529"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039367",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "A new AI model that renders generative visuals of what you see",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.weizmann.ac.il/pages/news/mathematics-and-computer-science/the-new-science-of-mind-reading"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039318",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.bbc.com/news/articles/cqkg50j1yd5lo"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039291",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50039291"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039092",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:hn:50039051",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: I wrote Dependency Hell 5 years ago. Today I updated it for AI Era [pdf]",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/jaronilan/stories/blob/main/Agent%20Loop.pdf"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:github:wousp112/justin-sun-alan-shao-ai-notes",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "wousp112/justin-sun-alan-shao-ai-notes",
+    "summary": "孙宇晨 × 邵艾伦 4 小时对谈：全文 + 精华 + 一键丢给 AI 的规划 prompt",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · wousp112/justin-sun-alan-shao-ai-notes",
+      "url": "https://github.com/wousp112/justin-sun-alan-shao-ai-notes"
+    },
+    "signalDate": "2026-10-09"
+  },
+  {
+    "id": "signal:github:nachisama/ai-data-extractor",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "nachisama/ai-data-extractor",
+    "summary": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · nachisama/ai-data-extractor",
+      "url": "https://github.com/nachisama/ai-data-extractor"
+    },
+    "signalDate": "2026-10-07"
+  },
+  {
+    "id": "signal:github:fidipro/gluon",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "fidipro/gluon",
+    "summary": "Control platform for coding agents",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · fidipro/gluon",
+      "url": "https://github.com/fidipro/gluon"
+    },
+    "signalDate": "2026-10-07"
+  },
+  {
+    "id": "signal:github:LosaLosSantos/aurelio-finance",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "LosaLosSantos/aurelio-finance",
+    "summary": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · LosaLosSantos/aurelio-finance",
+      "url": "https://github.com/LosaLosSantos/aurelio-finance"
+    },
+    "signalDate": "2026-10-06"
+  },
+  {
+    "id": "signal:github:Tejashmakwana/motionmaxxing",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Tejashmakwana/motionmaxxing",
+    "summary": "Looksmaxxing for motion graphics. An agent skill that turns AI slop videos into films that look made by a motion designer.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Tejashmakwana/motionmaxxing",
+      "url": "https://github.com/Tejashmakwana/motionmaxxing"
+    },
+    "signalDate": "2026-10-06"
+  },
+  {
+    "id": "signal:github:longsurf-ai/openchart",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "longsurf-ai/openchart",
+    "summary": "OSS trading workspace with agents",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · longsurf-ai/openchart",
+      "url": "https://github.com/longsurf-ai/openchart"
+    },
+    "signalDate": "2026-10-05"
   },
   {
     "id": "signal:hn:49950524",
@@ -276,6 +500,62 @@
     "source": {
       "label": "Hacker News",
       "url": "https://djentic.ai/showcase/particle-engine/"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:github:VinkyDev/vibestart",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "VinkyDev/vibestart",
+    "summary": "Compose a full-stack TypeScript stack and get a cutting-edge, verified project made for AI coding agents, with type safety, lint, and tests built in. | 自由组合全栈 TypeScript 技术栈，得到一个前沿、经过验证、为 AI 编码智能体打造的项目，内置类型安全、lint 与测试。",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · VinkyDev/vibestart",
+      "url": "https://github.com/VinkyDev/vibestart"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:github:Microqian2th/dsh-codex-effort-slider",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Microqian2th/dsh-codex-effort-slider",
+    "summary": "Codex 风格的推理等级滑条（DeepSeek Harness 插件）：可拖动连续滑条 + 高档位渐变星尘特效",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Microqian2th/dsh-codex-effort-slider",
+      "url": "https://github.com/Microqian2th/dsh-codex-effort-slider"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:github:rakesh0x/OpenCardboard",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "rakesh0x/OpenCardboard",
+    "summary": "OpenCardboard — local-first chat-to-edit AI video editor. Your footage never leaves your machine.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · rakesh0x/OpenCardboard",
+      "url": "https://github.com/rakesh0x/OpenCardboard"
+    },
+    "signalDate": "2026-10-04"
+  },
+  {
+    "id": "signal:github:efim0v/brow",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "efim0v/brow",
+    "summary": "Claude Code usage and rate limits in the MacBook notch. Track the 5-hour and weekly limits of multiple Claude accounts at once, see when each resets, and sign in to each account in its own browser profile. macOS app for AI coding.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · efim0v/brow",
+      "url": "https://github.com/efim0v/brow"
     },
     "signalDate": "2026-10-04"
   },
