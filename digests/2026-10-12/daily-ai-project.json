@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "candidateId": "sports-form-review",
+  "origin": "original-concept",
+  "title": "运动动作对比练习",
+  "oneLine": "把自己的动作与公开教学关键点做可视化对照。",
+  "summary": "把自己的动作与公开教学关键点做可视化对照。能学习姿态估计和运动反馈的边界。",
+  "problemSolved": "你看教学视频觉得动作会了，实际练习时却看不到自己关节角度与示范差在哪里。",
+  "howItHelps": "它在你的练习视频上标出关键姿态，与公开教学要点并排比较，同时说明识别不确定处。",
+  "format": "specific-project",
+  "valueTypes": [
+    "personal-capability",
+    "creation-experience"
+  ],
+  "userFit": "如果你近期练某项运动，它能把视觉模型和真实动作结合，做出能看见差异的个人练习作品。",
+  "userActions": [
+    "只选一个低风险基础动作",
+    "录制自己与公开示范并标出关键姿态",
+    "请懂动作的人核对模型提示，错误就停用"
+  ],
+  "manualAlternative": "没有长期运动需求时不值得做；有固定动作想改善时，视频对比才比偶尔照镜子有价值。",
+  "outcome": "一个标注关节角度和不确定性的复盘视频。",
+  "whyWorthwhile": "能学习姿态估计和运动反馈的边界。",
+  "skills": [
+    "姿态估计",
+    "视频分析"
+  ],
+  "realWorldPotential": "可辅助自我观察基础动作。",
+  "feasibilityProbe": "只分析一个低风险动作，与人工标注对比。",
+  "costAndRisks": [
+    "不是医疗或教练建议，避免因错误提示造成受伤。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "不是医疗或教练建议，避免因错误提示造成受伤。"
+  },
+  "generatedBy": "curated-fallback"
+}
