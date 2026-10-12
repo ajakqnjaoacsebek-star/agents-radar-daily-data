@@ -235,6 +235,10 @@
     {
       "id": "evergreen:kiwix",
       "date": "2026-10-11"
+    },
+    {
+      "id": "evergreen:firecrawl",
+      "date": "2026-10-12"
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-12T06:04:25.828Z",
+  "candidateId": "evergreen:firecrawl",
+  "origin": "evergreen",
+  "category": "AI 工具",
+  "title": "Firecrawl：把网页整理成 AI 容易读取的内容",
+  "summary": "Firecrawl 提供网页抓取、搜索和结构化提取能力，并有开源项目。",
+  "whyInteresting": "网页内容进入 AI 之前，往往需要先去掉导航、广告和杂乱格式。",
+  "remixIdea": "可以抓取自己允许访问的资料页，做成带来源链接的小型问答库。",
+  "source": {
+    "label": "Firecrawl",
+    "url": "https://www.firecrawl.dev/"
+  },
+  "caution": "抓取网站时应遵守服务条款、robots 规则和版权要求。",
+  "generatedBy": "fallback"
+}
