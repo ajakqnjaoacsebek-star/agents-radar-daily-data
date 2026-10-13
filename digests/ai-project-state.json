@@ -540,6 +540,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "daily-life-rpg",
+      "date": "2026-10-13",
+      "tags": [
+        "imagination",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
