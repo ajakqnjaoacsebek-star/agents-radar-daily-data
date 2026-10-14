@@ -243,6 +243,10 @@
     {
       "id": "evergreen:bitwarden",
       "date": "2026-10-13"
+    },
+    {
+      "id": "evergreen:browser-use",
+      "date": "2026-10-14"
     }
   ]
 }
