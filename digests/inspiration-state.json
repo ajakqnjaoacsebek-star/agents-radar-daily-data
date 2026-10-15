@@ -247,6 +247,10 @@
     {
       "id": "evergreen:browser-use",
       "date": "2026-10-14"
+    },
+    {
+      "id": "evergreen:paperless-ngx",
+      "date": "2026-10-15"
     }
   ]
 }
