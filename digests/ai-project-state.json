@@ -573,6 +573,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 1
+    },
+    {
+      "candidateId": "llm-cost-simulator",
+      "date": "2026-10-16",
+      "tags": [
+        "learning",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 1
     }
   ]
 }
