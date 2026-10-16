@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T04:37:06.602Z",
+  "candidateId": "evergreen:wikivoyage",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "Wikivoyage：由旅行者共同写成的开放旅行指南",
+  "summary": "Wikivoyage 是维基媒体体系中的自由旅行指南，按目的地整理交通、景点和实用信息。",
+  "whyInteresting": "它提供了一种不以售卖行程为中心的目的地入口。",
+  "remixIdea": "随机打开一个城市，看看当地真正需要知道的三件事，拓宽对陌生地方的想象。",
+  "source": {
+    "label": "Wikivoyage",
+    "url": "https://www.wikivoyage.org/"
+  },
+  "caution": "旅行信息会变化，出行前应再次核对官方来源。",
+  "generatedBy": "fallback"
+}

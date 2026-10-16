@@ -251,6 +251,10 @@
     {
       "id": "evergreen:paperless-ngx",
       "date": "2026-10-15"
+    },
+    {
+      "id": "evergreen:wikivoyage",
+      "date": "2026-10-16"
     }
   ]
 }
