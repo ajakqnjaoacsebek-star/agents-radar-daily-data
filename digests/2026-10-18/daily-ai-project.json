@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "date": "2026-10-18",
+  "candidateId": "llm-cost-simulator",
+  "origin": "original-concept",
+  "title": "模型成本模拟器",
+  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
+  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
+  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
+  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+  "format": "specific-project",
+  "valueTypes": [
+    "practical",
+    "personal-capability",
+    "earning-capability"
+  ],
+  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userActions": [
+    "输入一个真实项目的提示词长度和每日调用次数",
+    "对比三种模型的月成本和失败重试成本",
+    "设置自己能接受的预算上限并验证降级方案"
+  ],
+  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
+  "outcome": "一个按任务量展示月度区间的预算表。",
+  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "skills": [
+    "Token 估算",
+    "成本建模"
+  ],
+  "realWorldPotential": "可避免自动化上线后账单失控。",
+  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "costAndRisks": [
+    "价格会变化，必须显示数据日期和误差区间。"
+  ],
+  "difficulty": {
+    "scale": 5,
+    "rawScore": 25,
+    "currentStars": 1,
+    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+  },
+  "generatedBy": "curated-fallback"
+}
