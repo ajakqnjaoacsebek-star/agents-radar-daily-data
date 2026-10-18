@@ -259,6 +259,10 @@
     {
       "id": "evergreen:calibre",
       "date": "2026-10-17"
+    },
+    {
+      "id": "evergreen:immich",
+      "date": "2026-10-18"
     }
   ]
 }
