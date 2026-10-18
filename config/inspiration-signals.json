@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,273 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-10-11"
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50137325",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Best Free GPU Cloud Options for AI Startups and Researchers",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.gmicloud.ai/ja/blog/best-free-gpu-cloud-options-for-ai-startups-and-researchers"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50137248",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Woodworking Tools and Knowledge Tools",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://peterkaminski.ai/writing/woodworking/"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50137246",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50137192",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Anthropic reports reducing recruitment of entry-level engineers",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://angadh.com/ai-and-jobs-1"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50137004",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Citizen Science Groups Grapple with the Rise of A.I. Slop",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.nytimes.com/2026/10/16/science/citizen-science-ai-slop.html"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50136939",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "What will AI do to our jobs and our wages? [video]",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=kAkpzlR7io8"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50136796",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "What 500 MiniMax Code Tests Revealed About AI Saying \"Done\"",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://defuzex.ai/blog/what-500-minimax-code-tests-revealed-about-ai-saying-done"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50136741",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Drunken Goddess Reflux Public Demo Canceled over AI Imitation Concerns",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://noisypixel.net/drunken-goddess-reflux-public-demo-canceled-ai-imitation-concerns/"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50136716",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Anthropic warns AI models could self-replicate across home devices",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.cnbc.com/2026/10/13/anthropic-ai-models-self-replication-smart-devices.html"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:hn:50136706",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "New Kaney's Weird Files Is Out – September 2026",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://kaneysweirdfiles.substack.com/p/september-2026-oddly-bahving-ai-evil"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:github:guolola/SoftJL",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "guolola/SoftJL",
+    "summary": "Self-hosted AI workspace for software engineering capstone and course projects. Generate UML models, system designs, test cases and editable DOC specifications from requirements. Supports traceability, your own model provider and optional read-only MCP access.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · guolola/SoftJL",
+      "url": "https://github.com/guolola/SoftJL"
+    },
+    "signalDate": "2026-10-15"
+  },
+  {
+    "id": "signal:github:apenasdouglas/ai-motion-library",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "apenasdouglas/ai-motion-library",
+    "summary": "Biblioteca de Motion apenasdouglas: 24 efeitos de animação com o nome em português e o termo pra pedir pra IA. Receitas pra canal dark, tema escuro e claro, skill pro Claude Code. Motion graphics prompts in Portuguese.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · apenasdouglas/ai-motion-library",
+      "url": "https://github.com/apenasdouglas/ai-motion-library"
+    },
+    "signalDate": "2026-10-14"
+  },
+  {
+    "id": "signal:github:datalab-to/indra",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "datalab-to/indra",
+    "summary": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · datalab-to/indra",
+      "url": "https://github.com/datalab-to/indra"
+    },
+    "signalDate": "2026-10-13"
+  },
+  {
+    "id": "signal:github:vakandi/opencode-rust",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "vakandi/opencode-rust",
+    "summary": "The open source AI coding agent, in Rust. CLI, TUI and HTTP server for local AI agents — no Docker required.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · vakandi/opencode-rust",
+      "url": "https://github.com/vakandi/opencode-rust"
+    },
+    "signalDate": "2026-10-13"
+  },
+  {
+    "id": "signal:github:SubmitGame/awesome-ai-game-dev-tools",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "SubmitGame/awesome-ai-game-dev-tools",
+    "summary": "Open-source AI tools for making games, and for decompiling, remixing and mashing up games you own. 100+ stars, active in the last year, refreshed daily.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · SubmitGame/awesome-ai-game-dev-tools",
+      "url": "https://github.com/SubmitGame/awesome-ai-game-dev-tools"
+    },
+    "signalDate": "2026-10-13"
+  },
+  {
+    "id": "signal:github:deeplethe/solid-glass",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "deeplethe/solid-glass",
+    "summary": "A design system for AI applications. Material, physical, tactile, technical.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · deeplethe/solid-glass",
+      "url": "https://github.com/deeplethe/solid-glass"
+    },
+    "signalDate": "2026-10-12"
+  },
+  {
+    "id": "signal:github:zhuyansen/new-term-radar",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "zhuyansen/new-term-radar",
+    "summary": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · zhuyansen/new-term-radar",
+      "url": "https://github.com/zhuyansen/new-term-radar"
+    },
+    "signalDate": "2026-10-12"
+  },
+  {
+    "id": "signal:github:songshikang0111/awesome-REA-cases",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "songshikang0111/awesome-REA-cases",
+    "summary": "A curated collection of REA and AI-assisted reverse engineering cases, projects, and ideas. Updated every four hours.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · songshikang0111/awesome-REA-cases",
+      "url": "https://github.com/songshikang0111/awesome-REA-cases"
+    },
+    "signalDate": "2026-10-12"
+  },
+  {
+    "id": "signal:github:robinebers/attentionmachine-skills",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "robinebers/attentionmachine-skills",
+    "summary": "Rob's skills to make you post every day without the hassle of editing. Turn raw recordings into finished Reels with the Claude or Codex you already have.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · robinebers/attentionmachine-skills",
+      "url": "https://github.com/robinebers/attentionmachine-skills"
+    },
+    "signalDate": "2026-10-12"
   },
   {
     "id": "signal:hn:50039633",
@@ -276,6 +542,20 @@
     "source": {
       "label": "Hacker News",
       "url": "https://github.com/jaronilan/stories/blob/main/Agent%20Loop.pdf"
+    },
+    "signalDate": "2026-10-11"
+  },
+  {
+    "id": "signal:github:rupeshs/filedig",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "rupeshs/filedig",
+    "summary": "Find your files by what's in them. Local AI search for docs, PDFs and photos on Windows",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · rupeshs/filedig",
+      "url": "https://github.com/rupeshs/filedig"
     },
     "signalDate": "2026-10-11"
   },
