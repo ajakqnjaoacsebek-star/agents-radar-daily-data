@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T04:47:12.119Z",
+  "candidateId": "evergreen:handbrake",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "HandBrake：把太大的视频压到更容易分享",
+  "summary": "HandBrake 是开源视频转码工具，可调整格式、分辨率和压缩质量。",
+  "whyInteresting": "很多视频只需要更合适的编码设置，就能明显减小体积。",
+  "remixIdea": "保存一个适合聊天软件发送的预设，以后拖入视频就能批量处理。",
+  "source": {
+    "label": "HandBrake",
+    "url": "https://handbrake.fr/"
+  },
+  "generatedBy": "fallback"
+}

@@ -263,6 +263,10 @@
     {
       "id": "evergreen:immich",
       "date": "2026-10-18"
+    },
+    {
+      "id": "evergreen:handbrake",
+      "date": "2026-10-19"
     }
   ]
 }
