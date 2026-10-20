@@ -267,6 +267,10 @@
     {
       "id": "evergreen:handbrake",
       "date": "2026-10-19"
+    },
+    {
+      "id": "evergreen:observable",
+      "date": "2026-10-20"
     }
   ]
 }

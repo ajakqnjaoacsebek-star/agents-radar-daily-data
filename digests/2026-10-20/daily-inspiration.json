@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T04:56:14.035Z",
+  "candidateId": "evergreen:observable",
+  "origin": "evergreen",
+  "category": "数据项目",
+  "title": "Observable：让数据探索过程本身可以被分享",
+  "summary": "Observable 提供交互式数据笔记和可视化创作环境。",
+  "whyInteresting": "图表、解释和计算过程可以放在同一个可操作页面里。",
+  "remixIdea": "把日报来源数量、主题变化和评分做成一张会随数据更新的探索页面。",
+  "source": {
+    "label": "Observable",
+    "url": "https://observablehq.com/"
+  },
+  "caution": "免费、公开和团队功能会随方案调整，敏感数据不要放进公开笔记。",
+  "generatedBy": "fallback"
+}
