@@ -617,6 +617,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 1
+    },
+    {
+      "candidateId": "desktop-ai-companion-lab",
+      "date": "2026-10-20",
+      "tags": [
+        "imagination",
+        "learning"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 4
     }
   ]
 }
