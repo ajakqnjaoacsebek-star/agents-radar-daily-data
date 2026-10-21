@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T04:55:25.416Z",
+  "candidateId": "evergreen:nocodb",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "NocoDB：把数据库变成像表格一样操作",
+  "summary": "NocoDB 是开源无代码数据库平台，可在表格界面中管理关系数据。",
+  "whyInteresting": "不熟悉 SQL 的人也能参与维护结构化数据。",
+  "remixIdea": "可以把灵感候选、来源状态和是否看过做成一个可筛选后台。",
+  "source": {
+    "label": "NocoDB",
+    "url": "https://nocodb.com/"
+  },
+  "generatedBy": "fallback"
+}
