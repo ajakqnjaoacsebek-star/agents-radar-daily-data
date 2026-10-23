@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T04:57:34.326Z",
+  "candidateId": "evergreen:docling",
+  "origin": "evergreen",
+  "category": "AI 工具",
+  "title": "Docling：把复杂文档整理成机器更容易读的结构",
+  "summary": "Docling 是开源文档处理项目，可解析 PDF、Office 等格式中的文字、表格和布局。",
+  "whyInteresting": "很多 AI 文档项目真正难的地方，是先把原文件拆对。",
+  "remixIdea": "可以把旧报告批量变成结构化文本，再建立只引用原文的搜索工具。",
+  "source": {
+    "label": "Docling",
+    "url": "https://github.com/docling-project/docling"
+  },
+  "generatedBy": "fallback"
+}
