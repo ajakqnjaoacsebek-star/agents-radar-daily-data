@@ -283,6 +283,10 @@
     {
       "id": "evergreen:docling",
       "date": "2026-10-23"
+    },
+    {
+      "id": "evergreen:openverse",
+      "date": "2026-10-24"
     }
   ]
 }
