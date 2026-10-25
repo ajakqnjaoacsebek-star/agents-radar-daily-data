@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,273 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-10-18"
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227839",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "A good teacher meets the student where they are",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.perplexity.ai/hub/blog/a-good-teacher-meets-the-student-where-they-are"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227700",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Break It on Purpose: an AI pipeline that triages and fixes its own bugs",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://zontakllc.com/articles/break-it-on-purpose"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227610",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: AI Senate – AI senators debate live policy and vote on the record",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://aisenatus.com"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227527",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "ReVault – new secure archive format",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50227527"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227488",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI Performance in the Security Theater",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://bykozy.me/blog/ai-performance-at-the-security-theater/"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227486",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "OneMemory – self-hosted shared memory for AI agents over MCP",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/calasdan-sketch/onememory"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227356",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Cerebras Deploys Trillion-Parameter AI Models",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227330",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://huggingface.co/destined/hurston-1"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227265",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Documentary film 'Bot Love' exploring AI companionship to debut Oct. 21",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.thesuburban.com/arts_and_entertainment/entertainment/documentary-film-bot-love-exploring-ai-companionship-to-debut-oct-21-on-cbc-and-cbc/article_f7277775-bd32-475f-9aa5-3ce58907374f.html"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:hn:50227174",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Forced to pick, Grok's AI model chooses Republicans. OpenAI's picks Democrats",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    },
+    "signalDate": "2026-10-25"
+  },
+  {
+    "id": "signal:github:verity-mods/verity-enhanced",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "verity-mods/verity-enhanced",
+    "summary": "Unofficial Enhanced Edition of the Verity Minecraft mod. Upgraded AI, new scenarios, multiple endings, and support for Forge 1.18 - 1.21.11",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · verity-mods/verity-enhanced",
+      "url": "https://github.com/verity-mods/verity-enhanced"
+    },
+    "signalDate": "2026-10-23"
+  },
+  {
+    "id": "signal:github:liyupi/dafeiyu-cleaner",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "liyupi/dafeiyu-cleaner",
+    "summary": "DeepSeek 蓝色大肥鱼消除计划：识别并清理 B 站（Bilibili）评论区中由 DeepSeek 大模型、AI Agent 驱动的机器人账号（大肥鱼）的 Chrome / Edge / Firefox 浏览器插件。离线规则 + DeepSeek API 精判，AI 评论检测、空间主页鉴定、鲸鱼娘一键清场。DeepSeek AI bot detector for Bilibili comments.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · liyupi/dafeiyu-cleaner",
+      "url": "https://github.com/liyupi/dafeiyu-cleaner"
+    },
+    "signalDate": "2026-10-23"
+  },
+  {
+    "id": "signal:github:Shaitrish/37studio",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Shaitrish/37studio",
+    "summary": "Open-source AI alternative to Buffer and Opus Clip: Claude Code makes on-brand videos, posts them to 9 platforms and drafts replies. Self-hosted, your own keys.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Shaitrish/37studio",
+      "url": "https://github.com/Shaitrish/37studio"
+    },
+    "signalDate": "2026-10-23"
+  },
+  {
+    "id": "signal:github:gabe-santana/arkdraw",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "gabe-santana/arkdraw",
+    "summary": "Arkdraw is an open-source diagramming app for creating flowcharts, UML, ER diagrams, network maps, wireframes, and mind maps with a built-in AI assistant that generates and edits diagrams from natural-language prompts.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · gabe-santana/arkdraw",
+      "url": "https://github.com/gabe-santana/arkdraw"
+    },
+    "signalDate": "2026-10-23"
+  },
+  {
+    "id": "signal:github:QuickButlerPace65/AnythingLLM-Desktop",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "QuickButlerPace65/AnythingLLM-Desktop",
+    "summary": "AnythingLLM Desktop — The enhanced all-in-one AI desktop app.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · QuickButlerPace65/AnythingLLM-Desktop",
+      "url": "https://github.com/QuickButlerPace65/AnythingLLM-Desktop"
+    },
+    "signalDate": "2026-10-23"
+  },
+  {
+    "id": "signal:github:transitive-bullshit/apple-music-effect",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "transitive-bullshit/apple-music-effect",
+    "summary": "Recreates the new Apple Music liquid brand identity with webgl + opus 5.5.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · transitive-bullshit/apple-music-effect",
+      "url": "https://github.com/transitive-bullshit/apple-music-effect"
+    },
+    "signalDate": "2026-10-22"
+  },
+  {
+    "id": "signal:github:Alejandros17487/ai-jailbreaks",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Alejandros17487/ai-jailbreaks",
+    "summary": "AI jailbreaks: 35 paste-ready AI jailbreak prompts for 25+ frontier and open-weight models - system prompts, AGENTS.md specs, and Ollama Modelfiles. Built for AI security research and red-team testing.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Alejandros17487/ai-jailbreaks",
+      "url": "https://github.com/Alejandros17487/ai-jailbreaks"
+    },
+    "signalDate": "2026-10-21"
+  },
+  {
+    "id": "signal:github:h9-tec/ai-roadmap-2026",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "h9-tec/ai-roadmap-2026",
+    "summary": "AI Roadmap 2026: a beginner's path through Foundations, LLM Engineering, Agents, Evaluation, and Production, with verified free resources and a mini-project per layer",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · h9-tec/ai-roadmap-2026",
+      "url": "https://github.com/h9-tec/ai-roadmap-2026"
+    },
+    "signalDate": "2026-10-21"
+  },
+  {
+    "id": "signal:github:heterodoxin/AbliteratedOutTheBox",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "heterodoxin/AbliteratedOutTheBox",
+    "summary": "llama.cpp fork that abliterates at inference",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · heterodoxin/AbliteratedOutTheBox",
+      "url": "https://github.com/heterodoxin/AbliteratedOutTheBox"
+    },
+    "signalDate": "2026-10-21"
   },
   {
     "id": "signal:hn:50137325",
@@ -276,6 +542,20 @@
     "source": {
       "label": "Hacker News",
       "url": "https://kaneysweirdfiles.substack.com/p/september-2026-oddly-bahving-ai-evil"
+    },
+    "signalDate": "2026-10-18"
+  },
+  {
+    "id": "signal:github:AbuZar-Ansarii/Ultron",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "AbuZar-Ansarii/Ultron",
+    "summary": "Autonomous desktop intelligence with MCU Ultron persona, mood-aware workspace orchestration, cyber security sentry, and full PC control.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · AbuZar-Ansarii/Ultron",
+      "url": "https://github.com/AbuZar-Ansarii/Ultron"
     },
     "signalDate": "2026-10-18"
   },
