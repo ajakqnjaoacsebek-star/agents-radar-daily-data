@@ -287,6 +287,10 @@
     {
       "id": "evergreen:openverse",
       "date": "2026-10-24"
+    },
+    {
+      "id": "evergreen:forgejo",
+      "date": "2026-10-25"
     }
   ]
 }
