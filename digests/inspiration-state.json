@@ -291,6 +291,10 @@
     {
       "id": "evergreen:forgejo",
       "date": "2026-10-25"
+    },
+    {
+      "id": "evergreen:wallabag",
+      "date": "2026-10-26"
     }
   ]
 }
