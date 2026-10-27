@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T05:11:31.801Z",
+  "candidateId": "evergreen:freshrss",
+  "origin": "evergreen",
+  "category": "信息获取",
+  "title": "FreshRSS：自己决定每天看哪些更新",
+  "summary": "FreshRSS 是自托管 RSS 阅读器，可以集中订阅网站和博客更新。",
+  "whyInteresting": "信息流可以按自己选择的来源排列，而不是完全由推荐算法决定。",
+  "remixIdea": "订阅十个真正关心的来源，再让 AI 每天只挑一个最值得看的变化。",
+  "source": {
+    "label": "FreshRSS",
+    "url": "https://freshrss.org/"
+  },
+  "generatedBy": "fallback"
+}

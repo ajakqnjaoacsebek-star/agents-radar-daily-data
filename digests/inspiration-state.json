@@ -295,6 +295,10 @@
     {
       "id": "evergreen:wallabag",
       "date": "2026-10-26"
+    },
+    {
+      "id": "evergreen:freshrss",
+      "date": "2026-10-27"
     }
   ]
 }
