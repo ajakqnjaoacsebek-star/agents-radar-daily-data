@@ -694,6 +694,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 1
+    },
+    {
+      "candidateId": "language-pronunciation",
+      "date": "2026-10-27",
+      "tags": [
+        "learning",
+        "practical"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
