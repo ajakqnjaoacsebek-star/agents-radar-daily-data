@@ -299,6 +299,10 @@
     {
       "id": "evergreen:freshrss",
       "date": "2026-10-27"
+    },
+    {
+      "id": "evergreen:open-notebook",
+      "date": "2026-10-28"
     }
   ]
 }
