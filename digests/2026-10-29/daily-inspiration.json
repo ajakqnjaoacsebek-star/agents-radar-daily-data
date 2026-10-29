@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T05:53:22.951Z",
+  "candidateId": "evergreen:window-swap",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "Window Swap：看看世界另一端窗外正在发生什么",
+  "summary": "Window Swap 收集人们上传的窗外视频，让访问者随机切换不同地点的日常景色。",
+  "whyInteresting": "它没有宏大目标，只是让陌生人的普通一天短暂出现在你的屏幕上。",
+  "remixIdea": "工作休息时随机看一分钟，比继续刷信息流更容易真正换换脑子。",
+  "source": {
+    "label": "Window Swap",
+    "url": "https://www.window-swap.com/"
+  },
+  "generatedBy": "fallback"
+}

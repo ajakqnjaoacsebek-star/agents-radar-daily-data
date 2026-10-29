@@ -303,6 +303,10 @@
     {
       "id": "evergreen:open-notebook",
       "date": "2026-10-28"
+    },
+    {
+      "id": "evergreen:window-swap",
+      "date": "2026-10-29"
     }
   ]
 }
