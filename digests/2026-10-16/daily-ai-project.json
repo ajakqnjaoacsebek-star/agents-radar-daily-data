@@ -1,42 +1,41 @@
 {
   "version": 1,
   "date": "2026-10-16",
-  "candidateId": "llm-cost-simulator",
+  "candidateId": "exam-study-simulator",
   "origin": "original-concept",
-  "title": "模型成本模拟器",
-  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
-  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
-  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+  "title": "考试情境练习器",
+  "oneLine": "根据自己的资料生成练习题并追踪薄弱点。",
+  "summary": "根据自己的资料生成练习题并追踪薄弱点。能学习检索、题目生成和掌握度跟踪。",
+  "problemSolved": "你刷题后只知道对错，不清楚薄弱点来自哪个章节，也容易让 AI 出超出资料范围的题。",
+  "howItHelps": "它只依据你的教材生成题目，记录错因与出处，再给出下一轮复习重点。",
   "format": "specific-project",
   "valueTypes": [
     "practical",
-    "personal-capability",
-    "earning-capability"
+    "personal-capability"
   ],
-  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userFit": "等你开始备考时，它能根据自己的资料出题并记录薄弱点。",
   "userActions": [
-    "输入一个真实项目的提示词长度和每日调用次数",
-    "对比三种模型的月成本和失败重试成本",
-    "设置自己能接受的预算上限并验证降级方案"
+    "只选一章资料",
+    "生成十题并逐题核对出处",
+    "记录错因，确认是否比普通刷题更有帮助"
   ],
-  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
-  "outcome": "一个按任务量展示月度区间的预算表。",
-  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "manualAlternative": "没有明确考试时没有使用场景，因此只在备考阶段推荐。",
+  "outcome": "一个显示出处、错因和复习建议的练习页。",
+  "whyWorthwhile": "能学习检索、题目生成和掌握度跟踪。",
   "skills": [
-    "Token 估算",
-    "成本建模"
+    "教育应用",
+    "评测"
   ],
-  "realWorldPotential": "可避免自动化上线后账单失控。",
-  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "realWorldPotential": "可用于阶段性自测，不替代系统学习。",
+  "feasibilityProbe": "从一章资料生成十题并由自己逐题核对出处。",
   "costAndRisks": [
-    "价格会变化，必须显示数据日期和误差区间。"
+    "模型可能出错题，必须显示来源且允许废题。"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 25,
-    "currentStars": 1,
-    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "模型可能出错题，必须显示来源且允许废题。"
   },
   "generatedBy": "curated-fallback"
 }

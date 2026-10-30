@@ -1,42 +1,43 @@
 {
   "version": 1,
   "date": "2026-10-30",
-  "candidateId": "llm-cost-simulator",
+  "candidateId": "micro-course-product",
   "origin": "original-concept",
-  "title": "模型成本模拟器",
-  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
-  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
-  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+  "title": "经验微课产品化",
+  "oneLine": "把一项自己会的具体技能做成三十分钟可完成的小课。",
+  "summary": "把一项自己会的具体技能做成三十分钟可完成的小课。能学习内容结构、用户验证和 AI 辅助制作。",
+  "problemSolved": "你有一项具体经验想分享或尝试售卖，却不知道怎样缩成别人半小时能真正学会的内容。",
+  "howItHelps": "它帮你挑一个可演示的小技能，整理成讲解、练习和反馈三部分，先做出可试学原型。",
   "format": "specific-project",
   "valueTypes": [
-    "practical",
+    "economic",
+    "earning-capability",
     "personal-capability",
-    "earning-capability"
+    "long-term-asset"
   ],
-  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userFit": "它让你练习把自己会的一件小事做成别人愿意学、甚至愿意付费的最小内容产品。",
   "userActions": [
-    "输入一个真实项目的提示词长度和每日调用次数",
-    "对比三种模型的月成本和失败重试成本",
-    "设置自己能接受的预算上限并验证降级方案"
+    "选一个你确实做过的小技能",
+    "用 AI 辅助做一节三十分钟以内的演示和练习",
+    "找三个人试学，观察他们在哪一步卡住"
   ],
-  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
-  "outcome": "一个按任务量展示月度区间的预算表。",
-  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "manualAlternative": "只写一篇说明当然更快；做这个项目的价值是验证别人能否学会，以及你有没有产品化和表达能力。",
+  "outcome": "一个含演示、练习和反馈入口的微课原型。",
+  "whyWorthwhile": "能学习内容结构、用户验证和 AI 辅助制作。",
   "skills": [
-    "Token 估算",
-    "成本建模"
+    "内容设计",
+    "用户测试"
   ],
-  "realWorldPotential": "可避免自动化上线后账单失控。",
-  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "realWorldPotential": "可作为低成本数字产品实验。",
+  "feasibilityProbe": "先找三个人完成一节课，观察卡住的位置。",
   "costAndRisks": [
-    "价格会变化，必须显示数据日期和误差区间。"
+    "不能用 AI 拼凑未经核验的专业知识或侵权材料。"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 25,
-    "currentStars": 1,
-    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "不能用 AI 拼凑未经核验的专业知识或侵权材料。"
   },
   "generatedBy": "curated-fallback"
 }

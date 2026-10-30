@@ -553,62 +553,62 @@
       "stars": 2
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "ai-blender-room",
       "date": "2026-10-14",
       "tags": [
         "learning",
-        "practical"
+        "imagination"
       ],
-      "crossDomain": false,
+      "crossDomain": true,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "book-private-search",
       "date": "2026-10-15",
       "tags": [
         "learning",
         "practical"
       ],
-      "crossDomain": false,
+      "crossDomain": true,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "exam-study-simulator",
       "date": "2026-10-16",
       "tags": [
         "learning",
         "practical"
       ],
-      "crossDomain": false,
+      "crossDomain": true,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "job-application-assistant",
       "date": "2026-10-17",
       "tags": [
-        "learning",
-        "practical"
+        "practical",
+        "learning"
       ],
-      "crossDomain": false,
+      "crossDomain": true,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "3d-print-repair-part",
       "date": "2026-10-18",
       "tags": [
         "learning",
         "practical"
       ],
-      "crossDomain": false,
+      "crossDomain": true,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 4
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "eval-dataset-maker",
       "date": "2026-10-19",
       "tags": [
         "learning",
@@ -616,7 +616,7 @@
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 2
     },
     {
       "candidateId": "desktop-ai-companion-lab",
@@ -630,70 +630,74 @@
       "stars": 4
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "klinko-idea-validator",
       "date": "2026-10-21",
       "tags": [
+        "practical",
         "learning",
-        "practical"
+        "commercial"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 2
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "ai-app-core-clone",
       "date": "2026-10-22",
       "tags": [
         "learning",
-        "practical"
+        "practical",
+        "imagination"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "first-paid-ai-microproduct",
       "date": "2026-10-23",
       "tags": [
+        "commercial",
         "learning",
         "practical"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "ideaforge-demand-radar",
       "date": "2026-10-24",
       "tags": [
+        "commercial",
         "learning",
         "practical"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "industry-digest-service",
       "date": "2026-10-25",
       "tags": [
-        "learning",
+        "commercial",
         "practical"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 3
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "ai-app-spec-builder",
       "date": "2026-10-26",
       "tags": [
-        "learning",
-        "practical"
+        "practical",
+        "learning"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 2
     },
     {
       "candidateId": "language-pronunciation",
@@ -707,18 +711,18 @@
       "stars": 2
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "idea-evidence-vault",
       "date": "2026-10-28",
       "tags": [
-        "learning",
-        "practical"
+        "practical",
+        "learning"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 2
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "local-vs-cloud",
       "date": "2026-10-29",
       "tags": [
         "learning",
@@ -726,18 +730,18 @@
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 2
     },
     {
-      "candidateId": "llm-cost-simulator",
+      "candidateId": "micro-course-product",
       "date": "2026-10-30",
       "tags": [
-        "learning",
-        "practical"
+        "commercial",
+        "learning"
       ],
       "crossDomain": false,
       "largeCommercial": false,
-      "stars": 1
+      "stars": 2
     }
   ]
 }

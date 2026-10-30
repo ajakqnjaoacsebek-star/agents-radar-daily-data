@@ -1,42 +1,41 @@
 {
   "version": 1,
   "date": "2026-10-17",
-  "candidateId": "llm-cost-simulator",
+  "candidateId": "job-application-assistant",
   "origin": "original-concept",
-  "title": "模型成本模拟器",
-  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
-  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
-  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+  "title": "求职申请人工确认助手",
+  "oneLine": "整理职位要求、简历证据和每次投递草稿。",
+  "summary": "整理职位要求、简历证据和每次投递草稿。能把 AI 自动化与平台合规、真实经历约束结合。",
+  "problemSolved": "找工作时职位要求、简历证据和投递版本散乱，重复填写又容易误投或触发平台风险。",
+  "howItHelps": "它整理职位与个人证据，生成每次申请草稿；任何最终提交都必须由你亲自确认。",
   "format": "specific-project",
   "valueTypes": [
     "practical",
-    "personal-capability",
     "earning-capability"
   ],
-  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userFit": "等你开始集中求职时，它能整理岗位要求和简历证据，但不会替你自动投递。",
   "userActions": [
-    "输入一个真实项目的提示词长度和每日调用次数",
-    "对比三种模型的月成本和失败重试成本",
-    "设置自己能接受的预算上限并验证降级方案"
+    "导入一个真实岗位和自己的简历",
+    "生成匹配证据与待补项",
+    "由你确认后只生成投递草稿"
   ],
-  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
-  "outcome": "一个按任务量展示月度区间的预算表。",
-  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "manualAlternative": "零散投递人工更快，只有集中求职时才值得建立。",
+  "outcome": "一个任何提交都需要人工点击确认的求职看板。",
+  "whyWorthwhile": "能把 AI 自动化与平台合规、真实经历约束结合。",
   "skills": [
-    "Token 估算",
-    "成本建模"
+    "浏览器辅助",
+    "信息匹配"
   ],
-  "realWorldPotential": "可避免自动化上线后账单失控。",
-  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "realWorldPotential": "可减少重复准备，但保留每次申请的针对性。",
+  "feasibilityProbe": "只在测试表单生成草稿，不登录平台、不自动投递。",
   "costAndRisks": [
-    "价格会变化，必须显示数据日期和误差区间。"
+    "平台规则、账号风控和虚假简历风险必须优先处理。"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 25,
-    "currentStars": 1,
-    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "平台规则、账号风控和虚假简历风险必须优先处理。"
   },
   "generatedBy": "curated-fallback"
 }

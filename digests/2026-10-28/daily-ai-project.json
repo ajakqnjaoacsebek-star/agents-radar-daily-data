@@ -1,42 +1,42 @@
 {
   "version": 1,
   "date": "2026-10-28",
-  "candidateId": "llm-cost-simulator",
+  "candidateId": "idea-evidence-vault",
   "origin": "original-concept",
-  "title": "模型成本模拟器",
-  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
-  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
-  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+  "title": "模糊点子验证器",
+  "oneLine": "把一句脑海灵感变成证据卡，而不是立刻开工。",
+  "summary": "把一句脑海灵感变成证据卡，而不是立刻开工。能训练先验证关键假设，再决定投入。",
+  "problemSolved": "你经常冒出项目点子，但一兴奋就直接开工，后来才发现需求不真实或已有更好方案。",
+  "howItHelps": "它会保存点子，替你收集类似产品、真实讨论和反面证据，再给出“继续、调整或暂缓”的判断材料。",
   "format": "specific-project",
   "valueTypes": [
     "practical",
     "personal-capability",
-    "earning-capability"
+    "long-term-asset"
   ],
-  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userFit": "你经常先记下点子、过一阵才决定要不要做；这个项目正好把“马上开工”改成“先查证再收藏”。",
   "userActions": [
-    "输入一个真实项目的提示词长度和每日调用次数",
-    "对比三种模型的月成本和失败重试成本",
-    "设置自己能接受的预算上限并验证降级方案"
+    "输入一个你真实想过的点子",
+    "让系统找相似产品、真实讨论和反对证据",
+    "自己选择继续、调整或暂缓，并把证据留下"
   ],
-  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
-  "outcome": "一个按任务量展示月度区间的预算表。",
-  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "manualAlternative": "人工搜索一次并不难，但点子多起来后很容易漏掉反面证据，也无法积累一套可回看的判断记录。",
+  "outcome": "一个保存竞品、用户讨论、风险和下一步的点子库。",
+  "whyWorthwhile": "能训练先验证关键假设，再决定投入。",
   "skills": [
-    "Token 估算",
-    "成本建模"
+    "需求验证",
+    "信息检索"
   ],
-  "realWorldPotential": "可避免自动化上线后账单失控。",
-  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "realWorldPotential": "适合所有个人项目立项和定期回看。",
+  "feasibilityProbe": "拿一个旧想法找三个竞品与五条真实讨论。",
   "costAndRisks": [
-    "价格会变化，必须显示数据日期和误差区间。"
+    "搜索证据可能有偏差，结论必须标注不确定性。"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 25,
-    "currentStars": 1,
-    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "搜索证据可能有偏差，结论必须标注不确定性。"
   },
   "generatedBy": "curated-fallback"
 }

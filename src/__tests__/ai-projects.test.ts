@@ -164,6 +164,50 @@ describe("daily selection", () => {
     expect(selected.candidateId).toBe("matched");
   });
 
+  it("uses an unseen conditional project before repeating an exhausted preferred pool", () => {
+    const selected = selectDailyAiProject(
+      [
+        candidate("matched", tasteProfile),
+        candidate("conditional", { ...tasteProfile, tasteStatus: "conditional" }),
+      ],
+      { recent: [{ candidateId: "matched", date: "2026-08-01", tags: ["practical"] }] },
+      emptyPreferences,
+      "2026-08-24",
+    );
+    expect(selected.candidateId).toBe("conditional");
+  });
+
+  it("uses the most recent occurrence when rotating an exhausted preferred pool", () => {
+    const selected = selectDailyAiProject(
+      [candidate("recently-repeated", tasteProfile), candidate("least-recent", tasteProfile)],
+      {
+        recent: [
+          { candidateId: "recently-repeated", date: "2026-07-01", tags: ["practical"] },
+          { candidateId: "least-recent", date: "2026-07-20", tags: ["practical"] },
+          { candidateId: "recently-repeated", date: "2026-08-23", tags: ["practical"] },
+        ],
+      },
+      emptyPreferences,
+      "2026-08-24",
+    );
+    expect(selected.candidateId).toBe("least-recent");
+  });
+
+  it("does not immediately repeat yesterday's project when every preferred item was used", () => {
+    const selected = selectDailyAiProject(
+      [candidate("yesterday", tasteProfile), candidate("two-days-ago", tasteProfile)],
+      {
+        recent: [
+          { candidateId: "two-days-ago", date: "2026-08-22", tags: ["practical"] },
+          { candidateId: "yesterday", date: "2026-08-23", tags: ["practical"] },
+        ],
+      },
+      emptyPreferences,
+      "2026-08-24",
+    );
+    expect(selected.candidateId).toBe("two-days-ago");
+  });
+
   it("does not repeat an exact candidate within 90 days", () => {
     const selected = selectDailyAiProject(
       [candidate("recent"), candidate("fresh")],
