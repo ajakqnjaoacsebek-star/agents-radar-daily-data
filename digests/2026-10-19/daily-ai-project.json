@@ -1,42 +1,42 @@
 {
   "version": 1,
   "date": "2026-10-19",
-  "candidateId": "llm-cost-simulator",
+  "candidateId": "eval-dataset-maker",
   "origin": "original-concept",
-  "title": "模型成本模拟器",
-  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
-  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
-  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+  "title": "个人评测集制作器",
+  "oneLine": "把遇到过的失败输入保存成可重复测试的题库。",
+  "summary": "把遇到过的失败输入保存成可重复测试的题库。能让项目质量跟着真实错误积累而提高。",
+  "problemSolved": "AI 曾经答错的问题散落在聊天里，修好一次后，下次改动又可能复发。",
+  "howItHelps": "它把真实失败输入、期望结果和失败原因收成小题库，之后每次改模型或提示词都能重测。",
   "format": "specific-project",
   "valueTypes": [
-    "practical",
     "personal-capability",
+    "long-term-asset",
     "earning-capability"
   ],
-  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userFit": "它会把你做项目时踩过的坑变成以后自动验收的题目，让能力不只停留在一次修好。",
   "userActions": [
-    "输入一个真实项目的提示词长度和每日调用次数",
-    "对比三种模型的月成本和失败重试成本",
-    "设置自己能接受的预算上限并验证降级方案"
+    "从一个已做项目中挑十个失败输入",
+    "写出什么算合格和不合格",
+    "让新版自动重跑并保存差异"
   ],
-  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
-  "outcome": "一个按任务量展示月度区间的预算表。",
-  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "manualAlternative": "只有两三个样例时人工检查更快；项目反复改动或要给别人用时，评测集才成为长期资产。",
+  "outcome": "一个包含输入、期望、来源和失败类型的小数据集。",
+  "whyWorthwhile": "能让项目质量跟着真实错误积累而提高。",
   "skills": [
-    "Token 估算",
-    "成本建模"
+    "评测数据",
+    "失败分类"
   ],
-  "realWorldPotential": "可避免自动化上线后账单失控。",
-  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "realWorldPotential": "适合任何长期使用的 AI 功能。",
+  "feasibilityProbe": "从一个旧项目收集二十个真实失败案例。",
   "costAndRisks": [
-    "价格会变化，必须显示数据日期和误差区间。"
+    "评测集不能包含未经脱敏的私人数据。"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 25,
-    "currentStars": 1,
-    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+    "rawScore": 38,
+    "currentStars": 2,
+    "explanation": "评测集不能包含未经脱敏的私人数据。"
   },
   "generatedBy": "curated-fallback"
 }

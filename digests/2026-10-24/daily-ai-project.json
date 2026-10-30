@@ -1,42 +1,52 @@
 {
   "version": 1,
   "date": "2026-10-24",
-  "candidateId": "llm-cost-simulator",
-  "origin": "original-concept",
-  "title": "模型成本模拟器",
-  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
-  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
-  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
+  "candidateId": "ideaforge-demand-radar",
+  "origin": "verified-existing",
+  "title": "跨平台真实需求雷达",
+  "oneLine": "从 GitHub、Hacker News 等公开讨论里，找出人们反复抱怨且可能愿意解决的问题。",
+  "summary": "系统定期收集公开求助、抱怨和现有替代方案，把同类问题合并，并保留原帖供你核对。它不直接宣布“这是商机”，而是给你一张可继续访谈和验证的线索榜。",
+  "problemSolved": "你想做有用或能产生经济价值的项目，但在学校很难碰到足够多的真实客户，也不知道线上哪里有需求。",
+  "howItHelps": "它替你持续观察多个公开平台，把重复出现的问题、受影响人群、现有解决办法和原链接放到一起。你不用每天刷平台，也不会只凭一次抱怨就开工。",
   "format": "specific-project",
   "valueTypes": [
-    "practical",
+    "economic",
+    "earning-capability",
     "personal-capability",
-    "earning-capability"
+    "long-term-asset"
   ],
-  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userFit": "它直接补上你目前“找不到需求”的缺口，也比替某个小商家做一次低价小单更能积累长期判断能力。",
   "userActions": [
-    "输入一个真实项目的提示词长度和每日调用次数",
-    "对比三种模型的月成本和失败重试成本",
-    "设置自己能接受的预算上限并验证降级方案"
+    "第一版只接 GitHub Issues 和 Hacker News",
+    "把同类问题聚合并展示频率、原帖和现有替代品",
+    "每周人工挑一个线索，回原帖核验并设计访谈问题"
   ],
-  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
-  "outcome": "一个按任务量展示月度区间的预算表。",
-  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "manualAlternative": "偶尔浏览可以发现零散灵感；跨平台、持续去重和回看历史时，自动雷达的价值才明显。",
+  "outcome": "一个每天更新的需求线索榜，能点回原文，并记录你对每条线索的判断。",
+  "whyWorthwhile": "你会练到公开数据获取、聚类、证据核验和需求判断；这些能力也能服务未来的产品或兼职。",
   "skills": [
-    "Token 估算",
-    "成本建模"
+    "公开数据收集",
+    "需求聚类",
+    "商机验证",
+    "证据核验"
   ],
-  "realWorldPotential": "可避免自动化上线后账单失控。",
-  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "realWorldPotential": "可用于寻找个人项目、内容选题、开源工具方向，成熟后也可能做成垂直情报服务。",
+  "feasibilityProbe": "先抓两个公开来源各五十条内容，人工检查前十名是否真是重复问题，而不是关键词巧合。",
   "costAndRisks": [
-    "价格会变化，必须显示数据日期和误差区间。"
+    "遵守平台条款和频率限制",
+    "不抓私人资料、不自动联系用户",
+    "高频讨论不代表有人付钱"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 25,
-    "currentStars": 1,
-    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+    "rawScore": 54,
+    "currentStars": 3,
+    "explanation": "三颗星。抓取不算最难，难点是去重、保留证据并避免把热闹误判成需求。"
+  },
+  "source": {
+    "label": "GitHub · IdeaForge",
+    "url": "https://github.com/VinGuar/IdeaForge",
+    "verifiedAt": "2026-09-22"
   },
   "generatedBy": "curated-fallback"
 }

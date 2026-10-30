@@ -1,42 +1,52 @@
 {
   "version": 1,
   "date": "2026-10-22",
-  "candidateId": "llm-cost-simulator",
-  "origin": "original-concept",
-  "title": "模型成本模拟器",
-  "oneLine": "在开发前估算不同输入长度与调用次数的费用。",
-  "summary": "在开发前估算不同输入长度与调用次数的费用。能理解上下文、输出和重试怎样共同花钱。",
-  "problemSolved": "你准备做自动运行的 AI 工具，却不知道提示词、调用次数和重试会让月费涨到多少。",
-  "howItHelps": "它按真实输入长度和每日任务量计算低、中、高三档费用，让你在开工前看清预算上限。",
-  "format": "specific-project",
+  "candidateId": "ai-app-core-clone",
+  "origin": "verified-existing",
+  "title": "复现一个热门 AI 产品最关键的那一下",
+  "oneLine": "不抄完整产品，只挑它最让你惊讶的一个交互或能力，做成可运行原型。",
+  "summary": "你每周从 GitHub、抖音或产品榜挑一个真正在流行的 AI 项目，先弄清用户为什么喜欢，再只复现一个核心闭环，例如“给截图→生成可运行页面”。",
+  "problemSolved": "你想从网上热门项目获得灵感，但只看介绍学不到实现方法；完整照抄又太大、很快失去耐心。",
+  "howItHelps": "它强迫你先判断项目最有价值的一步，再把输入、处理和输出跑通。完成后你既理解了别人为什么火，也留下一个能继续改造的代码底座。",
+  "format": "direction-exploration",
   "valueTypes": [
-    "practical",
     "personal-capability",
-    "earning-capability"
+    "creation-experience",
+    "earning-capability",
+    "long-term-asset"
   ],
-  "userFit": "你会持续做 AI 项目，提前算清每天调用多少次、一个月可能花多少钱，能避免项目做完才发现养不起。",
+  "userFit": "你明确希望我从网上找热门、实用、有趣的项目；这种做法让推荐不只停留在“看看”，而是转成真正学会。",
   "userActions": [
-    "输入一个真实项目的提示词长度和每日调用次数",
-    "对比三种模型的月成本和失败重试成本",
-    "设置自己能接受的预算上限并验证降级方案"
+    "挑一个近期真实项目并写出它最吸引你的一个功能",
+    "把核心闭环限制为一次输入、一次处理、一次输出",
+    "做完后再决定改成自己的用途还是停在学习样品"
   ],
-  "manualAlternative": "少量调用可以心算；一旦有多个模型、自动任务和重试，模拟器能防止成本判断失真。",
-  "outcome": "一个按任务量展示月度区间的预算表。",
-  "whyWorthwhile": "能理解上下文、输出和重试怎样共同花钱。",
+  "manualAlternative": "只看演示最快，但不能形成实现能力；完整复制太慢，复现一个核心闭环是中间路线。",
+  "outcome": "一个能运行的核心功能样品，以及你对原项目价值、实现难点和可改造方向的拆解。",
+  "whyWorthwhile": "它能持续拓宽眼界，又把观察转成代码、产品判断和可复用模块。",
   "skills": [
-    "Token 估算",
-    "成本建模"
+    "产品拆解",
+    "快速原型",
+    "界面与数据闭环",
+    "开源许可判断"
   ],
-  "realWorldPotential": "可避免自动化上线后账单失控。",
-  "feasibilityProbe": "用一个真实提示测量输入输出并模拟三种用量。",
+  "realWorldPotential": "有些样品可以改成个人工具、作品集或垂直小产品，但必须避免直接复制品牌和受保护素材。",
+  "feasibilityProbe": "先参考 ai-app-cloner 的做法，只拿一个公开页面截图，验证能否还原一个可点击界面，而不是复制整款 App。",
   "costAndRisks": [
-    "价格会变化，必须显示数据日期和误差区间。"
+    "遵守开源许可和商标边界",
+    "不要复制付费数据或私有接口",
+    "控制范围，否则很容易变成无底洞"
   ],
   "difficulty": {
     "scale": 5,
-    "rawScore": 25,
-    "currentStars": 1,
-    "explanation": "价格会变化，必须显示数据日期和误差区间。"
+    "rawScore": 52,
+    "currentStars": 3,
+    "explanation": "三颗星。每次难度取决于所选功能，必须主动砍掉登录、支付和完整后台。"
+  },
+  "source": {
+    "label": "GitHub · ai-app-cloner",
+    "url": "https://github.com/Birkenpapier/ai-app-cloner",
+    "verifiedAt": "2026-09-22"
   },
   "generatedBy": "curated-fallback"
 }
