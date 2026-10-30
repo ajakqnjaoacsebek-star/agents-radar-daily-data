@@ -274,6 +274,15 @@ export function selectDailyAiProject(
     (entry) => ageInDays(entry.date, date) >= 0 && ageInDays(entry.date, date) < 90,
   );
   const blocked = new Set(recent90.map((entry) => entry.candidateId));
+  const latestDateByCandidate = new Map<string, string>();
+  for (const entry of recent90) {
+    const current = latestDateByCandidate.get(entry.candidateId);
+    if (!current || entry.date > current) latestDateByCandidate.set(entry.candidateId, entry.date);
+  }
+  const latestAge = (candidateId: string): number => {
+    const latestDate = latestDateByCandidate.get(candidateId);
+    return latestDate ? ageInDays(latestDate, date) : Number.POSITIVE_INFINITY;
+  };
   const hasRecentLarge = recent90.some(
     (entry) => ageInDays(entry.date, date) < 30 && entry.largeCommercial && (entry.stars ?? 0) >= 4,
   );
@@ -288,14 +297,33 @@ export function selectDailyAiProject(
   let eligible = valid.filter(
     (candidate) => candidate.readerReady && tasteEligible(candidate) && !blocked.has(candidate.candidateId),
   );
-  if (hasRecentLarge) eligible = eligible.filter((candidate) => !candidate.largeCommercial);
+  const applyLargeProjectLimit = (pool: AiProjectCandidate[]): AiProjectCandidate[] =>
+    hasRecentLarge ? pool.filter((candidate) => !candidate.largeCommercial) : pool;
+  eligible = applyLargeProjectLimit(eligible);
   if (!eligible.length && hasTasteProfile) {
-    // Repeating a well-matched project after a month is safer than publishing a new but irrelevant one.
-    eligible = valid.filter((candidate) => {
-      if (!candidate.readerReady || candidate.tasteStatus !== "preferred") return false;
-      const latest = recent90.find((entry) => entry.candidateId === candidate.candidateId);
-      return !latest || ageInDays(latest.date, date) >= 30;
-    });
+    eligible = applyLargeProjectLimit(
+      valid.filter(
+        (candidate) =>
+          candidate.readerReady &&
+          candidate.tasteStatus === "conditional" &&
+          !blocked.has(candidate.candidateId),
+      ),
+    );
+  }
+  if (!eligible.length && hasTasteProfile) {
+    // When the calibrated pool is exhausted, rotate the least recently shown
+    // reader-fit project instead of repeatedly choosing the same high scorer.
+    const preferred = applyLargeProjectLimit(
+      valid.filter((candidate) => candidate.readerReady && candidate.tasteStatus === "preferred"),
+    );
+    const conditional = applyLargeProjectLimit(
+      valid.filter((candidate) => candidate.readerReady && candidate.tasteStatus === "conditional"),
+    );
+    const repeatable = preferred.length ? preferred : conditional;
+    const outsideLastWeek = repeatable.filter((candidate) => latestAge(candidate.candidateId) >= 7);
+    const rotationPool = outsideLastWeek.length ? outsideLastWeek : repeatable;
+    const oldestAge = Math.max(...rotationPool.map((candidate) => latestAge(candidate.candidateId)));
+    eligible = rotationPool.filter((candidate) => latestAge(candidate.candidateId) === oldestAge);
   }
   if (!eligible.length) throw new Error("No reader-fit AI project candidate is eligible");
 

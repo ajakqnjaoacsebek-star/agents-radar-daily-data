@@ -10,6 +10,7 @@
     "ai-project:only": "tsx src/ai-project-only.ts",
     "ai-project:refresh": "tsx src/refresh-ai-projects.ts",
     "ai-project:catalog": "node scripts/build-ai-project-catalog.mjs && node scripts/migrate-ai-project-taste-v2.mjs --catalog-only",
+    "ai-project:repair-repeats": "tsx scripts/repair-ai-project-repeats.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
