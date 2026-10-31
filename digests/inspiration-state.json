@@ -311,6 +311,10 @@
     {
       "id": "evergreen:grist",
       "date": "2026-10-30"
+    },
+    {
+      "id": "evergreen:comfyui",
+      "date": "2026-10-31"
     }
   ]
 }

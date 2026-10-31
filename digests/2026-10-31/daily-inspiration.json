@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T05:50:47.343Z",
+  "candidateId": "evergreen:comfyui",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "ComfyUI：把图片生成过程变成可见节点",
+  "summary": "你可以把 AI 生成图片的每一步连成可见节点，保存后重复使用，不必每次从头调。",
+  "whyInteresting": "它能让你看懂一张图是怎样经过模型、尺寸和后处理生成的，也方便你改其中一步。",
+  "remixIdea": "先找一个官方示例工作流，只改提示词和尺寸，观察哪些节点真正影响结果。",
+  "source": {
+    "label": "ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI"
+  },
+  "caution": "下载模型前应检查许可、来源和磁盘占用。",
+  "generatedBy": "fallback"
+}
