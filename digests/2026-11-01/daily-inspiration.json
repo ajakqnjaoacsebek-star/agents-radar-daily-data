@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T06:14:25.781Z",
+  "candidateId": "evergreen:standard-ebooks",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "Standard Ebooks：重新排版过的公版电子书",
+  "summary": "Standard Ebooks 把公共领域作品整理成排版精良、元数据完整的免费电子书。",
+  "whyInteresting": "免费电子书也可以有接近商业出版物的阅读体验。",
+  "remixIdea": "挑一本短篇作品，观察它如何处理封面、目录和注释，再借鉴到自己的文档。",
+  "source": {
+    "label": "Standard Ebooks",
+    "url": "https://standardebooks.org/"
+  },
+  "generatedBy": "fallback"
+}
