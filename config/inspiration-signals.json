@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,287 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-10-25"
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50322510",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "I recreated subvocal in 9 minutes with one prompt for AirPods Pro 3",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://twitter.com/joeblau/status/2116347756138856734"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50322458",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50322251",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI Made Me Homeless",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://medium.com/effortless-programming/ai-made-me-homeless-a7266d716e59"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50322165",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "James Mickens' Talk: A Sober Analysis of AI Impact (LABScon '26)",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=usZLo_9Jz54"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50322022",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://arxiv.org/abs/2409.02292"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50322021",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: LinkedIn-ops – Zero-dependency CDP automation built for AI agents",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://github.com/shashtag-ventures/linkedin-ops"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50321939",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "WiCi: Connecting GPUs over WiFi",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://wici.ai"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50321734",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "How AI may drive union-resistant tech workers to the bargaining table",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50321682",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "The Elephant-Goldfish Model plugin for spec-driven AI development",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:hn:50321629",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Wikimedia Foundation Tries to Save Itself by Brokering AI Copyright Deal",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://gizmodo.com/wikimedia-foundation-tries-to-save-itself-from-oblivion-by-brokering-ai-copyright-deal-2000833099"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:github:tavern-labs-ai/persona-ai-sdk",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "tavern-labs-ai/persona-ai-sdk",
+    "summary": "Persona AI SDK: default personas, durable character memory, and Bedrock/OpenAI adapters in one package.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · tavern-labs-ai/persona-ai-sdk",
+      "url": "https://github.com/tavern-labs-ai/persona-ai-sdk"
+    },
+    "signalDate": "2026-10-31"
+  },
+  {
+    "id": "signal:github:boardshogunfluctuate/Capri-AI",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "boardshogunfluctuate/Capri-AI",
+    "summary": "⚡ Tell your PC what to do. Capri is a cyberpunk AI agent that works with your files, projects and code through Claude Code, Codex or Antigravity. Windows installer, no terminal. Fan-made, not affiliated with CD PROJEKT RED.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · boardshogunfluctuate/Capri-AI",
+      "url": "https://github.com/boardshogunfluctuate/Capri-AI"
+    },
+    "signalDate": "2026-10-30"
+  },
+  {
+    "id": "signal:github:EntranceStarfish/VoiceStudioV2",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "EntranceStarfish/VoiceStudioV2",
+    "summary": "Local AI voice studio: real-time voice changer, text-to-speech, voice cloning & dubbing with a drop-in OpenAI-compatible API. 100% offline, no cloud, no API keys. Unofficial fork of VoiceStudio.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · EntranceStarfish/VoiceStudioV2",
+      "url": "https://github.com/EntranceStarfish/VoiceStudioV2"
+    },
+    "signalDate": "2026-10-30"
+  },
+  {
+    "id": "signal:github:amitshekhariitbhu/forward-deployed-engineer-roadmap",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "amitshekhariitbhu/forward-deployed-engineer-roadmap",
+    "summary": "Forward Deployed Engineer Roadmap - A step-by-step roadmap to become a Forward Deployed Engineer (FDE) in AI, with a blog for every topic.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · amitshekhariitbhu/forward-deployed-engineer-roadmap",
+      "url": "https://github.com/amitshekhariitbhu/forward-deployed-engineer-roadmap"
+    },
+    "signalDate": "2026-10-30"
+  },
+  {
+    "id": "signal:github:shipwords-dev/shipwords",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "shipwords-dev/shipwords",
+    "summary": "Ship a money-making AI site for every new keyword. Cloudflare-native starter with auth, credits, payments and AI generation. | 新词站群框架：一个新词一个站，一个下午上线。起量的继续迭代，没起来的放着不管。不变的共享，变的独立。",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · shipwords-dev/shipwords",
+      "url": "https://github.com/shipwords-dev/shipwords"
+    },
+    "signalDate": "2026-10-28"
+  },
+  {
+    "id": "signal:github:Balanov/baiagent-director",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Balanov/baiagent-director",
+    "summary": "Free local-first AI business advisor with evidence-linked research and verifiable pilot plans.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Balanov/baiagent-director",
+      "url": "https://github.com/Balanov/baiagent-director"
+    },
+    "signalDate": "2026-10-28"
+  },
+  {
+    "id": "signal:github:hhtower/price-comparison",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "hhtower/price-comparison",
+    "summary": "AI 订阅与卡网比价平台，说出需求，让 AI 帮你选。聚合 ChatGPT / Codex、Claude、Gemini 等代充或账号报价，对比价格走势、充值渠道与质保。AI-powered shopping and price comparison for subscriptions and accounts, with cross-shop offers, price history and purchase details.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · hhtower/price-comparison",
+      "url": "https://github.com/hhtower/price-comparison"
+    },
+    "signalDate": "2026-10-28"
+  },
+  {
+    "id": "signal:github:JunWan666/astrbot-for-android",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "JunWan666/astrbot-for-android",
+    "summary": "在 Android 手机上本地部署和管理 AstrBot 与 NapCat，内置 PRoot Ubuntu 运行环境，支持原生管理界面、WebUI、日志、备份恢复和独立更新，无需 Root。",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · JunWan666/astrbot-for-android",
+      "url": "https://github.com/JunWan666/astrbot-for-android"
+    },
+    "signalDate": "2026-10-26"
+  },
+  {
+    "id": "signal:github:Orderlight93426/call-of-duty-modern-warfare-resocket-4-fps-optimizer",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Orderlight93426/call-of-duty-modern-warfare-resocket-4-fps-optimizer",
+    "summary": "Lightweight desktop tool for Call of Duty: Modern Warfare 4. Smart FPS optimization, performance tuning, process management and real-time monitoring. Designed to improve frame rates and stability. Regularly updated.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Orderlight93426/call-of-duty-modern-warfare-resocket-4-fps-optimizer",
+      "url": "https://github.com/Orderlight93426/call-of-duty-modern-warfare-resocket-4-fps-optimizer"
+    },
+    "signalDate": "2026-10-26"
+  },
+  {
+    "id": "signal:github:OFat34764e/InterviewCopilot-rpocket-team",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "OFat34764e/InterviewCopilot-rpocket-team",
+    "summary": "EdTech application designed to bridge the gap between learning and landing your dream job",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · OFat34764e/InterviewCopilot-rpocket-team",
+      "url": "https://github.com/OFat34764e/InterviewCopilot-rpocket-team"
+    },
+    "signalDate": "2026-10-26"
   },
   {
     "id": "signal:hn:50227839",
