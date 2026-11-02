@@ -319,6 +319,10 @@
     {
       "id": "evergreen:standard-ebooks",
       "date": "2026-11-01"
+    },
+    {
+      "id": "evergreen:libreoffice",
+      "date": "2026-11-02"
     }
   ]
 }
