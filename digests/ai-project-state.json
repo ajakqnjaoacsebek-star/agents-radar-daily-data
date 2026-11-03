@@ -775,6 +775,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "prompt-regression",
+      "date": "2026-11-03",
+      "tags": [
+        "learning",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
