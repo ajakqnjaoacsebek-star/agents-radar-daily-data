@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T06:53:47.022Z",
+  "candidateId": "evergreen:alternativeto",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "AlternativeTo：从用途出发寻找软件替代品",
+  "summary": "当一个软件太贵、不好用或停服时，你可以用它快速找到同类替代品。",
+  "whyInteresting": "它按用途、平台和许可整理结果，能帮你少看一堆不相关的搜索页面。",
+  "remixIdea": "搜一个你正在付费的软件，看看有没有开源或一次性付费的替代。",
+  "source": {
+    "label": "AlternativeTo",
+    "url": "https://alternativeto.net/"
+  },
+  "caution": "社区推荐不等于安全审计，安装前应继续核对官网和维护状态。",
+  "generatedBy": "fallback"
+}

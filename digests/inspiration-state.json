@@ -323,6 +323,10 @@
     {
       "id": "evergreen:libreoffice",
       "date": "2026-11-02"
+    },
+    {
+      "id": "evergreen:alternativeto",
+      "date": "2026-11-03"
     }
   ]
 }
