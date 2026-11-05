@@ -797,6 +797,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "arduino-voice-control",
+      "date": "2026-11-05",
+      "tags": [
+        "learning",
+        "imagination"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
