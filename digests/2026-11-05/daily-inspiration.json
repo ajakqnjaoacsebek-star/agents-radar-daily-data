@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T06:54:38.567Z",
+  "candidateId": "evergreen:librechat",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "LibreChat：把不同模型放进一个自托管聊天界面",
+  "summary": "LibreChat 是开源 AI 聊天平台，可连接多种模型、工具和检索能力。",
+  "whyInteresting": "更换模型时，可以保留相似的使用入口和数据管理方式。",
+  "remixIdea": "为不同任务设置固定助手，例如写作、资料整理和代码检查各用一套配置。",
+  "source": {
+    "label": "LibreChat",
+    "url": "https://www.librechat.ai/"
+  },
+  "caution": "连接云模型会产生对应费用，并受各提供商隐私条款约束。",
+  "generatedBy": "fallback"
+}
