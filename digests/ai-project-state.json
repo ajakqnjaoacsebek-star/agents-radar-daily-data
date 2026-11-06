@@ -808,6 +808,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "vertical-chatbot-demo",
+      "date": "2026-11-06",
+      "tags": [
+        "commercial",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
