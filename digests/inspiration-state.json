@@ -335,6 +335,10 @@
     {
       "id": "evergreen:librechat",
       "date": "2026-11-05"
+    },
+    {
+      "id": "evergreen:have-i-been-pwned",
+      "date": "2026-11-06"
     }
   ]
 }
