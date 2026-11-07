@@ -339,6 +339,10 @@
     {
       "id": "evergreen:have-i-been-pwned",
       "date": "2026-11-06"
+    },
+    {
+      "id": "evergreen:flowise",
+      "date": "2026-11-07"
     }
   ]
 }

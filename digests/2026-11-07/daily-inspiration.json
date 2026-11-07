@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T06:04:44.910Z",
+  "candidateId": "evergreen:flowise",
+  "origin": "evergreen",
+  "category": "AI 项目",
+  "title": "Flowise：用节点拼出 AI 流程",
+  "summary": "Flowise 是开源的可视化 AI 工作流工具，可连接模型、工具和数据源。",
+  "whyInteresting": "它把抽象的 AI 应用拆成看得见的输入、处理和输出。",
+  "remixIdea": "可以做一个只负责“读链接、提炼看点、保存来源”的小流程。",
+  "source": {
+    "label": "Flowise",
+    "url": "https://flowiseai.com/"
+  },
+  "generatedBy": "fallback"
+}
