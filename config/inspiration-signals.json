@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-2-7b-chat-hf",
@@ -137,7 +137,259 @@
       "label": "Hugging Face · meta-llama/Llama-2-7b-chat-hf",
       "url": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
     },
-    "signalDate": "2026-11-01"
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50410242",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: Reges Town – a 3D city run by AI citizens, in the browser",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://regestown.com"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50410205",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "I Love the Smiths AI: A Familiar Elevator Scene, with You in It",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://medium.com/@wangjiayiliuyan/i-love-the-smiths-ai-a-familiar-elevator-scene-with-you-in-it-51e69e0711e6"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50410126",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Good Night, and Good Luck: AI, fear and what the job data says",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://rpallas.xyz/good-night-and-good-luck/"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50409992",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Anthropic warns that it's close to RSI capability, a.k.a. self-building AI",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50409962",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Why mandating AI use in the workplace can backfire",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.msn.com/en-us/news/other/why-mandating-ai-use-in-the-workplace-can-backfire/ar-AA2gAwkW"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50409949",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AIG Mistakenly Locks and Erases iPhone and Cannot Resolve After 3 Weeks",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.reddit.com/r/iphone/comments/1xq6lky/warning_to_all_applecare_customers/"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50409856",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Consumer brain wave headsets threaten privacy",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50409687",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI agents stole 190k gaming credentials for under $400 in model costs",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50409675",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "AI Spend Is Increasing but Isn't Causing a SaaSpocalypse",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.forbes.com/sites/timkeary/2026/11/05/zip-finds-ai-spend-is-increasing-but-isnt-causing-a-saaspocalypse/"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:hn:50409668",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Quantum Computers Are Poised to Crack Encryption. AI Could Beat Them to It.",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.wsj.com/tech/ai/ai-math-online-encryption-quantum-computers-57926bb2"
+    },
+    "signalDate": "2026-11-08"
+  },
+  {
+    "id": "signal:github:TaytopazAbyssal26005/ai--manus",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "TaytopazAbyssal26005/ai--manus",
+    "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · TaytopazAbyssal26005/ai--manus",
+      "url": "https://github.com/TaytopazAbyssal26005/ai--manus"
+    },
+    "signalDate": "2026-11-07"
+  },
+  {
+    "id": "signal:github:SableMysticit32531/ai--manus",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "SableMysticit32531/ai--manus",
+    "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · SableMysticit32531/ai--manus",
+      "url": "https://github.com/SableMysticit32531/ai--manus"
+    },
+    "signalDate": "2026-11-07"
+  },
+  {
+    "id": "signal:github:BehindBasilisk42972/ai--manus",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "BehindBasilisk42972/ai--manus",
+    "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · BehindBasilisk42972/ai--manus",
+      "url": "https://github.com/BehindBasilisk42972/ai--manus"
+    },
+    "signalDate": "2026-11-07"
+  },
+  {
+    "id": "signal:github:OrbitForge40815/ai--manus",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "OrbitForge40815/ai--manus",
+    "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · OrbitForge40815/ai--manus",
+      "url": "https://github.com/OrbitForge40815/ai--manus"
+    },
+    "signalDate": "2026-11-07"
+  },
+  {
+    "id": "signal:github:Adil-Ijaz7/ai_manus",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Adil-Ijaz7/ai_manus",
+    "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Adil-Ijaz7/ai_manus",
+      "url": "https://github.com/Adil-Ijaz7/ai_manus"
+    },
+    "signalDate": "2026-11-07"
+  },
+  {
+    "id": "signal:github:quyetcao/ai-manus",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "quyetcao/ai-manus",
+    "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · quyetcao/ai-manus",
+      "url": "https://github.com/quyetcao/ai-manus"
+    },
+    "signalDate": "2026-11-06"
+  },
+  {
+    "id": "signal:github:Abdoandqsnk/ai-manus",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Abdoandqsnk/ai-manus",
+    "summary": "AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Abdoandqsnk/ai-manus",
+      "url": "https://github.com/Abdoandqsnk/ai-manus"
+    },
+    "signalDate": "2026-11-06"
+  },
+  {
+    "id": "signal:github:TIGER-AI-Lab/WebsiteBench",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "TIGER-AI-Lab/WebsiteBench",
+    "summary": "Can AI agents rebuild websites through browser exploration?",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · TIGER-AI-Lab/WebsiteBench",
+      "url": "https://github.com/TIGER-AI-Lab/WebsiteBench"
+    },
+    "signalDate": "2026-11-04"
   },
   {
     "id": "signal:hn:50322510",
@@ -276,6 +528,34 @@
     "source": {
       "label": "Hacker News",
       "url": "https://gizmodo.com/wikimedia-foundation-tries-to-save-itself-from-oblivion-by-brokering-ai-copyright-deal-2000833099"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:github:mrhlaingbwardev/agentic-hacking-skills",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "mrhlaingbwardev/agentic-hacking-skills",
+    "summary": "AI-Powered Web Security & Automation - Official bonus skills, agents & MCP configs for the 'Agentic Hacking' ebook (28 SKILL.md templates)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · mrhlaingbwardev/agentic-hacking-skills",
+      "url": "https://github.com/mrhlaingbwardev/agentic-hacking-skills"
+    },
+    "signalDate": "2026-11-01"
+  },
+  {
+    "id": "signal:github:DKKD13/dsh-finance",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "DKKD13/dsh-finance",
+    "summary": "DKKD13 个人开发的第三方 DSH 金融研究插件：研究 Skills、证据资料库、个股图表与模拟基金。与 DeepSeek 官方无隶属关系。",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · DKKD13/dsh-finance",
+      "url": "https://github.com/DKKD13/dsh-finance"
     },
     "signalDate": "2026-11-01"
   },
