@@ -829,6 +829,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "friend-desktop-pet",
+      "date": "2026-11-08",
+      "tags": [
+        "imagination",
+        "learning"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
