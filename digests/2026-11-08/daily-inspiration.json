@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T06:08:52.259Z",
+  "candidateId": "evergreen:openrouter",
+  "origin": "evergreen",
+  "category": "数字服务",
+  "title": "OpenRouter：用一个接口比较多种 AI 模型",
+  "summary": "OpenRouter 提供多模型统一接口和模型目录，可按不同供应商调用。",
+  "whyInteresting": "同一个任务可以更容易比较价格、速度和回答效果。",
+  "remixIdea": "为日报准备一个主模型和一个备用模型，避免单一服务临时不可用。",
+  "source": {
+    "label": "OpenRouter",
+    "url": "https://openrouter.ai/"
+  },
+  "caution": "模型价格、数据策略和可用地区会变化，使用前应查看当前官方说明。",
+  "generatedBy": "fallback"
+}
