@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T06:42:40.473Z",
+  "candidateId": "evergreen:sunshine-moonlight",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Sunshine + Moonlight：把自己的电脑画面串流到其他设备",
+  "summary": "Sunshine 提供自托管串流主机，Moonlight 作为客户端接收低延迟画面。",
+  "whyInteresting": "家中高性能电脑的能力可以延伸到轻薄本、电视或平板。",
+  "remixIdea": "把旧平板变成远程工作终端或客厅里的游戏与创作屏幕。",
+  "source": {
+    "label": "Sunshine",
+    "url": "https://app.lizardbyte.dev/Sunshine/"
+  },
+  "caution": "远程访问应设置强认证、防火墙和可信网络，不要直接暴露未保护端口。",
+  "generatedBy": "fallback"
+}
