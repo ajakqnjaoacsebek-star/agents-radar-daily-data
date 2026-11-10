@@ -850,6 +850,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "news-claim-map",
+      "date": "2026-11-10",
+      "tags": [
+        "learning",
+        "imagination"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
