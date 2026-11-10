@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T07:24:53.371Z",
+  "candidateId": "evergreen:trilium-next",
+  "origin": "evergreen",
+  "category": "知识整理",
+  "title": "TriliumNext Notes：能长成树也能互相链接的笔记库",
+  "summary": "TriliumNext 是开源层级笔记应用，支持关系、属性、脚本与自托管同步。",
+  "whyInteresting": "它同时适合清晰的树状整理和跨页面的网状关系。",
+  "remixIdea": "可以给每个项目建立一个仪表盘，自动汇总相关人物、任务和资料。",
+  "source": {
+    "label": "TriliumNext Notes",
+    "url": "https://github.com/TriliumNext/Notes"
+  },
+  "generatedBy": "fallback"
+}
