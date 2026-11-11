@@ -355,6 +355,10 @@
     {
       "id": "evergreen:trilium-next",
       "date": "2026-11-10"
+    },
+    {
+      "id": "evergreen:baserow",
+      "date": "2026-11-11"
     }
   ]
 }
