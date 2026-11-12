@@ -359,6 +359,10 @@
     {
       "id": "evergreen:baserow",
       "date": "2026-11-11"
+    },
+    {
+      "id": "evergreen:restic",
+      "date": "2026-11-12"
     }
   ]
 }
