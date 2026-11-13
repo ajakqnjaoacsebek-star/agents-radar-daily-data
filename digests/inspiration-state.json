@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:have-i-been-pwned",
-      "date": "2026-08-14"
-    },
-    {
       "id": "evergreen:baserow",
       "date": "2026-08-15"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:restic",
       "date": "2026-11-12"
+    },
+    {
+      "id": "evergreen:ninite",
+      "date": "2026-11-13"
     }
   ]
 }
