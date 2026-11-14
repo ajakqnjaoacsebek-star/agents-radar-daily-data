@@ -894,6 +894,17 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "sports-form-review",
+      "date": "2026-11-14",
+      "tags": [
+        "learning",
+        "practical"
+      ],
+      "crossDomain": true,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
