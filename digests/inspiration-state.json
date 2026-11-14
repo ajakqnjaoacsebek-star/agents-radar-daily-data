@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:baserow",
-      "date": "2026-08-15"
-    },
-    {
       "id": "evergreen:alternativeto",
       "date": "2026-08-16"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:ninite",
       "date": "2026-11-13"
+    },
+    {
+      "id": "evergreen:penpot",
+      "date": "2026-11-14"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T06:31:33.098Z",
+  "candidateId": "evergreen:penpot",
+  "origin": "evergreen",
+  "category": "开源项目",
+  "title": "Penpot：设计和前端都能读懂的开源设计平台",
+  "summary": "Penpot 是基于开放标准的协作设计工具，面向界面设计与原型制作。",
+  "whyInteresting": "设计稿可以更接近浏览器真正使用的布局和样式概念。",
+  "remixIdea": "先画出每日灵感页的一个手机界面，再决定是否值得开发交互。",
+  "source": {
+    "label": "Penpot",
+    "url": "https://penpot.app/"
+  },
+  "generatedBy": "fallback"
+}
