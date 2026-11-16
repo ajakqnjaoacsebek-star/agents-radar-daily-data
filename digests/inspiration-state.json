@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "signal:github:evan-steinhilb/md2hd",
-      "date": "2026-08-17"
-    },
-    {
       "id": "signal:github:vercel-labs/eve-software-factory-template",
       "date": "2026-08-18"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:diagrams-net",
       "date": "2026-11-15"
+    },
+    {
+      "id": "evergreen:linkwarden",
+      "date": "2026-11-16"
     }
   ]
 }
