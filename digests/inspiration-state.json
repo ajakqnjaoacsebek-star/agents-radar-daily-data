@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "signal:github:vercel-labs/eve-software-factory-template",
-      "date": "2026-08-18"
-    },
-    {
       "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
       "date": "2026-08-19"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:linkwarden",
       "date": "2026-11-16"
+    },
+    {
+      "id": "evergreen:lm-studio",
+      "date": "2026-11-17"
     }
   ]
 }
