@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T07:36:00.809Z",
+  "candidateId": "evergreen:nasa-eyes",
+  "origin": "evergreen",
+  "category": "数字发现",
+  "title": "NASA Eyes：在三维空间里看太阳系任务",
+  "summary": "NASA Eyes 提供太阳系、地球和系外行星的交互式三维可视化。",
+  "whyInteresting": "航天任务不再只是一串新闻，可以看到它们此刻大概在哪里。",
+  "remixIdea": "挑一艘探测器，顺着任务时间线看看它经过了哪些关键节点。",
+  "source": {
+    "label": "NASA Eyes",
+    "url": "https://eyes.nasa.gov/"
+  },
+  "generatedBy": "fallback"
+}
