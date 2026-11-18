@@ -938,6 +938,18 @@
       "crossDomain": true,
       "largeCommercial": false,
       "stars": 4
+    },
+    {
+      "candidateId": "klinko-idea-validator",
+      "date": "2026-11-18",
+      "tags": [
+        "practical",
+        "learning",
+        "commercial"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
