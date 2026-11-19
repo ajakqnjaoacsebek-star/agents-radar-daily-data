@@ -950,6 +950,18 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "ai-app-core-clone",
+      "date": "2026-11-19",
+      "tags": [
+        "learning",
+        "practical",
+        "imagination"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
