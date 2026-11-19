@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:jan-ai",
-      "date": "2026-08-20"
-    },
-    {
       "id": "evergreen:browser-use",
       "date": "2026-08-21"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:nasa-eyes",
       "date": "2026-11-18"
+    },
+    {
+      "id": "evergreen:whisper",
+      "date": "2026-11-19"
     }
   ]
 }
