@@ -962,6 +962,18 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "first-paid-ai-microproduct",
+      "date": "2026-11-20",
+      "tags": [
+        "commercial",
+        "learning",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
