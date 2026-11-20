@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:browser-use",
-      "date": "2026-08-21"
-    },
-    {
       "id": "evergreen:comfyui",
       "date": "2026-08-22"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:whisper",
       "date": "2026-11-19"
+    },
+    {
+      "id": "evergreen:blender",
+      "date": "2026-11-20"
     }
   ]
 }
