@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:comfyui",
-      "date": "2026-08-22"
-    },
-    {
       "id": "evergreen:libreoffice",
       "date": "2026-08-23"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:blender",
       "date": "2026-11-20"
+    },
+    {
+      "id": "evergreen:wikivoyage",
+      "date": "2026-11-21"
     }
   ]
 }
