@@ -974,6 +974,18 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "ideaforge-demand-radar",
+      "date": "2026-11-21",
+      "tags": [
+        "commercial",
+        "learning",
+        "practical"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 3
     }
   ]
 }
