@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:libreoffice",
-      "date": "2026-08-23"
-    },
-    {
       "id": "signal:hn:49319889",
       "date": "2026-08-24"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:wikivoyage",
       "date": "2026-11-21"
+    },
+    {
+      "id": "evergreen:music-assistant",
+      "date": "2026-11-22"
     }
   ]
 }

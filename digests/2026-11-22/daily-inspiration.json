@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T06:56:58.408Z",
+  "candidateId": "evergreen:music-assistant",
+  "origin": "evergreen",
+  "category": "项目组合",
+  "title": "Music Assistant：把不同音乐来源接到同一个家庭播放器",
+  "summary": "Music Assistant 是面向家庭音频的开源音乐库和播放器协调工具。",
+  "whyInteresting": "本地音乐、网络电台和多房间设备可以放进统一控制层。",
+  "remixIdea": "按时间、房间或家庭状态自动切换播放列表，做一个真正属于自己的背景音乐系统。",
+  "source": {
+    "label": "Music Assistant",
+    "url": "https://www.music-assistant.io/"
+  },
+  "caution": "流媒体服务接入方式与账号条款可能变化。",
+  "generatedBy": "fallback"
+}
