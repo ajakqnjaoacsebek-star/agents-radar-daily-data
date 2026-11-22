@@ -11,7 +11,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-R1",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B",
@@ -25,7 +25,7 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:meta-llama/Llama-3.1-8B-Instruct",
@@ -39,7 +39,7 @@
       "label": "Hugging Face · meta-llama/Llama-3.1-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:deepseek-ai/DeepSeek-V4-Pro",
@@ -53,7 +53,7 @@
       "label": "Hugging Face · deepseek-ai/DeepSeek-V4-Pro",
       "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-120b",
@@ -67,7 +67,7 @@
       "label": "Hugging Face · openai/gpt-oss-120b",
       "url": "https://huggingface.co/openai/gpt-oss-120b"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:bigscience/bloom",
@@ -81,7 +81,7 @@
       "label": "Hugging Face · bigscience/bloom",
       "url": "https://huggingface.co/bigscience/bloom"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:zai-org/GLM-5.2",
@@ -95,7 +95,7 @@
       "label": "Hugging Face · zai-org/GLM-5.2",
       "url": "https://huggingface.co/zai-org/GLM-5.2"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:openai/gpt-oss-20b",
@@ -109,7 +109,7 @@
       "label": "Hugging Face · openai/gpt-oss-20b",
       "url": "https://huggingface.co/openai/gpt-oss-20b"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:huggingface:meta-llama/Meta-Llama-3-8B-Instruct",
@@ -123,7 +123,161 @@
       "label": "Hugging Face · meta-llama/Meta-Llama-3-8B-Instruct",
       "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
     },
-    "signalDate": "2026-11-15"
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:huggingface:xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "origin": "dynamic",
+    "category": "AI 小发现",
+    "title": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "summary": "这是一个用于 text-generation 的公开模型页面。",
+    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
+    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "source": {
+      "label": "Hugging Face · xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50596281",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "One Vulnearbility Hacks Google, WordPress, Roundcube, Debian 13, Zoom, Box, etc.",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://pwn.ai/upload2shell/research.html"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50596218",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Show HN: Vouch – See what AI assistants say about your brand mid-conversation",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://vouchgeo.com"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50596041",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Ask HN: Are you prepared to rent intelligence from AI providers?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50596041"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50596012",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Ask HN: Printing documents in the age of AI cyberattacks",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50596012"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50595945",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Can AI Make Its Own Manufacturing Decisions?",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50595940",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Current Efforts Aren't Enough to Slow the AI Cyber Virus",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.bridgewater.com/research-and-insights/current-efforts-arent-enough-to-slow-the-ai-cyber-virus"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50595818",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "First Recorded Death \"Involving a Rectal Explosion During Self-Gratification\"",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.vice.com/en/article/man-dies-from-rectal-injuries-after-silly-experiment-with-compressed-air-at-work/"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50595816",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Together.ai: Prompt Leakage for Requests",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50595812",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI"
+    },
+    "signalDate": "2026-11-22"
+  },
+  {
+    "id": "signal:hn:50595707",
+    "origin": "dynamic",
+    "category": "社区发现",
+    "title": "Immigration officers make arrests at Seattle airport in 'distressing' scene",
+    "summary": "这是一条近期围绕 AI、工具或数字生活展开的社区讨论。",
+    "whyInteresting": "真实讨论往往能暴露产品背后的需求、争议和意外用法。",
+    "remixIdea": "先看它在解决什么问题，再想想是否能迁移到自己的工作或项目。",
+    "source": {
+      "label": "Hacker News",
+      "url": "https://apnews.com/article/immigration-arrest-seattle-airport-ice-4748ddb6161c28853d763e835aeb31f1"
+    },
+    "signalDate": "2026-11-22"
   },
   {
     "id": "signal:hn:50504021",
@@ -266,16 +420,142 @@
     "signalDate": "2026-11-15"
   },
   {
-    "id": "signal:huggingface:xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+    "id": "signal:github:YellowLaborerMarket/Gemini-Config-Checker-",
     "origin": "dynamic",
-    "category": "AI 小发现",
-    "title": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-    "summary": "这是一个用于 text-generation 的公开模型页面。",
-    "whyInteresting": "它能让人看到 AI 除了聊天之外还能被做成哪些具体能力。",
-    "remixIdea": "先看页面示例，再想象它能否成为一个更小、更贴近日常的工具。",
+    "category": "开源项目",
+    "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
     "source": {
-      "label": "Hugging Face · xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
-      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+      "label": "GitHub · YellowLaborerMarket/Gemini-Config-Checker-",
+      "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:weightcashiercupola/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "weightcashiercupola/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · weightcashiercupola/Gemini-Config-Checker-",
+      "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:WinnerSpecialist/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "WinnerSpecialist/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · WinnerSpecialist/Gemini-Config-Checker-",
+      "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:Violetnyudress/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Violetnyudress/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Violetnyudress/Gemini-Config-Checker-",
+      "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:Visionbeyondtrack/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "Visionbeyondtrack/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · Visionbeyondtrack/Gemini-Config-Checker-",
+      "url": "https://github.com/Visionbeyondtrack/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:VortexHostFeel/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "VortexHostFeel/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · VortexHostFeel/Gemini-Config-Checker-",
+      "url": "https://github.com/VortexHostFeel/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:VisionWormStudio/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "VisionWormStudio/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · VisionWormStudio/Gemini-Config-Checker-",
+      "url": "https://github.com/VisionWormStudio/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:WestLocksmithSpout/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "WestLocksmithSpout/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · WestLocksmithSpout/Gemini-Config-Checker-",
+      "url": "https://github.com/WestLocksmithSpout/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:weldbladesmithwharf/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "weldbladesmithwharf/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · weldbladesmithwharf/Gemini-Config-Checker-",
+      "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-"
+    },
+    "signalDate": "2026-11-15"
+  },
+  {
+    "id": "signal:github:TrooperFilter/Gemini-Config-Checker-",
+    "origin": "dynamic",
+    "category": "开源项目",
+    "title": "TrooperFilter/Gemini-Config-Checker-",
+    "summary": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+    "whyInteresting": "它正在获得开发者关注，可能藏着值得借鉴的新功能或工作方式。",
+    "remixIdea": "看看它解决的核心问题，想想能否和自己的日报、笔记或自动化组合。",
+    "source": {
+      "label": "GitHub · TrooperFilter/Gemini-Config-Checker-",
+      "url": "https://github.com/TrooperFilter/Gemini-Config-Checker-"
     },
     "signalDate": "2026-11-15"
   },
