@@ -997,6 +997,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 3
+    },
+    {
+      "candidateId": "ai-app-spec-builder",
+      "date": "2026-11-23",
+      "tags": [
+        "practical",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
