@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "signal:huggingface:openai/gpt-oss-120b",
-      "date": "2026-08-25"
-    },
-    {
       "id": "evergreen:appsmith",
       "date": "2026-08-26"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:jan-ai",
       "date": "2026-11-23"
+    },
+    {
+      "id": "evergreen:nocodb",
+      "date": "2026-11-24"
     }
   ]
 }
