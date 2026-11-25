@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:appsmith",
-      "date": "2026-08-26"
-    },
-    {
       "id": "evergreen:wallabag",
       "date": "2026-08-27"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:nocodb",
       "date": "2026-11-24"
+    },
+    {
+      "id": "evergreen:node-red",
+      "date": "2026-11-25"
     }
   ]
 }
