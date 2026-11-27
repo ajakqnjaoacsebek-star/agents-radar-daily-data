@@ -1041,6 +1041,17 @@
       "crossDomain": false,
       "largeCommercial": false,
       "stars": 2
+    },
+    {
+      "candidateId": "micro-course-product",
+      "date": "2026-11-27",
+      "tags": [
+        "commercial",
+        "learning"
+      ],
+      "crossDomain": false,
+      "largeCommercial": false,
+      "stars": 2
     }
   ]
 }
