@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T08:42:11.745Z",
+  "candidateId": "evergreen:jitsi-meet",
+  "origin": "evergreen",
+  "category": "实用工具",
+  "title": "Jitsi Meet：临时开会不必先建群",
+  "summary": "Jitsi Meet 是开源的视频会议方案，可以直接创建一个会议房间。",
+  "whyInteresting": "临时沟通时，一个链接往往比要求所有人注册同一款软件更轻。",
+  "remixIdea": "小团队可以把固定会议房间嵌进自己的项目主页或内部导航。",
+  "source": {
+    "label": "Jitsi Meet",
+    "url": "https://meet.jit.si/"
+  },
+  "caution": "重要会议应设置密码，并确认参与者身份。",
+  "generatedBy": "fallback"
+}

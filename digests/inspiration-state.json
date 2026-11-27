@@ -1,10 +1,6 @@
 {
   "recent": [
     {
-      "id": "evergreen:open-notebook",
-      "date": "2026-08-28"
-    },
-    {
       "id": "evergreen:bitwarden",
       "date": "2026-08-29"
     },
@@ -363,6 +359,10 @@
     {
       "id": "evergreen:duckdb",
       "date": "2026-11-26"
+    },
+    {
+      "id": "evergreen:jitsi-meet",
+      "date": "2026-11-27"
     }
   ]
 }
