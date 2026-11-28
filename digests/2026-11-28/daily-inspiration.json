@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T07:55:41.816Z",
+  "candidateId": "evergreen:joplin",
+  "origin": "evergreen",
+  "category": "知识整理",
+  "title": "Joplin：可同步、可加密的开源笔记",
+  "summary": "Joplin 支持 Markdown、附件、网页剪藏和多种同步方式。",
+  "whyInteresting": "笔记数据可以保留为更开放、可迁移的形式。",
+  "remixIdea": "把剪藏、任务和项目笔记放在同一个可离线工作的资料库里。",
+  "source": {
+    "label": "Joplin",
+    "url": "https://joplinapp.org/"
+  },
+  "generatedBy": "fallback"
+}
